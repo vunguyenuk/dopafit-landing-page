@@ -1,0 +1,89 @@
+/* Extracted from the user's local Skydive capture. Do not replace these source blocks
+with newly invented animation. Only the DOM/native-sticky adapter is project-specific.
+The original circular headline entrance is omitted as requested; the original messy
+reference layout, floating, outward scatter, easing and character lighting are reused. */
+(() => {
+'use strict';
+const uus=90;function PM(t,e){return Math.min(t,e)<560||t<640}function _Et(t,e){return t<1280||PM(t,e)?14:16}const dus=1.045,fus=.83;function pus(t){return t>=1280?64:t>=600?24:16}function wEt(t,e){return Math.max(44,Math.min(e?66:82,t*.27))}function hus(t){const e=pus(t),n=s=>(t/2-e-wEt(s,!0)*fus/2)/dus;return n(n(t/2))}function kxe(t,e){const n=PM(t,e),s=Math.max(e/2-uus-30,150);return Math.min(n?hus(t):Math.min(t,e)*.345,s)}function zGe(t,e){return wEt(kxe(t,e),PM(t,e))}function mus({index:t,count:e,seconds:n,radius:s}){const r=n*.085,i=1+.035*Math.sin(n*1.35),a=.01*Math.sin(n*.45);return{angle:t/e*Math.PI*2-Math.PI/2+r,radius:s*(i+a)}}const gus=[{nx:.0717,ny:.1257,ns:.1426,opacity:1},{nx:.8211,ny:.167,ns:.1296,opacity:.95},{nx:.6424,ny:.2278,ns:.0942,opacity:.8},{nx:.3283,ny:.2346,ns:.0824,opacity:.8},{nx:.484,ny:.2828,ns:.0589,opacity:.4},{nx:.9347,ny:.4411,ns:.1296,opacity:1},{nx:.1235,ny:.4997,ns:.1154,opacity:.8},{nx:.2215,ny:.7133,ns:.0933,opacity:.8},{nx:.7097,ny:.6811,ns:.0942,opacity:.8},{nx:.434,ny:.725,ns:.0589,opacity:.4},{nx:.8343,ny:.7614,ns:.1296,opacity:.95},{nx:.5672,ny:.7779,ns:.0824,opacity:.6},{nx:.3503,ny:.827,ns:.0896,opacity:.6},{nx:.0503,ny:.8981,ns:.1296,opacity:1},{nx:.6815,ny:.9414,ns:.1296,opacity:1},{nx:.3017,ny:.6741,ns:.0589,opacity:.4}],xus=56,bus=[{nx:.1103,ny:.1256,ns:.0829,opacity:1},{nx:.85,ny:.1552,ns:.0758,opacity:.95},{nx:.6423,ny:.2186,ns:.0557,opacity:.8},{nx:.3282,ny:.2352,ns:.0486,opacity:.8},{nx:1.02,ny:.4194,ns:.0758,opacity:1},{nx:-.02,ny:.5006,ns:.0675,opacity:.8},{nx:.2205,ny:.7239,ns:.0545,opacity:.8},{nx:.9372,ny:.7506,ns:.0841,opacity:.95},{nx:.35,ny:.8299,ns:.0533,opacity:.6},{nx:.641,ny:.817,ns:.0509,opacity:.6},{nx:.0654,ny:.8749,ns:.0818,opacity:1},{nx:.8051,ny:.9188,ns:.0794,opacity:1},{nx:.4833,ny:.2938,ns:.0355,opacity:.3},{nx:.8731,ny:.282,ns:.0427,opacity:.4},{nx:.6038,ny:.7103,ns:.0344,opacity:.4},{nx:.4372,ny:.731,ns:.0355,opacity:.4}];function yus(t){const e=Math.sin(t*127.1+311.7)*43758.5453;return e-Math.floor(e)}function vus({width:t,height:e,count:n}){const s=PM(t,e),r=s?bus:gus,i=s?e:Math.min(e,t/1.6),a=s?xus:100;return Array.from({length:n},(l,c)=>{const u=r[c%r.length];if(!u)throw new Error("REF_LAYOUT is empty");const d=yus(c+100),f=Math.round(u.ns*i);return{x:u.nx*t,y:Math.max(a+f/2,u.ny*e),size:f,opacity:u.opacity,start:.03+.3*d,bob:d*Math.PI*2}})}function T2(t){return Math.min(1,Math.max(0,t))}function $I(t){return t*t*(3-2*t)}function _us(t){return t*t*t*(t*(t*6-15)+10)}function wus(t){return 1+(1.1+1)*Math.pow(t-1,3)+1.1*Math.pow(t-1,2)}
+const Eoe={wide:{meltEnd:.4,enterAt:.26,enterSpan:.12,writeAt:.26,writeSpan:.26,exitAt:.56,exitSpan:.1},narrow:{meltEnd:.28,enterAt:.26,enterSpan:.08,writeAt:.29,writeSpan:.26,exitAt:.57,exitSpan:.09}},Aus=.72,qGe={x:190,y:175},Ius=44,Tus=950,Rus=1650,$us=300,Ous=1150,Pus=620,HGe="cubic-bezier(0.22, 1, 0.36, 1)",VGe=640,Mus=.2,Lus=88;
+
+function sourceCardFrame({width:qe,height:We,index:bt,count:m,seconds:Ze,phase:lt,visibility:Ve,target:Ct}){
+const Xe=qe/2,Qe=We/2,rt=kxe(qe,We),et=zGe(qe,We),ht=PM(qe,We)?Eoe.narrow:Eoe.wide,Mt=mus({index:bt,count:m,seconds:Ze,radius:rt}),Lt=Xe+Math.cos(Mt.angle)*Mt.radius,Rt=Qe+Math.sin(Mt.angle)*Mt.radius;
+const _t=Math.min(1,lt/ht.meltEnd),at=Ct.start*.35,dn=$I(T2((_t-at)/(1-at))),yn=_us(T2((lt-.42)/.3)),Bt=.92+.08*yn,$t=(1+2.6*yn*yn)*Bt,En=Xe+(Ct.x-Xe)*$t,Gn=Qe+(Ct.y-Qe)*$t,Zn=Lt+(En-Lt)*dn,Dn=Rt+(Gn-Rt)*dn+Math.sin(Ze*.6+Ct.bob)*4*dn*(1-yn),Kn=Ct.size*(1+yn*1.2);let Sn=1+(Ct.opacity-1)*dn;if(Ve>0&&ht===Eoe.narrow){const Yn=T2(1-Math.hypot((Zn-Xe)/qGe.x,(Dn-Qe)/qGe.y));Sn=Sn*(1-Aus*Yn*Ve)}
+return {x:Zn,y:Dn,size:Math.max(18,et+(Kn-et)*dn),opacity:Sn};
+}
+function sourceTextReveal(lt,ht,z,state){let J=state.last;
+const tt=Math.round(T2((lt-ht.writeAt)/ht.writeSpan)*z.length);tt!==J&&(J=tt,z.forEach((bt,pt)=>{bt.dataset.on=pt<tt?"true":"false"}));state.last=J;
+}
+
+function mount({cards,copy,header,reduced}){
+  const main=document.getElementById('landing'),scene=document.createElement('section'),viewport=document.createElement('div'),headerCanvas=document.createElement('div');
+  scene.id='skydive-hero-scene';scene.setAttribute('aria-label','Dopafit — những khó khăn khi tự tập gym');viewport.className='skydive-hero-viewport';headerCanvas.className='skydive-header-canvas';
+  main.before(scene);scene.append(viewport);viewport.append(cards,copy,headerCanvas);headerCanvas.append(header);cards.classList.add('skydive-source-cards');copy.classList.add('skydive-source-copy');
+  document.documentElement.classList.add('skydive-source-mounted');
+  const P=[...cards.children],state={last:-1};
+  P.forEach(el=>{el.classList.add('skydive-source-card');el.style.cssText='';const img=el.querySelector('img');img.loading='eager';img.decoding='async';});
+  const text=copy.textContent.trim();copy.setAttribute('aria-label',text);copy.textContent='';
+  text.split(/\s+/).forEach((word,i)=>{if(i)copy.append(document.createTextNode(' '));const wrap=document.createElement('span');wrap.className='skydive-word';wrap.setAttribute('aria-hidden','true');
+    [...word].forEach(char=>{const ch=document.createElement('span');ch.dataset.ch='true';ch.dataset.on=reduced?'true':'false';ch.textContent=char;wrap.append(ch);});copy.append(wrap);
+  });
+  const z=[...copy.querySelectorAll('[data-ch]')];
+  let raf=0,start=null,Q=[],lastWidth=0,lastHeight=0;
+  // Xus uses a 300vh stage with a sticky 100vh viewport. Keep the whole stage.
+  // The requested excerpt starts after Dus's headline fade-out (.18),
+  // rather than its circular headline entrance. Its original exit finishes before the sticky scene releases.
+  function draw(now){
+    if(document.hidden){raf=requestAnimationFrame(draw);return;}
+    start??=now;
+    const width=viewport.clientWidth,height=viewport.clientHeight,ht=PM(width,height)?Eoe.narrow:Eoe.wide;
+    if(lastWidth!==width||lastHeight!==height){Q=vus({width,height,count:P.length});lastWidth=width;lastHeight=height;}
+    const travel=scene.offsetHeight-height,sceneProgress=travel>0?T2(-scene.getBoundingClientRect().top/travel):1;
+    // .18 is the source headline's fade-out boundary. Start this excerpt there.
+    const excerptStart=.18;
+    // End at the original fade completion; no empty scroll tail.
+    const excerptEnd=ht.exitAt+ht.exitSpan;
+    // Reserve the final quarter of the sticky travel for the gentle handoff.
+    const heroProgress=T2(sceneProgress/.75);
+    const handoff=$I(T2((sceneProgress-.75)/.15));
+    const lt=reduced?ht.exitAt:excerptStart+heroProgress*(excerptEnd-excerptStart);
+    const st=$I(T2((lt-ht.enterAt)/ht.enterSpan)),ut=$I(T2((lt-ht.exitAt)/ht.exitSpan)),Ve=st*(1-ut);
+    const cardPhase=lt;
+    viewport.style.setProperty('--hero-cover',String(reduced?1:1-ut));
+    headerCanvas.style.opacity=String(reduced?1:1-ut);
+    // Section 2 enters from the lower viewport after the source exit completes.
+    // A short 48px source-eased lift supplements ordinary 1:1 document scrolling.
+    // Mobile perf: write the handoff only when it changes; once complete, release the
+    // full-page compositor layer instead of keeping a 10k-px tall layer alive.
+    const handoffKey=reduced?1:Math.round(handoff*1000)/1000;
+    if(handoffKey!==lastHandoff){
+      lastHandoff=handoffKey;
+      if(handoffKey>=1){main.style.opacity='';main.style.translate='';main.classList.add('hero-handoff-done');}
+      else{main.classList.remove('hero-handoff-done');main.style.opacity=String(handoffKey);main.style.translate=`0 ${(1-handoffKey)*48}px`;}
+    }
+    scene.dataset.handoff=String(reduced?1:handoff);
+    P.forEach((el,index)=>{
+      const f=sourceCardFrame({width,height,index,count:P.length,seconds:reduced?0:(now-start)/1000,phase:cardPhase,visibility:Ve,target:Q[index]});
+      el.style.setProperty('--s',`${f.size}px`);
+      // Verbatim Dus transform: translate + centre + scale. It has NO rotation.
+      el.style.transform=`translate(${f.x}px, ${f.y}px) translate(-50%, -50%) scale(var(--hs, 1))`;
+      el.style.opacity=String(reduced?.75:f.opacity*(1-ut));
+    });
+    copy.style.opacity=String(reduced?1:Ve);
+    copy.style.transform=`translate(-50%, -50%) translateY(${reduced?0:(1-st)*34-ut*44}px)`;
+    sourceTextReveal(reduced?1:lt,ht,z,state);
+    scene.dataset.phase=lt<ht.enterAt?'scatter':lt<ht.enterAt+ht.enterSpan?'reveal':lt<ht.exitAt?'read':lt<ht.exitAt+ht.exitSpan?'exit':'complete';
+    scene.dataset.complete=String(reduced||sceneProgress>=1);
+    // Pause the floating loop while the hero is scrolled away; the final frame above
+    // has already written the completed exit state.
+    raf=heroOnScreen?requestAnimationFrame(draw):0;
+  }
+  let heroOnScreen=true,lastHandoff=-1;
+  new IntersectionObserver(([entry])=>{
+    heroOnScreen=entry.isIntersecting;
+    if(heroOnScreen&&!raf)raf=requestAnimationFrame(draw);
+  },{rootMargin:'25% 0px'}).observe(scene);
+  raf=requestAnimationFrame(draw);
+  return {scene,viewport,destroy(){cancelAnimationFrame(raf);}};
+}
+window.DopafitSkydiveHero={mount};
+})();

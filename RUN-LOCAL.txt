@@ -1,0 +1,24 @@
+Dopafit — Figma layout 147:2744
+
+Mở website:
+  Nhấp đúp “Mở website.command”.
+  Hoặc: node serve.cjs 8097
+  Sau đó mở http://127.0.0.1:8097/
+
+Trang đang dùng HTML/CSS/JavaScript, tài nguyên Figma lưu cục bộ.
+Điện thoại là model Object_7 từ kiosk.blend, có UV màn hình buổi tập.
+Cần xem qua localhost để tải module 3D; mở index.html bằng file:// chỉ có ảnh dự phòng.
+
+Chỉnh sửa:
+  assets/figma/landing.css — CSS bổ sung
+  assets/figma/landing.js — tương tác và hiệu ứng cuộn
+  assets/figma/phone.js — trình hiển thị GLB
+  scripts/build-figma-layout.py — dựng HTML/CSS từ context Figma đã lưu
+  assets/phone/dopafit-phone.blend — model điện thoại riêng, có thể chỉnh sửa
+
+Sau khi xuất lại GLB trong Blender, chạy:
+  python3 scripts/prepare-phone-web.py
+
+Thêm ?motion=off vào URL để đối chiếu layout tĩnh với Figma.
+Link Get the app hiện mở thông tin tải; cần gắn URL Store chính thức trước khi phát hành.
+Bản trước khi thay ở _backup/before-figma-2026-11-17-index.html.

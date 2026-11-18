@@ -1,0 +1,45 @@
+/* Vietnamese copy and one scale for peer section headings. Physical font sizes
+   are normalized in typography.js across the imported canvas' zoom/fit groups. */
+.section-heading{bottom:auto!important;height:auto!important;line-height:1.12!important;letter-spacing:-.025em}
+[data-node-id="147:2852"]{width:1100px}
+[data-node-id="147:2852"]>span{display:block;white-space:nowrap}
+[data-node-id="147:3198"]{display:flex!important;align-items:baseline;justify-content:center;gap:.22em;top:9365px;width:1920px}
+[data-node-id="147:3198"]>p{position:static!important;inset:auto!important;line-height:inherit}
+[data-node-id="147:2827"],[data-node-id="147:2828"],[data-node-id="147:2829"]{width:auto!important;height:auto!important;white-space:nowrap}
+[data-node-id="147:3013"]{height:auto;top:84px;transform:none}
+[data-node-id="147:3013"]>p{line-height:1.5}
+[data-node-id="147:3016"],[data-node-id="147:3017"],[data-node-id="147:3018"],[data-node-id="147:3021"],[data-node-id="147:3022"],[data-node-id="147:3025"],[data-node-id="147:3026"]{right:0;height:auto;white-space:nowrap}
+[data-node-id="147:3015"] p,[data-node-id="147:3020"] p,[data-node-id="147:3024"] p{line-height:1.5}
+[data-node-id="147:3014"] p,[data-node-id="147:3019"] p,[data-node-id="147:3023"] p{line-height:1.3}
+[data-node-id="147:3027"],[data-node-id="147:3028"]{height:auto;transform:none;white-space:normal}
+[data-node-id="147:3028"]{left:auto;max-width:52%;text-align:right}
+@media(max-width:600px){
+ .m-h2,.m-int-title{font-size:32px;line-height:1.18;letter-spacing:-.025em}
+ .m-faq .m-h2{font-size:30px;line-height:36px}
+ .m-int-title{font-size:24px;line-height:30px}
+ .m-h2>span{display:block;white-space:nowrap}
+ .m-footer .m-eyebrow,.m-footer .m-link,.m-footer .m-fine{font-size:14px;line-height:1.5}
+ .m-footer .m-copy{font-size:16px;line-height:1.5}
+ .m-footer-cols{grid-template-columns:.85fr 1.15fr 1fr;gap:12px}
+ .m-footer .m-link{overflow-wrap:anywhere}
+}
+
+[data-node-id="147:3014"],[data-node-id="147:3019"],[data-node-id="147:3023"]{right:auto!important;height:auto;transform:none}
+[data-node-id="147:3027"]{right:auto;width:320px;white-space:nowrap}
+/* Responsive (Claude 2026-11-18): at tablet widths this heading wrapped to 3 lines and its clipped box cut the last one. */
+[data-node-id="147:2750"]{width:1240px}
+/* "Đa dạng bài tập…" block (user 2026-11-18): its 244px clip box cut the bottom of the CTA, and the CTA sat 4px under
+   the heading. No clipping, and a 36px gap between heading and button (design estimate). */
+[data-node-id="147:2746"]{overflow:visible!important}
+[data-node-id="147:2751"]{top:233px!important}
+/* Caption under "Đa dạng bài tập…" (user 2026-11-18: "to một xíu"): 16px → 20px, wider box keeps the same line count. */
+[data-node-id="147:2763"]{font-size:20px!important;line-height:30px!important;width:450px!important}
+/* Feature list (tracking section) and FAQ questions share one text style (user 2026-11-18): size between the old
+   20px bold tabs and 27px regular questions, one weight. Design px on the 1920 canvas (≈16.5px on a 1440 screen). */
+.feature-tab{font-size:22px!important;font-weight:500!important;line-height:1.4!important;letter-spacing:-.2px!important;white-space:nowrap}
+.faq-pl-q{font-size:22px!important;font-weight:500!important;line-height:1.4!important;letter-spacing:-.2px!important}
+.is-mobile .m-steps li,.is-mobile .m-faq-item summary{font-size:16px;font-weight:500;line-height:22px;letter-spacing:-.1px}
+/* FAQ toggles smaller (user 2026-11-18): 58 → 44px circle, 18 → 14px plus, rows 26 → 20px top/bottom padding. */
+.faq-pl-q{padding:20px 0!important}
+.faq-pl-q i{width:44px!important;height:44px!important}
+.faq-pl-q i::before,.faq-pl-q i::after{width:14px!important;height:2px!important;margin:-1px 0 0 -7px!important}

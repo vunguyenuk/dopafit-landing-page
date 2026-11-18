@@ -1,0 +1,98 @@
+[
+  {
+    "file": "rowing.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__cdn/framerusercontent.com/images/qqIlKPorWhfyjaokaet1M4pun3A~47534781.webp",
+    "origin": "https://pliability.com/ — For people who want to move better, every day.",
+    "type": "photograph",
+    "ai_generated": false
+  },
+  {
+    "file": "barbell-squat.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__cdn/framerusercontent.com/images/h7U4CTeyLXeMtnIq5cCzR4bXT8A~47534781.webp",
+    "origin": "https://pliability.com/ — For people who want to move better, every day.",
+    "type": "photograph",
+    "ai_generated": false
+  },
+  {
+    "file": "stability-ball.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__cdn/framerusercontent.com/images/Bg9K9gjjck7AAMKGv50uYHgFo0~47534781.png",
+    "origin": "https://pliability.com/ — For people who want to move better, every day.",
+    "type": "photograph",
+    "ai_generated": false
+  },
+  {
+    "file": "workout-watch.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__cdn/framerusercontent.com/images/Y8DGjIYZJVURJZa4pLsYkOy2I~47534781.webp",
+    "origin": "https://pliability.com/ — For people who want to move better, every day.",
+    "type": "photograph",
+    "ai_generated": false
+  },
+  {
+    "file": "gym-lunge.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__external/media.pliability.com/video/upload/f_auto,q_auto,ac_none,vc_h265,c_scale,w_1280,fps_24/v1785020188/site/video/home-hero-a.mp4",
+    "origin": "https://pliability.com/ — homepage footage",
+    "type": "live-action video still",
+    "time_seconds": 2.1,
+    "ai_generated": false
+  },
+  {
+    "file": "gym-mobility.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__external/media.pliability.com/video/upload/f_auto,q_auto,ac_none,vc_h265,c_scale,w_1280,fps_24/v1785020188/site/video/home-hero-a.mp4",
+    "origin": "https://pliability.com/ — homepage footage",
+    "type": "live-action video still",
+    "time_seconds": 6.2,
+    "ai_generated": false
+  },
+  {
+    "file": "gym-reset.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__external/media.pliability.com/video/upload/f_auto,q_auto,ac_none,vc_h265,c_scale,w_1280,fps_24/v1785020188/site/video/home-hero-a.mp4",
+    "origin": "https://pliability.com/ — homepage footage",
+    "type": "live-action video still",
+    "time_seconds": 8.6,
+    "ai_generated": false
+  },
+  {
+    "file": "male-seated-fold.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__cdn/framerusercontent.com/images/12iBfM2jAzfHroFZ3Hwoz2R3EM~09c10715.png",
+    "origin": "Pliability supplied project capture",
+    "type": "photograph",
+    "ai_generated": false
+  },
+  {
+    "file": "male-cobra.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__cdn/framerusercontent.com/images/6mTcS6MiKGbUljptK9RbOhcbDAE~09c10715.png",
+    "origin": "Pliability supplied project capture",
+    "type": "photograph",
+    "ai_generated": false
+  },
+  {
+    "file": "male-runner.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__cdn/framerusercontent.com/images/Qq67GiuRi7lsGd4HrMVaqFABvp8~47534781.webp",
+    "origin": "Pliability supplied project capture",
+    "type": "photograph",
+    "ai_generated": false
+  },
+  {
+    "file": "male-tennis.jpg",
+    "source": "pliability-com-2026-11-17T08-19-26-053Z/__cdn/framerusercontent.com/images/dR96xCZ6BcR8vSm16HT7zmpXh0~47534781.webp",
+    "origin": "Pliability — For people who want to move better, every day.",
+    "type": "photograph",
+    "ai_generated": false
+  },
+  {
+    "file": "footer-gym-arrival.webp",
+    "source": "footer-gym-arrival-source.png",
+    "origin": "image_gen.imagegen, user-authorized2026-11-18 footer regeneration",
+    "type": "generated background",
+    "ai_generated": true,
+    "provenance": "_reference/footer-photography.json"
+  },
+  {
+    "file": "footer-gym-arrival-small.webp",
+    "source": "footer-gym-arrival-source.png",
+    "origin": "image_gen.imagegen, user-authorized2026-11-18 footer regeneration",
+    "type": "generated background",
+    "ai_generated": true,
+    "provenance": "_reference/footer-photography.json"
+  }
+]

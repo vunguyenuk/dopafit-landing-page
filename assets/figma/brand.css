@@ -1,0 +1,66 @@
+/* Brand mark + sticky header (brand.js). Animation CSS copied from
+   dev-dopafit-app-2026-11-17T08-35-45-069Z/index.html (.mark-wrap::after sweep, .arrive slab/hit/burst). */
+.dp-brand{display:inline-flex!important;align-items:center;gap:.28em;line-height:1;white-space:nowrap;text-decoration:none;cursor:pointer}
+.dp-mark{position:relative;display:inline-block;flex:none;line-height:0;color:#b8f24a}
+.dp-mark-svg{display:block;width:100%;height:auto;overflow:visible}
+.dp-mark path{fill:currentColor;transform-box:fill-box}
+.dp-mark::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(100deg,transparent 38%,rgba(255,255,255,.95) 49%,rgba(255,255,255,.95) 51%,transparent 62%) no-repeat;
+  background-size:300% 100%;background-position:95% 0;
+  -webkit-mask:var(--dp-mark-mask) center/contain no-repeat;mask:var(--dp-mark-mask) center/contain no-repeat}
+.dp-mark .burst{position:absolute;inset:0 auto 0 -240%;width:240%;pointer-events:none;opacity:0}
+.dp-mark .burst i{position:absolute;right:0;top:var(--y);width:var(--w);height:2px;border-radius:99px;
+  background:linear-gradient(90deg,transparent,rgba(184,242,74,.8) 80%,#f1ffd6);box-shadow:0 0 10px rgba(184,242,74,.5)}
+.dp-word{font-family:var(--font-sf)!important;font-weight:700;letter-spacing:.16em;color:#fff}
+.dp-word span{color:#7fa8b8}
+@media (prefers-reduced-motion:no-preference){
+  .dp-mark.is-armed:not(.is-in) .far,.dp-mark.is-armed:not(.is-in) .near{opacity:0}
+  .dp-mark.is-in .far{animation:dp-slab .62s cubic-bezier(.12,.85,.25,1) both;transform-origin:100% 50%}
+  .dp-mark.is-in .near{animation:dp-slab .62s cubic-bezier(.12,.85,.25,1) .07s both;transform-origin:100% 50%}
+  .dp-mark.is-in .d{animation:dp-hit .9s cubic-bezier(.2,.7,.2,1) .24s both;transform-origin:30% 50%}
+  .dp-mark.is-in .burst{animation:dp-burst .7s cubic-bezier(.2,.8,.2,1) .2s both}
+  .dp-mark.is-in::after{animation:dp-sweep 1.2s cubic-bezier(.22,1,.36,1) .75s 1 both}
+}
+@keyframes dp-slab{from{transform:translateX(-260%) scaleX(2.6);opacity:0}30%{opacity:1}}
+@keyframes dp-hit{0%{transform:none}18%{transform:translateX(7%) scaleX(.96);color:#f6ffe2}100%{transform:none}}
+@keyframes dp-burst{0%{opacity:0;transform:translateX(-30%)}25%{opacity:1}100%{opacity:0;transform:translateX(40%)}}
+@keyframes dp-sweep{from{background-position:95% 0}to{background-position:5% 0}}
+
+/* Header logo, a little bigger than the Figma 22px mark / 20px word (design px on the 1920 canvas). */
+[data-node-id="147:2830"].dp-brand{font-size:26px}
+[data-node-id="147:2830"] .dp-mark{width:40px}
+/* Footer logo: one line (the word wrapped to two lines in the 84px Figma box). */
+[data-node-id="147:2997"].dp-brand{right:auto;height:auto;font-size:22px}
+[data-node-id="147:2997"] .dp-mark{width:34px}
+
+/* Sticky header: lifted out of the hero (brand.js); the hero's fade-out no longer hides it. */
+.skydive-header-canvas.dp-header-fixed{position:fixed!important;top:0;left:0;opacity:1!important;z-index:60}
+/* The glass bar is the nav element itself (padding pulled back by an equal negative margin, so the Figma content
+   keeps its place). */
+.dp-bar{box-sizing:content-box;border-radius:999px;transition:background-color .35s ease,box-shadow .35s ease,top .35s ease}
+.dp-bar::before{content:"";position:absolute;z-index:-1;inset:0;border-radius:inherit;opacity:0;transition:opacity .35s ease;
+  background:linear-gradient(180deg,rgba(38,38,40,.82),rgba(16,16,17,.82));
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.09);
+  -webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4)}
+.dp-bar.dp-stuck::before{opacity:1}
+/* Glass light (user choice 2026-11-18, replaces the mirror image under the bar): a soft diagonal band that slides
+   across the bar as the page scrolls (brand.js sets --dp-sheen from the scroll position). */
+.dp-bar::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s ease;
+  background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.07) 44%,rgba(255,255,255,.16) 50%,rgba(255,255,255,.07) 56%,transparent 70%) no-repeat;
+  background-size:260% 100%;background-position:var(--dp-sheen,50%) 0;mix-blend-mode:screen}
+.dp-bar.dp-stuck::after{opacity:1}
+[data-node-id="147:2825"].dp-bar{padding:14px 22px;margin:-14px 0 0 0}
+[data-node-id="147:2825"].dp-bar.dp-stuck{top:38px}
+/* Logo exactly in the middle: the two sides get equal columns (user request 2026-11-18). */
+/* Desktop canvas only (the mobile page hides this nav). The bar grows to fit when the menu text is relatively large
+   (tablet widths), so the logo never touches the menu. */
+html:not(.is-mobile) [data-node-id="147:2825"]{display:grid!important;grid-template-columns:1fr auto 1fr;justify-content:stretch;
+  column-gap:48px;width:max-content!important;min-width:940px}
+html:not(.is-mobile) [data-node-id="147:2825"]>:first-child{justify-self:start}
+html:not(.is-mobile) [data-node-id="147:2825"]>:last-child{justify-self:end}
+.is-mobile .dp-bar::before{inset:8px 10px;border-radius:22px}
+.is-mobile .dp-bar::after{inset:8px 10px;border-radius:22px}
+.is-mobile .m-logo .dp-mark{width:28px}
+/* Slides away while a section heading is under the bar (brand.js). */
+.skydive-header-canvas.dp-header-fixed{transition:translate .45s cubic-bezier(.22,1,.36,1)}
+.skydive-header-canvas.dp-header-fixed.dp-header-away{translate:0 -140%}

@@ -1,0 +1,12 @@
+/* One typeface for the whole landing page (user request 2026-11-18): SF Pro Display.
+   SF Pro is Apple's system font and may not be self-hosted, so this uses the local copy: on macOS/iOS
+   -apple-system resolves to SF Pro (Display at large sizes, Text at small sizes); a named "SF Pro Display"
+   install is used where present; other platforms fall back to their UI sans. Loaded last, overrides every
+   per-node Figma family (Be Vietnam Pro, IBM Plex Sans Condensed/Mono, Inter). */
+:root{--font-sf:"SF Pro Display",-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif}
+html,body,body *,dialog,dialog *{font-family:var(--font-sf)!important}
+/* Figma placed each word/label in a box sized for its original font; let them flow with SF Pro. */
+[data-node-id="147:3198"]{display:block!important;position:absolute;left:0!important;right:0!important;text-align:center}
+[data-node-id="147:3198"]>p{position:static!important;display:inline!important}
+[data-node-id="147:3014"],[data-node-id="147:3019"],[data-node-id="147:3023"]{width:auto!important;overflow:visible!important}
+[data-node-id="147:3014"] p,[data-node-id="147:3019"] p,[data-node-id="147:3023"] p{white-space:nowrap}

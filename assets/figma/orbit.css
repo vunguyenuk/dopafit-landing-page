@@ -1,0 +1,145 @@
+/* Skydive "Real work happens in real tools" scene for "Làm thế nào để tập nghiêm túc?" (orbit-scene.js). */
+@property --dotscale{syntax:"<number>";inherits:false;initial-value:.2}
+.orbit-stage{position:absolute;left:0;top:0;width:1920px;height:12313px;z-index:6;pointer-events:none}
+.orbit-stage>*{pointer-events:auto}
+.orbit-curtain{position:absolute;left:0;width:1920px;top:0;height:0;background:#000;z-index:5;opacity:0;pointer-events:none}
+.orbit-scroll-spacer{height:0}
+/* Source .orbit-dot: transform translate + scale(var(--dotscale)); opacity .45s, --dotscale .6s cubic-bezier(.3,1.4,.5,1). */
+.orbit-dot{scale:var(--dotscale);opacity:0;transition:opacity .45s,--dotscale .6s cubic-bezier(.3,1.4,.5,1),box-shadow .45s,filter .45s}
+.orbit-dot[data-lifted=true]{filter:drop-shadow(0 10px 24px #0007)}
+/* Source dashed ring: transition opacity .8s once live. */
+.orbit-ring{opacity:0;transition:opacity .8s}
+.orbit-ring[data-live=true]{opacity:1}
+/* Source centre crossfade: opacity .5s. */
+/* Centre body: dev band "activate" + ".scan" — muscles switch on behind a lime line climbing the body.
+   dev runs it on a view timeline (cover 30%→55%); here it plays once, 1.2s, when the scene reaches the together state. */
+.orbit-body-active{clip-path:inset(100% 0 0 0);transition:clip-path 1.2s cubic-bezier(.16,.84,.24,1)}
+.orbit-body-active[data-on=true]{clip-path:inset(0 0 0 0)}
+.ui-body-scan{position:absolute;left:-6%;right:-6%;top:0;height:100%;pointer-events:none;opacity:0;transform:translateY(100%)}
+.ui-body-scan::before{content:"";position:absolute;inset:-1px 0 auto;height:3px;background:linear-gradient(90deg,transparent,rgba(184,242,74,.9) 22%,#f1ffd6 50%,rgba(184,242,74,.9) 78%,transparent);box-shadow:0 0 18px 2px rgba(184,242,74,.55)}
+.ui-body-scan::after{content:"";position:absolute;inset:0 0 auto;height:16%;background:linear-gradient(180deg,rgba(184,242,74,.16),transparent)}
+[data-node-id="147:2764"]:has(.orbit-body-active[data-on=true]) .ui-body-scan{animation:ui-scan 1.2s cubic-bezier(.16,.84,.24,1) both}
+@keyframes ui-scan{0%{transform:translateY(100%);opacity:0}6%{opacity:1}90%{opacity:1}100%{transform:translateY(0);opacity:0}}
+/* Source mps(): opacity .45s ease, translate .55s cubic-bezier(.22,.61,.36,1), ±14px from the orbit side. */
+.orbit-panel{opacity:0;translate:calc(var(--orbit-offset,0px) + var(--ox,0px)) var(--oy,0px);scale:var(--panel-scale,1);transition:opacity .45s ease,translate .55s cubic-bezier(.22,.61,.36,1),scale .55s cubic-bezier(.22,.61,.36,1);pointer-events:none}
+.orbit-tick-hidden{display:none!important}
+.orbit-panel[data-show=true]{opacity:1;translate:var(--ox,0px) var(--oy,0px);pointer-events:auto}
+.orbit-reduced .orbit-dot,.orbit-reduced .orbit-ring,.orbit-reduced .orbit-body-active,.orbit-reduced .orbit-panel{opacity:1;scale:1;translate:none;transition:none}
+@media(prefers-reduced-motion:reduce){.orbit-dot,.orbit-ring,.orbit-body-active,.orbit-panel{transition:none}}
+
+/* ---------- Live app UI (orbit-ui.js). Units are the screenshot's own pixels; .ui-art is scaled to the Figma box. ---------- */
+.ui-screen{overflow:hidden}
+.ui-art{position:absolute;left:0;top:0;transform-origin:0 0;--ui-bg:#101010;--ui-card:#1e1e1e;--ui-raised:#292929;--ui-muted:#a6a6a6;--ui-stroke:#3e3e3e;--ui-lime:#b5f53d;--ui-blue:#47baf0;--ui-push:#fad121;--ui-pull:#db1f57;--ui-legs:#45a39c;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Be Vietnam Pro",system-ui,sans-serif;color:#fff;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+.ui-art *{box-sizing:border-box;margin:0}
+.ui-art svg{display:block}
+.ui-art>*{position:absolute}
+.ui-phone{left:0;width:100%;background:var(--ui-bg)}
+.ui-phone>*{position:absolute}
+/* Set log */
+.ui-set{border-radius:0 0 128px 128px;box-shadow:0 0 0 7px #232323,0 0 0 11px #0b0b0b}
+.ui-set-title{font-weight:700;font-size:44px;line-height:54px;letter-spacing:-.2px;width:440px}
+.ui-pill{display:flex;align-items:center;justify-content:center;gap:10px;border-radius:99px;background:#262626;font-weight:600;font-size:26px;line-height:1}
+.ui-pill svg{width:22px;height:22px}
+.ui-chips>span{position:absolute;top:0;height:67px;display:flex;align-items:center;justify-content:center;gap:10px;border-radius:99px;background:var(--ui-card);border:2px solid #2a2a2a;font-weight:500;font-size:26px;line-height:1;white-space:nowrap}
+.ui-chips svg{width:26px;height:26px}
+.ui-chips>span:nth-child(3) svg{width:32px;height:18px}
+.ui-set-row{left:0;width:100%;height:100px}
+.ui-set-row>*{position:absolute}
+.ui-badge{left:41px;top:27px;width:44px;height:48px;display:grid;place-items:center}
+.ui-badge>svg{position:absolute;inset:0;width:100%;height:100%;transition:opacity .35s}
+.ui-badge b{position:relative;font-weight:600;font-size:22px;line-height:1;transition:opacity .35s,color .35s}
+.ui-badge i{position:absolute;inset:2px;border-radius:50%;background:var(--ui-blue);color:#fff;display:grid;place-items:center;opacity:0;scale:.5;transition:opacity .35s,scale .45s cubic-bezier(.3,1.4,.5,1)}
+.ui-badge i svg{width:26px;height:26px}
+.ui-field{top:0;width:287px;height:100px;border-radius:18px;padding:13px 20px;transition:background .35s,box-shadow .35s}
+.ui-field small{display:block;font-weight:400;font-size:21px;line-height:1.2;color:#fff;transition:opacity .35s}
+.ui-field b{display:block;font-weight:600;font-size:46px;line-height:1.15;transition:color .35s}
+.ui-set-row[data-state=now] .ui-field{background:#000;box-shadow:inset 0 0 0 3px #fff}
+.ui-set-row[data-state=now] .ui-badge{--hex-stroke:#fff}
+.ui-set-row[data-state=next] .ui-field,.ui-set-row[data-state=done] .ui-field{background:#1c1c1c;box-shadow:inset 0 0 0 2px #262626}
+.ui-set-row[data-state=next] .ui-field small,.ui-set-row[data-state=done] .ui-field small{opacity:0}
+.ui-field b{transition:color .35s,translate .35s}
+.ui-set-row[data-state=next] .ui-field b,.ui-set-row[data-state=done] .ui-field b{translate:0 -13px}
+.ui-set-row[data-state=next] .ui-field b{color:#8a8a8a}
+.ui-set-row[data-state=next] .ui-badge{--hex-fill:#2a2a2a;--hex-stroke:#2a2a2a}
+.ui-set-row[data-state=next] .ui-badge b{color:#8a8a8a}
+.ui-set-row[data-state=done] .ui-badge>svg,.ui-set-row[data-state=done] .ui-badge>b{opacity:0}
+.ui-set-row[data-state=done] .ui-badge i{opacity:1;scale:1}
+.ui-note{font-weight:400;font-size:21px;line-height:1;color:#8e8e8e;text-align:center}
+.ui-btn{height:82px;border-radius:99px;display:grid;place-items:center;background:var(--ui-card);box-shadow:inset 0 0 0 2px #2c2c2c;font-weight:600;font-size:30px;line-height:1;transition:scale .18s}
+.ui-btn-lime{background:var(--ui-lime);box-shadow:none;color:#0b1203}
+.ui-btn.is-press{scale:.95}
+/* Rest */
+.ui-rest-frame{left:22px;top:-80px;width:506px;height:406px;border-radius:0 0 96px 96px;background:#0c0c0c;box-shadow:0 0 0 4px #262626,0 0 0 8px #0a0a0a}
+.ui-rest{left:47px;top:-24px;width:477px;height:300px;border-radius:34px;background:linear-gradient(180deg,#232323,#1b1b1b);box-shadow:inset 0 0 0 1px #ffffff0d}
+.ui-rest>*{position:absolute}
+.ui-rest-label{left:21px;top:61px;font-weight:500;font-size:26px;line-height:1;color:#8f8f8f}
+.ui-rest-close{left:398px;top:45px;width:56px;height:56px;border-radius:50%;box-shadow:inset 0 0 0 2px #5e5e5e;color:#b3b3b3;display:grid;place-items:center}
+.ui-rest-close svg{width:26px;height:26px}
+.ui-rest-step{top:127px;width:74px;height:74px;margin-left:-37px;border-radius:50%;background:#2a2a2a;color:#8c8c8c;display:grid;place-items:center;font-weight:600;font-size:21px;line-height:1}
+.ui-rest-time{left:0;right:0;top:118px;text-align:center;font-weight:700;font-size:78px;line-height:1;color:#c4c4c4;letter-spacing:-1px;transition:color .3s}
+.ui-rest-time.is-done{color:var(--ui-lime)}
+.ui-rest-pause{left:227px;top:245px;width:20px;height:22px;display:flex;gap:6px}
+.ui-rest-pause i{flex:1;border-radius:2px;background:#86a83f}
+/* Weekly set goal */
+.ui-goal-title{font-weight:700;font-size:46px;line-height:56px}
+.ui-goal-date{font-weight:400;font-size:25px;line-height:1.2;color:#8e8e8e}
+.ui-ring{left:0;top:0;overflow:visible}
+.ui-arc{fill:none;stroke-width:15;stroke-linecap:round;opacity:.42;transform:rotate(-90deg);transform-origin:369px 684px}
+.ui-goal-pct{left:0;right:0;text-align:center;font-weight:700;font-size:74px;line-height:1}
+.ui-goal-sub{left:0;right:0;text-align:center;font-weight:400;font-size:27px;line-height:1;color:#8e8e8e}
+.ui-goal-row{left:42px;width:653px;height:115px;border-radius:24px;background:var(--ui-card)}
+.ui-goal-row>*{position:absolute}
+.ui-goal-dot{left:20px;top:29px;width:58px;height:58px;border-radius:50%;box-shadow:inset 0 0 0 6px var(--ring);opacity:.45}
+.ui-goal-row b{left:96px;top:24px;font-weight:600;font-size:30px;line-height:1.2}
+.ui-goal-row small{left:96px;top:66px;font-weight:400;font-size:23px;line-height:1.2;color:#8e8e8e}
+.ui-goal-row em{right:64px;top:28px;font-weight:700;font-size:28px;line-height:1;font-style:normal}
+.ui-goal-row i{right:64px;top:68px;font-weight:400;font-size:20px;line-height:1;font-style:normal;color:#8e8e8e}
+.ui-chev{right:22px;top:44px;width:24px;height:24px;color:#8e8e8e}
+/* dev: .ring .prog ringIn (from full dashoffset) and .reveal rows staggered by --d */
+.ui-goal.is-armed .ui-arc,.is-armed .ui-arc{transition:stroke-dasharray .9s cubic-bezier(.16,.84,.24,1) calc(var(--d)*.12s)}
+.is-armed:not(.is-in) .ui-arc{stroke-dasharray:0 var(--c)!important}
+.is-armed .ui-goal-row{transition:opacity .6s ease calc(var(--d)*.09s),translate .7s cubic-bezier(.16,.84,.24,1) calc(var(--d)*.09s)}
+.is-armed:not(.is-in) .ui-goal-row{opacity:0;translate:0 24px}
+/* Recovery */
+.ui-recovery{inset:0;background:#000}
+.ui-recovery>*{position:absolute}
+.ui-status-time{left:58px;top:32px;font-weight:600;font-size:34px;line-height:1}
+.ui-status-icons{left:457px;top:36px;width:122px}
+.ui-seg{left:26px;top:127px;width:587px;height:53px;border-radius:99px;background:#1c1c1e;box-shadow:inset 0 0 0 1px #2a2a2a;display:grid;grid-template-columns:1fr 1fr;padding:3px}
+.ui-seg span{display:grid;place-items:center;border-radius:99px;font-weight:500;font-size:27px;line-height:1;color:#9a9a9a}
+.ui-seg .is-on{background:#2c2c2e;color:var(--ui-lime)}
+.ui-stat{top:224px;width:220px;text-align:center}
+.ui-stat b{display:block;font-weight:700;font-size:60px;line-height:1}
+.ui-stat small{display:block;margin-top:24px;font-weight:600;font-size:19px;line-height:26px;letter-spacing:2px;color:#d6d6d6}
+.ui-up{position:absolute;left:121px;top:96px;width:28px;height:28px;color:var(--ui-lime)}
+.ui-recovery-body{left:197px;top:380px;width:247px;height:555px}
+.ui-refresh{left:24px;top:877px;width:72px;height:72px;border-radius:50%;background:#1c1c1e;box-shadow:inset 0 0 0 1px #2a2a2a;display:grid;place-items:center;color:#fff}
+.ui-refresh svg{width:34px;height:34px}
+.ui-legend{left:0;right:0;top:973px;display:flex;justify-content:center;gap:20px;font-weight:400;font-size:26px;line-height:1;color:#bdbdbd}
+.ui-legend span{display:flex;align-items:center;gap:7px}
+.ui-legend i{width:15px;height:15px;border-radius:50%}
+.ui-legend i.ring{background:none;box-shadow:inset 0 0 0 2px #bdbdbd}
+.ui-legend-2{top:1013px}
+.ui-see-all{left:26px;top:1064px;width:587px;height:70px;border-radius:99px;background:#1c1c1e;box-shadow:inset 0 0 0 1px #2a2a2a;display:flex;align-items:center;justify-content:center;gap:10px;font-weight:500;font-size:28px;line-height:1}
+.ui-see-all svg{width:24px;height:24px}
+/* dev .focus: left/top/width/height .6s var(--ease-out) */
+.ui-focus-move{transition:top .6s cubic-bezier(.16,.84,.24,1),height .6s cubic-bezier(.16,.84,.24,1)}
+/* Figma scan (147:2909 gradient + 147:2908 line) sweeps down the focused body once the focus lands. */
+.ui-scan-part{transform:translateY(-379px);filter:opacity(0);transition:transform 1.1s cubic-bezier(.16,.84,.24,1),filter .25s}
+.ui-scan-part.is-scanned{transform:none;filter:opacity(1)}
+@media(prefers-reduced-motion:reduce){.ui-art *,.ui-scan-part,.ui-focus-move{transition:none!important;animation:none!important}}
+
+/* User request: video guide without the lime ring (keeps the dark lift shadow). */
+[data-node-id="147:2893"]{box-shadow:0 50px 116px -40px rgba(0,0,0,.7)!important}
+/* Rest card: the screenshot crop had a flat top edge under the set-log card; fade it out. */
+.ui-rest-screen{-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 70px);mask-image:linear-gradient(180deg,transparent 0,#000 70px)}
+
+/* User request 10:03: removed nodes; in-screen scan for the recovery UI (desktop + mobile). */
+.orbit-removed{display:none!important}
+.ui-scan{position:absolute;left:12px;top:366px;width:616px;height:688px;border-radius:26px;overflow:hidden;pointer-events:none;opacity:0;transition:opacity .4s}
+.ui-scan i{position:absolute;left:0;right:0;top:-40%;height:40%;background:linear-gradient(180deg,rgba(107,140,43,0),rgba(84,112,29,.78));border-bottom:2.6px solid #b9f24b;box-shadow:0 8px 22px -6px rgba(184,242,74,.55)}
+.is-scanning .ui-scan{opacity:1}
+.is-scanning .ui-scan i{animation:ui-recovery-scan 2.6s cubic-bezier(.45,0,.25,1) infinite}
+@keyframes ui-recovery-scan{0%{transform:translateY(0)}85%,100%{transform:translateY(350%)}}
+@media(prefers-reduced-motion:reduce){.is-scanning .ui-scan i{animation:none;transform:translateY(200%)}}

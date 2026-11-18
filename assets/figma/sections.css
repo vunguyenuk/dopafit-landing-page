@@ -1,0 +1,57 @@
+/* Lower sections (sections-scene.js). */
+.places-row,.section-fit{position:absolute;left:0;top:0;width:1920px;height:12313px;pointer-events:none}
+.places-row>*,.section-fit>*{pointer-events:auto}
+.section-fit{z-index:1}
+.places-card{position:absolute;transform-origin:50% 100%;will-change:transform;background:#000;border-radius:24px;overflow:hidden}
+.places-surface{position:absolute;left:0;top:0;width:478px;height:690px;transform-origin:0 0}
+.places-glass-light{position:absolute;inset:0;z-index:3;border-radius:24px;pointer-events:none;background-size:160% 100%;background-position:var(--glass-x,50%) 0;mix-blend-mode:screen}
+.places-mirror{position:absolute;inset:0;width:100%;height:100%;z-index:4;pointer-events:none;mix-blend-mode:screen;border-radius:inherit}
+.places-card:nth-child(2){z-index:2}
+.places-scroll-anchor{position:absolute;left:0;width:1px;height:1px;pointer-events:none}
+.places-tips{display:flex;flex-direction:column;gap:8px;min-width:0!important;width:100%!important}
+.places-tip{display:flex;gap:10px;align-items:center;white-space:nowrap}
+.places-check{position:relative;flex:none;width:22px;height:22px;border-radius:50%;background:#b8f24a;display:grid;place-items:center;box-shadow:0 0 14px rgba(184,242,74,.3)}
+.places-check svg{width:14px;height:14px}
+.places-row:not(.is-open) .places-check{opacity:0;scale:.5}
+.places-check{transition:opacity .3s ease calc(var(--i)*.1s),scale .4s ease calc(var(--i)*.1s)}
+.is-mobile .places-check{opacity:1;scale:1}
+.integrations-glow{will-change:translate}
+@media(prefers-reduced-motion:reduce){.places-card{will-change:auto}.places-check{transition:none}}
+
+/* FAQ — pliability style (sections-scene.js). Design px on the 1920 canvas. */
+.faq-figma-hidden{display:none!important}
+.faq-pl-host{height:auto!important}
+.faq-pl{display:grid;grid-template-columns:560px 1fr;column-gap:96px;width:1240px;font-family:"Be Vietnam Pro",-apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;-webkit-font-smoothing:antialiased}
+.faq-pl-left h2{margin:0;font-size:56px;line-height:64px;font-weight:400;letter-spacing:-1.6px;color:#fff;max-width:440px}
+.faq-pl-left p{margin:28px 0 0;font-size:21px;line-height:32px;color:rgb(143,143,146);letter-spacing:-.2px;max-width:480px}
+.faq-pl-left a{color:rgb(143,143,146);text-decoration:underline;text-underline-offset:4px;font-weight:500}
+.faq-pl-left a:hover{color:#fff}
+.faq-pl-list{border-top:1.3px solid rgb(58,58,60)}
+.faq-pl-item{border-bottom:1.3px solid rgb(58,58,60)}
+.faq-pl-q{all:unset;box-sizing:border-box;width:100%;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:26px 0;cursor:pointer;font-size:27px;line-height:36px;letter-spacing:-.25px;color:rgb(143,143,146);transition:color .25s}
+.faq-pl-q:hover,.is-open .faq-pl-q{color:#fff}
+.faq-pl-q:focus-visible{outline:2px solid #b8f24a;outline-offset:6px}
+.faq-pl-q i{flex:none;position:relative;width:58px;height:58px;border-radius:50%;background:#000;box-shadow:inset 0 0 0 1.3px rgb(58,58,60);transition:transform .35s cubic-bezier(.22,.61,.36,1),box-shadow .25s}
+.faq-pl-q i::before,.faq-pl-q i::after{content:"";position:absolute;left:50%;top:50%;width:18px;height:2.4px;margin:-1.2px 0 0 -9px;border-radius:2px;background:#fff}
+.faq-pl-q i::after{transform:rotate(90deg)}
+.faq-pl-q:hover i{box-shadow:inset 0 0 0 1.3px rgb(120,120,124)}
+.is-open .faq-pl-q i{transform:rotate(45deg)}
+.faq-pl-a{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows .45s cubic-bezier(.22,.61,.36,1),opacity .35s ease}
+.faq-pl-a p{overflow:hidden;margin:0;max-width:640px;font-size:21px;line-height:32px;letter-spacing:-.2px;color:rgb(143,143,146)}
+.is-open .faq-pl-a{grid-template-rows:1fr;opacity:1}
+.is-open .faq-pl-a p{padding-bottom:30px}
+
+.calendar-art{perspective:1000px;transform-style:preserve-3d;pointer-events:none}
+.calendar-webgl{position:absolute;left:-50%;width:150%;top:-70%;height:170%;display:block;pointer-events:none}
+.calendar-webgl canvas{width:100%;height:100%;display:block}
+.calendar-model-ready>div{visibility:hidden}
+
+.calendar-count{display:flex;align-items:baseline;justify-content:space-between;color:#fff;gap:8px;font-size:54px;line-height:1;white-space:nowrap}
+.calendar-count small{font-size:23px}
+
+.places-muscle-label{position:absolute;left:75%;top:19.5%;width:15.5%;height:4.8%;background:#080a09;color:#c8cbcb;text-align:center;font-size:14px;line-height:1.3;pointer-events:none}
+
+/* Enlarged original guide figure; captions flow on one baseline. */
+[data-node-id="147:2895"]{top:auto;bottom:12px;height:34px;left:24px;right:24px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:19.878px}
+[data-node-id="147:2896"],[data-node-id="147:2897"]{position:static;inset:auto;width:auto;white-space:nowrap;display:block}
+[data-node-id="147:2895"] p{line-height:1.35}

@@ -1,0 +1,493 @@
+.f0{background-color:#000;position:relative;width:100%;height:100%}
+.f1{--tx:-50%;position:absolute;height:1423px;left:50%;overflow:clip;top:1230px;width:1920px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f2{--tx:-50%;--ty:-50%;position:absolute;height:244px;left:50%;overflow:clip;top:calc(50% - 589.5px);width:1920px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f3{--ty:-50%;position:absolute;height:112px;left:0;right:0;top:calc(50% - 6px);transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f4{--tx:-50%;position:absolute;filter:blur(0px);height:56px;left:calc(50% - 78.76px);top:0;width:158.47px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f5{--tx:-50%;position:absolute;filter:blur(0px);height:56px;left:calc(50% + 128.2px);top:0;width:59.58px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f6{--tx:-50%;word-break:break-word;position:absolute;bottom:20.54%;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:500;line-height:normal;left:50%;font-style:normal;font-size:61.7px;text-align:center;color:#fff;top:-52.68%;width:908px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f7{--tx:-50%;position:absolute;background-color:#b8f24a;height:40px;left:calc(50% + 0.24px);border-radius:999px;top:197px;width:124.48px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f8{position:absolute;background-color:rgba(255,255,255,0);inset:0;border-radius:999px;box-shadow:0px 10px 30px -12px rgba(184,242,74,0.6)}
+.f9{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;height:15px;justify-content:center;line-height:0;left:calc(50% - 44.24px);font-style:normal;color:#0b1203;font-size:15px;top:50%;width:88.817px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f10{line-height:15px}
+.f11{--ty:-50%;position:absolute;height:1379px;left:0;overflow:clip;right:0;top:calc(50% + 238px);transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f12{--tx:-50%;position:absolute;display:flex;height:3258.632px;align-items:center;justify-content:center;left:calc(50% + 465.47px);top:-588px;width:3240.789px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f13{flex:none;--rot:45.55deg;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f14{height:1646px;position:relative;width:2950px}
+.f15{position:absolute;height:496px;left:1304.01px;border-radius:8px;top:0;width:342.001px}
+.f16{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:8px}
+.f17{position:absolute;height:100%;left:-2.63%;max-width:none;top:0;width:105.26%}
+.f18{position:absolute;display:flex;height:577.408px;align-items:center;justify-content:center;left:854.75px;top:18.97px;width:478.533px}
+.f19{--rot:-18deg;flex:none;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f20{height:496px;position:relative;border-radius:8px;width:341.999px}
+.f21{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:8px}
+.f22{position:absolute;height:100%;left:-38.09%;max-width:none;top:0;width:176.17%}
+.f23{position:absolute;display:flex;height:603.107px;align-items:center;justify-content:center;left:470.86px;top:179.84px;width:568.817px}
+.f24{--rot:-36deg;flex:none;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f25{height:497px;position:relative;border-radius:8px;width:342.005px}
+.f26{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:8px}
+.f27{position:absolute;height:103.93%;left:0;max-width:none;top:-1.97%;width:100%}
+.f28{position:absolute;display:flex;height:568.812px;align-items:center;justify-content:center;left:179.87px;top:466.84px;width:603.103px}
+.f29{--rot:-54deg;flex:none;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f30{height:497px;position:relative;border-radius:8px;width:341.999px}
+.f31{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:8px}
+.f32{position:absolute;height:142.43%;left:0;max-width:none;top:-21.21%;width:100%}
+.f33{position:absolute;display:flex;height:478.841px;align-items:center;justify-content:center;left:22.96px;top:854.73px;width:578.358px}
+.f34{--rot:-72deg;flex:none;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f35{height:497px;position:relative;border-radius:8px;width:341.998px}
+.f36{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:8px}
+.f37{position:absolute;height:190%;left:0;max-width:none;top:-45%;width:100%}
+.f38{position:absolute;display:flex;height:341.994px;align-items:center;justify-content:center;left:0;top:1304px;width:496px}
+.f39{--rot:-90deg;flex:none;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f40{height:496px;position:relative;border-radius:8px;width:341.994px}
+.f41{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:8px}
+.f42{position:absolute;height:118.78%;left:0;max-width:none;top:-9.39%;width:100%}
+.f43{position:absolute;aspect-ratio:1920/244;background-image:linear-gradient(to bottom,var(--from),#000);bottom:433px;--from:rgba(0,0,0,0);left:-972px;overflow:clip;right:-972px;--to:#000}
+.f44{--tx:-50%;word-break:break-word;position:absolute;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:500;line-height:24px;left:calc(50% + 0.5px);font-style:normal;font-size:16px;text-align:center;color:#fff;top:169px;width:359px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f45{position:absolute;filter:drop-shadow(0px 30px 60px rgba(0) drop-shadow(0) drop-shadow(0) drop-shadow(0.8));inset:55.01% 36.92% 39.39% 37.81%}
+.f46{position:absolute;height:689.47px;left:0;top:0;width:485.17px}
+.f47{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f48{position:absolute;left:0;max-width:none;width:100%;height:100%;top:0}
+.f49{position:absolute;height:689.47px;left:0;top:0;width:485.17px}
+.f50{position:absolute;height:689.47px;left:0;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:485.17px 689.47px;top:0;width:485.17px}
+.f51{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f52{position:absolute;left:0;max-width:none;width:100%;height:100%;top:0}
+.f53{position:absolute;left:0;width:24px;height:24px;top:119px}
+.f54{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f55{--tx:-50%;position:absolute;height:1494.62px;left:calc(50% + 0.5px);overflow:clip;border-radius:35px;top:2296px;width:605px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f56{position:absolute;height:1494.62px;left:0;opacity:0.7;top:0;width:605px}
+.f57{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.f58{position:absolute;height:1494.62px;left:0;top:0;width:605px}
+.f59{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.f60{position:absolute;height:1442.805px;left:64.22px;top:22.62px;width:522.533px}
+.f61{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.f62{position:absolute;display:contents;inset:36.31% 46.15% 57.29% 15.16%}
+.f63{position:absolute;display:contents;inset:36.31% 70.26% 63.49% 15.16%}
+.f64{word-break:break-word;position:absolute;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:700;inset:36.31% 70.26% 63.49% 15.16%;line-height:normal;font-style:normal;color:#e6e6e6;font-size:20px;white-space:nowrap}
+.f65{position:absolute;display:contents;inset:42.42% 46.15% 57.29% 15.16%}
+.f66{position:absolute;display:contents;inset:42.42% 46.15% 57.57% 15.16%}
+.f67{position:absolute;inset:42.42% 46.15% 57.57% 15.16%}
+.f68{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f69{word-break:break-word;position:absolute;font-family:Inter, sans-serif;font-weight:700;font-weight:700;inset:42.51% 58.28% 57.29% 15.16%;line-height:normal;font-style:normal;color:#e6e6e6;font-size:20px}
+.f70{position:absolute;display:contents;inset:40.7% 46.15% 59.01% 15.16%}
+.f71{position:absolute;display:contents;inset:40.7% 46.15% 59.3% 15.16%}
+.f72{position:absolute;inset:40.7% 46.15% 59.3% 15.16%}
+.f73{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f74{word-break:break-word;position:absolute;font-family:Inter, sans-serif;font-weight:700;font-weight:700;inset:40.79% 58.28% 59.01% 15.16%;line-height:normal;font-style:normal;color:#e6e6e6;font-size:20px}
+.f75{position:absolute;display:contents;inset:38.97% 46.15% 60.73% 15.16%}
+.f76{position:absolute;display:contents;inset:38.97% 46.15% 61.02% 15.16%}
+.f77{position:absolute;inset:38.97% 46.15% 61.02% 15.16%}
+.f78{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f79{word-break:break-word;position:absolute;font-family:Inter, sans-serif;font-weight:700;font-weight:700;inset:39.07% 65.36% 60.73% 15.16%;line-height:normal;font-style:normal;color:#e6e6e6;font-size:20px;white-space:nowrap}
+.f80{position:absolute;display:contents;inset:36.84% 46.17% 61.81% 15.16%}
+.f81{position:absolute;display:contents;inset:36.84% 46.17% 63.16% 15.16%}
+.f82{position:absolute;inset:36.84% 46.17% 63.16% 15.16%}
+.f83{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f84{word-break:break-word;position:absolute;font-family:Inter, sans-serif;font-weight:700;font-weight:700;inset:37.99% 74.11% 61.81% 15.16%;line-height:normal;font-style:normal;color:#e6e6e6;font-size:20px;white-space:nowrap}
+.f85{position:absolute;height:1376.781px;left:1101px;top:4254px;width:648px}
+.f86{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.f87{position:absolute;height:439px;left:368px;right:312px;top:11066px}
+.f88{position:absolute;border-color:rgba(228,238,210,0.09);border-style:solid;border-top-width:1px;height:73px;left:529.03px;right:0;top:0}
+.f89{position:absolute;height:72px;left:0;right:0;top:0}
+.f90{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;height:23px;justify-content:center;line-height:0;left:4px;font-style:normal;color:#eff1ea;font-size:18px;top:calc(50% - 0.1px);width:304.198px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f91{line-height:25.2px}
+.f92{--ty:-50%;position:absolute;background-color:#eff1ea;left:678.97px;border-radius:14px;width:28px;height:28px;top:50%;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f93{position:absolute;border-color:rgba(228,238,210,0.09);border-style:solid;border-top-width:1px;height:73px;left:529.03px;right:0;top:73px}
+.f94{position:absolute;height:72px;left:0;right:0;top:0}
+.f95{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;height:23px;justify-content:center;line-height:0;left:4px;font-style:normal;color:#eff1ea;font-size:18px;top:calc(50% - 0.1px);width:241.107px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f96{line-height:25.2px}
+.f97{--ty:-50%;position:absolute;background-color:#eff1ea;left:678.97px;border-radius:14px;width:28px;height:28px;top:50%;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f98{position:absolute;border-color:rgba(228,238,210,0.09);border-style:solid;border-top-width:1px;height:73px;left:529.03px;right:0;top:146px}
+.f99{position:absolute;height:72px;left:0;right:0;top:0}
+.f100{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;height:23px;justify-content:center;line-height:0;left:4px;font-style:normal;color:#eff1ea;font-size:18px;top:calc(50% - 0.1px);width:302.178px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f101{line-height:25.2px}
+.f102{--ty:-50%;position:absolute;background-color:#eff1ea;left:678.97px;border-radius:14px;width:28px;height:28px;top:50%;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f103{position:absolute;border-color:rgba(228,238,210,0.09);border-style:solid;border-top-width:1px;height:73px;left:529.03px;right:0;top:219px}
+.f104{position:absolute;height:72px;left:0;right:0;top:0}
+.f105{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;height:23px;justify-content:center;line-height:0;left:4px;font-style:normal;color:#eff1ea;font-size:18px;top:calc(50% - 0.1px);width:343.284px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f106{line-height:25.2px}
+.f107{--ty:-50%;position:absolute;background-color:#eff1ea;left:678.97px;border-radius:14px;width:28px;height:28px;top:50%;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f108{position:absolute;border-color:rgba(228,238,210,0.09);border-style:solid;border-top-width:1px;height:73px;left:529.03px;right:0;top:292px}
+.f109{position:absolute;height:72px;left:0;right:0;top:0}
+.f110{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;height:23px;justify-content:center;line-height:0;left:4px;font-style:normal;color:#eff1ea;font-size:18px;top:calc(50% - 0.1px);width:256.87px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f111{line-height:25.2px}
+.f112{--ty:-50%;position:absolute;background-color:#eff1ea;left:678.97px;border-radius:14px;width:28px;height:28px;top:50%;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f113{position:absolute;border-color:rgba(228,238,210,0.09);border-bottom-width:1px;border-style:solid;border-top-width:1px;height:74px;left:529.03px;right:0;top:365px}
+.f114{position:absolute;height:72px;left:0;right:0;top:0}
+.f115{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;height:23px;justify-content:center;line-height:0;left:4px;font-style:normal;color:#eff1ea;font-size:18px;top:calc(50% - 0.1px);width:201.026px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f116{line-height:25.2px}
+.f117{--ty:-50%;position:absolute;background-color:#eff1ea;left:678.97px;border-radius:14px;width:28px;height:28px;top:50%;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f118{position:absolute;height:439px;inset:0 782.97px 0 0;pointer-events:none}
+.f119{height:242px;pointer-events:auto;position:sticky;top:0}
+.f120{position:absolute;background-color:#b8f24a;height:2px;left:0;right:439.03px;border-radius:2px;top:5px}
+.f121{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"IBM Plex Mono", monospace;font-weight:500;height:12px;justify-content:center;line-height:0;left:28px;font-style:normal;right:401.29px;color:#a4a998;font-size:12px;top:6px;letter-spacing:1.92px;text-transform:uppercase;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f122{line-height:12px}
+.f123{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"IBM Plex Sans Condensed", sans-serif;font-weight:700;height:162.81px;justify-content:center;line-height:0;left:0;font-style:normal;right:47.54px;color:#eff1ea;font-size:70.4px;top:99.4px;letter-spacing:-1.056px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f124{line-height:71.81px;margin-bottom:0}
+.f125{line-height:71.81px}
+.f126{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:400;height:49.19px;justify-content:center;line-height:0;left:0;font-style:normal;right:4.17px;color:#a4a998;font-size:17px;top:214.21px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f127{margin-bottom:0}
+.f128{line-height:27.2px}
+.f129{text-decoration-skip-ink:none;text-underline-position:from-font;text-decoration-color:#b8f24a;text-decoration-thickness:1px;text-decoration-style:solid;line-height:27.2px;color:#eff1ea;text-decoration-line:underline}
+.f130{line-height:27.2px}
+.f131{line-height:27.2px}
+.f132{--tx:-50%;position:absolute;align-content:stretch;display:flex;align-items:center;justify-content:space-between;left:50%;top:66px;width:940px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f133{word-break:break-word;align-content:stretch;display:flex;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:500;gap:26px;align-items:center;line-height:0;font-style:normal;position:relative;flex-shrink:0;font-size:14px;color:#fff}
+.f134{display:flex;flex-direction:column;height:18px;justify-content:center;position:relative;flex-shrink:0;width:60.776px}
+.f135{line-height:22.4px}
+.f136{display:flex;flex-direction:column;height:18px;justify-content:center;position:relative;flex-shrink:0;width:90.039px}
+.f137{line-height:22.4px}
+.f138{display:flex;flex-direction:column;height:18px;justify-content:center;position:relative;flex-shrink:0;width:29.596px}
+.f139{line-height:22.4px}
+.f140{align-content:stretch;display:flex;gap:4px;align-items:center;justify-content:center;position:relative;flex-shrink:0}
+.f141{height:14px;position:relative;flex-shrink:0;width:22.03px}
+.f142{position:absolute;inset:0;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:100% 100%}
+.f143{word-break:break-word;display:flex;flex-direction:column;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:700;justify-content:center;line-height:0;font-style:normal;position:relative;flex-shrink:0;font-size:20px;color:#fff;letter-spacing:3.2px;white-space:nowrap}
+.f144{line-height:20px}
+.f145{position:absolute;height:13.999px;left:0;overflow:clip;top:3px;width:22.03px}
+.f146{position:absolute;inset:0.03% 0;overflow:clip}
+.f147{position:absolute;inset:0.13% 0.09% 0.03% 3.65%}
+.f148{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f149{align-content:stretch;display:flex;align-items:center;justify-content:flex-end;position:relative;flex-shrink:0;width:201px}
+.f150{background-color:#b8f24a;height:40px;position:relative;border-radius:999px;flex-shrink:0;width:124.48px}
+.f151{position:absolute;background-color:rgba(255,255,255,0);inset:0;border-radius:999px;box-shadow:0px 10px 30px -12px rgba(184,242,74,0.6)}
+.f152{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;height:15px;justify-content:center;line-height:0;left:calc(50% - 44.24px);font-style:normal;color:#0b1203;font-size:15px;top:50%;width:88.817px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f153{line-height:15px}
+.f154{--tx:-50%;word-break:break-word;position:absolute;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:500;line-height:46px;left:calc(50% + 15.5px);font-style:normal;font-size:36px;text-align:center;color:#fff;top:438px;width:985px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f155{word-break:break-word;position:absolute;bottom:65.58%;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:700;line-height:normal;left:calc(50% - 677px);font-style:normal;font-size:84.994px;color:#fff;top:31.96%;width:883px}
+.f156{--tx:-50%;word-break:break-word;position:absolute;bottom:48.7%;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:700;line-height:normal;left:calc(50% + 0.5px);font-style:normal;font-size:84.994px;text-align:center;color:#fff;top:49.65%;width:883px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f157{--tx:-50%;word-break:break-word;position:absolute;bottom:33.3%;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:700;line-height:normal;left:calc(50% + 0.5px);font-style:normal;font-size:84.994px;text-align:center;color:#fff;top:65.06%;width:883px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f158{word-break:break-word;position:absolute;bottom:13.96%;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:700;line-height:normal;left:50%;font-style:normal;font-size:84.994px;color:#fff;top:84.4%;width:716px}
+.f159{position:absolute;inset:37.89% 46.15% 62.11% 15.16%}
+.f160{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f161{position:absolute;display:contents;inset:55.71% 36.04% 40.09% 36.98%}
+.f162{position:absolute;inset:55.71% 49.53% 40.09% 36.98%}
+.f163{position:absolute;inset:-0.26% -0.52%}
+.f164{display:block;max-width:none;width:100%;height:100%}
+.f165{position:absolute;inset:55.71% 36.04% 40.09% 50.47%}
+.f166{position:absolute;inset:-0.26% -0.52%}
+.f167{display:block;max-width:none;width:100%;height:100%}
+.f168{position:absolute;inset:59.81% 45.81% 40.12% 53.74%}
+.f169{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f170{position:absolute;inset:59.26% 39.77% 40.67% 59.79%}
+.f171{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f172{position:absolute;inset:58.32% 36.27% 41.61% 63.28%}
+.f173{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f174{position:absolute;inset:57.23% 36.27% 42.7% 63.28%}
+.f175{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f176{position:absolute;inset:56.29% 39.77% 43.64% 59.79%}
+.f177{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f178{position:absolute;inset:55.74% 45.81% 44.19% 53.74%}
+.f179{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f180{position:absolute;inset:59.81% 52.8% 40.12% 46.76%}
+.f181{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f182{position:absolute;inset:59.26% 58.85% 40.67% 40.71%}
+.f183{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f184{position:absolute;inset:58.32% 62.34% 41.61% 37.22%}
+.f185{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f186{position:absolute;inset:57.23% 62.34% 42.7% 37.22%}
+.f187{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f188{position:absolute;inset:56.29% 58.85% 43.64% 40.71%}
+.f189{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f190{position:absolute;inset:55.74% 52.8% 44.19% 46.76%}
+.f191{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f192{position:absolute;background-color:#85fa00;align-content:stretch;display:flex;flex-direction:column;align-items:center;justify-content:center;left:1190px;overflow:clip;padding:23.273px;border-radius:1454.546px;width:68.364px;height:68.364px;top:7021px}
+.f193{position:relative;flex-shrink:0;width:40px;height:40px}
+.f194{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f195{position:absolute;height:819px;left:17px;top:11923px;width:1903px}
+.f196{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f197{position:absolute;height:412.84%;left:0;max-width:none;top:-11.6%;width:100%}
+.f198{position:absolute;background-color:#85fa00;align-content:stretch;display:flex;flex-direction:column;align-items:center;justify-content:center;left:1065px;overflow:clip;padding:23.273px;border-radius:1454.546px;width:68.364px;height:68.364px;top:6855px}
+.f199{position:relative;flex-shrink:0;width:40px;height:40px}
+.f200{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f201{position:absolute;background-color:#85fa00;align-content:stretch;display:flex;flex-direction:column;align-items:center;justify-content:center;left:748px;overflow:clip;padding:23.273px;border-radius:1454.546px;width:68.364px;height:68.364px;top:6901px}
+.f202{position:relative;flex-shrink:0;width:40px;height:40px}
+.f203{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f204{position:absolute;background-color:#85fa00;align-content:stretch;display:flex;flex-direction:column;align-items:center;justify-content:center;left:676px;overflow:clip;padding:23.273px;border-radius:1454.546px;width:68.364px;height:68.364px;top:7118px}
+.f205{position:relative;flex-shrink:0;width:40px;height:40px}
+.f206{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f207{position:absolute;height:156px;left:1315px;overflow:clip;right:295px;border-top-left-radius:51.15px;border-top-right-radius:51.15px;top:6845px}
+.f208{position:absolute;bottom:-517.77px;left:0;pointer-events:none;border-radius:51.15px;box-shadow:0px 0px 0px 1px rgba(0,0,0,0.9),0px 50px 90px -30px rgba(0,0,0,0.9),0px 30px 120px -40px rgba(184,242,74,0.22);top:0;width:310px}
+.f209{position:absolute;background-color:rgba(255,255,255,0);inset:0;border-radius:51.15px}
+.f210{position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,0.1)}
+.f211{position:absolute;background-color:#000;inset:9.3px 9.29px -508.47px 9.3px;overflow:clip;border-radius:42.78px}
+.f212{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f213{position:absolute;height:100%;left:-1.72%;max-width:none;top:0;width:103.44%}
+.f214{position:absolute;border-width:1px;border-color:#b8f24a;border-style:solid;height:40.86px;left:84.14px;border-radius:16px;top:96.44px;width:85.94px}
+.f215{position:absolute;background-color:rgba(255,255,255,0);height:40.86px;left:-1px;border-radius:16px;box-shadow:0px 0px 0px 999px rgba(0,0,0,0.42),0px 0px 24px 0px rgba(184,242,74,0.35);top:-1px;width:85.94px}
+.f216{position:absolute;background-color:#000;height:27.27px;left:34.5%;right:34.5%;border-radius:999px;top:11.15px}
+.f217{position:absolute;inset:-30%}
+.f218{position:absolute;backdrop-filter:blur(26.504px);background-color:rgba(18,21,15,0.66);border-width:1.657px;border-color:rgba(228,238,210,0.17);border-style:solid;height:296px;left:1408.94px;right:96.94px;border-radius:33.13px;top:7010px}
+.f219{position:absolute;background-color:rgba(255,255,255,0);bottom:calc(0% - 1.66px);right:-1.66px;border-radius:33.13px;box-shadow:0px 0px 0px 2.485px #b8f24a,0px 49.695px 115.955px -39.756px rgba(184,242,74,0.35);top:calc(0% - 1.66px);width:414.125px}
+.f220{position:absolute;aspect-ratio:232/130.5;left:13.25px;right:13.25px;border-radius:21.535px;top:13.25px}
+.f221{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:21.535px}
+.f222{position:absolute;left:0;max-width:none;width:100%;height:100%;top:0}
+.f223{word-break:break-word;position:absolute;height:50.01px;line-height:0;left:13.25px;font-style:normal;right:13.25px;font-size:19.878px;top:229.42px}
+.f224{position:absolute;bottom:6.94px;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;justify-content:center;left:9.94px;color:#eff1ea;top:18.22px;width:118.854px}
+.f225{line-height:31.805px}
+.f226{position:absolute;bottom:6.94px;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:400;justify-content:center;left:174.26px;color:#a4a998;top:18.22px;width:200.747px}
+.f227{line-height:31.805px}
+.f228{position:absolute;display:contents;left:1327px;top:6468.03px}
+.f229{position:absolute;height:668.942px;left:1350.84px;overflow:clip;top:6468.03px;width:410.638px}
+.f230{position:absolute;aspect-ratio:310/673.77001953125;left:0;right:0;border-radius:67.755px;top:0}
+.f231{position:absolute;bottom:0;left:0;pointer-events:none;border-radius:67.755px;box-shadow:0px 0px 0px 1.325px rgba(0,0,0,0.9),0px 66.232px 119.217px -39.739px rgba(0,0,0,0.9),0px 39.739px 158.957px -52.986px rgba(184,242,74,0.22);top:0;width:410.638px}
+.f232{position:absolute;background-color:rgba(255,255,255,0);inset:0;border-radius:67.755px}
+.f233{position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0px 0px 0px 1.325px rgba(255,255,255,0.1)}
+.f234{position:absolute;background-color:#000;inset:12.31px 12.32px 12.33px 12.3px;overflow:clip;border-radius:56.668px}
+.f235{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f236{position:absolute;height:100%;left:-1.72%;max-width:none;top:0;width:103.44%}
+.f237{position:absolute;border-color:#b8f24a;border-width:1.325px;border-style:solid;height:429.037px;left:6.17px;border-radius:21.194px;top:228.26px;width:373.667px}
+.f238{position:absolute;background-color:rgba(255,255,255,0);height:429.037px;left:-1.32px;border-radius:21.194px;box-shadow:0px 0px 0px 1323.313px rgba(0,0,0,0.42),0px 0px 31.791px 0px rgba(184,242,74,0.35);top:-1.32px;width:373.667px}
+.f239{position:absolute;background-color:#000;height:36.123px;left:34.5%;right:34.5%;border-radius:1323.313px;top:14.78px}
+.f240{position:absolute;inset:-30%}
+.f241{position:absolute;height:0;left:1327px;top:6937.61px;width:456.338px}
+.f242{position:absolute;inset:-0.66px 0}
+.f243{display:block;max-width:none;width:100%;height:100%}
+.f244{position:absolute;height:227.838px;left:1327px;top:6709.11px;width:457px}
+.f245{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f246{word-break:break-word;position:absolute;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:500;line-height:24px;left:calc(50% + 139px);font-style:normal;font-size:16px;color:#fff;top:6722px;width:228px}
+.f247{word-break:break-word;position:absolute;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:500;line-height:24px;left:calc(50% - 319px);font-style:normal;font-size:16px;color:#fff;top:6739px;width:228px}
+.f248{word-break:break-word;position:absolute;font-family:"Be Vietnam Pro", sans-serif;font-weight:500;line-height:22.74px;left:calc(50% - 371px);font-style:normal;font-size:15.7px;color:#fff;top:7231px;width:188px}
+.f249{word-break:break-word;position:absolute;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:500;line-height:24px;left:calc(50% + 459px);font-style:normal;font-size:16px;color:#fff;top:7344px;width:297px}
+.f250{position:absolute;height:361px;left:251px;top:6474px;width:355px}
+.f251{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f252{position:absolute;height:209.35%;left:0;max-width:none;top:-109.35%;width:100%}
+.f253{position:absolute;height:314px;left:52px;top:6812px;width:527px}
+.f254{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.f255{position:absolute;height:539.358px;left:155px;overflow:clip;top:7172px;width:407px}
+.f256{position:absolute;height:570px;left:0;top:-31px;width:407px}
+.f257{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f258{position:absolute;height:151.71%;left:0;max-width:none;top:-30.94%;width:100%}
+.f259{position:absolute;display:contents;left:196px;top:8359px}
+.f260{position:absolute;height:690px;left:196px;border-radius:24px;top:8359px;width:478px}
+.f261{position:absolute;height:690px;left:741px;border-radius:24px;top:8359px;width:478px}
+.f262{position:absolute;height:690px;left:1286px;border-radius:24px;top:8359px;width:478px}
+.f263{position:absolute;align-content:stretch;display:flex;gap:76px;align-items:flex-start;justify-content:center;left:202px;top:8359px}
+.f264{border-width:1px;border-color:rgba(255,255,255,0.1);border-style:solid;align-content:stretch;display:flex;flex-direction:column;gap:24px;height:690.044px;align-items:flex-start;padding:40px;position:relative;border-radius:24px;flex-shrink:0;width:470px}
+.f265{word-break:break-word;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:700;line-height:0;min-width:100%;font-style:normal;position:relative;flex-shrink:0;font-size:29.133px;color:#fff;width:min-content}
+.f266{line-height:normal;margin-bottom:0}
+.f267{line-height:normal}
+.f268{height:405.044px;position:relative;flex-shrink:0;width:398px}
+.f269{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.f270{word-break:break-word;font-family:Inter, sans-serif;font-weight:400;font-weight:400;height:87px;line-height:normal;min-width:100%;font-style:normal;position:relative;flex-shrink:0;color:#8f8f92;font-size:24px;width:min-content}
+.f271{border-width:1px;border-color:rgba(255,255,255,0.1);border-style:solid;align-content:stretch;display:flex;flex-direction:column;align-items:flex-start;padding:40px;position:relative;border-radius:24px;align-self:stretch;flex-shrink:0;width:470px}
+.f272{align-content:stretch;display:flex;flex-direction:column;gap:24px;align-items:flex-start;justify-content:center;position:relative;flex-shrink:0;width:100%}
+.f273{word-break:break-word;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:700;line-height:normal;font-style:normal;position:relative;flex-shrink:0;font-size:29.133px;color:#fff;width:229px}
+.f274{align-content:stretch;display:flex;flex-direction:column;height:389px;align-items:flex-start;justify-content:center;position:relative;flex-shrink:0;width:100%}
+.f275{aspect-ratio:388/231;position:relative;flex-shrink:0;width:100%}
+.f276{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f277{position:absolute;height:130.76%;left:-5.98%;max-width:none;top:-13.85%;width:112.37%}
+.f278{word-break:break-word;font-family:Inter, sans-serif;font-weight:400;font-weight:400;line-height:normal;min-width:100%;font-style:normal;position:relative;flex-shrink:0;color:#8f8f92;font-size:24px;width:min-content}
+.f279{border-width:1px;border-color:rgba(255,255,255,0.1);border-style:solid;align-content:stretch;display:flex;flex-direction:column;gap:24px;align-items:flex-start;padding:40px;position:relative;border-radius:24px;align-self:stretch;flex-shrink:0;width:470px}
+.f280{word-break:break-word;font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;font-weight:700;line-height:normal;font-style:normal;position:relative;flex-shrink:0;font-size:29.133px;color:#fff;width:181px}
+.f281{aspect-ratio:406/388;position:relative;flex-shrink:0;width:100%}
+.f282{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f283{position:absolute;height:84.48%;left:0;max-width:none;top:0;width:100%}
+.f284{word-break:break-word;font-family:Inter, sans-serif;font-weight:400;font-weight:400;line-height:normal;font-style:normal;position:relative;flex-shrink:0;color:#8f8f92;font-size:24px;width:369px}
+.f285{position:absolute;display:contents;inset:85.22% 68.69% 11.9% 7.45%}
+.f286{position:absolute;display:contents;inset:85.22% 68.69% 11.9% 7.45%}
+.f287{position:absolute;display:contents;inset:87.67% 83.7% 11.9% 7.48%}
+.f288{position:absolute;display:contents;inset:87.67% 83.7% 11.9% 7.48%}
+.f289{position:absolute;display:contents;inset:87.67% 83.7% 11.9% 7.48%}
+.f290{position:absolute;inset:87.67% 83.7% 11.9% 7.48%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-position:0px 0.015px;mask-size:169.305px 53.441px;opacity:0.34}
+.f291{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f292{position:absolute;display:contents;inset:85.44% 68.69% 12.51% 9.9%}
+.f293{position:absolute;display:contents;inset:85.44% 68.69% 12.51% 9.9%}
+.f294{position:absolute;display:contents;inset:85.44% 68.69% 12.51% 9.9%}
+.f295{position:absolute;display:contents;inset:85.44% 68.69% 12.51% 9.9%}
+.f296{position:absolute;inset:85.44% 68.69% 12.51% 9.9%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-position:-0.014px 0px;mask-size:411.183px 251.757px;opacity:0.34}
+.f297{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f298{position:absolute;display:contents;inset:85.22% 72.26% 13.09% 7.45%}
+.f299{position:absolute;inset:85.22% 72.26% 13.09% 7.45%;opacity:0.34}
+.f300{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f301{position:absolute;display:contents;inset:85.22% 72.26% 13.09% 7.45%}
+.f302{--tx:-50%;position:absolute;background-color:#b8f24a;height:40px;left:calc(50% + 62.24px);border-radius:999px;top:10652px;width:124.48px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f303{position:absolute;background-color:rgba(255,255,255,0);inset:0;border-radius:999px;box-shadow:0px 10px 30px -12px rgba(184,242,74,0.6)}
+.f304{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:600;height:15px;justify-content:center;line-height:0;left:calc(50% - 44.24px);font-style:normal;color:#0b1203;font-size:15px;top:50%;width:88.817px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f305{line-height:15px}
+.f306{position:absolute;height:538px;left:-789px;top:-346px;width:807px}
+.f307{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.f308{position:absolute;height:330.8px;left:378px;right:302px;top:11742px}
+.f309{position:absolute;border-color:rgba(228,238,210,0.09);border-style:solid;border-top-width:1px;height:158px;left:0;right:0;top:64px}
+.f310{position:absolute;height:20px;left:0;right:876px;top:40px}
+.f311{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"IBM Plex Sans Condensed", sans-serif;font-weight:700;height:27px;justify-content:center;line-height:0;left:26.03px;font-style:normal;color:#e8e6e1;font-size:20px;top:9.5px;letter-spacing:3.2px;width:84.24px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f312{line-height:20px}
+.f313{line-height:20px;color:#7fa8b8}
+.f314{position:absolute;height:13.999px;left:0;overflow:clip;top:3px;width:22.03px}
+.f315{position:absolute;inset:0.03% 0;overflow:clip}
+.f316{position:absolute;inset:0.13% 0.09% 0.03% 3.65%}
+.f317{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f318{position:absolute;height:14px;left:0;top:3px;width:22.03px}
+.f319{position:absolute;inset:0;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:100% 100%}
+.f320{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:400;height:40.39px;justify-content:center;line-height:0;left:0;font-style:normal;right:953.82px;color:#7d8273;font-size:14px;top:96.19px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f321{line-height:22.4px;margin-bottom:0}
+.f322{line-height:22.4px}
+.f323{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"IBM Plex Mono", monospace;font-weight:500;height:14px;justify-content:center;line-height:0;left:396px;font-style:normal;right:785.09px;color:#7d8273;font-size:11px;top:45px;letter-spacing:1.76px;text-transform:uppercase;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f324{line-height:11px}
+.f325{word-break:break-word;position:absolute;font-family:"Be Vietnam Pro", sans-serif;font-weight:400;height:92px;line-height:0;left:396px;font-style:normal;right:584px;color:#a4a998;font-size:15px;top:65px}
+.f326{--ty:-50%;position:absolute;display:flex;flex-direction:column;height:19px;justify-content:center;left:0;right:195.82px;top:11.5px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f327{line-height:24px}
+.f328{--ty:-50%;position:absolute;display:flex;flex-direction:column;height:19px;justify-content:center;left:0;right:164.62px;top:45.5px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f329{line-height:24px}
+.f330{--ty:-50%;position:absolute;display:flex;flex-direction:column;height:19px;justify-content:center;left:0;right:228.53px;top:79.5px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f331{line-height:24px}
+.f332{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"IBM Plex Mono", monospace;font-weight:500;height:14px;justify-content:center;line-height:0;left:688px;font-style:normal;right:493.09px;color:#7d8273;font-size:11px;top:45px;letter-spacing:1.76px;text-transform:uppercase;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f333{line-height:11px}
+.f334{word-break:break-word;position:absolute;font-family:"Be Vietnam Pro", sans-serif;font-weight:400;height:58px;line-height:0;left:688px;font-style:normal;right:292px;color:#a4a998;font-size:15px;top:65px}
+.f335{--ty:-50%;position:absolute;display:flex;flex-direction:column;height:19px;justify-content:center;left:0;right:175.53px;top:11.5px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f336{line-height:24px}
+.f337{--ty:-50%;position:absolute;display:flex;flex-direction:column;height:19px;justify-content:center;left:0;right:98.74px;top:45.5px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f338{line-height:24px}
+.f339{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"IBM Plex Mono", monospace;font-weight:500;height:14px;justify-content:center;line-height:0;left:980px;font-style:normal;right:217.86px;color:#7d8273;font-size:11px;top:45px;letter-spacing:1.76px;text-transform:uppercase;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f340{line-height:11px}
+.f341{word-break:break-word;position:absolute;font-family:"Be Vietnam Pro", sans-serif;font-weight:400;height:58px;line-height:0;left:980px;font-style:normal;right:0;color:#a4a998;font-size:15px;top:65px}
+.f342{--ty:-50%;position:absolute;display:flex;flex-direction:column;height:19px;justify-content:center;left:0;right:137.83px;top:11.5px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f343{line-height:24px}
+.f344{--ty:-50%;position:absolute;display:flex;flex-direction:column;height:19px;justify-content:center;left:0;right:156.66px;top:45.5px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f345{line-height:24px}
+.f346{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:400;height:20.8px;justify-content:center;line-height:0;left:0;font-style:normal;right:1104.47px;color:#7d8273;font-size:13px;top:280.4px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f347{line-height:20.8px}
+.f348{--ty:-50%;word-break:break-word;position:absolute;display:flex;flex-direction:column;font-family:"Be Vietnam Pro", sans-serif;font-weight:400;height:16px;justify-content:center;line-height:0;left:980.83px;font-style:normal;right:-0.3px;color:#7d8273;font-size:13px;top:280px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f349{line-height:20.8px}
+.f350{--tx:-50%;position:absolute;height:1204px;left:calc(50% + 0.5px);top:-30px;width:1804.441px;transform:translate(var(--tx,0),var(--ty,0)) rotate(var(--rot,0deg))}
+.f351{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:161.214px;left:124.3px;border-radius:18.154px;top:191.11px;width:133.797px}
+.f352{position:absolute;inset:0;pointer-events:none;border-radius:18.154px}
+.f353{position:absolute;background-color:#202020;inset:0;border-radius:18.154px}
+.f354{position:absolute;inset:0;overflow:hidden;border-radius:18.154px}
+.f355{position:absolute;height:100.03%;left:0;max-width:none;top:0;width:100%}
+.f356{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:158.095px;left:1.56px;border-radius:16.594px;top:1.56px;width:130.678px}
+.f357{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:168.357px;left:1365.42px;opacity:0.95;border-radius:16.563px;top:175.14px;width:139.723px}
+.f358{position:absolute;inset:0;pointer-events:none;border-radius:16.563px}
+.f359{position:absolute;background-color:#202020;inset:0;border-radius:16.563px}
+.f360{position:absolute;inset:0;overflow:hidden;border-radius:16.563px}
+.f361{position:absolute;height:100.03%;left:0;max-width:none;top:0;width:100%}
+.f362{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:165.238px;left:1.56px;border-radius:15.003px;top:1.56px;width:136.604px}
+.f363{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:112.696px;left:1091.85px;opacity:0.8;border-radius:11.978px;top:247.97px;width:93.528px}
+.f364{position:absolute;inset:0;pointer-events:none;border-radius:11.978px}
+.f365{position:absolute;background-color:#202020;inset:0;border-radius:11.978px}
+.f366{position:absolute;inset:0;overflow:hidden;border-radius:11.978px}
+.f367{position:absolute;height:100.03%;left:0;max-width:none;top:0;width:100%}
+.f368{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:109.577px;left:1.56px;border-radius:10.418px;top:1.56px;width:90.409px}
+.f369{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:93.918px;left:578.22px;opacity:0.8;border-radius:10.574px;top:262.93px;width:77.948px}
+.f370{position:absolute;inset:0;pointer-events:none;border-radius:10.574px}
+.f371{position:absolute;background-color:#202020;inset:0;border-radius:10.574px}
+.f372{position:absolute;inset:0;overflow:hidden;border-radius:10.574px}
+.f373{position:absolute;height:100.03%;left:0;max-width:none;top:0;width:100%}
+.f374{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:90.799px;left:1.56px;border-radius:9.014px;top:1.56px;width:74.829px}
+.f375{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:67.608px;left:847.6px;opacity:0.4;border-radius:7.58px;top:326.37px;width:56.114px}
+.f376{position:absolute;inset:0;pointer-events:none;border-radius:7.58px}
+.f377{position:absolute;background-color:#202020;inset:0;border-radius:7.58px}
+.f378{position:absolute;inset:0;overflow:hidden;border-radius:7.58px}
+.f379{position:absolute;height:100.04%;left:0;max-width:none;top:0;width:100%}
+.f380{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:64.489px;left:1.56px;border-radius:6.02px;top:1.56px;width:52.995px}
+.f381{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:165.659px;left:1555.13px;border-radius:16.563px;top:447.71px;width:137.493px}
+.f382{position:absolute;inset:0;pointer-events:none;border-radius:16.563px}
+.f383{position:absolute;background-color:#202020;inset:0;border-radius:16.563px}
+.f384{position:absolute;inset:0;overflow:hidden;border-radius:16.563px}
+.f385{position:absolute;height:100.03%;left:0;max-width:none;top:0;width:100%}
+.f386{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:162.54px;left:1.56px;border-radius:15.003px;top:1.56px;width:134.374px}
+.f387{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:129.867px;left:223.3px;opacity:0.8;border-radius:14.629px;top:530.88px;width:107.799px}
+.f388{position:absolute;inset:0;pointer-events:none;border-radius:14.629px}
+.f389{position:absolute;background-color:#202020;inset:0;border-radius:14.629px}
+.f390{position:absolute;inset:0;overflow:hidden;border-radius:14.629px}
+.f391{position:absolute;height:100.05%;left:0;max-width:none;top:0;width:100%}
+.f392{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:126.748px;left:1.56px;border-radius:13.069px;top:1.56px;width:104.679px}
+.f393{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:104.82px;left:396.38px;opacity:0.8;border-radius:11.806px;top:780.15px;width:87.009px}
+.f394{position:absolute;inset:0;pointer-events:none;border-radius:11.806px}
+.f395{position:absolute;background-color:#202020;inset:0;border-radius:11.806px}
+.f396{position:absolute;inset:0;overflow:hidden;border-radius:11.806px}
+.f397{position:absolute;height:100.05%;left:0;max-width:none;top:0;width:100%}
+.f398{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:101.701px;left:1.56px;border-radius:10.246px;top:1.56px;width:83.89px}
+.f399{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:107.736px;left:1205.64px;opacity:0.8;border-radius:11.978px;top:752.97px;width:89.411px}
+.f400{position:absolute;inset:0;pointer-events:none;border-radius:11.978px}
+.f401{position:absolute;background-color:#202020;inset:0;border-radius:11.978px}
+.f402{position:absolute;inset:0;overflow:hidden;border-radius:11.978px}
+.f403{position:absolute;height:100.03%;left:0;max-width:none;top:0;width:100%}
+.f404{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:104.617px;left:1.56px;border-radius:10.418px;top:1.56px;width:86.292px}
+.f405{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:67.296px;left:764.73px;opacity:0.4;border-radius:7.58px;top:814.48px;width:55.849px}
+.f406{position:absolute;inset:0;pointer-events:none;border-radius:7.58px}
+.f407{position:absolute;background-color:#202020;inset:0;border-radius:7.58px}
+.f408{position:absolute;inset:0;overflow:hidden;border-radius:7.58px}
+.f409{position:absolute;height:100.02%;left:0;max-width:none;top:0;width:100%}
+.f410{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:64.177px;left:1.56px;border-radius:6.02px;top:1.56px;width:52.73px}
+.f411{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:149.829px;left:1395.02px;opacity:0.95;border-radius:16.563px;top:811.48px;width:124.346px}
+.f412{position:absolute;inset:0;pointer-events:none;border-radius:16.563px}
+.f413{position:absolute;background-color:#202020;inset:0;border-radius:16.563px}
+.f414{position:absolute;inset:0;overflow:hidden;border-radius:16.563px}
+.f415{position:absolute;height:100.03%;left:0;max-width:none;top:0;width:100%}
+.f416{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:146.71px;left:1.56px;border-radius:15.003px;top:1.56px;width:121.227px}
+.f417{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:93.871px;left:974.82px;opacity:0.6;border-radius:10.574px;top:864.9px;width:77.917px}
+.f418{position:absolute;inset:0;pointer-events:none;border-radius:10.574px}
+.f419{position:absolute;background-color:#202020;inset:0;border-radius:10.574px}
+.f420{position:absolute;inset:0;overflow:hidden;border-radius:10.574px}
+.f421{position:absolute;height:100.04%;left:0;max-width:none;top:0;width:100%}
+.f422{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:90.752px;left:1.56px;border-radius:9.014px;top:1.56px;width:74.798px}
+.f423{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:101.732px;left:611.48px;opacity:0.6;border-radius:11.463px;top:914.53px;width:84.436px}
+.f424{position:absolute;inset:0;pointer-events:none;border-radius:11.463px}
+.f425{position:absolute;background-color:#202020;inset:0;border-radius:11.463px}
+.f426{position:absolute;inset:0;overflow:hidden;border-radius:11.463px}
+.f427{position:absolute;height:100.04%;left:0;max-width:none;top:0;width:100%}
+.f428{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:98.613px;left:1.56px;border-radius:9.903px;top:1.56px;width:81.317px}
+.f429{position:absolute;filter:drop-shadow(0px 1.56px 1.56px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.08)) drop-shadow(0px 9.358px 14.036px rgba(38) drop-shadow(37) drop-shadow(35) drop-shadow(0.07));height:147.1px;left:94.64px;border-radius:16.563px;top:975.65px;width:122.084px}
+.f430{position:absolute;inset:0;pointer-events:none;border-radius:16.563px}
+.f431{position:absolute;background-color:#202020;inset:0;border-radius:16.563px}
+.f432{position:absolute;inset:0;overflow:hidden;border-radius:16.563px}
+.f433{position:absolute;height:100.03%;left:0;max-width:none;top:0;width:100%}
+.f434{position:absolute;border-width:1.56px;border-color:rgba(38,37,35,0.05);border-style:solid;height:143.981px;left:1.56px;border-radius:15.003px;top:1.56px;width:118.965px}
+.f435{position:absolute;display:contents;inset:75.26% 12.5% 17.56% 12.5%}
+.f436{position:absolute;display:contents;inset:75.26% 12.5% 17.56% 12.5%}
+.f437{position:absolute;inset:75.26% 12.5% 17.58% 12.5%}
+.f438{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f439{position:absolute;display:contents;inset:76.06% 32.84% 17.56% 32.89%}
+.f440{position:absolute;display:contents;inset:76.8% 32.84% 17.56% 32.89%}
+.f441{position:absolute;display:contents;inset:78.42% 32.84% 17.56% 32.89%}
+.f442{position:absolute;display:contents;inset:78.42% 32.84% 17.56% 32.89%}
+.f443{position:absolute;display:contents;inset:78.42% 32.84% 17.56% 32.89%}
+.f444{position:absolute;display:contents;inset:78.42% 32.84% 17.56% 32.89%}
+.f445{position:absolute;display:contents;inset:78.42% 32.84% 17.56% 32.89%}
+.f446{position:absolute;inset:78.42% 32.84% 17.56% 32.89%;mask-position:0px 0px, 0px 0px;mask-size:658px 495px, 658px 495px}
+.f447{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.f448{position:absolute;left:0;max-width:none;width:100%;height:100%;top:0}
+.f449{position:absolute;display:contents;inset:76.8% 49.98% 22.49% 49.97%}
+.f450{position:absolute;display:contents;inset:76.8% 49.98% 22.49% 49.97%}
+.f451{position:absolute;display:contents;inset:76.8% 49.98% 22.49% 49.97%}
+.f452{position:absolute;display:contents;inset:76.8% 49.98% 22.49% 49.97%}
+.f453{position:absolute;inset:76.8% 49.98% 22.49% 49.97%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:1px 88px}
+.f454{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f455{position:absolute;display:contents;inset:77.71% 46.17% 22.1% 46.17%}
+.f456{position:absolute;display:contents;inset:77.71% 46.17% 22.1% 46.17%}
+.f457{position:absolute;display:contents;inset:77.71% 46.17% 22.1% 46.17%}
+.f458{position:absolute;display:contents;inset:77.71% 46.17% 22.1% 46.17%}
+.f459{position:absolute;inset:77.71% 46.17% 22.1% 46.17%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:147px 24px}
+.f460{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f461{position:absolute;display:contents;inset:78.1% 49.98% 21.19% 49.97%}
+.f462{position:absolute;display:contents;inset:78.1% 49.98% 21.19% 49.97%}
+.f463{position:absolute;display:contents;inset:78.1% 49.98% 21.19% 49.97%}
+.f464{position:absolute;display:contents;inset:78.1% 49.98% 21.19% 49.97%}
+.f465{position:absolute;inset:78.1% 49.98% 21.19% 49.97%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:1px 88px}
+.f466{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f467{position:absolute;display:contents;inset:78.87% 46.23% 20.81% 46.17%}
+.f468{position:absolute;display:contents;inset:78.87% 46.23% 20.81% 46.17%}
+.f469{position:absolute;display:contents;inset:78.87% 46.23% 20.81% 46.17%}
+.f470{position:absolute;display:contents;inset:78.87% 46.23% 20.81% 46.17%}
+.f471{position:absolute;display:contents;inset:78.87% 46.2% 20.81% 46.14%}
+.f472{position:absolute;inset:78.87% 46.2% 20.81% 46.14%;mask-position:0.5px 0px, 0.5px 0px;mask-size:146px 40px, 146px 40px}
+.f473{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f474{position:absolute;display:contents;inset:79.39% 49.98% 19.9% 49.97%}
+.f475{position:absolute;display:contents;inset:79.39% 49.98% 19.9% 49.97%}
+.f476{position:absolute;display:contents;inset:79.39% 49.98% 19.9% 49.97%}
+.f477{position:absolute;display:contents;inset:79.39% 49.98% 19.9% 49.97%}
+.f478{position:absolute;inset:79.39% 49.98% 19.9% 49.97%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:1px 88px}
+.f479{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.f480{position:absolute;display:contents;inset:80.3% 46.33% 19.38% 46.33%}
+.f481{position:absolute;display:contents;inset:80.3% 46.33% 19.38% 46.33%}
+.f482{position:absolute;display:contents;inset:80.3% 46.33% 19.38% 46.33%}
+.f483{position:absolute;display:contents;inset:80.3% 46.33% 19.38% 46.33%}
+.f484{position:absolute;inset:80.3% 46.33% 19.38% 46.33%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:141px 40px;overflow:clip}
+.f485{position:absolute;display:contents;inset:0}
+.f486{position:absolute;inset:1.43% 0.4%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-position:-0.57px -0.571px;mask-size:141px 40px}
+.f487{position:absolute;inset:-0.67% -0.18%}
+.f488{display:block;max-width:none;width:100%;height:100%}
+.f489{word-break:break-word;position:absolute;display:contents;font-family:Inter, sans-serif;font-weight:400;font-weight:400;inset:76.06% 38.8% 23.55% 39.65%;line-height:normal;font-style:normal;font-size:40px;white-space:nowrap}
+.f490{position:absolute;inset:76.06% 53.47% 23.55% 39.65%;color:#8f8f92}
+.f491{position:absolute;inset:76.06% 43.52% 23.55% 46.53%;color:#fff}
+.f492{position:absolute;inset:76.06% 38.8% 23.55% 56.98%;color:#8f8f92}

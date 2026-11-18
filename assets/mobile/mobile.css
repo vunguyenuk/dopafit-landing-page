@@ -1,0 +1,120 @@
+/* Dopafit mobile layout (≤600px), built by assets/mobile/mobile.js. Desktop rules are untouched:
+   everything here is scoped to html.is-mobile. Colours/type follow the desktop page and dev-dopafit-app tokens. */
+.is-mobile{--m-pad:20px;--m-lime:#b8f24a;--m-mute:#a4a998;--m-line:rgba(228,238,210,.12);--m-ease:cubic-bezier(.16,.84,.24,1)}
+.is-mobile.m-ready #design-canvas,.is-mobile .tracking-fixed-viewport,.is-mobile .orbit-scroll-spacer{display:none!important}
+.is-mobile #landing{padding-bottom:0!important}
+
+/* Hero: the copy and header were sized with --design-scale (≈0.2 here). */
+.is-mobile .skydive-source-copy{width:calc(100vw - 2*var(--m-pad))!important;font-size:22px!important;line-height:30px!important}
+.is-mobile .skydive-header-canvas{zoom:1!important;width:100%!important;height:auto!important;pointer-events:auto}
+.is-mobile.m-ready .skydive-header-canvas>[data-node-id="147:2825"]{display:none}
+.m-header{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:calc(14px + env(safe-area-inset-top,0px)) var(--m-pad) 14px;pointer-events:auto}
+.m-logo{display:block;width:150px}
+.m-cta{display:inline-flex;align-items:center;justify-content:center;height:40px;padding:0 20px;border-radius:999px;background:var(--m-lime);color:#0b1203;font:600 15px/1 "Be Vietnam Pro",system-ui,sans-serif;box-shadow:0 10px 30px -12px rgba(184,242,74,.6);-webkit-tap-highlight-color:transparent}
+.m-cta:active{transform:scale(.97)}
+
+/* Page */
+.m-page{position:relative;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Be Vietnam Pro",system-ui,sans-serif;overflow:clip}
+.m-sec{padding:72px var(--m-pad) 24px;display:flex;flex-direction:column;align-items:center;gap:20px}
+.m-h2{font-size:30px;line-height:36px;font-weight:600;letter-spacing:-.01em;text-align:center;max-width:15ch;text-wrap:balance}
+.m-h2.m-left{text-align:left;align-self:flex-start;max-width:none}
+.m-copy{font-size:16px;line-height:24px;color:#e9ece4;max-width:34ch}
+.m-center{text-align:center}
+.m-muted{color:var(--m-mute)}
+.m-eyebrow{font:500 11px/1.3 "IBM Plex Mono",ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--m-mute);align-self:flex-start}
+.m-clone{position:relative;width:100%;overflow:hidden}
+.m-clone-inner{position:absolute;left:0;top:0;transform-origin:0 0}
+/* dev-dopafit-app .reveal: rise in once, staggered by --d */
+.m-reveal{opacity:0;translate:0 24px;transition:opacity .6s ease calc(var(--d,0)*90ms),translate .7s var(--m-ease) calc(var(--d,0)*90ms)}
+.m-reveal.is-in{opacity:1;translate:0 0}
+
+/* Section 2: fan (desktop geometry in a 1920×1000 frame, shown at 1.7× so the middle cards fill the width) */
+.m-fan{position:relative;width:calc(100vw * 1.7);aspect-ratio:1920/1000;margin:8px 0 -6px;flex:none}
+.m-fan-slot{position:absolute;width:16.667%;aspect-ratio:2/3;translate:-50% -50%}
+.m-fan .fan-card{animation-play-state:paused}
+.m-fan.is-on .fan-card{animation-play-state:running}
+.m-phone-peek{width:min(64vw,260px);height:min(80vw,330px);overflow:hidden;-webkit-mask-image:linear-gradient(180deg,#000 70%,transparent);mask-image:linear-gradient(180deg,#000 70%,transparent)}
+
+/* Section 3: pinned phone, steps below (dev .phone / .screen / .stage-steps) */
+.m-track{padding-bottom:0}
+.m-track-scroll{position:relative;width:100%;height:calc(var(--n)*70svh + 100svh)}
+.m-track-sticky{position:sticky;top:0;height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:16px 0}
+.m-phone{--pw:min(62vw,calc((100svh - 230px)/2.17));width:var(--pw);aspect-ratio:640/1391;padding:calc(var(--pw)*.03);border-radius:calc(var(--pw)*.165);background:linear-gradient(150deg,#34382f 0%,#0c0d0a 32%,#171914 70%,#3a3e34 100%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.1),0 0 0 1px rgba(0,0,0,.9),0 40px 80px -30px rgba(0,0,0,.9),0 30px 100px -40px rgba(184,242,74,.22);flex:none}
+.m-screen{position:relative;width:100%;height:100%;border-radius:calc(var(--pw)*.138);overflow:hidden;background:#000}
+.m-screen img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;transform:scale(1.015);transition:opacity .5s ease,transform .7s var(--m-ease)}
+.m-screen img.is-on{opacity:1;transform:none}
+.m-steps{list-style:none;margin:0;padding:0;width:100%;display:grid;gap:8px}
+.m-steps li{position:relative;display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;font-size:15px;line-height:21px;color:#7d8273;transition:color .3s;padding-top:9px}
+.m-steps li.is-on{color:#fff}
+.m-step-n{font:600 12px/21px "IBM Plex Mono",ui-monospace,monospace}
+.m-bar{position:absolute;left:0;right:0;top:0;height:2px;border-radius:2px;background:rgba(228,238,210,.12);overflow:hidden}
+.m-bar i{position:absolute;inset:0;background:var(--m-lime);transform-origin:0 50%;transform:scaleX(var(--fill,0))}
+.m-steps li:not(.is-on){display:none}
+.m-steps li.is-on{display:grid}
+
+/* Section 4: tools orbit — sticky orbit, panels scroll beneath it */
+.m-orbit-wrap{position:relative;width:100%}
+.m-orbit-sticky{position:sticky;top:0;z-index:2;width:min(58vw,250px);margin:0 auto;padding-top:8px}
+.m-orbit-sticky::after{content:"";position:absolute;left:-30vw;right:-30vw;top:0;bottom:-40px;z-index:-1;background:linear-gradient(180deg,#000 72%,transparent)}
+.m-orbit-panels{position:relative;display:flex;flex-direction:column;gap:12vh;padding:24px 0 0}
+.m-tool{display:flex;flex-direction:column;align-items:center;gap:16px;min-height:70svh;opacity:.18;translate:0 18px;transition:opacity .45s ease,translate .55s cubic-bezier(.22,.61,.36,1)}
+.m-tool.is-active{opacity:1;translate:0 0}
+.m-tool .m-copy{text-align:center}
+.m-tool-ui{position:relative;width:100%;display:flex;flex-direction:column;align-items:center}
+.m-orbit-together{height:70svh}
+.m-ui{position:relative;width:min(88vw,340px);overflow:hidden;border-radius:22px}
+.m-ui .ui-art{position:absolute;left:0}
+.m-ui-phone{border-radius:34px;box-shadow:0 0 0 6px #1b1d18,0 0 0 7px #34382f,0 40px 80px -30px #000}
+.m-ui-rest{width:min(78vw,300px);margin-top:-36px;border-radius:0 0 40px 40px}
+.m-clip{margin:0;width:100%;padding:8px;border-radius:20px;background:rgba(18,21,15,.66);border:1px solid rgba(228,238,210,.17);box-shadow:0 30px 60px -24px rgba(0,0,0,.72)}
+.m-clip video{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:13px;background:#151811}
+.m-clip figcaption{display:flex;justify-content:space-between;gap:8px;padding:10px 6px 2px;font-size:13px;color:var(--m-mute)}
+.m-clip figcaption b{color:#eff1ea;font-weight:600}
+.m-clip figcaption>*{white-space:nowrap}
+/* mobile recovery focus box (dev .focus) */
+.ui-focus{position:absolute;left:12px;width:616px;border-radius:26px;border:2.4px solid #b8f24a;box-shadow:0 0 0 1600px rgba(0,0,0,.42),0 0 38px rgba(184,242,74,.35);transition:top .6s cubic-bezier(.16,.84,.24,1),height .6s cubic-bezier(.16,.84,.24,1)}
+.ui-focus[data-step=stats]{top:176px;height:192px}
+.ui-focus[data-step=body]{top:366px;height:688px}
+
+/* Section 5: horizontal rail of the three Figma cards */
+.m-places{padding-left:0;padding-right:0}
+.m-places .m-h2{padding:0 var(--m-pad)}
+/* Cards stack one per row on phones (user 2026-11-18: no side-scrolling rail). */
+.m-rail{display:flex;flex-direction:column;align-items:center;gap:20px;width:100%;padding:4px var(--m-pad) 24px}
+.m-rail::-webkit-scrollbar{display:none}
+.m-rail-item{flex:none;width:100%;max-width:400px;border-radius:24px;overflow:hidden;position:relative}
+.m-rail-item::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:linear-gradient(125.99025157704725deg,transparent 42%,rgba(255,255,255,.11) 50%,transparent 58%);mix-blend-mode:screen}
+
+/* Sections 6–7 */
+.m-integrations .m-clone{max-width:360px}
+.m-missed .m-clone{max-width:360px}
+
+/* FAQ (details/summary) */
+.m-faq{align-items:stretch}
+.m-faq-list{display:flex;flex-direction:column;border-top:1px solid var(--m-line)}
+.m-faq-item{border-bottom:1px solid var(--m-line)}
+.m-faq-item summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 2px;font-size:16px;line-height:22px;font-weight:600;cursor:pointer}
+.m-faq-item summary::-webkit-details-marker{display:none}
+.m-faq-item summary i{flex:none;width:24px;height:24px;border-radius:50%;background:#fff;position:relative}
+.m-faq-item summary i::before,.m-faq-item summary i::after{content:"";position:absolute;left:7px;right:7px;top:11px;height:2px;background:#000;transition:transform .3s}
+.m-faq-item summary i::after{transform:rotate(90deg)}
+.m-faq-item[open] summary i::after{transform:rotate(0)}
+.m-faq-item p{padding:0 2px 18px;color:var(--m-mute)}
+.m-faq a{color:var(--m-lime)}
+
+/* Footer */
+.m-footer{padding:56px var(--m-pad) 0;display:flex;flex-direction:column;gap:16px;border-top:1px solid var(--m-line);margin-top:48px}
+.m-footer-logo{width:130px}
+.m-footer-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+.m-footer-cols .m-eyebrow{margin-bottom:10px}
+.m-link{font-size:14px;line-height:28px;color:#e9ece4}
+.m-fine{font-size:12px;line-height:18px;color:#7d8273}
+.m-banner{margin:8px calc(-1*var(--m-pad)) 0}
+
+@media (prefers-reduced-motion:reduce){.is-mobile .m-reveal,.is-mobile .m-tool{transition:none;opacity:1;translate:none}}
+.m-phone-s2{--pw:min(64vw,260px)}
+.m-int-title{font-size:24px;line-height:30px;color:var(--m-mute);text-align:center}
+.m-int-title b{color:#fff;font-weight:600}
+/* Stacked place cards: the card face (147:2923/2927/2933) sat 6px right of its glass background in Figma, so the
+   background edge showed at the bottom-left. Align the face with the background box. */
+.m-rail-item .m-clone-inner>[data-node-id="147:2923"],.m-rail-item .m-clone-inner>[data-node-id="147:2927"],.m-rail-item .m-clone-inner>[data-node-id="147:2933"]{left:0!important;width:100%!important}

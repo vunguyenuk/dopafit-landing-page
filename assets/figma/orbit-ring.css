@@ -1,0 +1,41 @@
+/* Orbit ring progress (orbit-ring.js). Lime #b8f24a is the ring/dot colour already used in orbit.css. */
+.orbit-ring.has-ring-svg>[data-node-id="147:2857"],.orbit-ring.has-ring-svg>[data-node-id="147:2858"]{opacity:0}
+.orbit-ring-svg{position:absolute;overflow:visible;pointer-events:none}
+.orbit-ring-svg circle{fill:none}
+.orbit-ring-track{stroke:rgba(184,242,74,.22);stroke-width:2;stroke-dasharray:2 10;stroke-linecap:round;
+  opacity:0;transition:opacity .9s ease}
+.orbit-ring-svg[data-live=true] .orbit-ring-track{opacity:1}
+.orbit-ring-reveal{stroke:#fff;stroke-width:24;stroke-dasharray:0 1;transition:stroke-dasharray 1.1s cubic-bezier(.65,0,.35,1)}
+.orbit-ring-lit{stroke:#b8f24a;stroke-width:3.5;stroke-linecap:round;stroke-dasharray:14 12;
+  filter:drop-shadow(0 0 6px rgba(184,242,74,.85)) drop-shadow(0 0 18px rgba(184,242,74,.45));
+  animation:orbit-ring-run 1.6s linear infinite}
+.orbit-ring-full{stroke:#b8f24a;stroke-width:3.5;opacity:0;transition:opacity .7s ease .5s;
+  filter:drop-shadow(0 0 8px rgba(184,242,74,.75)) drop-shadow(0 0 24px rgba(184,242,74,.35))}
+.orbit-ring-svg[data-full=true] .orbit-ring-full{opacity:1}
+@keyframes orbit-ring-run{to{stroke-dashoffset:-26}}
+@media(prefers-reduced-motion:reduce){.orbit-ring-lit{animation:none}.orbit-ring-reveal,.orbit-ring-track,.orbit-ring-full{transition:none}}
+.orbit-ring-origin{position:absolute;left:0;top:0;width:0;height:0}
+.m-orbit .has-ring-svg>[data-node-id="147:2857"],.m-orbit .has-ring-svg>[data-node-id="147:2858"]{opacity:0}
+.m-orbit .has-ring-svg>.orbit-ring-svg{z-index:0}
+
+/* Orbit captions (user 2026-11-18: "chữ chỗ này khó thấy"): the orbit stage is scaled to fit the screen, so the Figma
+   16px captions ended up ~9px on a laptop. Larger, brighter text in a wider box (design estimate). */
+[data-node-id="147:2910"],[data-node-id="147:2911"],[data-node-id="147:2912"],[data-node-id="147:2913"]{font-size:28px!important;line-height:1.42!important;color:#f2f2f2!important;font-weight:500;text-shadow:0 1px 12px rgba(0,0,0,.85)}
+[data-node-id="147:2910"],[data-node-id="147:2911"]{width:370px!important}
+[data-node-id="147:2912"]{width:330px!important}
+[data-node-id="147:2913"]{width:440px!important}
+[data-node-id="147:2910"] *,[data-node-id="147:2911"] *,[data-node-id="147:2912"] *,[data-node-id="147:2913"] *{font-size:inherit!important;line-height:inherit!important}
+/* Narrower desktop/tablet windows: slightly smaller caption boxes so the side panels (kept on screen) do not cover them. */
+@media (max-width:1199px){
+  [data-node-id="147:2910"],[data-node-id="147:2911"],[data-node-id="147:2912"],[data-node-id="147:2913"]{font-size:24px!important}
+  [data-node-id="147:2910"],[data-node-id="147:2911"]{width:290px!important}
+  [data-node-id="147:2912"]{width:260px!important}
+  [data-node-id="147:2913"]{width:360px!important}
+}
+/* User 2026-11-18: no lime scan line over the centre figure (orbit.css .ui-body-scan); the muscles still light up. */
+.ui-body-scan{display:none!important}
+/* Rest timer ("Nghỉ") keeps its phone bezel and the bezel's original 96px bottom corners (user 2026-11-18). The card
+   sits 20px inside the bezel on the left, right and bottom (was 25 / 4 / 50px), and its bottom corners follow the
+   bezel: 96 − 20 = 76px. Screenshot-pixel units, like orbit.css. */
+.ui-rest-frame{left:27px!important;width:517px!important;height:376px!important}
+.ui-rest-screen .ui-rest,.m-ui-rest .ui-rest{border-radius:34px 34px 76px 76px!important}

@@ -1,0 +1,101 @@
+@import url('fonts.css');
+*{--tx:0;--ty:0;--rot:0deg;box-sizing:border-box;border-width:0;border-style:solid}html{background:#000;scroll-behavior:smooth}body{margin:0;background:#000;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;-webkit-font-smoothing:antialiased}p,h1,h2,h3,h4,figure{margin:0}img{display:block;max-width:100%;height:auto}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer;background:none}button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #b8f24a;outline-offset:6px}#landing{width:100%;overflow:clip}#design-canvas{width:1920px;height:12313px;zoom:var(--design-scale,1);overflow:clip}dialog{border:1px solid #343c2b;border-radius:24px;padding:48px;background:#10120e;color:#fff;max-width:440px;line-height:1.6}dialog::backdrop{background:#000b;backdrop-filter:blur(10px)}dialog h2{font-size:36px;margin-bottom:16px}dialog p{color:#a4a998;margin:12px 0}dialog a{color:#b8f24a}.dialog-close{position:absolute;right:15px;top:8px;font-size:30px}.download-link{cursor:pointer}.download-link:hover{filter:brightness(1.08)}.nav-link{cursor:pointer}.nav-link:hover{color:#b8f24a}.phone-webgl{width:100%;height:100%;position:absolute;inset:0}.phone-webgl canvas{width:100%;height:100%;display:block}.phone-ready>.phone-fallback{visibility:hidden}.phone-fallback{position:absolute;inset:0}.faq-item{cursor:pointer;outline-offset:5px}.faq-item .faq-plus:after{content:'+';color:#000;position:absolute;inset:0;text-align:center;font:22px/28px sans-serif}.faq-item[aria-expanded=true] .faq-plus:after{content:'−'}.faq-answer{font-size:16px;line-height:1.6;color:#a4a998;padding:18px 4px;max-width:670px;position:absolute;top:66px}.faq-item[aria-expanded=true]{background:#0b0e08;z-index:2}.faq-item[aria-expanded=true] .faq-answer{background:#0b0e08;box-shadow:none;padding-bottom:24px}.feature-tab{cursor:pointer;transition:opacity .2s}.feature-tab[aria-selected=false]{opacity:.48}.feature-tab:focus-visible{outline:1px solid #b8f24a}.orbit-ui{will-change:translate,opacity}.body-active{mix-blend-mode:normal}.motion-off *{animation:none!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.orbit-ui{will-change:auto}}
+
+.orbit-pinned{margin-top:var(--pin-shift,0px)}
+
+[data-node-id="147:3029"]{overflow:clip;pointer-events:none}
+/* Revision: live-action photographs, source-style word reveal and independent fan cards. */
+[data-node-id="147:2825"]{z-index:10}
+.exercise-fan{left:0!important;top:0!important;width:1920px!important;height:1100px!important;transform:none!important;rotate:none!important}
+.fan-slot{position:absolute;width:320px;height:480px;transform:translate(-50%,-50%)}
+.fan-card{position:relative;width:100%;height:100%;border-radius:10px;overflow:hidden;transform-origin:50% 50%;box-shadow:0 12px 32px #0003;border:1px solid #ffffff0e;opacity:0;transform:translate(-160px,90px) rotate(-55deg) scale(.5);will-change:transform,opacity}
+/* Verbatim animation timing/transforms from the user's Radial Card Fan snippet. */
+.fan-card.play{animation:fan-reveal .95s cubic-bezier(.2,.8,.2,1) both paused;animation-delay:calc(var(--i)*.13s)}
+@keyframes fan-reveal{
+  0%{opacity:0;transform:translate(-160px,90px) rotate(-55deg) scale(.5)}
+  65%{opacity:1}
+  100%{opacity:1;transform:translate(0,0) rotate(var(--r)) scale(1)}
+}
+.motion-off .fan-card{opacity:1;transform:translate(0,0) rotate(var(--r)) scale(1)}
+.fan-card img{width:100%;height:100%;object-fit:cover;filter:contrast(1.035) brightness(.96)}
+@media(prefers-reduced-motion:reduce){.fan-card{will-change:auto}}
+.exercise-reveal{visibility:hidden}
+[data-node-id="147:2771"]{transform-origin:50% 50%;pointer-events:none}
+.phone-screen-replaced{visibility:hidden}
+.tracking-copy{display:block!important;position:absolute!important;inset:0!important;width:1920px;height:12313px;pointer-events:none}
+.tracking-fixed-viewport{display:none;position:fixed;inset:0;z-index:3;overflow:clip;pointer-events:none}
+.tracking-fixed-frame{position:absolute;left:0;top:0;width:1920px;height:12313px;zoom:var(--design-scale,1)}
+.tracking-label{pointer-events:auto;transition:none!important;outline-offset:8px}
+/* Same .6s/ease-out timing as the supplied dev focus; only item slot changes animate. */
+.tracking-fixed-viewport .tracking-label{transition:translate .24s cubic-bezier(.16,.84,.24,1)!important}
+/* Copied from the supplied Dropset stylesheet: ._3-pointer-line. */
+._3-pointer-line{opacity:.48;color:#fff;mix-blend-mode:difference;background-color:#a8a9b2;width:100%;min-width:100%;height:1px;min-height:1px;max-height:1px}
+/* One full source rule at a stable caption Y; extend only into a matching native UI region. */
+.tracking-rule{display:block;position:absolute;left:0;top:-18px;width:748px;min-width:0;background-color:#fff;mix-blend-mode:normal;box-shadow:none}
+.tracking-rule[data-reason="aligned"]{background-color:#b8f24a;opacity:1;mix-blend-mode:normal;box-shadow:0 0 24px rgba(184,242,74,.35)}
+/* Dev index.html .focus / --ease-out; scaled to the projected native screen.
+   Reuse its green border/shadow; omit the black dimmer to preserve UI readability. */
+.tracking-focus-clip{position:absolute;inset:0;pointer-events:none;z-index:5;--lime:#b8f24a;--ease-out:cubic-bezier(.16,.84,.24,1);opacity:0;transition:opacity .5s ease}
+.tracking-ui-focus{position:absolute;z-index:2;--focus-scale:1;--pad:calc(7px * var(--focus-scale));left:calc(var(--fx,4%) - var(--pad));top:calc(var(--fy,15.8%) - var(--pad));width:calc(var(--fw,92%) + var(--pad) * 2);height:calc(var(--fh,15.1%) + var(--pad) * 2);border-radius:calc(16px * var(--focus-scale));border:calc(1.5px * var(--focus-scale)) solid var(--lime);box-shadow:0 0 calc(24px * var(--focus-scale)) rgba(184,242,74,.35);transition:left .24s var(--ease-out),top .24s var(--ease-out),width .24s var(--ease-out),height .24s var(--ease-out);pointer-events:none}
+
+.dopafit-chande-title{display:block;position:relative;line-height:inherit;letter-spacing:inherit;isolation:isolate}
+.dopafit-chande-title.tfx-glyphs-ready .tfx-w{-webkit-text-fill-color:transparent}
+.dopafit-chande-title.tfx-glyphs-ready .tfx-ln{mix-blend-mode:normal}
+.dopafit-chande-title .tfx-ln>i{height:auto;bottom:0}
+.dopafit-chande-title.tfx-complete .tfx-w{-webkit-text-fill-color:#fff}
+.dopafit-chande-title.tfx-complete .tfx-ln{visibility:hidden}
+.tracking-copy [data-node-id="147:2779"],.tracking-copy [data-node-id="147:2783"],.tracking-copy [data-node-id="147:2787"],.tracking-copy [data-node-id="147:2791"]{visibility:hidden}
+[data-node-id="147:2855"]{visibility:hidden}
+/* Native DOM adapter for the supplied Skydive Xus/Dus hero. */
+#skydive-hero-scene{position:relative;height:300vh;height:300svh;isolation:isolate;background:#000}
+.skydive-hero-viewport{position:sticky;top:0;width:100%;height:100vh;height:100svh;min-height:520px;overflow:hidden;background:#000}
+.skydive-source-mounted #design-canvas{margin-top:-1230px}
+.skydive-header-canvas{position:absolute;top:0;left:0;width:1920px;height:120px;zoom:var(--design-scale,1);z-index:20;pointer-events:none}
+.skydive-header-canvas>[data-node-id="147:2825"]{pointer-events:auto}
+[data-node-id="147:3029"].skydive-source-cards{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;transform:none!important;rotate:none!important;translate:none!important;overflow:visible;pointer-events:none}
+.skydive-source-card{position:absolute!important;top:0!important;left:0!important;width:calc(var(--s,88px)*.83)!important;height:var(--s,88px)!important;border-radius:calc(var(--s,88px)*.113)!important;rotate:none!important;translate:none!important;will-change:transform,opacity;backface-visibility:hidden}
+.skydive-source-card>[data-name="Border"]{display:none}
+.skydive-source-card>div:first-child,.skydive-source-card>div:first-child>div{border-radius:inherit!important}
+.skydive-source-card img{inset:0!important;width:100%!important;height:100%!important;object-fit:cover;object-position:center 40%;filter:saturate(.82) contrast(1.035) brightness(.92)}
+.skydive-source-copy{position:absolute!important;top:50%!important;left:50%!important;right:auto!important;bottom:auto!important;width:min(calc(985px*var(--design-scale,1)),86vw)!important;height:auto!important;font-size:calc(36px*var(--design-scale,1))!important;line-height:calc(46px*var(--design-scale,1))!important;translate:none!important;rotate:none!important;text-align:center;color:white;opacity:0;z-index:5;will-change:opacity,transform;pointer-events:none}
+.skydive-word{display:inline-block;white-space:pre}
+.skydive-word>[data-ch]{opacity:.13;transition:opacity 180ms linear}
+.skydive-word>[data-on="true"]{opacity:1}
+.motion-off #skydive-hero-scene{height:100vh;height:100svh;min-height:520px}
+.motion-off .skydive-word>[data-ch]{opacity:1;transition:none}
+
+/* Keep the negative canvas crop inside its own formatting context. */
+.skydive-source-mounted #landing{display:flow-root}
+
+/* Let section 2 rise underneath the source exit instead of leaving an empty viewport. */
+html:not(.motion-off) #skydive-hero-scene{margin-bottom:-80vh;margin-bottom:-80svh;background:transparent;z-index:2}
+html:not(.motion-off) .skydive-hero-viewport{background:rgb(0 0 0 / var(--hero-cover,1))}
+.skydive-source-mounted #landing{position:relative;z-index:1}
+
+/* Small reversible entrance, no time-based jump or visibility switch. */
+.skydive-source-mounted #landing{will-change:opacity,translate}
+.skydive-source-mounted #landing.hero-handoff-done{will-change:auto}
+
+/* Lenis integration: the supplied dev driver owns wheel interpolation. */
+html.lenis,html.lenis body{height:auto}
+html.lenis,.motion-off{scroll-behavior:auto!important}
+.lenis.lenis-stopped{overflow:hidden}
+
+[data-node-id="147:2771"].phone-interactive,[data-node-id="147:2771"].phone-docked{pointer-events:auto}
+.phone-interactive .phone-webgl{cursor:pointer}
+.phone-interactive .phone-webgl:focus-visible{outline:1px solid #b8f24a;outline-offset:8px}
+
+.recording-fallback-video{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:auto}
+.recording-ready>img{visibility:hidden}
+
+/* Same native touch marker for the non-WebGL screen. */
+.recording-touch{position:absolute;z-index:2;width:36px;aspect-ratio:1;border:2px solid #d3ff84;border-radius:50%;background:radial-gradient(circle,#b8f24a1a,transparent 70%);box-shadow:0 0 9px #b8f24acc,0 0 24px #b8f24a66,inset 0 0 9px #b8f24a80;translate:-50% -50%;pointer-events:none;opacity:0}
+
+/* Mobile: no grey tap flash over the scaled canvas buttons. */
+html{-webkit-tap-highlight-color:transparent}
+/* Tall (portrait) viewports: keep the frozen next section hidden under the pinned feature scene. */
+.tracking-fixed-viewport{background:var(--tracking-mask,none)}
+
+/* The phone studio window reflection, projected onto each existing card face. */
+.places-mirror{position:absolute;inset:0;width:100%;height:100%;z-index:4;pointer-events:none;mix-blend-mode:screen;border-radius:inherit}
