@@ -55,3 +55,6 @@
 [data-node-id="147:2895"]{top:auto;bottom:12px;height:34px;left:24px;right:24px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:19.878px}
 [data-node-id="147:2896"],[data-node-id="147:2897"]{position:static;inset:auto;width:auto;white-space:nowrap;display:block}
 [data-node-id="147:2895"] p{line-height:1.35}
+/* The white diagonal reflection in the place cards (Figma gradient on 147:2919/2920/2921) moves with the scroll like
+   the glass light above it (sections-scene.js sets --glass-x as the cards pass through the viewport). */
+[data-node-id="147:2919"],[data-node-id="147:2920"],[data-node-id="147:2921"]{background-size:170% 100%!important;background-repeat:no-repeat!important;background-position:var(--glass-x,50%) 0!important}

@@ -61,7 +61,7 @@
     // User choice 2026-11-18: the bar stays at the top, but slides away while a section heading is underneath it
     // (e.g. the pinned orbit heading; on mobile also the sticky orbit figure), so it never covers a title.
     const headIds=[2750,2851,2852,2853,2854,3198];
-    const titles=()=>window.DopafitMobile?[...document.querySelectorAll('.m-h2,.m-int-title,.m-orbit-sticky')]:[...headIds.map(q),document.querySelector('.faq-pl-left h2')].filter(Boolean);
+    const titles=()=>window.DopafitMobile?[...document.querySelectorAll('.m-h2,.m-int-title,.m-orbit-sticky,.m-track-sticky')]:[...headIds.map(q),document.querySelector('.faq-pl-left h2')].filter(Boolean);
     let list=null,limit=120;
     const update=()=>{
       const bar=window.DopafitMobile?host.querySelector('.m-header'):q(2825);if(!bar)return;

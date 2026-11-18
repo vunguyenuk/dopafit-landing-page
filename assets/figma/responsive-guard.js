@@ -4,6 +4,11 @@
    the width on `dopafit:typography`. Wide screens are left exactly as they are. */
 (() => {
   'use strict';
+  // The page builds either the desktop canvas or the one-column phone page at load (mobile.js, ≤600px). Resizing
+  // across that line (rotating a tablet, browser dev tools device mode) left the wrong build running without its
+  // scroll animations, so reload once the layout has to switch.
+  const phoneQuery=matchMedia('(max-width: 600px)');
+  phoneQuery.addEventListener?.('change',e=>{if(e.matches!==!!window.DopafitMobile)location.reload();});
   if(window.DopafitMobile)return;
   const q=id=>document.querySelector(`[data-node-id="147:${id}"]`);
   const GAP=32;

@@ -91,8 +91,22 @@
       card.append(img);slot.append(card);fan.append(slot);
     });
     s2.append(fan,reveal(h('p','m-copy m-center',text(2763))));
+    // After the fan has opened, the cards keep sliding along the arc like the desktop fan (landing.js turnFan:
+    // 360° per 50 s, cards wrap around the arc and fade at its ends), only while the fan is on screen.
+    {
+      const slots=[...fan.children],arc=(angles[1]-angles[0])*slots.length,edge=arc/2,fadeStart=angles.at(-1),perMs=360/50000;
+      let rot=0,last=null,raf=0,opened=false,inView=false;
+      const place=()=>slots.forEach((slot,i)=>{const ang=((angles[i]+rot+edge)%arc+arc)%arc-edge,r=ang*Math.PI/180;
+        slot.style.left=`${(960+Math.sin(r)*1260)/1920*100}%`;slot.style.top=`${(1550-Math.cos(r)*1260)/1000*100}%`;
+        slot.style.opacity=String(Math.max(0,Math.min(1,(edge-Math.abs(ang))/(edge-fadeStart))));
+        slot.firstChild.style.setProperty('--r',`${ang}deg`);});
+      const turn=t=>{rot=(rot+(t-(last??t))*perMs)%arc;last=t;place();raf=inView&&opened?requestAnimationFrame(turn):0;};
+      const go=()=>{if(opened&&inView&&!raf&&!reduced){last=null;raf=requestAnimationFrame(turn);}};
+      slots.at(-1).firstChild.addEventListener('animationend',()=>{opened=true;go();});
+      new IntersectionObserver(([e])=>{inView=e.isIntersecting;go();}).observe(fan);
+    }
     // Desktop renders the 3D phone with this workout screen; mobile shows it in the dev-dopafit-app phone frame.
-    const phoneBox=reveal(h('div','m-phone-peek','<div class="m-phone m-phone-s2"><div class="m-screen"><img class="is-on" src="assets/phone/workout-screen.webp" alt="Màn hình buổi tập Dopafit" loading="lazy"></div></div>'));s2.append(phoneBox);
+    const phoneBox=(h('div','m-phone-peek','<div class="m-phone m-phone-s2"><div class="m-screen"><img class="is-on" src="assets/phone/workout-screen.webp" alt="Màn hình buổi tập Dopafit" loading="lazy"></div></div>'));s2.append(phoneBox);
     page.append(s2);
 
     /* ---------- Section 3: Theo dõi nghiêm túc (5 features, pinned phone) ---------- */
@@ -105,9 +119,12 @@
     const phone=h('div','m-phone'),screen=h('div','m-screen');
     screens.forEach((s,i)=>{const img=h('img');img.src=`assets/app-captures-2026-11-16/${s}.webp`;img.alt=clean(q(featureIDs[i]).textContent);img.loading='lazy';if(!i)img.classList.add('is-on');screen.append(img);});
     phone.append(screen);
+    // Easier to follow on a phone (user 2026-11-18): a row of 5 progress bars on top (all steps visible at once),
+    // the current step's text under it, then the phone showing that step.
+    const bars=h('div','m-step-bars');featureIDs.forEach(()=>bars.append(h('span','m-bar','<i></i>')));
     const steps=h('ol','m-steps');
-    featureIDs.forEach((id,i)=>{const li=h('li','',`<span class="m-bar"><i></i></span><span class="m-step-n">${i+1}</span><span>${clean(q(id).textContent)}</span>`);if(!i)li.classList.add('is-on');steps.append(li);});
-    sticky.append(phone,steps);trackScroll.append(sticky);s3.append(trackScroll);
+    featureIDs.forEach((id,i)=>{const li=h('li','',`<span class="m-step-n">${i+1}/${featureIDs.length}</span><span>${clean(q(id).textContent)}</span>`);if(!i)li.classList.add('is-on');steps.append(li);});
+    sticky.append(bars,steps,phone);trackScroll.append(sticky);s3.append(trackScroll);
     page.append(s3);
 
     /* ---------- Section 4: Làm thế nào để tập nghiêm túc? (Skydive tools orbit, mobile) ---------- */
@@ -120,7 +137,12 @@
     const ringBox=visual(q(2857),canvas),ringRight=visual(q(2858),canvas);
     const or={x:ringBox.x-70,y:visual(q(2764),canvas).y-10,w:ringBox.w+ringRight.w+140,h:0};or.h=ringBox.y+ringBox.h+60-or.y;
     const orbitClone=compose(orbitNodes,or);
-    const orbitSticky=h('div','m-orbit-sticky');orbitSticky.append(orbitClone);
+    // Skydive "Real work happens in real tools" mobile layout: ONE pinned full-height stage (sticky, h-screen) holding the
+    // figure and only the active tool panel under it, scaled to fit, so short phones see the whole panel
+    // (source: skydive-com …/assets/main-goXeaETJ.js, the tools-orbit section: sticky top-0 h-screen, orbit scaled
+    // 0.7 from the top, the active tool card absolutely under the orbit). Claude 2026-11-18.
+    const orbitSticky=h('div','m-orbit-sticky');const orbitFig=h('div','m-orbit-fig');orbitFig.append(orbitClone);orbitSticky.append(orbitFig);
+    const FIG_AR=or.w/or.h;
     const cq=id=>orbitClone.querySelector(`[data-node-id="147:${id}"]`);
     for(let id=2859;id<=2870;id++)cq(id)?.remove();
     const cBody=cq(2764),cActive=cq(2768);cActive?.classList.add('orbit-body-active');
@@ -148,14 +170,30 @@
       fig.append(v,h('figcaption','','<b>Video hướng dẫn</b><span>Tự động phát lại</span>'));stage.append(fig);
     },[on=>{const v=panels.querySelector('.m-clip video');if(on&&!reduced)v.play().catch(()=>{});else v.pause();}]);
     let rec,setU,restU,goalU;
-    panel(2910,stage=>{rec=uiBox('recovery',{cropHeight:1060,focus:true});rec.box.classList.add('m-ui-phone');stage.append(rec.box);},[]);
+    panel(2910,stage=>{rec=uiBox('recovery',{cropHeight:1240,focus:true});rec.box.classList.add('m-ui-phone');stage.append(rec.box);},[]);
     tools[1].motions.push(UI.motion.recovery(rec.art));
-    panel(2911,stage=>{setU=uiBox('set',{cropTop:821,cropHeight:747});restU=uiBox('rest');stage.append(setU.box,restU.box);},[]);
+    panel(2911,stage=>{setU=uiBox('set',{cropTop:741,cropHeight:827});restU=uiBox('rest');stage.append(setU.box,restU.box);},[]);
     tools[2].motions.push(UI.motion.set(setU.art),UI.motion.rest(restU.art));
-    panel(2912,stage=>{goalU=uiBox('goal',{cropTop:375,cropHeight:978});stage.append(goalU.box);},[]);
+    panel(2912,stage=>{goalU=uiBox('goal',{cropTop:345,cropHeight:1008});stage.append(goalU.box);},[]);
     const goalPlay=UI.motion.goal(goalU.art);goalPlay(false);tools[3].motions.push(goalPlay);
-    const together=h('div','m-orbit-together');
-    orbitWrap.append(orbitSticky,panels,together);s4.append(orbitWrap);
+    orbitSticky.append(panels);orbitWrap.append(orbitSticky);s4.append(orbitWrap);
+    // Scroll budget: a short lead-in, one slot per tool, then the "together" state (estimates, in viewport heights).
+    const ORBIT_LEAD=.35,ORBIT_SLOT=.8,ORBIT_MULTI=.9;
+    orbitWrap.style.height=`calc(100svh + ${((ORBIT_LEAD+ORBIT_SLOT*tools.length+ORBIT_MULTI)*100).toFixed(0)}svh)`;
+    // Fit: figure takes at most ~36% of the stage height; each panel is scaled down (never up) to the room left.
+    function fitOrbit(){
+      const vh=orbitSticky.clientHeight||innerHeight,vw=innerWidth;
+      // In the "together" state no panel shows, so the figure grows into the free room.
+      const together=orbitSticky.classList.contains('is-together');
+      const figW=together?Math.min(vw*.86,380,vh*.72*FIG_AR):Math.min(vw*.58,250,vh*.36*FIG_AR);orbitFig.style.width=`${figW}px`;
+      if(together)return;
+      const room=panels.clientHeight;
+      // The caption keeps its reading size; only the app UI under it is scaled to the room that is left.
+      tools.forEach(x=>{const ui=x.el.querySelector('.m-tool-ui'),copy=x.el.querySelector('.m-copy');if(!ui)return;
+        ui.style.scale='';const nat=ui.offsetHeight,left=room-(copy?copy.offsetHeight:0)-22;
+        ui.style.scale=String(nat>left&&left>0?Math.max(.4,left/nat):1);});
+    }
+    new ResizeObserver(fitOrbit).observe(orbitSticky);tools.forEach(x=>new ResizeObserver(fitOrbit).observe(x.el));
     page.append(s4);
 
     /* ---------- Section 5: Tập ở đâu, làm gì cũng được ---------- */
@@ -221,20 +259,23 @@
     if(reduced)fan.classList.add('is-on');
 
     // Scroll-driven parts read layout once per frame.
-    const imgs=[...screen.querySelectorAll('img')],stepEls=[...steps.children];
+    const imgs=[...screen.querySelectorAll('img')],stepEls=[...steps.children],barEls=[...bars.children];
     let active=-1,tool=-2,frame=0;
     function onScroll(){frame=0;
       const vh=innerHeight;
       // Section 3: progress through the pinned block picks the feature (dev .stage-steps bars fill per step).
       const tr=trackScroll.getBoundingClientRect(),span=tr.height-vh,p=span>0?Math.min(1,Math.max(0,-tr.top/span)):0;
       const pos=p*featureIDs.length,idx=Math.min(featureIDs.length-1,Math.floor(pos));
-      stepEls.forEach((li,i)=>li.style.setProperty('--fill',String(Math.min(1,Math.max(0,pos-i)))));
+      barEls.forEach((b,i)=>b.style.setProperty('--fill',String(Math.min(1,Math.max(0,pos-i)))));
       if(idx!==active){active=idx;imgs.forEach((im,i)=>im.classList.toggle('is-on',i===idx));stepEls.forEach((li,i)=>li.classList.toggle('is-on',i===idx));}
-      // Section 4: the tool whose panel crosses the reading line is active; after the last one, the together state.
-      const line=vh*.62;let t=-1;
-      tools.forEach((x,i)=>{const r=x.el.getBoundingClientRect();if(r.top<line)t=i;});
-      const tg=together.getBoundingClientRect();
-      const multi=tg.top<vh*.7;
+      // Section 2: the phone rises out of the fade as its block scrolls up (desktop: the 3D phone pushes up).
+      {const r=phoneBox.getBoundingClientRect(),pr=Math.max(0,Math.min(1,(vh-r.top)/(r.height+vh*.25)));
+        phoneBox.style.setProperty('--rise',pr.toFixed(3));}
+      // Section 4: progress through the pinned stage picks the tool; after the last one, the together state.
+      const orr=orbitWrap.getBoundingClientRect(),ospan=orr.height-vh,op=ospan>0?Math.max(0,-orr.top)/vh:0;
+      const tPos=(op-ORBIT_LEAD)/ORBIT_SLOT;
+      const multi=ospan>0&&tPos>=tools.length;
+      const t=tPos<0?-1:Math.min(tools.length-1,Math.floor(tPos));
       const state=multi?4:t;
       if(state!==tool){
         tool=state;
@@ -242,6 +283,7 @@
           d.style.setProperty('--dotscale',String(revealed?(multi?1.35:isActive?1.17:1):.2));d.style.opacity=String(revealed?(isActive||multi?1:.35):0);d.dataset.lifted=String(isActive);});
         tools.forEach((x,i)=>{const on=!multi&&i===t;x.el.classList.toggle('is-active',on);x.motions.forEach(m=>m(on));});
         if(cActive)cActive.dataset.on=String(multi);
+        orbitSticky.classList.toggle('is-together',multi);fitOrbit();
       }
     }
     // Ring appears as the orbit pins.
@@ -250,7 +292,7 @@
     const req=()=>{if(!frame)frame=requestAnimationFrame(onScroll);};
     addEventListener('scroll',req,{passive:true});addEventListener('resize',req,{passive:true});
     window.DopafitScroll?.lenis?.on('scroll',req);
-    onScroll();
+    fitOrbit();onScroll();
   }
   window.DopafitMobileLanding={mount};
 })();

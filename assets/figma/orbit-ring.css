@@ -39,3 +39,29 @@
    bezel: 96 − 20 = 76px. Screenshot-pixel units, like orbit.css. */
 .ui-rest-frame{left:27px!important;width:517px!important;height:376px!important}
 .ui-rest-screen .ui-rest,.m-ui-rest .ui-rest{border-radius:34px 34px 76px 76px!important}
+/* Weekly goal UI framed like the other app UIs (user 2026-11-18): rounded phone screen with the same dark bezel
+   ring as the set log (orbit.css .ui-set: #232323 + #0b0b0b rings), on the visible (cropped) screen box. */
+[data-node-id="147:2916"]{border-radius:40px;box-shadow:0 0 0 4px #232323,0 0 0 6px #0b0b0b}
+.m-ui-goal{border-radius:30px!important;box-shadow:0 0 0 6px #1b1d18,0 0 0 7px #34382f,0 40px 80px -30px #000}
+.m-ui-goal .ui-goal{box-shadow:none;border-radius:0}
+/* Weekly goal card: more room above the title (user 2026-11-18 "thiếu padding top"): the visible window grows 22px
+   upward on desktop (147:2916 clip box, 147:2917 screen inside it); the phone crop starts 30 screenshot px higher. */
+[data-node-id="147:2916"]{top:7150px!important;height:561.358px!important}
+[data-node-id="147:2917"]{top:-9px!important}
+/* Set log ("Cuốn tay với thanh EZ"), user 2026-11-18: keep the original rounded bottom bezel (orbit.css .ui-set),
+   and make the top a cut that fades out like the rest timer's top edge. The panel box grows 70px upward (for the fade)
+   and 16px at the sides/bottom (so the bezel ring is no longer clipped); the window (147:2914 > child) stays where it
+   was, and only the empty area above the title falls in the fade, so the title is shown in full. */
+[data-node-id="147:2914"]{top:6404px!important;left:235px!important;width:387px!important;height:447px!important;
+  -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 66px);mask-image:linear-gradient(180deg,transparent 0,#000 66px)}
+[data-node-id="147:2914"] .ui-screen{overflow:visible}
+[data-node-id="147:2914"]>.f251{inset:70px 16px 16px 16px;overflow:visible;clip-path:inset(-70px -16px -16px -16px)}
+.m-ui-set{border-radius:0 0 30px 30px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 40px);mask-image:linear-gradient(180deg,transparent 0,#000 40px)}
+.m-ui-set .ui-set{box-shadow:none;border-radius:0}
+.m-ui-set::after{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;border:6px solid #1b1d18;border-top:0;border-radius:0 0 30px 30px;box-shadow:inset 0 -1px 0 0 #34382f}
+/* Recovery phone (body map) is cropped at the bottom; fade it out there instead of a hard cut, like the rest timer's
+   top edge (user 2026-11-18). The fade sits below the colour legend ("Cần nghỉ ngơi… / Trong buổi tập hôm nay"), so
+   the text stays fully visible: the window is taller (desktop 669 → 780px; phone crop 1060 → 1240 screenshot px). */
+[data-node-id="147:2899"]{height:780px!important}
+[data-node-id="147:2899"]{-webkit-mask-image:linear-gradient(180deg,#000 85%,transparent 100%);mask-image:linear-gradient(180deg,#000 85%,transparent 100%)}
+.m-ui-recovery{-webkit-mask-image:linear-gradient(180deg,#000 88%,transparent 100%);mask-image:linear-gradient(180deg,#000 88%,transparent 100%)}
