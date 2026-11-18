@@ -7,10 +7,44 @@ reference layout, floating, outward scatter, easing and character lighting are r
 const uus=90;function PM(t,e){return Math.min(t,e)<560||t<640}function _Et(t,e){return t<1280||PM(t,e)?14:16}const dus=1.045,fus=.83;function pus(t){return t>=1280?64:t>=600?24:16}function wEt(t,e){return Math.max(44,Math.min(e?66:82,t*.27))}function hus(t){const e=pus(t),n=s=>(t/2-e-wEt(s,!0)*fus/2)/dus;return n(n(t/2))}function kxe(t,e){const n=PM(t,e),s=Math.max(e/2-uus-30,150);return Math.min(n?hus(t):Math.min(t,e)*.345,s)}function zGe(t,e){return wEt(kxe(t,e),PM(t,e))}function mus({index:t,count:e,seconds:n,radius:s}){const r=n*.085,i=1+.035*Math.sin(n*1.35),a=.01*Math.sin(n*.45);return{angle:t/e*Math.PI*2-Math.PI/2+r,radius:s*(i+a)}}const gus=[{nx:.0717,ny:.1257,ns:.1426,opacity:1},{nx:.8211,ny:.167,ns:.1296,opacity:.95},{nx:.6424,ny:.2278,ns:.0942,opacity:.8},{nx:.3283,ny:.2346,ns:.0824,opacity:.8},{nx:.484,ny:.2828,ns:.0589,opacity:.4},{nx:.9347,ny:.4411,ns:.1296,opacity:1},{nx:.1235,ny:.4997,ns:.1154,opacity:.8},{nx:.2215,ny:.7133,ns:.0933,opacity:.8},{nx:.7097,ny:.6811,ns:.0942,opacity:.8},{nx:.434,ny:.725,ns:.0589,opacity:.4},{nx:.8343,ny:.7614,ns:.1296,opacity:.95},{nx:.5672,ny:.7779,ns:.0824,opacity:.6},{nx:.3503,ny:.827,ns:.0896,opacity:.6},{nx:.0503,ny:.8981,ns:.1296,opacity:1},{nx:.6815,ny:.9414,ns:.1296,opacity:1},{nx:.3017,ny:.6741,ns:.0589,opacity:.4}],xus=56,bus=[{nx:.1103,ny:.1256,ns:.0829,opacity:1},{nx:.85,ny:.1552,ns:.0758,opacity:.95},{nx:.6423,ny:.2186,ns:.0557,opacity:.8},{nx:.3282,ny:.2352,ns:.0486,opacity:.8},{nx:1.02,ny:.4194,ns:.0758,opacity:1},{nx:-.02,ny:.5006,ns:.0675,opacity:.8},{nx:.2205,ny:.7239,ns:.0545,opacity:.8},{nx:.9372,ny:.7506,ns:.0841,opacity:.95},{nx:.35,ny:.8299,ns:.0533,opacity:.6},{nx:.641,ny:.817,ns:.0509,opacity:.6},{nx:.0654,ny:.8749,ns:.0818,opacity:1},{nx:.8051,ny:.9188,ns:.0794,opacity:1},{nx:.4833,ny:.2938,ns:.0355,opacity:.3},{nx:.8731,ny:.282,ns:.0427,opacity:.4},{nx:.6038,ny:.7103,ns:.0344,opacity:.4},{nx:.4372,ny:.731,ns:.0355,opacity:.4}];function yus(t){const e=Math.sin(t*127.1+311.7)*43758.5453;return e-Math.floor(e)}function vus({width:t,height:e,count:n}){const s=PM(t,e),r=s?bus:gus,i=s?e:Math.min(e,t/1.6),a=s?xus:100;return Array.from({length:n},(l,c)=>{const u=r[c%r.length];if(!u)throw new Error("REF_LAYOUT is empty");const d=yus(c+100),f=Math.round(u.ns*i);return{x:u.nx*t,y:Math.max(a+f/2,u.ny*e),size:f,opacity:u.opacity,start:.03+.3*d,bob:d*Math.PI*2}})}function T2(t){return Math.min(1,Math.max(0,t))}function $I(t){return t*t*(3-2*t)}function _us(t){return t*t*t*(t*(t*6-15)+10)}function wus(t){return 1+(1.1+1)*Math.pow(t-1,3)+1.1*Math.pow(t-1,2)}
 const Eoe={wide:{meltEnd:.4,enterAt:.26,enterSpan:.12,writeAt:.26,writeSpan:.26,exitAt:.56,exitSpan:.1},narrow:{meltEnd:.28,enterAt:.26,enterSpan:.08,writeAt:.29,writeSpan:.26,exitAt:.57,exitSpan:.09}},Aus=.72,qGe={x:190,y:175},Ius=44,Tus=950,Rus=1650,$us=300,Ous=1150,Pus=620,HGe="cubic-bezier(0.22, 1, 0.36, 1)",VGe=640,Mus=.2,Lus=88;
 
-function sourceCardFrame({width:qe,height:We,index:bt,count:m,seconds:Ze,phase:lt,visibility:Ve,target:Ct}){
-const Xe=qe/2,Qe=We/2,rt=kxe(qe,We),et=zGe(qe,We),ht=PM(qe,We)?Eoe.narrow:Eoe.wide,Mt=mus({index:bt,count:m,seconds:Ze,radius:rt}),Lt=Xe+Math.cos(Mt.angle)*Mt.radius,Rt=Qe+Math.sin(Mt.angle)*Mt.radius;
-const _t=Math.min(1,lt/ht.meltEnd),at=Ct.start*.35,dn=$I(T2((_t-at)/(1-at))),yn=_us(T2((lt-.42)/.3)),Bt=.92+.08*yn,$t=(1+2.6*yn*yn)*Bt,En=Xe+(Ct.x-Xe)*$t,Gn=Qe+(Ct.y-Qe)*$t,Zn=Lt+(En-Lt)*dn,Dn=Rt+(Gn-Rt)*dn+Math.sin(Ze*.6+Ct.bob)*4*dn*(1-yn),Kn=Ct.size*(1+yn*1.2);let Sn=1+(Ct.opacity-1)*dn;if(Ve>0&&ht===Eoe.narrow){const Yn=T2(1-Math.hypot((Zn-Xe)/qGe.x,(Dn-Qe)/qGe.y));Sn=Sn*(1-Aus*Yn*Ve)}
-return {x:Zn,y:Dn,size:Math.max(18,et+(Kn-et)*dn),opacity:Sn};
+/* Card motion modelled on the user's Framer "CMS Spatial Gallery" capture (cmsspatialgallery-framer-website-…,
+   shared-lib: layout "Field", its default settings): the frames sit on a 3D sphere shell (golden-angle points) that
+   keeps spinning (5°/s, plus a little spin with scroll like its "Scroll Spin"), projected with its lens 2.2
+   perspective; back frames fade (fog .45) and sit behind; each frame turns a little with its side of the sphere
+   (card turn 12°); a 6px float; frames arrive in a spiral from the centre on load (Spiral entrance, 1.6s, wave 1.1s).
+   Dopafit additions (user 2026-11-18): before the text there is no room needed, so the sphere stays small and bunched;
+   as the text comes in, the sphere grows and every frame whose projected spot would fall on the text box (grown by
+   its own half size + 20px) is pushed out to the edge of that box, so the text is never covered; on exit the frames
+   fly outward and fade as before. Sizes/radii for this hero are estimates. */
+function sourceCardFrame({width:qe,height:We,index:bt,count:m,seconds:Ze,phase:lt,visibility:Ve,target:Ct,text}){
+const Xe=qe/2,Qe=We/2,narrow=PM(qe,We),ht=narrow?Eoe.narrow:Eoe.wide;
+// golden-angle point on the unit sphere
+const gy=1-2*(bt+.5)/m,gr=Math.sqrt(1-gy*gy),gp=bt*2.39996323;let fx=Math.cos(gp)*gr,fy=gy,fz=Math.sin(gp)*gr;
+// spin about the vertical axis (time + scroll), with a fixed forward tilt
+const spin=Ze*5*Math.PI/180+lt*2.2,cs=Math.cos(spin),sn=Math.sin(spin);[fx,fz]=[fx*cs+fz*sn,-fx*sn+fz*cs];
+const tl=-.22,ct=Math.cos(tl),stl=Math.sin(tl);[fy,fz]=[fy*ct-fz*stl,fy*stl+fz*ct];
+// sphere radius: bunched before the text, opened once the text needs the room
+const open=$I(T2((lt-.18)/(ht.enterAt-.18))),exit=_us(T2((lt-.42)/.3));
+const minS=Math.min(qe,We),R0=minS*(narrow?.2:.17),R1=text?Math.max(text.w*.5,text.h*.75)+(narrow?40:70):minS*.38;
+const R=R0+(R1-R0)*open;
+// spiral arrival on load
+const arr=1-Math.pow(1-T2((Ze-bt/m*1.1)/1.6),4.2);
+const cam=R*2.2,k=cam/Math.max(cam-fz*R,cam*.3);
+// keep the opened sphere on screen: an oval no wider/taller than the viewport allows (header ~90px on top)
+const Rx=Math.min(R,qe/2-34),Ry=Math.min(R,We/2-(narrow?96:110));
+let sx=fx*Rx*k*arr,sy=fy*Ry*k*arr;
+if(arr<1){const sa=(1-arr)*Math.PI*1.2,c2=Math.cos(sa),s2=Math.sin(sa);[sx,sy]=[sx*c2-sy*s2,sx*s2+sy*c2];}
+const base=(narrow?58:92)*(.88+.24*((bt*37%11)/10)),size=base*k*(1+exit*1.2);
+// keep clear of the text
+if(text&&open>0){const hw=size*.83/2,hh=size/2,a=text.w/2+hw+20,bb=text.h/2+hh+20+(sy>0?36:0);
+  const q=Math.max(Math.abs(sx)/a,Math.abs(sy)/bb);
+  if(q<1){let dx=sx,dy=sy;if(Math.abs(dx)<1&&Math.abs(dy)<1)dy=fy<0?-1:1;
+    const f=Math.min(Math.abs(dx)>.5?a/Math.abs(dx):Infinity,Math.abs(dy)>.5?bb/Math.abs(dy):Infinity);
+    sx+=(dx*f-sx)*open;sy+=(dy*f-sy)*open;}}
+const fly=1+2.6*exit*exit,drift=Math.sin(Ze*.6+Ct.bob)*6*(1-exit);
+const depth=(fz+1)/2,fog=.55+.45*depth;
+return {x:Xe+sx*fly,y:Qe+sy*fly+drift,size:Math.max(18,size),opacity:fog*arr,z:Math.round(fz*100),
+  turnY:-fx*12*(1-exit),turnX:fy*7*(1-exit)};
 }
 function sourceTextReveal(lt,ht,z,state){let J=state.last;
 const tt=Math.round(T2((lt-ht.writeAt)/ht.writeSpan)*z.length);tt!==J&&(J=tt,z.forEach((bt,pt)=>{bt.dataset.on=pt<tt?"true":"false"}));state.last=J;
@@ -21,7 +55,7 @@ function mount({cards,copy,header,reduced}){
   scene.id='skydive-hero-scene';scene.setAttribute('aria-label','Dopafit — những khó khăn khi tự tập gym');viewport.className='skydive-hero-viewport';headerCanvas.className='skydive-header-canvas';
   main.before(scene);scene.append(viewport);viewport.append(cards,copy,headerCanvas);headerCanvas.append(header);cards.classList.add('skydive-source-cards');copy.classList.add('skydive-source-copy');
   document.documentElement.classList.add('skydive-source-mounted');
-  const P=[...cards.children],state={last:-1};
+  const P=[...cards.children],state={last:-1};let textBox=null;
   P.forEach(el=>{el.classList.add('skydive-source-card');el.style.cssText='';const img=el.querySelector('img');img.loading='eager';img.decoding='async';});
   const text=copy.textContent.trim();copy.setAttribute('aria-label',text);copy.textContent='';
   text.split(/\s+/).forEach((word,i)=>{if(i)copy.append(document.createTextNode(' '));const wrap=document.createElement('span');wrap.className='skydive-word';wrap.setAttribute('aria-hidden','true');
@@ -36,7 +70,7 @@ function mount({cards,copy,header,reduced}){
     if(document.hidden){raf=requestAnimationFrame(draw);return;}
     start??=now;
     const width=viewport.clientWidth,height=viewport.clientHeight,ht=PM(width,height)?Eoe.narrow:Eoe.wide;
-    if(lastWidth!==width||lastHeight!==height){Q=vus({width,height,count:P.length});lastWidth=width;lastHeight=height;}
+    if(lastWidth!==width||lastHeight!==height||!textBox){Q=vus({width,height,count:P.length});lastWidth=width;lastHeight=height;textBox={w:copy.offsetWidth,h:copy.offsetHeight};}
     const travel=scene.offsetHeight-height,sceneProgress=travel>0?T2(-scene.getBoundingClientRect().top/travel):1;
     // .18 is the source headline's fade-out boundary. Start this excerpt there.
     const excerptStart=.18;
@@ -62,10 +96,10 @@ function mount({cards,copy,header,reduced}){
     }
     scene.dataset.handoff=String(reduced?1:handoff);
     P.forEach((el,index)=>{
-      const f=sourceCardFrame({width,height,index,count:P.length,seconds:reduced?0:(now-start)/1000,phase:cardPhase,visibility:Ve,target:Q[index]});
+      const f=sourceCardFrame({width,height,index,count:P.length,seconds:reduced?0:(now-start)/1000,phase:cardPhase,visibility:Ve,target:Q[index],text:textBox});
       el.style.setProperty('--s',`${f.size}px`);
-      // Verbatim Dus transform: translate + centre + scale. It has NO rotation.
-      el.style.transform=`translate(${f.x}px, ${f.y}px) translate(-50%, -50%) scale(var(--hs, 1))`;
+      // Spatial-gallery frame: position, centre, small 3D turn, depth order (see sourceCardFrame).
+      el.style.transform=`translate(${f.x}px, ${f.y}px) translate(-50%, -50%) perspective(760px) rotateX(${f.turnX.toFixed(2)}deg) rotateY(${f.turnY.toFixed(2)}deg) scale(var(--hs, 1))`;el.style.zIndex=String(1000+f.z);
       el.style.opacity=String(reduced?.75:f.opacity*(1-ut));
     });
     copy.style.opacity=String(reduced?1:Ve);

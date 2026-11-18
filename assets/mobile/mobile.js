@@ -73,9 +73,21 @@
       bar.append(logo,cta());headerHost.append(bar);
     }
 
+    /* Two-line headings (user 2026-11-18: "Đa dạng bài tập…" and "Tập ở đâu…" in exactly 2 lines): the text is split
+       at a chosen point, each line stays whole, and the size shrinks from the usual 32px only as far as needed for
+       the longer line to fit the screen. */
+    const twoLineHeads=[];
+    function twoLines(t,at){
+      const i=at(t);const el=h('h2','m-h2 m-h2-2l',i>0?`<span>${t.slice(0,i).trim()}</span><span>${t.slice(i).trim()}</span>`:t);
+      twoLineHeads.push(el);return el;
+    }
+    function fitTwoLines(){twoLineHeads.forEach(el=>{el.style.fontSize='';const room=el.parentElement?.clientWidth-40,w=Math.max(...[...el.children].map(c=>c.scrollWidth));
+      if(room>0&&w>room)el.style.fontSize=`${Math.floor(parseFloat(getComputedStyle(el).fontSize)*room/w)}px`;});}
+    addEventListener('resize',fitTwoLines);document.fonts?.ready.then(fitTwoLines);requestAnimationFrame(fitTwoLines);
+
     /* ---------- Section 2: Đa dạng bài tập ---------- */
     const s2=h('section','m-sec m-s2');
-    s2.append(reveal(h('h2','m-h2',text(2750))),reveal(cta(),1));
+    s2.append(reveal(twoLines(text(2750),t=>{const i=t.indexOf('chỉ ');return i<0?-1:i+3;})),reveal(cta(),1));
     const photos=[ // same photographs and order as landing.js (alternating women/men, Pliability capture)
       ['rowing','Nữ vận động viên tập máy chèo','50% 38%'],['male-seated-fold','Nam vận động viên giãn cơ đùi sau','50% 50%'],
       ['barbell-squat','Nữ vận động viên tập squat với thanh tạ','50% 36%'],['male-runner','Nam vận động viên chạy trên đường tập cạnh cây xanh','50% 48%'],
@@ -130,7 +142,6 @@
     /* ---------- Section 4: Làm thế nào để tập nghiêm túc? (Skydive tools orbit, mobile) ---------- */
     const UI=window.DopafitOrbitUI;
     const s4=h('section','m-sec m-orbit');
-    s4.append(reveal(h('h2','m-h2','<span>Làm thế nào để </span><span>tập nghiêm túc?</span>')));
     const orbitWrap=h('div','m-orbit-wrap');
     const orbitIDs=[2856,2764,2871,2875,2878,2881]; // ring first: the figure stands in front of the ring
     const orbitNodes=orbitIDs.map(q);
@@ -141,7 +152,13 @@
     // figure and only the active tool panel under it, scaled to fit, so short phones see the whole panel
     // (source: skydive-com …/assets/main-goXeaETJ.js, the tools-orbit section: sticky top-0 h-screen, orbit scaled
     // 0.7 from the top, the active tool card absolutely under the orbit). Claude 2026-11-18.
-    const orbitSticky=h('div','m-orbit-sticky');const orbitFig=h('div','m-orbit-fig');orbitFig.append(orbitClone);orbitSticky.append(orbitFig);
+    const orbitSticky=h('div','m-orbit-sticky');const orbitFig=h('div','m-orbit-fig');orbitFig.append(orbitClone);
+    // Feedback 2026-11-18 (title not sticky, top/bottom layout hard to follow): the section title rides in the pinned
+    // stage. Each panel starts with a chip carrying the same icon as the lit dot on the ring, so the eye links the
+    // icon up top with the app UI below (user: no progress bars).
+    const orbitHead=h('div','m-orbit-head');
+    orbitHead.append(h('h2','m-h2 m-orbit-title','<span>Làm thế nào để </span><span>tập nghiêm túc?</span>'));
+    orbitSticky.append(orbitHead,orbitFig);
     const FIG_AR=or.w/or.h;
     const cq=id=>orbitClone.querySelector(`[data-node-id="147:${id}"]`);
     for(let id=2859;id<=2870;id++)cq(id)?.remove();
@@ -159,8 +176,12 @@
       return {box,art:a};
     }
     const tools=[];
+    const CHIPS={2913:[2871,'Video hướng dẫn'],2910:[2875,'Bản đồ phục hồi'],2911:[2878,'Ghi hiệp & giờ nghỉ'],2912:[2881,'Mục tiêu tuần']};
     function panel(captionID,build,motions){
-      const p=h('article','m-tool');p.append(h('p','m-copy',text(captionID)));
+      const p=h('article','m-tool');
+      const [dotID,label]=CHIPS[captionID]||[];const icon=dotID&&q(dotID)?.querySelector('img')?.getAttribute('src');
+      if(label)p.append(h('span','m-tool-chip',`${icon?`<i><img src="${icon}" alt=""></i>`:''}<b>${label}</b>`));
+      p.append(h('p','m-copy',text(captionID)));
       const stage=h('div','m-tool-ui');build(stage);p.append(stage);panels.append(p);tools.push({el:p,motions});
     }
     // Same order as desktop: video → body map → set log + rest → weekly goal.
@@ -185,7 +206,7 @@
       const vh=orbitSticky.clientHeight||innerHeight,vw=innerWidth;
       // In the "together" state no panel shows, so the figure grows into the free room.
       const together=orbitSticky.classList.contains('is-together');
-      const figW=together?Math.min(vw*.86,380,vh*.72*FIG_AR):Math.min(vw*.58,250,vh*.36*FIG_AR);orbitFig.style.width=`${figW}px`;
+      const figW=together?Math.min(vw*.86,380,vh*.6*FIG_AR):Math.min(vw*.5,230,vh*(vh<720?.22:.28)*FIG_AR);orbitFig.style.width=`${figW}px`;
       if(together)return;
       const room=panels.clientHeight;
       // The caption keeps its reading size; only the app UI under it is scaled to the room that is left.
@@ -198,7 +219,8 @@
 
     /* ---------- Section 5: Tập ở đâu, làm gì cũng được ---------- */
     const s5=h('section','m-sec m-places');
-    s5.append(reveal(h('h2','m-h2',text(2853))));
+    // Two lines (user 2026-11-18): split after the comma before "miễn", each line kept whole.
+    s5.append(reveal(twoLines(text(2853),t=>t.lastIndexOf(',')+1)));
     const rail=h('div','m-rail');
     [[2919,2923],[2920,2927],[2921,2933]].forEach(([bg,card],i)=>{
       const item=reveal(h('div','m-rail-item'),i);item.append(compose([q(bg),q(card)],visual(q(bg),canvas)));rail.append(item);window.DopafitCardReflection?.mount(item,i-1)?.(1);
@@ -269,7 +291,7 @@
       barEls.forEach((b,i)=>b.style.setProperty('--fill',String(Math.min(1,Math.max(0,pos-i)))));
       if(idx!==active){active=idx;imgs.forEach((im,i)=>im.classList.toggle('is-on',i===idx));stepEls.forEach((li,i)=>li.classList.toggle('is-on',i===idx));}
       // Section 2: the phone rises out of the fade as its block scrolls up (desktop: the 3D phone pushes up).
-      {const r=phoneBox.getBoundingClientRect(),pr=Math.max(0,Math.min(1,(vh-r.top)/(r.height+vh*.25)));
+      {const r=phoneBox.getBoundingClientRect(),pr=Math.max(0,Math.min(1,(vh-r.top)/(vh*.6)));
         phoneBox.style.setProperty('--rise',pr.toFixed(3));}
       // Section 4: progress through the pinned stage picks the tool; after the last one, the together state.
       const orr=orbitWrap.getBoundingClientRect(),ospan=orr.height-vh,op=ospan>0?Math.max(0,-orr.top)/vh:0;

@@ -43,3 +43,5 @@
 .faq-pl-q{padding:20px 0!important}
 .faq-pl-q i{width:44px!important;height:44px!important}
 .faq-pl-q i::before,.faq-pl-q i::after{width:14px!important;height:2px!important;margin:-1px 0 0 -7px!important}
+/* "Đa dạng bài tập…" (user 2026-11-18): always two lines, broken after "chỉ", at every desktop width. */
+[data-node-id="147:2750"]{white-space:nowrap;width:max-content!important;max-width:none!important}

@@ -55,6 +55,7 @@
 [data-node-id="147:2914"]{top:6404px!important;left:235px!important;width:387px!important;height:447px!important;
   -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 66px);mask-image:linear-gradient(180deg,transparent 0,#000 66px)}
 [data-node-id="147:2914"] .ui-screen{overflow:visible}
+[data-node-id="147:2914"] .ui-set{overflow:hidden} /* chips row stays inside the bezel (user 2026-11-18) */
 [data-node-id="147:2914"]>.f251{inset:70px 16px 16px 16px;overflow:visible;clip-path:inset(-70px -16px -16px -16px)}
 .m-ui-set{border-radius:0 0 30px 30px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 40px);mask-image:linear-gradient(180deg,transparent 0,#000 40px)}
 .m-ui-set .ui-set{box-shadow:none;border-radius:0}
@@ -65,3 +66,6 @@
 [data-node-id="147:2899"]{height:780px!important}
 [data-node-id="147:2899"]{-webkit-mask-image:linear-gradient(180deg,#000 85%,transparent 100%);mask-image:linear-gradient(180deg,#000 85%,transparent 100%)}
 .m-ui-recovery{-webkit-mask-image:linear-gradient(180deg,#000 88%,transparent 100%);mask-image:linear-gradient(180deg,#000 88%,transparent 100%)}
+/* Full ring thinner (user 2026-11-18 "line mỏng thôi"): 1.5px line, softer glow. */
+.orbit-ring-full{stroke-width:1.5;filter:drop-shadow(0 0 5px rgba(184,242,74,.6))}
+.m-orbit .orbit-ring-full{vector-effect:non-scaling-stroke;stroke-width:1.5}

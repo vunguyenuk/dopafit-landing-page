@@ -32,7 +32,10 @@
     const svg=document.createElementNS(NS,'svg');
     svg.setAttribute('class','orbit-ring-svg');svg.setAttribute('aria-hidden','true');
     const origin=document.createElement('span');origin.className='orbit-ring-origin';
-    ring.append(origin,svg);ring.classList.add('has-ring-svg');
+    // Mobile clone: the body figure shares this box, so put the ring right after the Figma halves (under the body,
+    // user 2026-11-18 "line đè lên body") instead of at the end, where it painted over the figure.
+    if(q(2856))ring.append(origin,svg);else halves[1].after(origin,svg);
+    ring.classList.add('has-ring-svg');
     let reveal=null,frac=null,geoKey='';
 
     // Geometry in the ring's own coordinates, measured on screen so it works for the desktop canvas (orbit-scene
