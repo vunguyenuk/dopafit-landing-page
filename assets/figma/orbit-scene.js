@@ -147,7 +147,7 @@
     const center=(top+bottom)/2,height=bottom-top;
     stage.style.transformOrigin=`960px ${center}px`;
 
-    let lastH=-1,shift=0,length=0,progress=0,lastState='',lastFit=-1,lastSpacer=-1,lastCurtain='';
+    let lastH=-1,shift=0,length=0,progress=0,lastState='',lastFit=-1,lastSpacer=-1,lastCurtain='',lastScan=-1;
     if(reduced){document.documentElement.classList.add('orbit-reduced');return {map:y=>({y,shift:0}),get shift(){return 0;}};}
 
     function apply(s){
@@ -181,6 +181,14 @@
       const stageLift=Math.round(-lift*(1-trail)*10)/10;
       if(stageLift!==lastLift){lastLift=stageLift;stage.style.translate=`0 ${stageLift}px`;}
       const p=shift<toolLen?shift/toolLen*jxe:jxe+(shift-toolLen)/multiLen*(1-jxe);progress=shift/length;
+      // User 2026-11-19: the orange muscles must not race ahead on a 1.2s
+      // autoplay. Reuse the existing clip/scan over 90% of the together hold;
+      // finish before release, without adding scroll distance or moving the body.
+      const scan=Math.round(clamp((shift-toolLen)/(multiLen*.90))*10000)/10000;
+      if(scan!==lastScan){lastScan=scan;
+        body.style.setProperty('--body-scan-inset',`${(1-scan)*100}%`);
+        body.style.setProperty('--body-scan-opacity',String(Math.min(clamp(scan/.06),clamp((1-scan)/.10))));
+      }
       canvas.style.transform=shift?`translateY(${shift}px)`:'';
       const spacerPx=Math.round(length*scale);
       if(spacerPx!==lastSpacer){lastSpacer=spacerPx;spacer.style.height=`${spacerPx}px`;window.DopafitScroll?.lenis?.resize();}

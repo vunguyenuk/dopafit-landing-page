@@ -11,21 +11,20 @@
 .orbit-ring{opacity:0;transition:opacity .8s}
 .orbit-ring[data-live=true]{opacity:1}
 /* Source centre crossfade: opacity .5s. */
-/* Centre body: dev band "activate" + ".scan" — muscles switch on behind a lime line climbing the body.
-   dev runs it on a view timeline (cover 30%→55%); here it plays once, 1.2s, when the scene reaches the together state. */
-.orbit-body-active{clip-path:inset(100% 0 0 0);transition:clip-path 1.2s cubic-bezier(.16,.84,.24,1)}
-.orbit-body-active[data-on=true]{clip-path:inset(0 0 0 0)}
-.ui-body-scan{position:absolute;left:-6%;right:-6%;top:0;height:100%;pointer-events:none;opacity:0;transform:translateY(100%)}
+/* Existing dev band "activate" / ".scan" reveal, scrubbed across the existing
+   together-state scroll range. The colour and scan share one reversible clock. */
+.orbit-body-active{clip-path:inset(var(--body-scan-inset,100%) 0 0 0);transition:none}
+.ui-body-scan{position:absolute;left:-6%;right:-6%;top:0;height:100%;pointer-events:none;opacity:var(--body-scan-opacity,0);transform:translateY(var(--body-scan-inset,100%))}
 .ui-body-scan::before{content:"";position:absolute;inset:-1px 0 auto;height:3px;background:linear-gradient(90deg,transparent,rgba(184,242,74,.9) 22%,#f1ffd6 50%,rgba(184,242,74,.9) 78%,transparent);box-shadow:0 0 18px 2px rgba(184,242,74,.55)}
 .ui-body-scan::after{content:"";position:absolute;inset:0 0 auto;height:16%;background:linear-gradient(180deg,rgba(184,242,74,.16),transparent)}
-[data-node-id="147:2764"]:has(.orbit-body-active[data-on=true]) .ui-body-scan{animation:ui-scan 1.2s cubic-bezier(.16,.84,.24,1) both}
-@keyframes ui-scan{0%{transform:translateY(100%);opacity:0}6%{opacity:1}90%{opacity:1}100%{transform:translateY(0);opacity:0}}
 /* Source mps(): opacity .45s ease, translate .55s cubic-bezier(.22,.61,.36,1), ±14px from the orbit side. */
 .orbit-panel{opacity:0;translate:calc(var(--orbit-offset,0px) + var(--ox,0px)) var(--oy,0px);scale:var(--panel-scale,1);transition:opacity .45s ease,translate .55s cubic-bezier(.22,.61,.36,1),scale .55s cubic-bezier(.22,.61,.36,1);pointer-events:none}
 .orbit-tick-hidden{display:none!important}
 .orbit-panel[data-show=true]{opacity:1;translate:var(--ox,0px) var(--oy,0px);pointer-events:auto}
 .orbit-reduced .orbit-dot,.orbit-reduced .orbit-ring,.orbit-reduced .orbit-body-active,.orbit-reduced .orbit-panel{opacity:1;scale:1;translate:none;transition:none}
+.orbit-reduced .orbit-body-active{clip-path:inset(0)}
 @media(prefers-reduced-motion:reduce){.orbit-dot,.orbit-ring,.orbit-body-active,.orbit-panel{transition:none}}
+@media(prefers-reduced-motion:reduce){.orbit-body-active{clip-path:inset(0)}.ui-body-scan{display:none}}
 
 /* ---------- Live app UI (orbit-ui.js). Units are the screenshot's own pixels; .ui-art is scaled to the Figma box. ---------- */
 .ui-screen{overflow:hidden}

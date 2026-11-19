@@ -297,6 +297,9 @@
       const orr=orbitWrap.getBoundingClientRect(),ospan=orr.height-vh,op=ospan>0?Math.max(0,-orr.top)/vh:0;
       const tPos=(op-ORBIT_LEAD)/ORBIT_SLOT;
       const multi=ospan>0&&tPos>=tools.length;
+      const scan=reduced?1:Math.min(1,Math.max(0,(op-ORBIT_LEAD-ORBIT_SLOT*tools.length)/(ORBIT_MULTI*.90)));
+      cBody?.style.setProperty('--body-scan-inset',`${(1-scan)*100}%`);
+      cBody?.style.setProperty('--body-scan-opacity',String(Math.min(Math.min(1,scan/.06),Math.min(1,(1-scan)/.10))));
       const t=tPos<0?-1:Math.min(tools.length-1,Math.floor(tPos));
       const state=multi?4:t;
       if(state!==tool){
