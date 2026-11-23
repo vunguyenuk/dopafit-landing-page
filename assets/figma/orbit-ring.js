@@ -1,12 +1,12 @@
 /* Orbit ring progress (user request 2026-11-18, "Làm thế nào để tập nghiêm túc?").
    The Figma ring (147:2857 + 147:2858, two half-circle vectors) is redrawn as an SVG on the same centre and radius:
      - a faint dashed track that fades in when the scene goes live,
-     - a lit lime dashed arc whose dashes keep running, grown counter-clockwise from just below the first icon up to
+     - a lit lime dashed arc whose dashes keep running, grown clockwise in the team variant (counter-clockwise in the accepted original) from the first icon up to
        whichever icon is active (the order the icons appear: video → body map → set log → weekly goal),
      - the whole circle turns solid lime in the "all together" state.
    It only reads the state orbit-scene.js already writes (ring[data-live], dot[data-lifted], body-active[data-on]),
-   so orbit-scene.js is left untouched. Mobile: the same on the mobile page's cloned orbit (mobile.js writes the
-   same attributes on its clone). Lead angle, dash sizes, glow and timings are design estimates. */
+   and the reversible side/direction option from orbit-variant.js. Mobile: the same on the cloned orbit (mobile.js writes the
+   same attributes on its clone). Lead angle, dash sizes, glow and timings are design estimates. Icon light follows the actual animated arc, not its destination. */
 (() => {
   'use strict';
   const DOTS=[2871,2875,2878,2881];
@@ -36,7 +36,36 @@
     // user 2026-11-18 "line đè lên body") instead of at the end, where it painted over the figure.
     if(q(2856))ring.append(origin,svg);else halves[1].after(origin,svg);
     ring.classList.add('has-ring-svg');
-    let reveal=null,frac=null,geoKey='';
+    let reveal=null,frac=null,contact=null,diameter=0,geoKey='';
+    const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches||document.documentElement.classList.contains('motion-off');
+    let target=0,followFrame=0;
+    // Read the same CSS-interpolated mask that draws the arc. A dot is lit only
+    // when the visible leading edge touches its circular boundary.
+    function syncIcons(){
+      const current=reveal?parseFloat(getComputedStyle(reveal).strokeDasharray)||0:0;
+      if(frac&&diameter){
+        contact=frac.map((f,i)=>Math.max(0,f-Math.asin(Math.min(.95,dots[i].getBoundingClientRect().width/diameter))/(2*Math.PI)));
+        dots.forEach((dot,i)=>{dot.dataset.ringContact=String(contact[i]);});
+      }
+      dots.forEach((dot,i)=>{
+        const reached=reduced||(ring.dataset.live==='true'&&contact&&current+.0001>=contact[i]);
+        const value=String(Boolean(reached));
+        if(dot.dataset.ringReached!==value)dot.dataset.ringReached=value;
+      });
+      svg.dataset.progress=String(current);
+      return current;
+    }
+    function follow(){
+      followFrame=0;
+      const current=syncIcons();
+      if(!document.hidden&&Math.abs(current-target)>.00001)followFrame=requestAnimationFrame(follow);
+    }
+    function followArc(){
+      if(followFrame)cancelAnimationFrame(followFrame);
+      syncIcons();
+      if(!document.hidden)followFrame=requestAnimationFrame(follow);
+    }
+    dots.forEach(dot=>{dot.dataset.ringReached=String(reduced);});
 
     // Geometry in the ring's own coordinates, measured on screen so it works for the desktop canvas (orbit-scene
     // scales the halves and moves the icons) and for the mobile clone (scaled box): centre and radius from the two
@@ -49,20 +78,25 @@
       const o=origin.getBoundingClientRect();
       const sx=(L+Rr)/2,sy=(T+B)/2;
       const cx=(sx-o.left)/k,cy=(sy-o.top)/k,R=(B-T)/2/k;
-      const key=[cx,cy,R].map(Math.round).join(',');
+      const clockwise=window.DopafitOrbitVariant?.enabled===true;
       const angle=d=>{const r=d.getBoundingClientRect();return Math.atan2(r.top+r.height/2-sy,r.left+r.width/2-sx)*180/Math.PI;};
       const ang=dots.map(angle);
+      const key=[cx,cy,R,...ang].map(Math.round).join(',')+':'+clockwise;
       if(dots.some(d=>!d.getBoundingClientRect().width))return false;
       if(key===geoKey&&frac)return true;geoKey=key;
-      const start=ang[0]+LEAD;
-      frac=ang.map(x=>{let v=(start-x)%360;if(v<0)v+=360;return v/360;});
+      const start=ang[0]+(clockwise?-LEAD:LEAD);
+      frac=ang.map(x=>{let v=(clockwise?x-start:start-x)%360;if(v<0)v+=360;return v/360;});
+      diameter=B-T;
+      contact=frac.map((f,i)=>Math.max(0,f-Math.asin(Math.min(.95,dots[i].getBoundingClientRect().width/diameter))/(2*Math.PI)));
+      dots.forEach((dot,i)=>{dot.dataset.ringContact=String(contact[i]);});
+      svg.dataset.direction=clockwise?'clockwise':'counterclockwise';
       const pad=40,size=R*2+pad*2;
       svg.setAttribute('viewBox',`${-R-pad} ${-R-pad} ${size} ${size}`);
       Object.assign(svg.style,{left:`${cx-R-pad}px`,top:`${cy-R-pad}px`,width:`${size}px`,height:`${size}px`});
-      const prev=reveal?.style.strokeDasharray||'';
+      const prev=reveal?getComputedStyle(reveal).strokeDasharray:'0 1';
       svg.innerHTML=`
         <defs><mask id="${id}" maskUnits="userSpaceOnUse" x="${-R-pad}" y="${-R-pad}" width="${size}" height="${size}">
-          <circle class="orbit-ring-reveal" r="${R}" pathLength="1" transform="rotate(${start}) scale(1,-1)"/>
+          <circle class="orbit-ring-reveal" r="${R}" pathLength="1" transform="rotate(${start})${clockwise?'':' scale(1,-1)'}"/>
         </mask></defs>
         <circle class="orbit-ring-track" r="${R}"/>
         <g mask="url(#${id})"><circle class="orbit-ring-lit" r="${R}"/></g>
@@ -84,10 +118,13 @@
       const key=`${live}|${multi}|${at}`;if(key===last)return;last=key;
       svg.dataset.live=String(live);svg.dataset.full=String(multi);
       if(reveal)reveal.style.strokeDasharray=`${at} 1`;
+      target=at;followArc();
     }
     const mo=new MutationObserver(update);
     [ring,bodyActive,...dots].filter(Boolean).forEach(n=>mo.observe(n,{attributes:true,attributeFilter:['data-live','data-on','data-lifted','style']}));
     addEventListener('resize',()=>{geoKey='';update();},{passive:true});
+    document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(followFrame);followFrame=0;}else followArc();});
+    addEventListener('dopafit:orbit-variant',()=>{geoKey='';requestAnimationFrame(update);});
     update();
     return true;
   }

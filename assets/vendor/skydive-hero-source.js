@@ -56,22 +56,72 @@ function mount({cards,copy,header,reduced}){
   main.before(scene);scene.append(viewport);viewport.append(cards,copy,headerCanvas);headerCanvas.append(header);cards.classList.add('skydive-source-cards');copy.classList.add('skydive-source-copy');
   document.documentElement.classList.add('skydive-source-mounted');
   const P=[...cards.children],state={last:-1};let textBox=null;
-  P.forEach(el=>{el.classList.add('skydive-source-card');el.style.cssText='';const img=el.querySelector('img');img.loading='eager';img.decoding='async';});
+  P.forEach(el=>{el.classList.add('skydive-source-card');el.style.cssText='';const img=el.querySelector('img');img.loading='lazy';img.decoding='async';});
+  // These real photos belong to the next scene, after the 240svh intro. Warm
+  // them before entry without competing with the visible phone's startup.
+  const photosNear=new IntersectionObserver(entries=>{
+    if(!entries.some(entry=>entry.isIntersecting))return;
+    photosNear.disconnect();
+    P.forEach(el=>{const img=el.querySelector('img');img.loading='eager';if(img.dataset.src){img.src=img.dataset.src;delete img.dataset.src;}});
+  },{rootMargin:'800px'});
+  photosNear.observe(scene);
   const text=copy.textContent.trim();copy.setAttribute('aria-label',text);copy.textContent='';
-  text.split(/\s+/).forEach((word,i)=>{if(i)copy.append(document.createTextNode(' '));const wrap=document.createElement('span');wrap.className='skydive-word';wrap.setAttribute('aria-hidden','true');
-    [...word].forEach(char=>{const ch=document.createElement('span');ch.dataset.ch='true';ch.dataset.on=reduced?'true':'false';ch.textContent=char;wrap.append(ch);});copy.append(wrap);
+  const painLines=JSON.parse(copy.dataset.lines||'[]');
+  copy.classList.add('pain-copy');copy.classList.toggle('pain-static',reduced);
+  const graphemes=typeof Intl.Segmenter==='function'?new Intl.Segmenter('vi',{granularity:'grapheme'}):null;
+  painLines.forEach(line=>{
+    const row=document.createElement('span'),label=document.createElement('span'),readable=document.createElement('span'),visual=document.createElement('span');row.className='pain-line';
+    readable.className='pain-readable';readable.textContent=line;visual.className='pain-sentence';visual.setAttribute('aria-hidden','true');
+    // Keep words intact when wrapping Vietnamese; animate complete graphemes,
+    // never split a tone mark from its letter. The original sentence stays accessible.
+    line.split(/(\s+)/).forEach(word=>{
+      if(!word.trim()){visual.append(document.createTextNode(word));return;}
+      const group=document.createElement('span');group.className='pain-word';
+      const chars=graphemes?[...graphemes.segment(word)].map(x=>x.segment):Array.from(word.normalize('NFC'));
+      chars.forEach(char=>{const glyph=document.createElement('span');glyph.className='pain-glyph';glyph.textContent=char;glyph.dataset.glyph=char;group.append(glyph);});visual.append(group);
+    });
+    label.append(readable,visual);row.append(label);copy.append(row);
   });
-  const z=[...copy.querySelectorAll('[data-ch]')];
+  const z=[...copy.querySelectorAll('.pain-line>span')],glyphs=z.map(line=>[...line.querySelectorAll('.pain-glyph')]),glyphFrames=new WeakMap(),glyphWidths=new WeakMap();
+  // User 2026-11-23: more time to read each sentence. Stretch only the existing
+  // reading interval; photo entrance, complete source exit and handoff keep their travel.
+  // Same captured Bayer ramp as the heading below; higher contrast on this smaller type.
+  // Only the highlight texture changes; the accepted sentence clock stays.
+  const pixelRamp=window.DopafitChandePixelRamp?.(32,'#b8f24a');
+  const finalRamp=window.DopafitChandePixelRamp?.(32,'#ffffff');
+  if(pixelRamp&&finalRamp&&!reduced){
+    copy.style.setProperty('--pain-pixel-ramp',pixelRamp);
+    copy.style.setProperty('--pain-final-ramp',finalRamp);
+  }
+  const extraReadVH=reduced?0:z.length*.8;
+  if(extraReadVH)scene.style.height=`${300+extraReadVH*100}svh`;
   let raf=0,start=null,Q=[],lastWidth=0,lastHeight=0;
-  // Xus uses a 300vh stage with a sticky 100vh viewport. Keep the whole stage.
+  // Keep Xus's complete 300vh stage / 100vh sticky travel, plus the requested read-only extension.
   // The requested excerpt starts after Dus's headline fade-out (.18),
   // rather than its circular headline entrance. Its original exit finishes before the sticky scene releases.
   function draw(now){
     if(document.hidden){raf=requestAnimationFrame(draw);return;}
     start??=now;
     const width=viewport.clientWidth,height=viewport.clientHeight,ht=PM(width,height)?Eoe.narrow:Eoe.wide;
-    if(lastWidth!==width||lastHeight!==height||!textBox){Q=vus({width,height,count:P.length});lastWidth=width;lastHeight=height;textBox={w:copy.offsetWidth,h:copy.offsetHeight};}
-    const travel=scene.offsetHeight-height,sceneProgress=travel>0?T2(-scene.getBoundingClientRect().top/travel):1;
+    if(lastWidth!==width||lastHeight!==height||!textBox){
+      Q=vus({width,height,count:P.length});lastWidth=width;lastHeight=height;
+      glyphs.flat().forEach(glyph=>glyphWidths.set(glyph,glyph.offsetWidth));
+      // Retain the accepted four-row photo exclusion envelope even though only
+      // one sentence is now displayed. The surrounding photo layout is unchanged.
+      const oldRow=parseFloat(getComputedStyle(copy).fontSize)*(width<=600?3.1:1.9);
+      textBox={w:copy.offsetWidth,h:z.reduce((sum,line)=>sum+Math.max(oldRow,line.offsetHeight),0)};
+    }
+    const travel=scene.offsetHeight-height,baseTravel=travel-extraReadVH*height;
+    const rawScroll=-scene.getBoundingClientRect().top;
+    const readStart=ht.enterAt+ht.enterSpan*.75,readEnd=ht.exitAt-.02;
+    const startScroll=baseTravel*.75*(readStart-.18)/(ht.exitAt+ht.exitSpan-.18);
+    const endScroll=baseTravel*.75*(readEnd-.18)/(ht.exitAt+ht.exitSpan-.18);
+    const extraScroll=extraReadVH*height;
+    const sourceScroll=rawScroll<=startScroll?rawScroll:rawScroll<endScroll+extraScroll?
+      startScroll+(rawScroll-startScroll)*(endScroll-startScroll)/(endScroll-startScroll+extraScroll):rawScroll-extraScroll;
+    const sceneProgress=baseTravel>0?T2(sourceScroll/baseTravel):1;
+    if(!heroOnScreen&&sceneProgress>=1&&lastHandoff===1&&scene.dataset.complete==='true'){raf=0;return;}
+    if(!heroOnScreen&&sceneProgress<=0&&lastHandoff===0&&scene.dataset.phase==='scatter'){raf=0;return;}
     // .18 is the source headline's fade-out boundary. Start this excerpt there.
     const excerptStart=.18;
     // End at the original fade completion; no empty scroll tail.
@@ -98,13 +148,41 @@ function mount({cards,copy,header,reduced}){
     P.forEach((el,index)=>{
       const f=sourceCardFrame({width,height,index,count:P.length,seconds:reduced?0:(now-start)/1000,phase:cardPhase,visibility:Ve,target:Q[index],text:textBox});
       el.style.setProperty('--s',`${f.size}px`);
-      // Spatial-gallery frame: position, centre, small 3D turn, depth order (see sourceCardFrame).
-      el.style.transform=`translate(${f.x}px, ${f.y}px) translate(-50%, -50%) perspective(760px) rotateX(${f.turnX.toFixed(2)}deg) rotateY(${f.turnY.toFixed(2)}deg) scale(var(--hs, 1))`;el.style.zIndex=String(1000+f.z);
+      // Preserve source position/depth, while keeping pain-point photographs upright as required.
+      el.style.transform=`translate(${f.x}px, ${f.y}px) translate(-50%, -50%) scale(var(--hs, 1))`;el.style.zIndex=String(1000+f.z);
       el.style.opacity=String(reduced?.75:f.opacity*(1-ut));
     });
     copy.style.opacity=String(reduced?1:Ve);
+    // The supplied clip replaces one centred phrase with the next. Keep the
+    // captured Skydive reading interval, but remove the simultaneous four-row view.
+    const writeStart=ht.enterAt+ht.enterSpan*.75,writeEnd=ht.exitAt-.02;
+    const readProgress=T2((lt-writeStart)/Math.max(.01,writeEnd-writeStart));
+    const sequence=readProgress*(z.length-1+.58);
     copy.style.transform=`translate(-50%, -50%) translateY(${reduced?0:(1-st)*34-ut*44}px)`;
-    sourceTextReveal(reduced?1:lt,ht,z,state);
+    const waveKey=reduced?'reduced':lt.toFixed(5);
+    if(state.waveKey!==waveKey){
+      state.waveKey=waveKey;
+      glyphs.forEach((letters,i)=>{
+        const local=sequence-i;let visible=reduced;
+        letters.forEach((glyph,j)=>{
+          const at=letters.length>1?j/(letters.length-1):0;
+          const entry=reduced?1:$I(T2((local-at*.22)/.18));
+          const leaving=reduced?0:$I(T2((local-.72-at*.24)/.20));
+          const alpha=entry*(1-leaving),light=4*entry*(1-entry)*(1-leaving);
+          if(alpha>.001)visible=true;
+          // Captured Chande build/paint: white→accent and accent→base ramps
+          // move together, rather than stamping one fixed Bayer density on every letter.
+          const band=width<=600?48:64,dpr=devicePixelRatio||1;
+          const sweep=Math.round((-2*band+entry*((glyphWidths.get(glyph)||0)+2*band))*dpr)/dpr;
+          const rgb=[255-71*light,255-13*light,255-181*light].map(Math.round);
+          const style=`--pixel-x:${sweep}px;--pixel-light:${Math.min(1,light*2).toFixed(3)};opacity:${Math.max(alpha,light).toFixed(3)};color:rgb(${rgb.join(',')});transform:scale(${(1+.14*light).toFixed(3)});text-shadow:none`;
+          if(glyphFrames.get(glyph)!==style){glyph.style.cssText=style;glyphFrames.set(glyph,style);}
+        });
+        const line=z[i];line.parentElement.dataset.visible=String(visible);
+        line.parentElement.dataset.active=String(reduced||Math.min(z.length-1,Math.floor(sequence))===i);
+      });
+      scene.dataset.sentence=String(Math.min(z.length-1,Math.floor(sequence)));
+    }
     scene.dataset.phase=lt<ht.enterAt?'scatter':lt<ht.enterAt+ht.enterSpan?'reveal':lt<ht.exitAt?'read':lt<ht.exitAt+ht.exitSpan?'exit':'complete';
     scene.dataset.complete=String(reduced||sceneProgress>=1);
     // Pause the floating loop while the hero is scrolled away; the final frame above
@@ -114,8 +192,13 @@ function mount({cards,copy,header,reduced}){
   let heroOnScreen=true,lastHandoff=-1;
   new IntersectionObserver(([entry])=>{
     heroOnScreen=entry.isIntersecting;
-    if(heroOnScreen&&!raf)raf=requestAnimationFrame(draw);
+    // Even a jump past the scene must commit its final handoff once.
+    if(!raf)raf=requestAnimationFrame(draw);
   },{rootMargin:'25% 0px'}).observe(scene);
+  const remeasureText=()=>{textBox=null;state.waveKey='';if(!raf)raf=requestAnimationFrame(draw);};
+  document.fonts.ready.then(remeasureText);
+  addEventListener('dopafit:typography',remeasureText);
+  addEventListener('scroll',()=>{if(!raf)raf=requestAnimationFrame(draw);},{passive:true});
   raf=requestAnimationFrame(draw);
   return {scene,viewport,destroy(){cancelAnimationFrame(raf);}};
 }

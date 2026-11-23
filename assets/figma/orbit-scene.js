@@ -23,11 +23,14 @@
   // User request: a slightly bigger centre (figure, ring, dots; captions follow their dots) and the
   // surrounding cards pushed outward for breathing room, as far as the visible stage width allows.
   const CENTER_SCALE=1.30,SIDE_SHIFT=150;
+  // User: add space without reducing the accepted native/overview scales.
+  const OVERVIEW_SPACE={belowHeading:160,betweenUI:192,besideCopy:32};
   // User request 2026-11-18: slower reveal. Scroll budget in viewport heights: each of the 5 SH slots
   // (4 tools + the source's trailing "all revealed" slot) gets SLOT_VH, then MULTI_VH for the together state.
   // Scroll is mapped piecewise onto the source progress p so SH() thresholds stay as in Skydive.
   const LEAD_VH=.12,SLOT_VH=.62,MULTI_VH=1.1,MOBILE=900/840; // source: h-[840vh], max-[600px]:h-[900vh]
-  // Counter-clockwise from the right, matching Skydive's asana → github → figma → … order.
+  // Keep the source reveal order; the optional team layout mirrors outer boxes
+  // so the same video → recovery → set log → strength sequence becomes clockwise.
   const TOOLS=[
     {dot:2871,panels:[2892,2913]},       // video guide
     {dot:2875,panels:[2898,2884,2910]},  // body map
@@ -116,6 +119,7 @@
         let d=t.noShift?0:t.side==='left'?Math.min(-D,captionEdge-32-t.box.right):Math.max(D,captionEdge+32-t.box.left);
         // Responsive (Claude 2026-11-18): never push a panel past the visible window edge (tablet widths cut it off).
         if(!t.noShift)d=t.side==='left'?Math.max(d,wl-t.box.left):Math.min(d,wr-t.box.right);
+        t.offsetX=d;
         t.zoomed.forEach(p=>p.style.setProperty('--ox',`${d}px`));
         const left=t.box.left+d,right=t.box.right+d,{top,bottom}=t.box,oxs=t.side==='left'?right:left,ox=oxs-d;
         let S=Math.min(TOOL_SCALE,(wb-wt)/(bottom-top));
@@ -146,15 +150,54 @@
     const top=heading.offsetTop,bottom=Math.max(...nodes.map(n=>n.offsetTop+n.offsetHeight));
     const center=(top+bottom)/2,height=bottom-top;
     stage.style.transformOrigin=`960px ${center}px`;
+    // Keep the original bounds for fit: spacing must not shrink the composition.
+    // A larger overview travels vertically within the existing together hold.
+    const overview=document.createElement('div');overview.className='orbit-overview-space';
+    Object.assign(overview.style,{position:'absolute',left:'0',top:'0',width:'1920px',height:'12313px',transition:reduced?'none':'translate .55s cubic-bezier(.22,.61,.36,1)'});
+    const arranged=[...stage.children].filter(n=>n!==heading);arranged[0].before(overview);arranged.forEach(n=>overview.append(n));
 
     let lastH=-1,shift=0,length=0,progress=0,lastState='',lastFit=-1,lastSpacer=-1,lastCurtain='',lastScan=-1;
-    if(reduced){document.documentElement.classList.add('orbit-reduced');return {map:y=>({y,shift:0}),get shift(){return 0;}};}
+    const variant=window.DopafitOrbitVariant;
+    const toggleAnchor=document.createElement('div');toggleAnchor.className='orbit-toggle-anchor';
+    if(variant)stage.append(toggleAnchor);
+    const toggle=variant?.mount(toggleAnchor);
+    let toggleKey='';
+    addEventListener('dopafit:typography',()=>{toggleKey='';});
+    document.fonts.ready.then(()=>{toggleKey='';});
+    function placeToggle(fit,scale){
+      const key=`${fit}:${scale}`;
+      if(!toggle||key===toggleKey)return;toggleKey=key;
+      // A zero-width anchor keeps the control centred at physical 14px/40px
+      // through the existing canvas zoom + stage fit. Use rendered text height.
+      Object.assign(toggleAnchor.style,{left:`${RING.x}px`,top:`${heading.offsetTop+Math.max(heading.offsetHeight,heading.scrollHeight)+12/(fit*scale)}px`,scale:String(1/(fit*scale))});
+    }
+    placeToggle(1,innerWidth/1920);
+    // Snapshot actual accepted outer boxes after the original caption/video placement.
+    // Only move those boxes: native screen pixels and text are never mirrored.
+    const baseLeft=new Map([...new Set(tools.flatMap(t=>[t.dot,...t.panels]))].map(n=>[n,n.offsetLeft]));
+    function setVariant(enabled){
+      stage.dataset.variant=enabled?'team':'original';
+      baseLeft.forEach((left,n)=>n.style.setProperty('left',`${enabled?2*RING.x-left-n.offsetWidth:left}px`,'important'));
+      tools.forEach(t=>{
+        const cx=t.dot.offsetLeft+t.dot.offsetWidth/2;
+        t.side=cx<RING.x?'left':'right';
+        t.panels.forEach(p=>{p.dataset.side=t.side;p.style.setProperty('--orbit-offset',`${t.side==='left'?OFFSET:-OFFSET}px`);});
+        const zoom=t.zoomed;
+        t.box={left:Math.min(...zoom.map(p=>p.offsetLeft)),top:Math.min(...zoom.map(p=>p.offsetTop)),right:Math.max(...zoom.map(p=>p.offsetLeft+p.offsetWidth)),bottom:Math.max(...zoom.map(p=>p.offsetTop+p.offsetHeight))};
+        const dx=(cx-RING.x)*(CENTER_SCALE-1),dy=(t.dot.offsetTop+t.dot.offsetHeight/2-RING.y)*(CENTER_SCALE-1);
+        t.dot.style.translate=`${dx}px ${dy}px`;
+      });
+      lastState='';lastFit=-1;
+    }
+    if(variant){setVariant(variant.enabled);addEventListener('dopafit:orbit-variant',e=>setVariant(e.detail.enabled));}
+    if(reduced){document.documentElement.classList.add('orbit-reduced');addEventListener('resize',()=>placeToggle(1,innerWidth/1920));document.fonts.ready.then(()=>{toggleKey='';placeToggle(1,innerWidth/1920);});return {map:y=>({y,shift:0}),get shift(){return 0;}};}
 
     function apply(s){
       const key=JSON.stringify(s);
       if(key===lastState)return;lastState=key;
       ring.dataset.live=String(s.live);
       bodyActive.dataset.on=String(s.multi);
+      overview.style.translate=`0 ${s.multi?OVERVIEW_SPACE.belowHeading:0}px`;
       tools.forEach((t,i)=>{
         const revealed=s.revealedSeq>=i||s.multi,isActive=s.active===i;
         const dim=revealed&&s.active!==-1&&!isActive;
@@ -164,6 +207,7 @@
         // Source: only the active tool's panel is shown; the together state shows all of them,
         // staggered like the source's morphIndex*55ms.
         const show=isActive||s.multi;
+        t.zoomed.forEach(p=>{p.style.setProperty('--ox',`${(t.offsetX||0)+(s.multi?(t.side==='left'?-1:1)*OVERVIEW_SPACE.besideCopy*(innerWidth<1200?.5:1):0)}px`);p.style.setProperty('--oy',`${s.multi&&i===3?OVERVIEW_SPACE.betweenUI:0}px`);});
         t.panels.forEach(p=>{p.dataset.show=String(show);p.style.transitionDelay=s.multi?`${i*55}ms`:'0ms';p.style.setProperty('--panel-scale',String(t.zoomed.includes(p)?isActive?t.scale:s.multi?Math.min(1.12,t.scale):1:1));});
       });
     }
@@ -171,6 +215,7 @@
     // y: design-px scroll position after earlier pinned scenes. Returns y with this scene's hold removed.
     function map(y,h,scale){
       const fit=Math.min(1,h*.94/height);
+      placeToggle(fit,scale);
       if(fit!==lastFit||h!==lastH){lastFit=fit;lastH=h;stage.style.scale=String(fit);placeZoom(fit,h);
         const headingTop=center-(center-top)*fit;lift=Math.max(0,headingTop-prevBottom-HEADING_GAP);}
       const k=innerWidth<=600?MOBILE:1,toolLen=h*k*(LEAD_VH+SLOT_VH*mKe),multiLen=h*k*MULTI_VH;
@@ -178,7 +223,8 @@
       const pinStart=center-lift-h/2;
       shift=Math.max(0,Math.min(length,y-pinStart));
       const after=Math.max(0,y-pinStart-length),trail=lift?Math.min(1,after/(2*lift)):1;
-      const stageLift=Math.round(-lift*(1-trail)*10)/10;
+      const overviewPan=(OVERVIEW_SPACE.belowHeading+OVERVIEW_SPACE.betweenUI)*fit*clamp((shift-toolLen)/multiLen);
+      const stageLift=Math.round((-lift*(1-trail)-overviewPan)*10)/10;
       if(stageLift!==lastLift){lastLift=stageLift;stage.style.translate=`0 ${stageLift}px`;}
       const p=shift<toolLen?shift/toolLen*jxe:jxe+(shift-toolLen)/multiLen*(1-jxe);progress=shift/length;
       // User 2026-11-19: the orange muscles must not race ahead on a 1.2s
@@ -196,6 +242,10 @@
       const cover=shift>0&&shift<length?Math.min(clamp(p/.04),clamp((1-p)/.04)):0;
       const curtainKey=`${pinStart.toFixed(1)}:${h.toFixed(1)}:${cover.toFixed(3)}`;
       if(curtainKey!==lastCurtain){lastCurtain=curtainKey;curtain.style.top=`${pinStart}px`;curtain.style.height=`${h}px`;curtain.style.opacity=String(cover);}
+      // Fourth source tool slot: pause briefly at the top, scroll the same app
+      // content to the chart, then hold the bottom. Reverses with source p.
+      const strengthLocal=(p-TEt)/REt*mKe-3;
+      window.DopafitOrbitUI?.setStrengthProgress((strengthLocal-.15)/.70);
       apply(SH(p));
       return {y:y-shift,shift,progress:p};
     }

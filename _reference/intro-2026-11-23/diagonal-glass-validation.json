@@ -1,0 +1,19 @@
+{
+  "physical": {
+    "physical": true,
+    "roughness": 0.045,
+    "ior": 1.5,
+    "transmission": 0,
+    "specularBlend": true,
+    "windowStrength": 0,
+    "environment": true,
+    "runtime": "physical",
+    "diagonal": {
+      "slope": -1.3767605633802817,
+      "expected": -1.37687449968353,
+      "gain": 1.25
+    }
+  },
+  "errors": [],
+  "badRequests": []
+}

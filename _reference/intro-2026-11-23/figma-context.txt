@@ -1,0 +1,77 @@
+Node 211:1408
+export default function GetsYouMoving() {
+  return (
+    <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative size-full text-[84.994px] text-center text-white" data-node-id="211:1408" style={{ fontVariationSettings: '"wdth" 100' }}>
+      Mở Dopafit là biết hôm nay tập gì
+    </p>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+Node 211:1664
+export default function LchTpThitKRiengDaTrenMcTieuQuThiGianVaDngCSnCoCaBnDDangTpChunKThutViVideoHngDnTrcQuanHinhMinhHaNhomCTacDngVaTinhNangGhiChepSHipMcTCungTinDPhcHi() {
+  return (
+    <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[normal] relative size-full text-[24px] text-center text-white" data-node-id="211:1664" style={{ fontVariationSettings: '"wdth" 100' }}>
+      Lịch tập thiết kế riêng dựa trên mục tiêu, quỹ thời gian và dụng cụ sẵn có của bạn. Dễ dàng tập chuẩn kỹ thuật với video hướng dẫn trực quan, hình minh họa nhóm cơ tác động và tính năng ghi chép số hiệp, mức tạ cùng tiến độ phục hồi.
+    </p>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+Node 211:1665
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/b2587771-de09-4044-a5cb-55defa16c891";
+const imgImage189 = `${assetPathPrefix}/10d26.png`;
+
+export default function Image189() {
+  return (
+    <div className="relative size-full" data-node-id="211:1665" data-name="image 189">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage189} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+Node 211:1666
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/22170ae9-8859-46da-9054-72557adbd70c";
+const imgImage190 = `${assetPathPrefix}/3b004.png`;
+
+export default function Image190() {
+  return (
+    <div className="relative size-full" data-node-id="211:1666" data-name="image 190">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage190} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

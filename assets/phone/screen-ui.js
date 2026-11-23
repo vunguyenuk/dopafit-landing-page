@@ -13,7 +13,7 @@ const workoutSections=[
   [1368,1494,.77,1]      // Bottom navigation
 ];
 
-export function createPhoneScreen(workout,featureImage,redraw){
+export function createPhoneScreen(workout,featureImage,redraw,{connectRecording=true}={}){
   const {naturalWidth:width,naturalHeight:height}=workout;
   function makeTexture(image){
     const texture=new THREE.Texture(image);
@@ -46,7 +46,7 @@ export function createPhoneScreen(workout,featureImage,redraw){
     material.uniforms.recordedVideo.value=true;
     featureReady=true;version++;redraw();
   }
-  window.addEventListener('dopafit:recording-frame',({detail:{video,previousVideo,blend}})=>showRecording(video,previousVideo,blend));
+  if(connectRecording)window.addEventListener('dopafit:recording-frame',({detail:{video,previousVideo,blend}})=>showRecording(video,previousVideo,blend));
   function captureFeature(){
     if(recordingVideo||!featureImage.naturalWidth)return;
     let bitmap=featureImage;
@@ -161,7 +161,7 @@ export function createPhoneScreen(workout,featureImage,redraw){
       }`
   });
 
-  window.addEventListener('dopafit:recording-touch',({detail:{point,strength,radius}})=>{
+  if(connectRecording)window.addEventListener('dopafit:recording-touch',({detail:{point,strength,radius}})=>{
     material.uniforms.touchPoint.value.set(...point);
     material.uniforms.touchStrength.value=strength;
     material.uniforms.touchRadius.value=radius;
@@ -169,11 +169,11 @@ export function createPhoneScreen(workout,featureImage,redraw){
   });
   function update(rise,dock){
     material.uniforms.riseProgress.value=rise;
-    material.uniforms.featureBlend.value=featureReady?THREE.MathUtils.smoothstep(dock,.78,1):0;
+    material.uniforms.featureBlend.value=featureReady?THREE.MathUtils.smoothstep(dock,.20,.45):0;
     material.uniforms.reflectionStrength.value=1-.72*dock;
   }
   if(featureImage.complete)captureFeature();
-  const player=window.DopafitAppRecording;
+  const player=connectRecording?window.DopafitAppRecording:null;
   const currentVideo=player?.videos[player.active];
   if(currentVideo?.readyState>=2)showRecording(currentVideo);
   return {material,update,get version(){return version;}};

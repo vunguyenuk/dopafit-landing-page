@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-23",
+  "checks": {
+    "figmaContentAndFourMappedFeatures": "passed",
+    "desktopTabletMobileOverflow": "passed",
+    "faqAndDownloadButtons": "passed",
+    "originalWorkbookQuotesOnly": "passed",
+    "oppositeReviewMotionAndPause": "passed",
+    "reducedMotion": "passed",
+    "heroLineFocusAndReverse": "passed",
+    "heroSkipHandoff": "passed",
+    "exactFanTimingAndSixVideos": "passed",
+    "headerFooterOfficialLogoAfterDAnimation": "passed",
+    "introPhoneFirstLowerThenCopy": "passed",
+    "introReverseAndKeyboardDownload": "passed"
+  },
+  "javascriptErrors": [],
+  "failedAssetRequests": []
+}

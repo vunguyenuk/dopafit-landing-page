@@ -1,0 +1,167 @@
+{
+  "figma_file": "2lNpfPEq2wVnGk07bVLghz",
+  "figma_nodes": {
+    "heading": "211:1408",
+    "description": "211:1664",
+    "rating": "211:1665",
+    "app_store_button": "211:1666"
+  },
+  "video": "/Users/vunguyen/Downloads/From Klickpin.com- Dreamy world culture moments for daily inspiration made for cozy stylish inspiration for culture-ri-pin-id-819514463494705657.mp4",
+  "video_excerpt_seconds": [
+    0,
+    3
+  ],
+  "manual_pose_estimates": true,
+  "blender_source": "scripts/build-intro-phone.py",
+  "files": [
+    {
+      "file": "assets/phone/dopafit-phone.glb",
+      "bytes": 2704828,
+      "sha256": "a1b93ef6495776f461e7e3292ac5c212dda74a144da0ec56c30d2b50b3c5355a"
+    },
+    {
+      "file": "assets/intro/phone-motion.glb",
+      "bytes": 5304,
+      "sha256": "d90d2aa2f14945b28d0994f44c72f98ee40b12981fa0e62006a033bf3e8eeecc"
+    },
+    {
+      "file": "assets/intro/dopafit-intro.blend",
+      "bytes": 6976333,
+      "sha256": "cb3c612a3abd9cad0d919691bce461d7bb68ab412c2416fb566b11f3bb932435"
+    },
+    {
+      "file": "assets/intro/figma-rating.png",
+      "bytes": 29583,
+      "sha256": "bd6048486497bfffd472dc04e9196bcdde7842f557dcafb382596d22b14e7d49"
+    },
+    {
+      "file": "assets/intro/figma-app-store.png",
+      "bytes": 19298,
+      "sha256": "0648805ca671f7c07d1d9a25dcba2faabea83900017d22249fc660af855b6ca6"
+    },
+    {
+      "file": "assets/intro/exercise-screen.png",
+      "bytes": 597272,
+      "sha256": "8aeb64df3336446c317c9ca3fda41b7408f179aa6aebf7d8f469943bf2aea7c6"
+    },
+    {
+      "file": "assets/intro/exercise-overlay.png",
+      "bytes": 219305,
+      "sha256": "01a614a525e0340b3553d66d1f094f2d3cc308411002ab1b605a0bddc52821ab"
+    },
+    {
+      "file": "assets/intro/exercise-poster.png",
+      "bytes": 566353,
+      "sha256": "e5a4959177e17fe465fa3aa9e7f5d3ef854b18ef815ada17f7e68cac8cfd7b3b"
+    },
+    {
+      "file": "assets/intro/dumbbell-bench-press.mp4",
+      "bytes": 901043,
+      "sha256": "1027f05f9a45c5c9e9db513b294801c8133703d733eb0343c18cdafcfbfbb8db"
+    },
+    {
+      "file": "assets/intro/phone-poster.png",
+      "bytes": 1237194,
+      "sha256": "772545f23f1c586e33bf9d757b28a487777d7bbb994391064425e561dc68d4ce"
+    },
+    {
+      "file": "assets/intro/phone-poster-settled.png",
+      "bytes": 1347175,
+      "sha256": "6a28e2c49a8ef0dbdeeb9a7feb48fa7567951582742ff1528a515ddce67f9205"
+    },
+    {
+      "file": "assets/intro/hammer-curls.mp4",
+      "bytes": 944715,
+      "sha256": "a828318f308dd90707fd18ae09863ad384cee0b993366b86d65505624fbfc7cd"
+    },
+    {
+      "file": "assets/intro/exercise-thumb-0.jpg",
+      "bytes": 38280,
+      "sha256": "58cbef981317e714fe200538335d49c06ffe7827d48b5c3790344a33355e8b0d"
+    },
+    {
+      "file": "assets/intro/exercise-thumb-1.jpg",
+      "bytes": 38454,
+      "sha256": "44aa2826b5f6571919b626e8f17f1e3805f221b40d1bec3e8734b840dc4b2afb"
+    },
+    {
+      "file": "assets/intro/exercise-thumb-2.jpg",
+      "bytes": 39049,
+      "sha256": "9dd6e5ed9fad18012e5fb63f720dbd02e47b1c0f7e3a978d21252bc95701941c"
+    }
+  ],
+  "exercise": {
+    "source_video": "/Users/vunguyen/Downloads/Excercises/hammer-curls-7bd6c038-angle-1.mp4",
+    "source_ui": "/var/folders/7f/4dmnw0q132vgykvq33z58mrc0000gp/T/TemporaryItems/NSIRD_screencaptureui_x4bY2G/Screenshot 2026-11-23 at 10.38.06 AM.png",
+    "screen_crop": [
+      55,
+      22,
+      768,
+      1664
+    ],
+    "display_name": "Cuốn tạ đơn kiểu búa",
+    "duration_seconds": 8,
+    "fps": 24,
+    "video_processing": "Original H.264 stream copied unchanged; audio removed; faststart. No generated frames.",
+    "ui_processing": "Native controls and geometry retained. Matching hammer-curl title and instructions. Preview stills at .8/2.4/4 seconds are phases from the same supplied clip.",
+    "implementation": "assets/intro/exercise-screen.js: loadExerciseArtwork / createIntroExerciseScreen; reuses assets/phone/screen-ui.js: createPhoneScreen glass/reflection shader.",
+    "same_decoded_frames": true,
+    "decoded_frame_count": 192,
+    "reflection": "Figma card source index.html 147:2919/2920/2921:125.99025157704725deg, transparent42%/white0.11 at50%/transparent58%; sections.css .places-glass-light screen blend and160% width; sections-scene.js render()5→95% sweep. Coating repeat.625/offset.01875→.35625 updated by scroll, reversed directly; manual material gain1.25 and rim.15 for clarity. No window pattern. Source: assets/intro/iphone-glass.js:createIPhoneGlass/coat.update. Native display up to DPR2, no canvas mask or bottom overlay; camera film extended down by2× without reframing. Visible-layer correction after12:40 feedback: native cover occluded old.00035 offset; coating now.00235 along source normals, DoubleSide, depth testing retained. Scroll sweep uses pass=1-(1-clamp(clock/2.667))^3 while phone is visible. Actual-model rendered-pixel centroid travel and exact reversal verified in visible-sweep-validation.json.",
+    "previous_source_video": "/Users/vunguyen/Downloads/Excercises/dumbbell-bench-press-e2d3567e-angle-1.mp4",
+    "selection_reason": "User requested a cleaner presentation: upright athlete centred in portrait crop with no bench obscuring the movement."
+  },
+  "phone_orientation_correction": {
+    "source": "User-supplied video00–03s, reviewed contact frames",
+    "implementation": "scripts/build-intro-phone.py:pose(t)",
+    "lateral_yaw_degrees": 0,
+    "roll_degrees": 0,
+    "front_facing_base_yaw_degrees": 180,
+    "pitch_and_crop_measurements": "Retained from video-pose-keys.json; legacy yaw/roll estimates ignored after user correction",
+    "manual_reference_correction": true,
+    "validation": "level-phone-validation.json"
+  },
+  "copy_reveal": {
+    "source": "assets/vendor/dropset-tracking-source.js: a-55 Content, a-55-n / a-55-n-2",
+    "source_vertical_movement_px": [
+      80,
+      0
+    ],
+    "responsive_basis_design_width": 1920,
+    "fade_span_clock_units": 0.65,
+    "settle_span_clock_units": 0.8,
+    "starts": [
+      0.5,
+      0.66,
+      0.82
+    ],
+    "timings_manually_adapted": true,
+    "scroll_reversible": true,
+    "final_figma_positions_preserved": true
+  },
+  "phone_framing": {
+    "user_reference": "Screenshot 2026-11-23 at 2.44.53 PM.png",
+    "implementation": "scripts/build-intro-phone.py:pose(t)",
+    "fixed_width_multiplier": 1.45,
+    "preserved": [
+      "upper-edge position",
+      "upper-edge centre",
+      "neutral yaw and roll",
+      "pitch",
+      "scroll timing",
+      "copy layout"
+    ],
+    "viewport_crops_lower_phone": true,
+    "new_animated_zoom": false,
+    "mobile_host": "680×383.589744 at390px, proportionally reduced below390px",
+    "validation": "soft-edge-validation.json",
+    "previous_multiplier": 1.6,
+    "bottom_blend": {
+      "implementation": "assets/intro/intro.css:.intro-stage::after",
+      "height": "min(72px,7svh)",
+      "type": "transparent to black gradient",
+      "blur": false,
+      "whole_app_dimming": false
+    }
+  }
+}

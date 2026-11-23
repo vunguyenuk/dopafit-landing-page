@@ -34,11 +34,12 @@
     link(el,()=>{const open=el.getAttribute('aria-expanded')==='true';document.querySelectorAll('.faq-item').forEach(x=>{x.setAttribute('aria-expanded','false');x.querySelector('.faq-answer').hidden=true;});el.setAttribute('aria-expanded',String(!open));answer.hidden=open;let offset=0;[2796,2800,2804,2808,2812,2816].forEach(rowID=>{const row=q(rowID);const expanded=row.getAttribute('aria-expanded')==='true';const extra=expanded?row.querySelector('.faq-answer').scrollHeight:0;row.style.top=offset+'px';row.style.height=(73+extra)+'px';offset+=73+extra;});});
   });
   // Dropset's side navigation: each row controls the matching workout UI.
-  const featureRows=[2776,2790,2786,2782,2778];
-  const screens=['21-lich-thang','01-buoi-tap','04-the-trang','03-dung-cu','10-loc-nguc'];
+  const featureRows=[2776,2790,2786,2782];
   const featureScreen=q(2794),featureHeading=q(2851),featureCopy=q(2775),featureDivider=q(2855);
   const featureScreenImage=featureScreen.querySelector('img');
-  featureRows.forEach((id,i)=>{const el=q(id).querySelector('p');el.classList.add('feature-tab');el.setAttribute('aria-selected',String(i===0));link(el,()=>{if(tracking.jump(i))return;featureRows.forEach(x=>q(x).querySelector('p').setAttribute('aria-selected',String(x===id)));featureScreenImage.src=`assets/app-captures-2026-11-16/${screens[i]}.png`;featureScreenImage.alt=el.textContent.trim();},el.textContent.trim());});
+  featureScreenImage.src=window.DopafitContent.screens[0];
+  featureScreenImage.alt=window.DopafitContent.features[0];
+  featureRows.forEach((id,i)=>{const el=q(id).querySelector('p');el.classList.add('feature-tab');el.setAttribute('aria-selected',String(i===0));link(el,()=>{if(tracking.jump(i))return;featureRows.forEach(x=>q(x).querySelector('p').setAttribute('aria-selected',String(x===id)));featureScreenImage.src=window.DopafitContent.screens[i];featureScreenImage.alt=el.textContent.trim();},el.textContent.trim());});
   // The supplied Figma static assets are retained below the live 3D canvas as a graceful fallback.
   const phone=q(2771);const fallback=document.createElement('div');fallback.className='phone-fallback';while(phone.firstChild)fallback.append(phone.firstChild);phone.append(fallback);
   const live=document.createElement('div');live.className='phone-webgl';live.id='phone-webgl';live.setAttribute('role','img');live.setAttribute('aria-label','Điện thoại 3D từ kiosk hiển thị buổi tập Dopafit');phone.append(live);
@@ -47,14 +48,7 @@
   const video=document.createElement('video');video.src='assets/landing/row.9c406ddc16.mp4';video.poster=poster.src;video.muted=true;video.loop=true;video.playsInline=true;video.preload='none';video.style.cssText='width:100%;height:100%;object-fit:cover;border-radius:inherit;';video.setAttribute('aria-label','Video hướng dẫn bài tập');poster.replaceWith(video);
   new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting&&!reduced)video.play().catch(()=>{});else video.pause();}),{rootMargin:'150px'}).observe(video);
   // Alternating women/men, all photographs from the supplied Pliability capture.
-  const photos=[
-    {file:'rowing',alt:'Nữ vận động viên tập máy chèo',position:'50% 38%'},
-    {file:'male-seated-fold',alt:'Nam vận động viên giãn cơ đùi sau',position:'50% 50%'},
-    {file:'barbell-squat',alt:'Nữ vận động viên tập squat với thanh tạ',position:'50% 36%'},
-    {file:'male-runner',alt:'Nam vận động viên chạy trên đường tập cạnh cây xanh',position:'50% 48%'},
-    {file:'stability-ball',alt:'Nữ vận động viên tập kiểm soát cơ thể với bóng',position:'50% 42%'},
-    {file:'male-tennis',alt:'Nam vận động viên tập tennis ngoài trời',position:'50% 40%'}
-  ];
+  const photos=window.DopafitContent.fan.map((alt,i)=>({file:i+1,alt,position:'50% 50%'}));
   // Use the extracted Skydive driver. Its card transforms never rotate.
   const {scene:heroScene}=window.DopafitSkydiveHero.mount({cards:q(3029),copy:q(2850),header:q(2825),reduced});
   // ≤600px: one-column mobile page (assets/mobile/mobile.js) instead of the scaled 1920px canvas scenes.
@@ -69,7 +63,7 @@
     slot.className='fan-slot';slot.style.left=(fanCenterX+Math.sin(angle)*fanRadius)+'px';slot.style.top=(fanCenterY-Math.cos(angle)*fanRadius)+'px';
     const el=document.createElement('div');el.className='fan-card';
     el.style.setProperty('--i',i);el.style.setProperty('--r',targetAngles[i]+'deg');
-    const img=document.createElement('img');img.src=`assets/photography/${photo.file}.jpg`;img.alt=photo.alt;img.style.objectPosition=photo.position;
+    const img=window.DopafitFanVideo.create(photo.file-1);img.style.objectPosition=photo.position;
     el.append(img);slot.append(el);fanRoot.append(slot);return el;
   });
   const exerciseButton=q(2751),exerciseCaption=q(2763);
@@ -88,7 +82,13 @@
     fanCards.forEach(card=>card.classList.add('play'));
     fanCards.forEach(card=>fanAnimations.push(card.getAnimations()[0]));
   }
-  const fanDuration=fanAnimations.at(-1)?.effect.getComputedTiming().endTime??0;
+  let fanStarted=reduced,fanComplete=reduced;
+  function startFan(){
+    if(fanStarted)return;
+    fanStarted=true;fanAnimations.forEach(a=>{a.currentTime=0;a.play();});
+    Promise.all(fanAnimations.map(a=>a.finished)).then(()=>{fanComplete=true;requestRender();}).catch(()=>{});
+  }
+
 
   // Andfold's Image Rotate Wrapper loops from 0 to 360 degrees in 50s, linearly.
   const fanDegreesPerMs=360/50000;
@@ -148,9 +148,11 @@
     const captionStart=Math.max(fanStart+fanSpan,midpoint(exerciseCaption)),captionSpan=Math.max(90,h*.075);
     const opening=clamp((viewportBottom-fanStart)/fanSpan);
     reveal(exerciseButton,progress(viewportBottom,buttonStart,buttonSpan));
-    fanAnimations.forEach(animation=>{animation.currentTime=opening*fanDuration;});
+    // Use the existing viewport/hero handoff calculation, so the one-shot CSS
+    // reveal cannot finish invisibly behind the preceding pinned hero.
+    if(opening>0&&document.getElementById("landing").classList.contains("hero-handoff-done"))startFan();
     reveal(exerciseCaption,progress(viewportBottom,captionStart,captionSpan));
-    updateFanLoop(opening,fanBox);
+    updateFanLoop(fanComplete?1:0,fanBox);
     return Math.max(phoneScrollStart,captionStart+captionSpan);
   }
   // Section "Làm thế nào…": Skydive tools-orbit scene (assets/figma/orbit-scene.js).

@@ -1,0 +1,22 @@
+[
+  {
+    "viewport": 1440,
+    "beforeBytes": 13543939,
+    "afterBytes": 5997492,
+    "reductionPercent": 55.7,
+    "beforeRequests": 135,
+    "afterRequests": 85,
+    "beforeWebGLContexts": 2,
+    "afterWebGLContexts": 1
+  },
+  {
+    "viewport": 390,
+    "beforeBytes": 13914145,
+    "afterBytes": 6808570,
+    "reductionPercent": 51.1,
+    "beforeRequests": 151,
+    "afterRequests": 105,
+    "beforeWebGLContexts": 2,
+    "afterWebGLContexts": 1
+  }
+]

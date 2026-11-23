@@ -5,7 +5,7 @@
 .orbit-ring-track{stroke:rgba(184,242,74,.22);stroke-width:2;stroke-dasharray:2 10;stroke-linecap:round;
   opacity:0;transition:opacity .9s ease}
 .orbit-ring-svg[data-live=true] .orbit-ring-track{opacity:1}
-.orbit-ring-reveal{stroke:#fff;stroke-width:24;stroke-dasharray:0 1;transition:stroke-dasharray 1.1s cubic-bezier(.65,0,.35,1)}
+.orbit-ring-reveal{stroke:#fff;stroke-width:24;stroke-dasharray:0 1;transition:stroke-dasharray .45s cubic-bezier(.22,1,.36,1)}
 .orbit-ring-lit{stroke:#b8f24a;stroke-width:3.5;stroke-linecap:round;stroke-dasharray:14 12;
   filter:drop-shadow(0 0 6px rgba(184,242,74,.85)) drop-shadow(0 0 18px rgba(184,242,74,.45));
   animation:orbit-ring-run 1.6s linear infinite}
@@ -69,3 +69,10 @@
 /* Full ring thinner (user 2026-11-18 "line mỏng thôi"): 1.5px line, softer glow. */
 .orbit-ring-full{stroke-width:1.5;filter:drop-shadow(0 0 5px rgba(184,242,74,.6))}
 .m-orbit .orbit-ring-full{vector-effect:non-scaling-stroke;stroke-width:1.5}
+
+/* Source dot reveal/lift stays intact. Pending dots remain dark until the
+   ring mask's actual leading edge reaches their boundary (orbit-ring.js). */
+.orbit-dot[data-ring-reached=false]{filter:brightness(.28) drop-shadow(0 10px 24px #0007);transition:opacity .45s,--dotscale .6s cubic-bezier(.3,1.4,.5,1),box-shadow .45s,filter .1s linear}
+.orbit-dot[data-ring-reached=true]{transition:opacity .45s,--dotscale .6s cubic-bezier(.3,1.4,.5,1),box-shadow .45s,filter .1s linear}
+@media(prefers-reduced-motion:reduce){.orbit-dot[data-ring-reached]{filter:none;transition:none}}
+.motion-off .orbit-dot[data-ring-reached]{filter:none;transition:none}

@@ -1,0 +1,6101 @@
+{
+  "report": [
+    {
+      "width": 1440,
+      "navigation": {
+        "name": "http://127.0.0.1:8097/?intro-qa=1795444107807",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 364.60000014305115,
+        "navigationId": 3279,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.7000000476837158,
+        "domainLookupStart": 0.7000000476837158,
+        "domainLookupEnd": 0.7000000476837158,
+        "connectStart": 0.7000000476837158,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.7000000476837158,
+        "requestStart": 2.200000047683716,
+        "responseStart": 4.1000001430511475,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 4.1000001430511475,
+        "responseEnd": 4.800000190734863,
+        "transferSize": 54623,
+        "encodedBodySize": 54323,
+        "decodedBodySize": 54323,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 274,
+        "domContentLoadedEventStart": 309.5,
+        "domContentLoadedEventEnd": 316.40000009536743,
+        "domComplete": 363.90000009536743,
+        "loadEventStart": 364.2000000476837,
+        "loadEventEnd": 364.60000014305115,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "resources": [
+        {
+          "name": "assets/figma/layout.css",
+          "bytes": 59827,
+          "decoded": 59527,
+          "duration": 3,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/landing.css?v=vi-lower-12",
+          "bytes": 11313,
+          "decoded": 11013,
+          "duration": 2.6000001430511475,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/orbit.css?v=20261123-variant",
+          "bytes": 15055,
+          "decoded": 14755,
+          "duration": 3.6000001430511475,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/sections.css?v=vi-lower-12",
+          "bytes": 5568,
+          "decoded": 5268,
+          "duration": 3.8000001907348633,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/font-sf.css",
+          "bytes": 1516,
+          "decoded": 1216,
+          "duration": 3.1000001430511475,
+          "type": "link"
+        },
+        {
+          "name": "assets/mobile/mobile.css?v=vi-lower-12",
+          "bytes": 13151,
+          "decoded": 12851,
+          "duration": 3.700000047683716,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/typography.css?v=vi-lower-12",
+          "bytes": 4313,
+          "decoded": 4013,
+          "duration": 5.099999904632568,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/orbit-ring.css?v=20261123-sync-icons",
+          "bytes": 7625,
+          "decoded": 7325,
+          "duration": 5.199999809265137,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/brand.css?v=20261123-nav-inset",
+          "bytes": 6251,
+          "decoded": 5951,
+          "duration": 5.299999952316284,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/footer.css?v=20261118-vi-lower-12",
+          "bytes": 3039,
+          "decoded": 2739,
+          "duration": 5.099999904632568,
+          "type": "link"
+        },
+        {
+          "name": "assets/content-2026-11-23/content.css?v=20261123-source-pixel-sweep",
+          "bytes": 12232,
+          "decoded": 11932,
+          "duration": 5.099999904632568,
+          "type": "link"
+        },
+        {
+          "name": "assets/intro/intro.css?v=20261123-8",
+          "bytes": 4034,
+          "decoded": 3734,
+          "duration": 5.400000095367432,
+          "type": "link"
+        },
+        {
+          "name": "assets/intro/figma-app-store.png",
+          "bytes": 19598,
+          "decoded": 19298,
+          "duration": 7.400000095367432,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/male-tennis.jpg",
+          "bytes": 105672,
+          "decoded": 105372,
+          "duration": 7.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/phone-poster.png?v=framing-3",
+          "bytes": 1150315,
+          "decoded": 1150015,
+          "duration": 15.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/figma-rating.png",
+          "bytes": 29883,
+          "decoded": 29583,
+          "duration": 25.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/male-runner.jpg",
+          "bytes": 137169,
+          "decoded": 136869,
+          "duration": 10.300000190734863,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/stability-ball.jpg",
+          "bytes": 76079,
+          "decoded": 75779,
+          "duration": 11,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/barbell-squat.jpg",
+          "bytes": 88641,
+          "decoded": 88341,
+          "duration": 25.90000009536743,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/male-seated-fold.jpg",
+          "bytes": 67712,
+          "decoded": 67412,
+          "duration": 26,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/rowing.jpg",
+          "bytes": 104830,
+          "decoded": 104530,
+          "duration": 26,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/3dfb2.png",
+          "bytes": 34229,
+          "decoded": 33929,
+          "duration": 26.09999990463257,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/1ab90.webp",
+          "bytes": 33260,
+          "decoded": 32960,
+          "duration": 27.399999856948853,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/0c1d8.webp",
+          "bytes": 140672,
+          "decoded": 140372,
+          "duration": 28.299999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/04020.svg",
+          "bytes": 3382,
+          "decoded": 3082,
+          "duration": 27.09999990463257,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/0fa5a.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 27.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/ea64e.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 28,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/97b29.webp",
+          "bytes": 70790,
+          "decoded": 70490,
+          "duration": 28.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/55116.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 28.90000009536743,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/83b39.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 29,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/cb1e6.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 29,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/991c3.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 29.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/30814.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 29.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/194f1.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 30.100000143051147,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/e6b60.png",
+          "bytes": 19198,
+          "decoded": 18898,
+          "duration": 30.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/cc57f.png",
+          "bytes": 38503,
+          "decoded": 38203,
+          "duration": 30.40000009536743,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/b069f.png",
+          "bytes": 28439,
+          "decoded": 28139,
+          "duration": 30.90000009536743,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/2eac9.svg",
+          "bytes": 579,
+          "decoded": 279,
+          "duration": 30.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/9f331.svg",
+          "bytes": 806,
+          "decoded": 506,
+          "duration": 30.899999856948853,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/a4e02.svg",
+          "bytes": 3605,
+          "decoded": 3305,
+          "duration": 31.299999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/ade23.webp",
+          "bytes": 9932,
+          "decoded": 9632,
+          "duration": 31.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/acd11.webp",
+          "bytes": 50338,
+          "decoded": 50038,
+          "duration": 31.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/371b7.webp",
+          "bytes": 52332,
+          "decoded": 52032,
+          "duration": 32.09999990463257,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/0ddab.webp",
+          "bytes": 86224,
+          "decoded": 85924,
+          "duration": 31.90000009536743,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/resting-without-plan.jpg",
+          "bytes": 70995,
+          "decoded": 70695,
+          "duration": 32,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/checking-routine.jpg",
+          "bytes": 57518,
+          "decoded": 57218,
+          "duration": 32.40000009536743,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/looking-up-workout.jpg",
+          "bytes": 127167,
+          "decoded": 126867,
+          "duration": 34.299999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/low-energy-bench.jpg",
+          "bytes": 96569,
+          "decoded": 96269,
+          "duration": 34.59999990463257,
+          "type": "img"
+        },
+        {
+          "name": "assets/content-2026-11-23/fan-video.js",
+          "bytes": 1197,
+          "decoded": 897,
+          "duration": 9.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/lower-motion.js?v=vi-lower-12",
+          "bytes": 2338,
+          "decoded": 2038,
+          "duration": 10.800000190734863,
+          "type": "script"
+        },
+        {
+          "name": "assets/content-2026-11-23/content.js?v=1",
+          "bytes": 4521,
+          "decoded": 4221,
+          "duration": 11.100000143051147,
+          "type": "script"
+        },
+        {
+          "name": "assets/photography/painpoints/exhausted-on-machine.jpg",
+          "bytes": 68997,
+          "decoded": 68697,
+          "duration": 34.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/alone-between-sessions.jpg",
+          "bytes": 146152,
+          "decoded": 145852,
+          "duration": 35.10000014305115,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/fatigue-between-sets.jpg",
+          "bytes": 86324,
+          "decoded": 86024,
+          "duration": 34.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/which-dumbbell.jpg",
+          "bytes": 103513,
+          "decoded": 103213,
+          "duration": 34.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/pause-before-next-set.jpg",
+          "bytes": 73773,
+          "decoded": 73473,
+          "duration": 39.60000014305115,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/need-form-guidance.jpg",
+          "bytes": 107907,
+          "decoded": 107607,
+          "duration": 39.80000019073486,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/setting-up-equipment.jpg",
+          "bytes": 111167,
+          "decoded": 110867,
+          "duration": 39.90000009536743,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/needing-a-plan.jpg",
+          "bytes": 46755,
+          "decoded": 46455,
+          "duration": 40.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/uncertain-machine-technique.jpg",
+          "bytes": 120420,
+          "decoded": 120120,
+          "duration": 40.30000019073486,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/shoulder-recovery.jpg",
+          "bytes": 41955,
+          "decoded": 41655,
+          "duration": 40.30000019073486,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/orbit-variant.js?v=1",
+          "bytes": 1698,
+          "decoded": 1398,
+          "duration": 12.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/mobile/mobile.js?v=20261123-variant",
+          "bytes": 25248,
+          "decoded": 24948,
+          "duration": 12.599999904632568,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/chande-pixel-ramp.js?v=1",
+          "bytes": 1460,
+          "decoded": 1160,
+          "duration": 13.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/reference-motion.js",
+          "bytes": 2381,
+          "decoded": 2081,
+          "duration": 14,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/dropset-tracking-source.js",
+          "bytes": 4682,
+          "decoded": 4382,
+          "duration": 15.099999904632568,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/skydive-hero-source.js?v=20261123-source-pixel-sweep",
+          "bytes": 17357,
+          "decoded": 17057,
+          "duration": 14.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/recordings/journey-timeline.js",
+          "bytes": 7147,
+          "decoded": 6847,
+          "duration": 15.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/tracking.js?v=20261118-vi-lower-12",
+          "bytes": 18900,
+          "decoded": 18600,
+          "duration": 15.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/recording-player.js",
+          "bytes": 4232,
+          "decoded": 3932,
+          "duration": 16.100000143051147,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/lenis-1.1.13.min.js",
+          "bytes": 13785,
+          "decoded": 13485,
+          "duration": 17.600000143051147,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/brand.js?v=20261123-loop",
+          "bytes": 13788,
+          "decoded": 13488,
+          "duration": 18.90000009536743,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/orbit-ui.js?v=vi-lower-12",
+          "bytes": 15091,
+          "decoded": 14791,
+          "duration": 19.100000143051147,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/sections-scene.js?v=vi-lower-12",
+          "bytes": 12746,
+          "decoded": 12446,
+          "duration": 19.299999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/scroll-driver.js",
+          "bytes": 1386,
+          "decoded": 1086,
+          "duration": 19.90000009536743,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/orbit-scene.js?v=20261123-space-preserve",
+          "bytes": 18975,
+          "decoded": 18675,
+          "duration": 20.40000009536743,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/phone.js",
+          "bytes": 10653,
+          "decoded": 10353,
+          "duration": 6.299999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/landing.js?v=20261118-vi-lower-12",
+          "bytes": 18400,
+          "decoded": 18100,
+          "duration": 19.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/responsive-guard.js",
+          "bytes": 2312,
+          "decoded": 2012,
+          "duration": 21.199999809265137,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/chande-title-settings-source.js",
+          "bytes": 995,
+          "decoded": 695,
+          "duration": 21.59999990463257,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/orbit-ring.js?v=20261123-sync-icons",
+          "bytes": 8628,
+          "decoded": 8328,
+          "duration": 22,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/chande-title-adapter.js?v=vi-lower-12",
+          "bytes": 4655,
+          "decoded": 4355,
+          "duration": 22.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/chande-title-source.js",
+          "bytes": 15751,
+          "decoded": 15451,
+          "duration": 22.699999809265137,
+          "type": "script"
+        },
+        {
+          "name": "assets/mobile/phone3d-mobile.js",
+          "bytes": 8834,
+          "decoded": 8534,
+          "duration": 6.099999904632568,
+          "type": "script"
+        },
+        {
+          "name": "assets/intro/intro.js?v=20261123-9",
+          "bytes": 3532,
+          "decoded": 3232,
+          "duration": 5.900000095367432,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/typography.js?v=vi-lower-12",
+          "bytes": 2845,
+          "decoded": 2545,
+          "duration": 22.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/content-2026-11-23/reviews-data.js?v=2",
+          "bytes": 26787,
+          "decoded": 26487,
+          "duration": 23.40000009536743,
+          "type": "script"
+        },
+        {
+          "name": "assets/content-2026-11-23/reviews.js?v=3",
+          "bytes": 4736,
+          "decoded": 4436,
+          "duration": 23.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/fonts.css",
+          "bytes": 13169,
+          "decoded": 12869,
+          "duration": 3.0999999046325684,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/8d0df.svg",
+          "bytes": 785,
+          "decoded": 485,
+          "duration": 23.40000009536743,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/cda3a.svg",
+          "bytes": 3648,
+          "decoded": 3348,
+          "duration": 22.700000047683716,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/7994e.svg",
+          "bytes": 591,
+          "decoded": 291,
+          "duration": 21.59999990463257,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/da433.svg",
+          "bytes": 581,
+          "decoded": 281,
+          "duration": 21.799999952316284,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/d4d84.svg",
+          "bytes": 553,
+          "decoded": 253,
+          "duration": 21.59999990463257,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/055db.svg",
+          "bytes": 542,
+          "decoded": 242,
+          "duration": 21.40000009536743,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/cb1cc.svg",
+          "bytes": 550,
+          "decoded": 250,
+          "duration": 22.40000009536743,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/fada2.svg",
+          "bytes": 557,
+          "decoded": 257,
+          "duration": 22.299999952316284,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/a20b6.svg",
+          "bytes": 550,
+          "decoded": 250,
+          "duration": 21.90000009536743,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/af741.svg",
+          "bytes": 550,
+          "decoded": 250,
+          "duration": 22.100000143051147,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/1a0e7.svg",
+          "bytes": 550,
+          "decoded": 250,
+          "duration": 22.5,
+          "type": "css"
+        },
+        {
+          "name": "assets/orbit-ui/strength-reference.png",
+          "bytes": 642736,
+          "decoded": 642436,
+          "duration": 3.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/brand/dopafit-wordmark.svg#D",
+          "bytes": 6459,
+          "decoded": 6159,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "name": "assets/brand/dopafit-wordmark.svg",
+          "bytes": 6459,
+          "decoded": 6159,
+          "duration": 1.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/orbit-ui/recovery-body.webp",
+          "bytes": 25248,
+          "decoded": 24948,
+          "duration": 1.6000001430511475,
+          "type": "img"
+        },
+        {
+          "name": "assets/calendar/blender-preview.webp",
+          "bytes": 30028,
+          "decoded": 29728,
+          "duration": 2,
+          "type": "img"
+        },
+        {
+          "name": "assets/app-captures-2026-11-16/21-lich-thang.webp",
+          "bytes": 44694,
+          "decoded": 44394,
+          "duration": 2.0999999046325684,
+          "type": "img"
+        },
+        {
+          "name": "assets/exercises/fan/2.png",
+          "bytes": 41451,
+          "decoded": 41151,
+          "duration": 2.700000047683716,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/1.png",
+          "bytes": 59864,
+          "decoded": 59564,
+          "duration": 2.799999952316284,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/3.png",
+          "bytes": 46582,
+          "decoded": 46282,
+          "duration": 2.799999952316284,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/4.png",
+          "bytes": 51166,
+          "decoded": 50866,
+          "duration": 3.299999952316284,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/5.png",
+          "bytes": 47265,
+          "decoded": 46965,
+          "duration": 3.1000001430511475,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/6.png",
+          "bytes": 54718,
+          "decoded": 54418,
+          "duration": 5,
+          "type": "video"
+        },
+        {
+          "name": "assets/phone/recordings/focus-history.mp4",
+          "bytes": 156791,
+          "decoded": 156491,
+          "duration": 2.8999998569488525,
+          "type": "video"
+        },
+        {
+          "name": "assets/phone/recordings/focus-recovery-20261123.mp4",
+          "bytes": 64624,
+          "decoded": 64324,
+          "duration": 2.3000001907348633,
+          "type": "video"
+        },
+        {
+          "name": "assets/phone/recordings/focus-guide-20261123.mp4",
+          "bytes": 138786,
+          "decoded": 138486,
+          "duration": 2.5,
+          "type": "video"
+        },
+        {
+          "name": "assets/phone/recordings/focus-strength-20261123.mp4",
+          "bytes": 80671,
+          "decoded": 80371,
+          "duration": 2.1999998092651367,
+          "type": "video"
+        },
+        {
+          "name": "assets/vendor/three.module.js",
+          "bytes": 691948,
+          "decoded": 691648,
+          "duration": 4.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/screen-ui.js",
+          "bytes": 8424,
+          "decoded": 8124,
+          "duration": 1.3000001907348633,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/GLTFLoader.js",
+          "bytes": 110578,
+          "decoded": 110278,
+          "duration": 1.8000001907348633,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/BufferGeometryUtils.js",
+          "bytes": 32080,
+          "decoded": 31780,
+          "duration": 1.3999998569488525,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/dopafit-phone.glb",
+          "bytes": 2705128,
+          "decoded": 2704828,
+          "duration": 63.10000014305115,
+          "type": "fetch"
+        },
+        {
+          "name": "assets/phone/recordings/journey.webp",
+          "bytes": 44730,
+          "decoded": 44430,
+          "duration": 1.5999999046325684,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/phone-scene.js?v=framing-3",
+          "bytes": 5895,
+          "decoded": 5595,
+          "duration": 1.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/content-2026-11-23/review-stars.svg",
+          "bytes": 1674,
+          "decoded": 1374,
+          "duration": 1.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/exercise-screen.js?v=hammer-1",
+          "bytes": 7127,
+          "decoded": 6827,
+          "duration": 2.700000047683716,
+          "type": "script"
+        },
+        {
+          "name": "assets/intro/iphone-glass.js?v=reflection-4",
+          "bytes": 4718,
+          "decoded": 4418,
+          "duration": 2.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/brand/favicon.svg",
+          "bytes": 3298,
+          "decoded": 2998,
+          "duration": 1.2000000476837158,
+          "type": "other"
+        },
+        {
+          "name": "assets/phone/dopafit-phone.glb",
+          "bytes": 2705128,
+          "decoded": 2704828,
+          "duration": 16.799999952316284,
+          "type": "fetch"
+        },
+        {
+          "name": "assets/intro/phone-motion.glb?v=framing-3",
+          "bytes": 5608,
+          "decoded": 5308,
+          "duration": 4.200000047683716,
+          "type": "fetch"
+        },
+        {
+          "name": "favicon.ico",
+          "bytes": 2133,
+          "decoded": 1833,
+          "duration": 1.2999999523162842,
+          "type": "other"
+        },
+        {
+          "name": "assets/intro/exercise-thumb-0.jpg?v=hammer-1",
+          "bytes": 38580,
+          "decoded": 38280,
+          "duration": 2.3999998569488525,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/exercise-screen.png",
+          "bytes": 597572,
+          "decoded": 597272,
+          "duration": 4.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/exercise-thumb-1.jpg?v=hammer-1",
+          "bytes": 38754,
+          "decoded": 38454,
+          "duration": 2.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/exercise-thumb-2.jpg?v=hammer-1",
+          "bytes": 39349,
+          "decoded": 39049,
+          "duration": 2.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/hammer-curls.mp4",
+          "bytes": 945015,
+          "decoded": 944715,
+          "duration": 6.099999904632568,
+          "type": "video"
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/intro/figma-rating.png",
+          "loading": "auto",
+          "width": 512,
+          "height": 317
+        },
+        {
+          "src": "assets/intro/figma-app-store.png",
+          "loading": "auto",
+          "width": 502,
+          "height": 190
+        },
+        {
+          "src": "assets/intro/phone-poster.png?v=framing-3",
+          "loading": "auto",
+          "width": 1248,
+          "height": 1408
+        },
+        {
+          "src": "assets/photography/painpoints/resting-without-plan.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 600
+        },
+        {
+          "src": "assets/photography/painpoints/low-energy-bench.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/checking-routine.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 601
+        },
+        {
+          "src": "assets/photography/painpoints/looking-up-workout.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/exhausted-on-machine.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/alone-between-sessions.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/fatigue-between-sets.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/which-dumbbell.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "src": "assets/photography/painpoints/pause-before-next-set.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1125
+        },
+        {
+          "src": "assets/photography/painpoints/need-form-guidance.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/setting-up-equipment.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1125
+        },
+        {
+          "src": "assets/photography/painpoints/needing-a-plan.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 600
+        },
+        {
+          "src": "assets/photography/painpoints/uncertain-machine-technique.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/shoulder-recovery.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 600
+        },
+        {
+          "src": "assets/figma/26d75.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/d3495.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/0fa5a.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/ea64e.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/cb1e6.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/cb1e6.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/83b39.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/55116.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/0fa5a.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/30814.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/991c3.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/991c3.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/194f1.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/55116.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/69e40.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/78567.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/c1528.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/716ca.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/8abea.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/57379.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/57700.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/b069f.png",
+          "loading": "auto",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "assets/orbit-ui/recovery-body.webp",
+          "loading": "auto",
+          "width": 247,
+          "height": 555
+        },
+        {
+          "src": "assets/figma/2eac9.svg",
+          "loading": "auto",
+          "width": 456,
+          "height": 1
+        },
+        {
+          "src": "assets/figma/9f331.svg",
+          "loading": "auto",
+          "width": 457,
+          "height": 228
+        },
+        {
+          "src": "assets/figma/3dfb2.png",
+          "loading": "auto",
+          "width": 829,
+          "height": 2048
+        },
+        {
+          "src": "assets/figma/1ab90.webp",
+          "loading": "auto",
+          "width": 829,
+          "height": 2048
+        },
+        {
+          "src": "assets/figma/0c1d8.webp",
+          "loading": "auto",
+          "width": 1432,
+          "height": 3954
+        },
+        {
+          "src": "assets/figma/337d9.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/337d9.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/2ae08.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/app-captures-2026-11-16/21-lich-thang.webp",
+          "loading": "auto",
+          "width": 738,
+          "height": 1568
+        },
+        {
+          "src": "assets/figma/337d9.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/photography/footer-gym-arrival.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/8f583.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/f9d4d.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/0fdab.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/cc782.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/3c17c.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/calendar/blender-preview.webp",
+          "loading": "auto",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "assets/brand/dopafit-wordmark.svg",
+          "loading": "auto",
+          "width": 760,
+          "height": 87
+        },
+        {
+          "src": "assets/figma/ce45c.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/b3c7a.png",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/0689e.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/cd6ec.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/0689e.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/4928f.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/0689e.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/fa722.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/brand/dopafit-wordmark.svg",
+          "loading": "auto",
+          "width": 760,
+          "height": 87
+        }
+      ],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:8097/assets/intro/hammer-curls.mp4",
+          "preload": "auto",
+          "paused": false,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/1.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/2.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/3.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/4.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/5.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/6.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/landing/row.9c406ddc16.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "canvases": [
+        {
+          "w": 1170,
+          "h": 1320,
+          "host": "intro-phone"
+        },
+        {
+          "w": 453,
+          "h": 1121,
+          "host": "phone-webgl"
+        }
+      ],
+      "renders": "122",
+      "dom": 2078,
+      "idleCPU": {
+        "TaskDuration": 0.3287840000000002,
+        "ScriptDuration": 0.10241100000000003,
+        "LayoutDuration": 0.006739999999999996,
+        "RecalcStyleDuration": 0.032520999999999994,
+        "LayoutCount": 92,
+        "RecalcStyleCount": 140
+      },
+      "totalBytes": 13543939
+    },
+    {
+      "width": 390,
+      "navigation": {
+        "name": "http://127.0.0.1:8097/?intro-qa=1795444116702",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 238.19999980926514,
+        "navigationId": 8208,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.8999998569488525,
+        "domainLookupStart": 0.8999998569488525,
+        "domainLookupEnd": 0.8999998569488525,
+        "connectStart": 0.8999998569488525,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.8999998569488525,
+        "requestStart": 1.5999999046325684,
+        "responseStart": 2.5,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.5,
+        "responseEnd": 3,
+        "transferSize": 54623,
+        "encodedBodySize": 54323,
+        "decodedBodySize": 54323,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 194,
+        "domContentLoadedEventStart": 217.79999995231628,
+        "domContentLoadedEventEnd": 221.09999990463257,
+        "domComplete": 237.69999980926514,
+        "loadEventStart": 237.79999995231628,
+        "loadEventEnd": 238.19999980926514,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "resources": [
+        {
+          "name": "assets/figma/layout.css",
+          "bytes": 59827,
+          "decoded": 59527,
+          "duration": 2.9000000953674316,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/landing.css?v=vi-lower-12",
+          "bytes": 11313,
+          "decoded": 11013,
+          "duration": 3.299999952316284,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/orbit.css?v=20261123-variant",
+          "bytes": 15055,
+          "decoded": 14755,
+          "duration": 4.400000095367432,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/sections.css?v=vi-lower-12",
+          "bytes": 5568,
+          "decoded": 5268,
+          "duration": 4.599999904632568,
+          "type": "link"
+        },
+        {
+          "name": "assets/mobile/mobile.css?v=vi-lower-12",
+          "bytes": 13151,
+          "decoded": 12851,
+          "duration": 4.6000001430511475,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/font-sf.css",
+          "bytes": 1516,
+          "decoded": 1216,
+          "duration": 3.700000047683716,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/footer.css?v=20261118-vi-lower-12",
+          "bytes": 3039,
+          "decoded": 2739,
+          "duration": 3.8000001907348633,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/typography.css?v=vi-lower-12",
+          "bytes": 4313,
+          "decoded": 4013,
+          "duration": 6.300000190734863,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/brand.css?v=20261123-nav-inset",
+          "bytes": 6251,
+          "decoded": 5951,
+          "duration": 6.5,
+          "type": "link"
+        },
+        {
+          "name": "assets/figma/orbit-ring.css?v=20261123-sync-icons",
+          "bytes": 7625,
+          "decoded": 7325,
+          "duration": 6.6000001430511475,
+          "type": "link"
+        },
+        {
+          "name": "assets/intro/intro.css?v=20261123-8",
+          "bytes": 4034,
+          "decoded": 3734,
+          "duration": 7.6000001430511475,
+          "type": "link"
+        },
+        {
+          "name": "assets/content-2026-11-23/content.css?v=20261123-source-pixel-sweep",
+          "bytes": 12232,
+          "decoded": 11932,
+          "duration": 7.799999952316284,
+          "type": "link"
+        },
+        {
+          "name": "assets/intro/figma-app-store.png",
+          "bytes": 19598,
+          "decoded": 19298,
+          "duration": 9.899999856948853,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/phone-poster.png?v=framing-3",
+          "bytes": 1150315,
+          "decoded": 1150015,
+          "duration": 14.299999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/figma-rating.png",
+          "bytes": 29883,
+          "decoded": 29583,
+          "duration": 29.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/male-tennis.jpg",
+          "bytes": 105672,
+          "decoded": 105372,
+          "duration": 10.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/stability-ball.jpg",
+          "bytes": 76079,
+          "decoded": 75779,
+          "duration": 13.400000095367432,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/male-runner.jpg",
+          "bytes": 137169,
+          "decoded": 136869,
+          "duration": 13.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/barbell-squat.jpg",
+          "bytes": 88641,
+          "decoded": 88341,
+          "duration": 29.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/male-seated-fold.jpg",
+          "bytes": 67712,
+          "decoded": 67412,
+          "duration": 31,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/rowing.jpg",
+          "bytes": 104830,
+          "decoded": 104530,
+          "duration": 31.299999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/3dfb2.png",
+          "bytes": 34229,
+          "decoded": 33929,
+          "duration": 31.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/1ab90.webp",
+          "bytes": 33260,
+          "decoded": 32960,
+          "duration": 32.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/0c1d8.webp",
+          "bytes": 140672,
+          "decoded": 140372,
+          "duration": 33.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/97b29.webp",
+          "bytes": 70790,
+          "decoded": 70490,
+          "duration": 33.40000009536743,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/0fa5a.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 33.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/04020.svg",
+          "bytes": 3382,
+          "decoded": 3082,
+          "duration": 33.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/ea64e.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 34.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/cb1e6.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 34.19999980926514,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/83b39.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 35.09999990463257,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/55116.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 35.39999985694885,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/30814.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 35.40000009536743,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/991c3.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 35.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/194f1.svg",
+          "bytes": 706,
+          "decoded": 406,
+          "duration": 35.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/b069f.png",
+          "bytes": 28439,
+          "decoded": 28139,
+          "duration": 36.10000014305115,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/2eac9.svg",
+          "bytes": 579,
+          "decoded": 279,
+          "duration": 36.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/cc57f.png",
+          "bytes": 38503,
+          "decoded": 38203,
+          "duration": 37.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/e6b60.png",
+          "bytes": 19198,
+          "decoded": 18898,
+          "duration": 37,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/9f331.svg",
+          "bytes": 806,
+          "decoded": 506,
+          "duration": 37.09999990463257,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/371b7.webp",
+          "bytes": 52332,
+          "decoded": 52032,
+          "duration": 38,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/ade23.webp",
+          "bytes": 9932,
+          "decoded": 9632,
+          "duration": 39.09999990463257,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/a4e02.svg",
+          "bytes": 3605,
+          "decoded": 3305,
+          "duration": 38.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/acd11.webp",
+          "bytes": 50338,
+          "decoded": 50038,
+          "duration": 39.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/resting-without-plan.jpg",
+          "bytes": 70995,
+          "decoded": 70695,
+          "duration": 41.39999985694885,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/low-energy-bench.jpg",
+          "bytes": 96569,
+          "decoded": 96269,
+          "duration": 41.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/0ddab.webp",
+          "bytes": 86224,
+          "decoded": 85924,
+          "duration": 41.59999990463257,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/checking-routine.jpg",
+          "bytes": 57518,
+          "decoded": 57218,
+          "duration": 41.10000014305115,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/looking-up-workout.jpg",
+          "bytes": 127167,
+          "decoded": 126867,
+          "duration": 42.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/exhausted-on-machine.jpg",
+          "bytes": 68997,
+          "decoded": 68697,
+          "duration": 42.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/alone-between-sessions.jpg",
+          "bytes": 146152,
+          "decoded": 145852,
+          "duration": 44.10000014305115,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/fatigue-between-sets.jpg",
+          "bytes": 86324,
+          "decoded": 86024,
+          "duration": 43.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/which-dumbbell.jpg",
+          "bytes": 103513,
+          "decoded": 103213,
+          "duration": 43.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/pause-before-next-set.jpg",
+          "bytes": 73773,
+          "decoded": 73473,
+          "duration": 44.60000014305115,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/need-form-guidance.jpg",
+          "bytes": 107907,
+          "decoded": 107607,
+          "duration": 44.60000014305115,
+          "type": "img"
+        },
+        {
+          "name": "assets/content-2026-11-23/fan-video.js",
+          "bytes": 1197,
+          "decoded": 897,
+          "duration": 11.299999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/content-2026-11-23/content.js?v=1",
+          "bytes": 4521,
+          "decoded": 4221,
+          "duration": 11.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/lower-motion.js?v=vi-lower-12",
+          "bytes": 2338,
+          "decoded": 2038,
+          "duration": 13.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/orbit-variant.js?v=1",
+          "bytes": 1698,
+          "decoded": 1398,
+          "duration": 13.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/mobile/mobile.js?v=20261123-variant",
+          "bytes": 25248,
+          "decoded": 24948,
+          "duration": 15.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/photography/painpoints/setting-up-equipment.jpg",
+          "bytes": 111167,
+          "decoded": 110867,
+          "duration": 45.19999980926514,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/needing-a-plan.jpg",
+          "bytes": 46755,
+          "decoded": 46455,
+          "duration": 45.09999990463257,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/uncertain-machine-technique.jpg",
+          "bytes": 120420,
+          "decoded": 120120,
+          "duration": 45.69999980926514,
+          "type": "img"
+        },
+        {
+          "name": "assets/photography/painpoints/shoulder-recovery.jpg",
+          "bytes": 41955,
+          "decoded": 41655,
+          "duration": 46,
+          "type": "img"
+        },
+        {
+          "name": "assets/vendor/chande-pixel-ramp.js?v=1",
+          "bytes": 1460,
+          "decoded": 1160,
+          "duration": 15.099999904632568,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/reference-motion.js",
+          "bytes": 2381,
+          "decoded": 2081,
+          "duration": 15.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/dropset-tracking-source.js",
+          "bytes": 4682,
+          "decoded": 4382,
+          "duration": 16,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/recordings/journey-timeline.js",
+          "bytes": 7147,
+          "decoded": 6847,
+          "duration": 16.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/skydive-hero-source.js?v=20261123-source-pixel-sweep",
+          "bytes": 17357,
+          "decoded": 17057,
+          "duration": 16.40000009536743,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/recording-player.js",
+          "bytes": 4232,
+          "decoded": 3932,
+          "duration": 17.59999990463257,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/scroll-driver.js",
+          "bytes": 1386,
+          "decoded": 1086,
+          "duration": 18.59999990463257,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/tracking.js?v=20261118-vi-lower-12",
+          "bytes": 18900,
+          "decoded": 18600,
+          "duration": 19.299999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/lenis-1.1.13.min.js",
+          "bytes": 13785,
+          "decoded": 13485,
+          "duration": 19.299999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/brand.js?v=20261123-loop",
+          "bytes": 13788,
+          "decoded": 13488,
+          "duration": 20.90000009536743,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/orbit-ui.js?v=vi-lower-12",
+          "bytes": 15091,
+          "decoded": 14791,
+          "duration": 21,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/sections-scene.js?v=vi-lower-12",
+          "bytes": 12746,
+          "decoded": 12446,
+          "duration": 21.600000143051147,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/orbit-scene.js?v=20261123-space-preserve",
+          "bytes": 18975,
+          "decoded": 18675,
+          "duration": 22.700000047683716,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/landing.js?v=20261118-vi-lower-12",
+          "bytes": 18400,
+          "decoded": 18100,
+          "duration": 23.800000190734863,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/phone.js",
+          "bytes": 10653,
+          "decoded": 10353,
+          "duration": 7.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/responsive-guard.js",
+          "bytes": 2312,
+          "decoded": 2012,
+          "duration": 22.899999856948853,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/orbit-ring.js?v=20261123-sync-icons",
+          "bytes": 8628,
+          "decoded": 8328,
+          "duration": 23.299999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/chande-title-adapter.js?v=vi-lower-12",
+          "bytes": 4655,
+          "decoded": 4355,
+          "duration": 23.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/chande-title-settings-source.js",
+          "bytes": 995,
+          "decoded": 695,
+          "duration": 24.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/chande-title-source.js",
+          "bytes": 15751,
+          "decoded": 15451,
+          "duration": 28,
+          "type": "script"
+        },
+        {
+          "name": "assets/mobile/phone3d-mobile.js",
+          "bytes": 8834,
+          "decoded": 8534,
+          "duration": 7.6000001430511475,
+          "type": "script"
+        },
+        {
+          "name": "assets/intro/intro.js?v=20261123-9",
+          "bytes": 3532,
+          "decoded": 3232,
+          "duration": 8.099999904632568,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/typography.js?v=vi-lower-12",
+          "bytes": 2845,
+          "decoded": 2545,
+          "duration": 27.199999809265137,
+          "type": "script"
+        },
+        {
+          "name": "assets/content-2026-11-23/reviews.js?v=3",
+          "bytes": 4736,
+          "decoded": 4436,
+          "duration": 27.899999856948853,
+          "type": "script"
+        },
+        {
+          "name": "assets/content-2026-11-23/reviews-data.js?v=2",
+          "bytes": 26787,
+          "decoded": 26487,
+          "duration": 27.899999856948853,
+          "type": "script"
+        },
+        {
+          "name": "assets/figma/fonts.css",
+          "bytes": 13169,
+          "decoded": 12869,
+          "duration": 28.200000047683716,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/8d0df.svg",
+          "bytes": 785,
+          "decoded": 485,
+          "duration": 8.100000143051147,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/cda3a.svg",
+          "bytes": 3648,
+          "decoded": 3348,
+          "duration": 7.900000095367432,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/7994e.svg",
+          "bytes": 591,
+          "decoded": 291,
+          "duration": 7.5,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/da433.svg",
+          "bytes": 581,
+          "decoded": 281,
+          "duration": 8,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/d4d84.svg",
+          "bytes": 553,
+          "decoded": 253,
+          "duration": 8,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/055db.svg",
+          "bytes": 542,
+          "decoded": 242,
+          "duration": 8,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/cb1cc.svg",
+          "bytes": 550,
+          "decoded": 250,
+          "duration": 7.900000095367432,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/fada2.svg",
+          "bytes": 557,
+          "decoded": 257,
+          "duration": 8,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/af741.svg",
+          "bytes": 550,
+          "decoded": 250,
+          "duration": 8.200000047683716,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/a20b6.svg",
+          "bytes": 550,
+          "decoded": 250,
+          "duration": 8.099999904632568,
+          "type": "css"
+        },
+        {
+          "name": "assets/figma/1a0e7.svg",
+          "bytes": 550,
+          "decoded": 250,
+          "duration": 9.799999952316284,
+          "type": "css"
+        },
+        {
+          "name": "assets/orbit-ui/strength-reference.png",
+          "bytes": 642736,
+          "decoded": 642436,
+          "duration": 4.699999809265137,
+          "type": "img"
+        },
+        {
+          "name": "assets/brand/dopafit-wordmark.svg#D",
+          "bytes": 6459,
+          "decoded": 6159,
+          "duration": 2.299999952316284,
+          "type": "other"
+        },
+        {
+          "name": "assets/brand/dopafit-wordmark.svg",
+          "bytes": 6459,
+          "decoded": 6159,
+          "duration": 2.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/26d75.svg",
+          "bytes": 804,
+          "decoded": 504,
+          "duration": 1.6999998092651367,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/d3495.svg",
+          "bytes": 804,
+          "decoded": 504,
+          "duration": 1.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/69e40.webp",
+          "bytes": 133382,
+          "decoded": 133082,
+          "duration": 2.299999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/78567.webp",
+          "bytes": 159588,
+          "decoded": 159288,
+          "duration": 2.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/c1528.svg",
+          "bytes": 4257,
+          "decoded": 3957,
+          "duration": 2.299999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/716ca.svg",
+          "bytes": 1277,
+          "decoded": 977,
+          "duration": 1.5999999046325684,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/57379.svg",
+          "bytes": 4665,
+          "decoded": 4365,
+          "duration": 3.3999998569488525,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/57700.svg",
+          "bytes": 6269,
+          "decoded": 5969,
+          "duration": 3.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/8abea.svg",
+          "bytes": 1396,
+          "decoded": 1096,
+          "duration": 3.3999998569488525,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/8f583.webp",
+          "bytes": 119226,
+          "decoded": 118926,
+          "duration": 3,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/f9d4d.webp",
+          "bytes": 126420,
+          "decoded": 126120,
+          "duration": 3.5,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/0fdab.webp",
+          "bytes": 138316,
+          "decoded": 138016,
+          "duration": 3.9000000953674316,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/ce45c.svg",
+          "bytes": 494,
+          "decoded": 194,
+          "duration": 3.1000001430511475,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/b3c7a.png",
+          "bytes": 68670,
+          "decoded": 68370,
+          "duration": 4.299999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/0689e.svg",
+          "bytes": 895,
+          "decoded": 595,
+          "duration": 4.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/4928f.svg",
+          "bytes": 6664,
+          "decoded": 6364,
+          "duration": 4.799999952316284,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/cd6ec.svg",
+          "bytes": 3587,
+          "decoded": 3287,
+          "duration": 4.6000001430511475,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/fa722.svg",
+          "bytes": 7798,
+          "decoded": 7498,
+          "duration": 4.8999998569488525,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/cc782.svg",
+          "bytes": 8414,
+          "decoded": 8114,
+          "duration": 5,
+          "type": "img"
+        },
+        {
+          "name": "assets/figma/3c17c.svg",
+          "bytes": 1087,
+          "decoded": 787,
+          "duration": 4.6000001430511475,
+          "type": "img"
+        },
+        {
+          "name": "assets/app-captures-2026-11-16/21-lich-thang.webp",
+          "bytes": 44694,
+          "decoded": 44394,
+          "duration": 3,
+          "type": "img"
+        },
+        {
+          "name": "assets/exercises/fan/2.png",
+          "bytes": 41451,
+          "decoded": 41151,
+          "duration": 3.0999999046325684,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/1.png",
+          "bytes": 59864,
+          "decoded": 59564,
+          "duration": 3.1999998092651367,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/4.png",
+          "bytes": 51166,
+          "decoded": 50866,
+          "duration": 3.1999998092651367,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/3.png",
+          "bytes": 46582,
+          "decoded": 46282,
+          "duration": 3.1999998092651367,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/5.png",
+          "bytes": 47265,
+          "decoded": 46965,
+          "duration": 3.700000047683716,
+          "type": "video"
+        },
+        {
+          "name": "assets/exercises/fan/6.png",
+          "bytes": 54718,
+          "decoded": 54418,
+          "duration": 4.599999904632568,
+          "type": "video"
+        },
+        {
+          "name": "assets/landing/row-poster.93205a615a.jpg",
+          "bytes": 19198,
+          "decoded": 18898,
+          "duration": 4.799999952316284,
+          "type": "video"
+        },
+        {
+          "name": "assets/orbit-ui/recovery-body.webp",
+          "bytes": 25248,
+          "decoded": 24948,
+          "duration": 4.900000095367432,
+          "type": "img"
+        },
+        {
+          "name": "assets/calendar/blender-preview.webp",
+          "bytes": 30028,
+          "decoded": 29728,
+          "duration": 4.900000095367432,
+          "type": "img"
+        },
+        {
+          "name": "assets/vendor/three.module.js",
+          "bytes": 691948,
+          "decoded": 691648,
+          "duration": 4.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/screen-ui.js",
+          "bytes": 8424,
+          "decoded": 8124,
+          "duration": 3,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/GLTFLoader.js",
+          "bytes": 110578,
+          "decoded": 110278,
+          "duration": 2.799999952316284,
+          "type": "script"
+        },
+        {
+          "name": "assets/vendor/BufferGeometryUtils.js",
+          "bytes": 32080,
+          "decoded": 31780,
+          "duration": 1.3999998569488525,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/recordings/journey.webp",
+          "bytes": 44730,
+          "decoded": 44430,
+          "duration": 2.200000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/phone/dopafit-phone.glb",
+          "bytes": 2705128,
+          "decoded": 2704828,
+          "duration": 27.600000143051147,
+          "type": "fetch"
+        },
+        {
+          "name": "assets/intro/phone-scene.js?v=framing-3",
+          "bytes": 5895,
+          "decoded": 5595,
+          "duration": 1.7999999523162842,
+          "type": "script"
+        },
+        {
+          "name": "assets/content-2026-11-23/review-stars.svg",
+          "bytes": 1674,
+          "decoded": 1374,
+          "duration": 1.2000000476837158,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/exercise-screen.js?v=hammer-1",
+          "bytes": 7127,
+          "decoded": 6827,
+          "duration": 2,
+          "type": "script"
+        },
+        {
+          "name": "assets/intro/iphone-glass.js?v=reflection-4",
+          "bytes": 4718,
+          "decoded": 4418,
+          "duration": 2.5,
+          "type": "script"
+        },
+        {
+          "name": "assets/phone/dopafit-phone.glb",
+          "bytes": 2705128,
+          "decoded": 2704828,
+          "duration": 14.700000047683716,
+          "type": "fetch"
+        },
+        {
+          "name": "assets/intro/phone-motion.glb?v=framing-3",
+          "bytes": 5608,
+          "decoded": 5308,
+          "duration": 2.3999998569488525,
+          "type": "fetch"
+        },
+        {
+          "name": "assets/brand/favicon.svg",
+          "bytes": 3298,
+          "decoded": 2998,
+          "duration": 1.4000000953674316,
+          "type": "other"
+        },
+        {
+          "name": "assets/intro/exercise-thumb-0.jpg?v=hammer-1",
+          "bytes": 38580,
+          "decoded": 38280,
+          "duration": 3.5999999046325684,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/exercise-screen.png",
+          "bytes": 597572,
+          "decoded": 597272,
+          "duration": 5.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/exercise-thumb-1.jpg?v=hammer-1",
+          "bytes": 38754,
+          "decoded": 38454,
+          "duration": 3,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/exercise-thumb-2.jpg?v=hammer-1",
+          "bytes": 39349,
+          "decoded": 39049,
+          "duration": 3.700000047683716,
+          "type": "img"
+        },
+        {
+          "name": "assets/intro/hammer-curls.mp4",
+          "bytes": 945015,
+          "decoded": 944715,
+          "duration": 2.799999952316284,
+          "type": "video"
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/intro/figma-rating.png",
+          "loading": "auto",
+          "width": 512,
+          "height": 317
+        },
+        {
+          "src": "assets/intro/figma-app-store.png",
+          "loading": "auto",
+          "width": 502,
+          "height": 190
+        },
+        {
+          "src": "assets/intro/phone-poster.png?v=framing-3",
+          "loading": "auto",
+          "width": 1248,
+          "height": 1408
+        },
+        {
+          "src": "assets/photography/painpoints/resting-without-plan.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 600
+        },
+        {
+          "src": "assets/photography/painpoints/low-energy-bench.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/checking-routine.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 601
+        },
+        {
+          "src": "assets/photography/painpoints/looking-up-workout.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/exhausted-on-machine.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/alone-between-sessions.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/fatigue-between-sets.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/which-dumbbell.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "src": "assets/photography/painpoints/pause-before-next-set.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1125
+        },
+        {
+          "src": "assets/photography/painpoints/need-form-guidance.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/setting-up-equipment.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1125
+        },
+        {
+          "src": "assets/photography/painpoints/needing-a-plan.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 600
+        },
+        {
+          "src": "assets/photography/painpoints/uncertain-machine-technique.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 1350
+        },
+        {
+          "src": "assets/photography/painpoints/shoulder-recovery.jpg",
+          "loading": "eager",
+          "width": 900,
+          "height": 600
+        },
+        {
+          "src": "assets/phone/workout-screen.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/app-captures-2026-11-16/21-lich-thang.webp",
+          "loading": "lazy",
+          "width": 738,
+          "height": 1568
+        },
+        {
+          "src": "assets/content-2026-11-23/native-recovery.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/content-2026-11-23/native-guide.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/content-2026-11-23/native-strength.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/26d75.svg",
+          "loading": "lazy",
+          "width": 262,
+          "height": 521
+        },
+        {
+          "src": "assets/figma/d3495.svg",
+          "loading": "lazy",
+          "width": 262,
+          "height": 521
+        },
+        {
+          "src": "assets/figma/69e40.webp",
+          "loading": "lazy",
+          "width": 760,
+          "height": 1080
+        },
+        {
+          "src": "assets/figma/78567.webp",
+          "loading": "lazy",
+          "width": 760,
+          "height": 1080
+        },
+        {
+          "src": "assets/figma/c1528.svg",
+          "loading": "lazy",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "src": "assets/figma/716ca.svg",
+          "loading": "lazy",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/8abea.svg",
+          "loading": "lazy",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/57379.svg",
+          "loading": "lazy",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/57700.svg",
+          "loading": "lazy",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/716ca.svg",
+          "loading": "auto",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/8abea.svg",
+          "loading": "auto",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/orbit-ui/recovery-body.webp",
+          "loading": "auto",
+          "width": 247,
+          "height": 555
+        },
+        {
+          "src": "assets/figma/57379.svg",
+          "loading": "auto",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/57700.svg",
+          "loading": "auto",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/8f583.webp",
+          "loading": "lazy",
+          "width": 1243,
+          "height": 1265
+        },
+        {
+          "src": "assets/figma/f9d4d.webp",
+          "loading": "lazy",
+          "width": 1507,
+          "height": 1044
+        },
+        {
+          "src": "assets/figma/0fdab.webp",
+          "loading": "lazy",
+          "width": 1396,
+          "height": 1127
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/content-2026-11-23/review-stars.svg",
+          "loading": "auto",
+          "width": 171,
+          "height": 39
+        },
+        {
+          "src": "assets/figma/ce45c.svg",
+          "loading": "lazy",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "src": "assets/figma/b3c7a.png",
+          "loading": "lazy",
+          "width": 1024,
+          "height": 770
+        },
+        {
+          "src": "assets/figma/0689e.svg",
+          "loading": "lazy",
+          "width": 1,
+          "height": 88
+        },
+        {
+          "src": "assets/figma/cd6ec.svg",
+          "loading": "lazy",
+          "width": 147,
+          "height": 24
+        },
+        {
+          "src": "assets/figma/0689e.svg",
+          "loading": "lazy",
+          "width": 1,
+          "height": 88
+        },
+        {
+          "src": "assets/figma/4928f.svg",
+          "loading": "lazy",
+          "width": 147,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/0689e.svg",
+          "loading": "lazy",
+          "width": 1,
+          "height": 88
+        },
+        {
+          "src": "assets/figma/fa722.svg",
+          "loading": "lazy",
+          "width": 140,
+          "height": 39
+        },
+        {
+          "src": "assets/figma/cc782.svg",
+          "loading": "lazy",
+          "width": 411,
+          "height": 252
+        },
+        {
+          "src": "assets/figma/3c17c.svg",
+          "loading": "lazy",
+          "width": 390,
+          "height": 208
+        },
+        {
+          "src": "assets/calendar/blender-preview.webp",
+          "loading": "auto",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "assets/photography/footer-gym-arrival.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/brand/dopafit-wordmark.svg",
+          "loading": "auto",
+          "width": 760,
+          "height": 87
+        },
+        {
+          "src": "assets/photography/male-tennis.jpg",
+          "loading": "auto",
+          "width": 900,
+          "height": 1352
+        },
+        {
+          "src": "assets/photography/stability-ball.jpg",
+          "loading": "auto",
+          "width": 900,
+          "height": 1352
+        },
+        {
+          "src": "assets/photography/male-runner.jpg",
+          "loading": "auto",
+          "width": 900,
+          "height": 1352
+        },
+        {
+          "src": "assets/photography/barbell-squat.jpg",
+          "loading": "auto",
+          "width": 900,
+          "height": 1352
+        },
+        {
+          "src": "assets/photography/male-seated-fold.jpg",
+          "loading": "auto",
+          "width": 900,
+          "height": 502
+        },
+        {
+          "src": "assets/photography/rowing.jpg",
+          "loading": "auto",
+          "width": 900,
+          "height": 1352
+        },
+        {
+          "src": "assets/figma/69e40.webp",
+          "loading": "lazy",
+          "width": 760,
+          "height": 1080
+        },
+        {
+          "src": "assets/figma/78567.webp",
+          "loading": "lazy",
+          "width": 760,
+          "height": 1080
+        },
+        {
+          "src": "assets/figma/c1528.svg",
+          "loading": "lazy",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "src": "assets/figma/3dfb2.png",
+          "loading": "auto",
+          "width": 829,
+          "height": 2048
+        },
+        {
+          "src": "assets/figma/1ab90.webp",
+          "loading": "auto",
+          "width": 829,
+          "height": 2048
+        },
+        {
+          "src": "assets/figma/0c1d8.webp",
+          "loading": "auto",
+          "width": 1432,
+          "height": 3954
+        },
+        {
+          "src": "assets/figma/337d9.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/337d9.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/2ae08.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/app-captures-2026-11-16/21-lich-thang.webp",
+          "loading": "auto",
+          "width": 738,
+          "height": 1568
+        },
+        {
+          "src": "assets/figma/337d9.svg",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/26d75.svg",
+          "loading": "lazy",
+          "width": 262,
+          "height": 521
+        },
+        {
+          "src": "assets/figma/d3495.svg",
+          "loading": "lazy",
+          "width": 262,
+          "height": 521
+        },
+        {
+          "src": "assets/figma/0fa5a.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/ea64e.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/cb1e6.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/cb1e6.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/83b39.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/55116.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/0fa5a.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/30814.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/991c3.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/991c3.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/194f1.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/55116.svg",
+          "loading": "auto",
+          "width": 9,
+          "height": 9
+        },
+        {
+          "src": "assets/figma/716ca.svg",
+          "loading": "lazy",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/photography/footer-gym-arrival.webp",
+          "loading": "lazy",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "assets/figma/8abea.svg",
+          "loading": "lazy",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/57379.svg",
+          "loading": "lazy",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/57700.svg",
+          "loading": "lazy",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/b069f.png",
+          "loading": "auto",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "assets/figma/cc57f.png",
+          "loading": "auto",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "assets/figma/2eac9.svg",
+          "loading": "auto",
+          "width": 456,
+          "height": 1
+        },
+        {
+          "src": "assets/figma/9f331.svg",
+          "loading": "auto",
+          "width": 457,
+          "height": 228
+        },
+        {
+          "src": "assets/figma/371b7.webp",
+          "loading": "auto",
+          "width": 738,
+          "height": 1568
+        },
+        {
+          "src": "assets/figma/ade23.webp",
+          "loading": "auto",
+          "width": 550,
+          "height": 328
+        },
+        {
+          "src": "assets/orbit-ui/strength-reference.png",
+          "loading": "auto",
+          "width": 1294,
+          "height": 1084
+        },
+        {
+          "src": "assets/figma/8f583.webp",
+          "loading": "lazy",
+          "width": 1243,
+          "height": 1265
+        },
+        {
+          "src": "assets/figma/f9d4d.webp",
+          "loading": "lazy",
+          "width": 1507,
+          "height": 1044
+        },
+        {
+          "src": "assets/figma/0fdab.webp",
+          "loading": "lazy",
+          "width": 1396,
+          "height": 1127
+        },
+        {
+          "src": "assets/figma/cc782.svg",
+          "loading": "lazy",
+          "width": 411,
+          "height": 252
+        },
+        {
+          "src": "assets/figma/3c17c.svg",
+          "loading": "lazy",
+          "width": 390,
+          "height": 208
+        },
+        {
+          "src": "assets/figma/0ddab.webp",
+          "loading": "auto",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "assets/brand/dopafit-wordmark.svg",
+          "loading": "auto",
+          "width": 760,
+          "height": 87
+        },
+        {
+          "src": "assets/figma/ce45c.svg",
+          "loading": "lazy",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "src": "assets/figma/b3c7a.png",
+          "loading": "lazy",
+          "width": 1024,
+          "height": 770
+        },
+        {
+          "src": "assets/figma/0689e.svg",
+          "loading": "lazy",
+          "width": 1,
+          "height": 88
+        },
+        {
+          "src": "assets/figma/cd6ec.svg",
+          "loading": "lazy",
+          "width": 147,
+          "height": 24
+        },
+        {
+          "src": "assets/figma/0689e.svg",
+          "loading": "lazy",
+          "width": 1,
+          "height": 88
+        },
+        {
+          "src": "assets/figma/4928f.svg",
+          "loading": "lazy",
+          "width": 147,
+          "height": 40
+        },
+        {
+          "src": "assets/figma/0689e.svg",
+          "loading": "lazy",
+          "width": 1,
+          "height": 88
+        },
+        {
+          "src": "assets/figma/fa722.svg",
+          "loading": "lazy",
+          "width": 140,
+          "height": 39
+        },
+        {
+          "src": "assets/brand/dopafit-wordmark.svg",
+          "loading": "auto",
+          "width": 760,
+          "height": 87
+        },
+        {
+          "src": "assets/brand/dopafit-wordmark.svg",
+          "loading": "auto",
+          "width": 760,
+          "height": 87
+        }
+      ],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:8097/assets/intro/hammer-curls.mp4",
+          "preload": "auto",
+          "paused": false,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/1.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/2.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/3.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/4.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/5.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/exercises/fan/6.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/landing/row.9c406ddc16.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "src": "http://127.0.0.1:8097/assets/landing/row.9c406ddc16.mp4",
+          "preload": "none",
+          "paused": true,
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "canvases": [
+        {
+          "w": 680,
+          "h": 767,
+          "host": "intro-phone"
+        },
+        {
+          "w": 281,
+          "h": 694,
+          "host": "m-phone3d"
+        }
+      ],
+      "renders": "122",
+      "dom": 2404,
+      "idleCPU": {
+        "TaskDuration": 0.31950999999999996,
+        "ScriptDuration": 0.10014199999999995,
+        "LayoutDuration": 0.005913000000000002,
+        "RecalcStyleDuration": 0.028683999999999994,
+        "LayoutCount": 93,
+        "RecalcStyleCount": 140
+      },
+      "totalBytes": 13914145
+    }
+  ],
+  "errors": [],
+  "badRequests": []
+}

@@ -1,0 +1,246 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/47bb06c8-663c-44f7-8709-e7518cff354b";
+const imgFrame = `${assetPathPrefix}/01546.svg`;
+
+export default function DivReviews() {
+  return (
+    <div className="contents relative size-full" data-node-id="93:3218" data-name="div.reviews">
+      <div className="absolute contents inset-[77.65%_51.67%_20.27%_17.36%]" data-node-id="93:3219" data-name="div.review">
+        <div className="absolute contents inset-[77.65%_70.76%_22.1%_17.36%]" data-node-id="93:3220" data-name="img.image-11">
+          <div className="absolute inset-[77.65%_70.76%_22.1%_17.36%]" data-node-id="93:3221" data-name="Frame">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+          </div>
+        </div>
+        <div className="[word-break:break-word] absolute contents font-['Inter:Bold'] font-bold inset-[77.94%_55.49%_21.72%_17.36%] leading-[normal] not-italic text-[#e6e6e6] text-[24px] whitespace-nowrap" data-node-id="93:3227" data-name="An elegant and powerful workout tracker.">
+          <p className="absolute inset-[77.94%_55.49%_21.87%_17.36%]" data-node-id="93:3228">
+            An elegant and powerful workout
+          </p>
+          <p className="absolute inset-[78.09%_76.32%_21.72%_17.36%]" data-node-id="93:3229">
+            tracker.
+          </p>
+        </div>
+        <div className="[word-break:break-word] absolute contents font-['Inter:Regular'] font-normal inset-[78.36%_51.67%_20.53%_17.36%] leading-[normal] not-italic text-[#a8a9b2] text-[20px] whitespace-nowrap" data-node-id="93:3230" data-name="I’ve used many workout trackers over the years a">
+          <p className="absolute inset-[78.36%_51.67%_21.49%_17.36%]" data-node-id="93:3231">
+            I’ve used many workout trackers over the years
+          </p>
+          <p className="absolute inset-[78.55%_54.79%_21.3%_17.36%]" data-node-id="93:3232">
+            and hoops is by far the best. It’s seamless,
+          </p>
+          <p className="absolute inset-[78.74%_53.47%_21.1%_17.36%]" data-node-id="93:3233">
+            doesn’t get in your way, and the design is so
+          </p>
+          <p className="absolute inset-[78.93%_52.43%_20.91%_17.36%]" data-node-id="93:3234">
+            pleasing to work with. Best of all, the devs are
+          </p>
+          <p className="absolute inset-[79.13%_52.5%_20.72%_17.36%]" data-node-id="93:3235">
+            responsive and are quick to address any bugs
+          </p>
+          <p className="absolute inset-[79.32%_71.39%_20.53%_17.36%]" data-node-id="93:3236">
+            as they come up!
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[79.59%_72.64%_20.27%_17.36%] leading-[normal] not-italic text-[#525359] text-[18px] whitespace-nowrap" data-node-id="93:3237">
+          September 2023
+        </p>
+      </div>
+      <div className="absolute contents inset-[77.65%_16.53%_19.85%_52.08%]" data-node-id="93:3238" data-name="div.review">
+        <div className="absolute contents inset-[77.65%_36.04%_22.1%_52.08%]" data-node-id="93:3239" data-name="img.image-11">
+          <div className="absolute inset-[77.65%_36.04%_22.1%_52.08%]" data-node-id="93:3240" data-name="Frame">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[77.94%_27.78%_21.87%_52.08%] leading-[normal] not-italic text-[#e6e6e6] text-[24px] whitespace-nowrap" data-node-id="93:3246">
+          Brilliant app and service.
+        </p>
+        <div className="[word-break:break-word] absolute contents font-['Inter:Regular'] font-normal inset-[78.21%_16.53%_20.11%_52.08%] leading-[normal] not-italic text-[#a8a9b2] text-[20px] whitespace-nowrap" data-node-id="93:3247" data-name="Fantastic app not over complicated, have recomme">
+          <p className="absolute inset-[78.21%_20.83%_21.64%_52.08%]" data-node-id="93:3248">
+            Fantastic app not over complicated, have
+          </p>
+          <p className="absolute inset-[78.4%_18.61%_21.45%_52.08%]" data-node-id="93:3249">
+            recommended it to individuals of all different
+          </p>
+          <p className="absolute inset-[78.59%_16.53%_21.26%_52.08%]" data-node-id="93:3250">
+            training levels and they have found it useful and
+          </p>
+          <p className="absolute inset-[78.78%_18.26%_21.07%_52.08%]" data-node-id="93:3251">
+            intuitive. When I thought being able to export
+          </p>
+          <p className="absolute inset-[78.97%_17.64%_20.87%_52.08%]" data-node-id="93:3252">
+            data I emailed support who promptly got back
+          </p>
+          <p className="absolute inset-[79.16%_20.56%_20.68%_52.08%]" data-node-id="93:3253">
+            to me asking my preferred data type after
+          </p>
+          <p className="absolute inset-[79.35%_17.43%_20.49%_52.08%]" data-node-id="93:3254">
+            exporting and notified me this was a feature in
+          </p>
+          <p className="absolute inset-[79.55%_26.46%_20.3%_52.08%]" data-node-id="93:3255">
+            the works. Within 2 weeks of the
+          </p>
+          <p className="absolute inset-[79.74%_17.43%_20.11%_52.08%]" data-node-id="93:3256">
+            communication the the export feature was live
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[80.01%_42.71%_19.85%_52.08%] leading-[normal] not-italic text-[#525359] text-[18px] whitespace-nowrap" data-node-id="93:3257">
+          Jul 2023
+        </p>
+      </div>
+      <div className="absolute contents inset-[80.57%_51.25%_16.75%_17.36%]" data-node-id="93:3258" data-name="div.review">
+        <div className="absolute contents inset-[80.57%_70.76%_19.18%_17.36%]" data-node-id="93:3259" data-name="img.image-11">
+          <div className="absolute inset-[80.57%_70.76%_19.18%_17.36%]" data-node-id="93:3260" data-name="Frame">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[80.86%_73.54%_18.96%_17.36%] leading-[normal] not-italic text-[#e6e6e6] text-[24px] whitespace-nowrap" data-node-id="93:3266">
+          Thank you!
+        </p>
+        <div className="[word-break:break-word] absolute contents font-['Inter:Regular'] font-normal inset-[81.12%_51.25%_17%_17.36%] leading-[normal] not-italic text-[#a8a9b2] text-[20px] whitespace-nowrap" data-node-id="93:3267" data-name="Very refreshing to see a fitness app that keeps">
+          <p className="absolute inset-[81.12%_51.94%_18.72%_17.36%]" data-node-id="93:3268">
+            Very refreshing to see a fitness app that keeps
+          </p>
+          <p className="absolute inset-[81.31%_54.24%_18.53%_17.36%]" data-node-id="93:3269">
+            workout logging quick and simple. Love the
+          </p>
+          <p className="absolute inset-[81.51%_52.71%_18.34%_17.36%]" data-node-id="93:3270">
+            minimalistic design keeping only the essential
+          </p>
+          <p className="absolute inset-[81.7%_54.1%_18.15%_17.36%]" data-node-id="93:3271">
+            functions in mind. I think linking an Apple ID
+          </p>
+          <p className="absolute inset-[81.89%_53.89%_17.96%_17.36%]" data-node-id="93:3272">
+            should be optional as it’s not a necessity for
+          </p>
+          <p className="absolute inset-[82.08%_54.17%_17.77%_17.36%]" data-node-id="93:3273">
+            keeping info on a local device (unless some
+          </p>
+          <p className="absolute inset-[82.27%_53.68%_17.58%_17.36%]" data-node-id="93:3274">
+            would prefer a cloud backup). Looks like the
+          </p>
+          <p className="absolute inset-[82.46%_54.03%_17.39%_17.36%]" data-node-id="93:3275">
+            app is still in its early days with the workout
+          </p>
+          <p className="absolute inset-[82.65%_51.25%_17.19%_17.36%]" data-node-id="93:3276">
+            catalogue, but I’m excited to see where this app
+          </p>
+          <p className="absolute inset-[82.84%_71.67%_17%_17.36%]" data-node-id="93:3277">
+            goes. Nice work!
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[83.11%_77.43%_16.75%_17.36%] leading-[normal] not-italic text-[#525359] text-[18px] whitespace-nowrap" data-node-id="93:3278">
+          Jul 2023
+        </p>
+      </div>
+      <div className="absolute contents inset-[80.57%_16.81%_16.75%_52.08%]" data-node-id="93:3279" data-name="div.review">
+        <div className="absolute contents inset-[80.57%_36.04%_19.18%_52.08%]" data-node-id="93:3280" data-name="img.image-11">
+          <div className="absolute inset-[80.57%_36.04%_19.18%_52.08%]" data-node-id="93:3281" data-name="Frame">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[80.86%_30.42%_18.96%_52.08%] leading-[normal] not-italic text-[#e6e6e6] text-[24px] whitespace-nowrap" data-node-id="93:3287">
+          Best workout tracker.
+        </p>
+        <div className="[word-break:break-word] absolute contents font-['Inter:Regular'] font-normal inset-[81.12%_16.81%_17%_52.08%] leading-[normal] not-italic text-[#a8a9b2] text-[20px] whitespace-nowrap" data-node-id="93:3288" data-name="I started working out beginning of this year and">
+          <p className="absolute inset-[81.12%_16.81%_18.72%_52.08%]" data-node-id="93:3289">
+            I started working out beginning of this year and
+          </p>
+          <p className="absolute inset-[81.31%_17.15%_18.53%_52.08%]" data-node-id="93:3290">
+            was writing all my progress down in notebooks
+          </p>
+          <p className="absolute inset-[81.51%_18.82%_18.34%_52.08%]" data-node-id="93:3291">
+            and on the notes app on my phone. Had this
+          </p>
+          <p className="absolute inset-[81.7%_18.54%_18.15%_52.08%]" data-node-id="93:3292">{`app pop up as an ad on instagram and I'm so`}</p>
+          <p className="absolute inset-[81.89%_20.07%_17.96%_52.08%]" data-node-id="93:3293">
+            glad I downloaded it. Its so easy to use, so
+          </p>
+          <p className="absolute inset-[82.08%_22.01%_17.77%_52.08%]" data-node-id="93:3294">
+            clearly laid out, the team are constantly
+          </p>
+          <p className="absolute inset-[82.27%_19.65%_17.58%_52.08%]" data-node-id="93:3295">
+            interacting with people and taking onboard
+          </p>
+          <p className="absolute inset-[82.46%_17.99%_17.39%_52.08%]" data-node-id="93:3296">
+            feedback and its great to see. I use this every
+          </p>
+          <p className="absolute inset-[82.65%_17.29%_17.19%_52.08%]" data-node-id="93:3297">
+            time I go to the gym and have recommended it
+          </p>
+          <p className="absolute inset-[82.84%_19.51%_17%_52.08%]" data-node-id="93:3298">
+            to others because I think its so damn good.
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[83.11%_42.71%_16.75%_52.08%] leading-[normal] not-italic text-[#525359] text-[18px] whitespace-nowrap" data-node-id="93:3299">
+          Jul 2023
+        </p>
+      </div>
+      <div className="absolute contents inset-[83.68%_51.18%_14.79%_17.36%]" data-node-id="93:3300" data-name="div.review">
+        <div className="absolute contents inset-[83.68%_70.76%_16.08%_17.36%]" data-node-id="93:3301" data-name="img.image-11">
+          <div className="absolute inset-[83.68%_70.76%_16.08%_17.36%]" data-node-id="93:3302" data-name="Frame">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[83.96%_75.9%_15.85%_17.36%] leading-[normal] not-italic text-[#e6e6e6] text-[24px] whitespace-nowrap" data-node-id="93:3308">
+          Amazed
+        </p>
+        <div className="[word-break:break-word] absolute contents font-['Inter:Regular'] font-normal inset-[84.23%_51.18%_15.04%_17.36%] leading-[normal] not-italic text-[#a8a9b2] text-[20px] whitespace-nowrap" data-node-id="93:3309" data-name="Amazed at the attention to detail and simplicity">
+          <p className="absolute inset-[84.23%_51.67%_15.62%_17.36%]" data-node-id="93:3310">
+            Amazed at the attention to detail and simplicity
+          </p>
+          <p className="absolute inset-[84.42%_51.18%_15.43%_17.36%]" data-node-id="93:3311">
+            of the app. There’s no bloat, easy to understand
+          </p>
+          <p className="absolute inset-[84.61%_51.88%_15.23%_17.36%]" data-node-id="93:3312">
+            (unlike most workout apps I’ve tried). Definitely
+          </p>
+          <p className="absolute inset-[84.8%_57.5%_15.04%_17.36%]" data-node-id="93:3313">
+            sticking with this one. Incredible work.
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[85.07%_73.06%_14.79%_17.36%] leading-[normal] not-italic text-[#525359] text-[18px] whitespace-nowrap" data-node-id="93:3314">
+          December 2023
+        </p>
+      </div>
+      <div className="absolute contents inset-[83.68%_16.53%_14.59%_52.08%]" data-node-id="93:3315" data-name="div.review">
+        <div className="absolute contents inset-[83.68%_36.04%_16.08%_52.08%]" data-node-id="93:3316" data-name="img.image-11">
+          <div className="absolute inset-[83.68%_36.04%_16.08%_52.08%]" data-node-id="93:3317" data-name="Frame">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[83.96%_29.31%_15.85%_52.08%] leading-[normal] not-italic text-[#e6e6e6] text-[24px] whitespace-nowrap" data-node-id="93:3323">
+          Best Tracker I’ve Used.
+        </p>
+        <div className="[word-break:break-word] absolute contents font-['Inter:Regular'] font-normal inset-[84.23%_16.53%_14.85%_52.08%] leading-[normal] not-italic text-[#a8a9b2] text-[20px] whitespace-nowrap" data-node-id="93:3324" data-name="Has everything you need; all exercises, equipmen">
+          <p className="absolute inset-[84.23%_22.36%_15.62%_52.08%]" data-node-id="93:3325">
+            Has everything you need; all exercises,
+          </p>
+          <p className="absolute inset-[84.42%_16.88%_15.43%_52.08%]" data-node-id="93:3326">
+            equipment, tracks weight, reps, rpe, etc. Future
+          </p>
+          <p className="absolute inset-[84.61%_17.22%_15.23%_52.08%]" data-node-id="93:3327">
+            suggestion is to add a social aspect where you
+          </p>
+          <p className="absolute inset-[84.8%_16.53%_15.04%_52.08%]" data-node-id="93:3328">
+            can share workouts with friends, kind of like the
+          </p>
+          <p className="absolute inset-[85%_36.32%_14.85%_52.08%]" data-node-id="93:3329">
+            Apple Watch app.
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[85.27%_41.94%_14.59%_52.08%] leading-[normal] not-italic text-[#525359] text-[18px] whitespace-nowrap" data-node-id="93:3330">
+          May 2023
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

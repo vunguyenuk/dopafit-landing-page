@@ -1,0 +1,14 @@
+{
+  "viewports": [
+    1440,
+    390
+  ],
+  "checks": [
+    "official wordmark after D sweep",
+    "replay hides official during sweep",
+    "mobile clone completion",
+    "footer official wordmark"
+  ],
+  "errors": [],
+  "badRequests": []
+}

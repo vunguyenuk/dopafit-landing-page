@@ -87,20 +87,22 @@
     const len=C*g.total/all-gap,off=start;start+=C*g.total/all;
     return `<circle class="ui-arc" style="--d:${i};--len:${len.toFixed(2)};--c:${C.toFixed(2)};stroke:${g.color}" cx="369" cy="684" r="${R}" stroke-dasharray="${len.toFixed(2)} ${C.toFixed(2)}" stroke-dashoffset="${(-off-gap/2).toFixed(2)}"/>`;
   }).join('');
-  const goalTpl=()=>`
-    <div class="ui-phone ui-goal" style="top:0;height:1568px">
-      <p class="ui-goal-title" style="left:42px;top:392px">Mục tiêu hiệp tuần</p>
-      <p class="ui-goal-date" style="left:42px;top:452px">15 – 21 tháng 11</p>
-      <svg class="ui-ring" viewBox="0 0 738 1568" width="738" height="1568">${arcs}</svg>
-      <p class="ui-goal-pct" style="top:628px">0%</p>
-      <p class="ui-goal-sub" style="top:712px">0 / 65 hiệp</p>
-      ${groups.map((g,i)=>`
-      <div class="ui-goal-row" style="top:${891+i*152.5}px;--d:${i+1};--ring:${g.color}">
-        <span class="ui-goal-dot"></span>
-        <b>${g.name}</b><small>0 / ${g.total} hiệp</small>
-        <em>${g.total}</em><i>còn lại</i><span class="ui-chev">${icon.chevron}</span>
-      </div>`).join('')}
-    </div>`;
+  // Figma 211:1679 is a before/after reference of ONE native scroll view.
+  // Crop its original pixels into one continuous surface, with fixed status/nav.
+  // Source coordinates and join: _reference/content-2026-11-23/STRENGTH-SCROLL.md.
+  const goalTpl=()=>`<div class="ui-strength-phone" role="img" aria-label="Sức mạnh tổng; cuộn xuống xem biểu đồ mức tạ và thành phần cơ thể">
+    <div class="ui-strength-viewport" tabindex="0" aria-label="Nội dung sức mạnh tổng">
+      <div class="ui-strength-scroll"><div class="ui-strength-source ui-strength-source-top"></div><div class="ui-strength-source ui-strength-source-bottom"></div></div>
+    </div>
+  </div>`;
+  function setStrengthProgress(value){
+    const p=reduced?0:Math.max(0,Math.min(1,value)),eased=p*p*(3-2*p);
+    document.querySelectorAll('.ui-strength-phone').forEach(phone=>{
+      if(phone.dataset.scrollProgress===p.toFixed(5))return;
+      phone.dataset.scrollProgress=p.toFixed(5);
+      phone.style.setProperty('--strength-scroll',`${(-674*eased).toFixed(3)}px`);
+    });
+  }
   // 147:2902 Recovery — screenshot cc57f.png, 640×1391. withFocus adds the dev .focus box (mobile; desktop uses Figma's).
   const recTpl=(withFocus)=>`
     <div class="ui-recovery">
@@ -118,7 +120,7 @@
       ${withFocus?'<span class="ui-focus" data-step="stats"></span>':''}
     </div>`;
 
-  const SIZES={set:[738,1568],rest:[550,328],goal:[738,1568],recovery:[640,1391]};
+  const SIZES={set:[738,1568],rest:[550,328],goal:[390,844],recovery:[640,1391]};
   function art(kind,opts={}){
     const [width,height]=SIZES[kind];
     const el=document.createElement('div');el.className='ui-art';el.style.width=`${width}px`;el.style.height=`${height}px`;
@@ -171,7 +173,7 @@
       later('a',700,()=>{step('body');later('b',600,()=>root.classList.add('is-scanning'));});
     };
   }
-  window.DopafitOrbitUI={art,motion:{set:setMotion,rest:restMotion,goal:goalMotion,recovery:recoveryMotion}};
+  window.DopafitOrbitUI={art,setStrengthProgress,motion:{set:setMotion,rest:restMotion,goal:goalMotion,recovery:recoveryMotion}};
   if(window.DopafitMobile)return; // the mobile page builds its own instances (assets/mobile/mobile.js)
 
   /* ---------- Desktop: replace the four screenshots, driven by orbit-scene.js data-show ---------- */

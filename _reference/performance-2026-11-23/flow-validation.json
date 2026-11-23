@@ -1,0 +1,1090 @@
+{
+  "report": [
+    {
+      "width": 1440,
+      "initial": {
+        "video": 4,
+        "renders": 3
+      },
+      "states": [
+        {
+          "y": 0,
+          "hero": false,
+          "photoReady": false,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": false
+        },
+        {
+          "y": 585,
+          "hero": false,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": false
+        },
+        {
+          "y": 1170,
+          "hero": false,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 1755,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 2340,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 2925,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 3510,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 4095,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 4680,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 5265,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 5850,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 6435,
+          "hero": true,
+          "photoReady": true,
+          "phone": true,
+          "ready": false,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 7020,
+          "hero": true,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 7605,
+          "hero": true,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "loading",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 8190,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 0,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 8775,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 0,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 9360,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 0,
+          "recording": {
+            "feature": 0,
+            "requestedFeature": 0,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 9945,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 1,
+          "recording": {
+            "feature": 1,
+            "requestedFeature": 1,
+            "playing": true,
+            "phase": "transition",
+            "blend": 0.445041507429982,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 10530,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 1,
+          "recording": {
+            "feature": 1,
+            "requestedFeature": 1,
+            "playing": true,
+            "phase": "transition",
+            "blend": 0.8852293098988884,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 11115,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 2,
+          "recording": {
+            "feature": 2,
+            "requestedFeature": 2,
+            "playing": true,
+            "phase": "transition",
+            "blend": 0.2952352058194488,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 11700,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": true,
+            "phase": "transition",
+            "blend": 0.1521924273385963,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 12285,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": true,
+            "phase": "transition",
+            "blend": 0.8336400262190882,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 12870,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": true,
+            "phase": "transition",
+            "blend": 0.9896572483412788,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 13455,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 14040,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 14625,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 15210,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 15795,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 16380,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 16965,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 17550,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 18135,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 18720,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 19305,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 19890,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 20475,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": true,
+          "introPaused": true
+        },
+        {
+          "y": 21060,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": true,
+          "introPaused": true
+        },
+        {
+          "y": 21645,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": true,
+          "introPaused": true
+        },
+        {
+          "y": 22230,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": true,
+          "introPaused": true
+        },
+        {
+          "y": 22815,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": true,
+          "introPaused": true
+        },
+        {
+          "y": 23400,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "feature": 3,
+          "recording": {
+            "feature": 3,
+            "requestedFeature": 3,
+            "playing": false,
+            "phase": "hold",
+            "blend": 1,
+            "mode": "focus-only"
+          },
+          "calendar": true,
+          "introPaused": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "initial": {
+        "video": 4,
+        "renders": 2
+      },
+      "states": [
+        {
+          "y": 0,
+          "hero": false,
+          "photoReady": false,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": false
+        },
+        {
+          "y": 549,
+          "hero": false,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": false
+        },
+        {
+          "y": 1097,
+          "hero": false,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 1646,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 2194,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 2743,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 3292,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 3840,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 4389,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 4937,
+          "hero": true,
+          "photoReady": true,
+          "phone": false,
+          "ready": false,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 5486,
+          "hero": true,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 6035,
+          "hero": true,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 6583,
+          "hero": true,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 7132,
+          "hero": true,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 7680,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 8229,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 8778,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 9326,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 9875,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 10423,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 10972,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 11521,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 12069,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 12618,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 13166,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 13715,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 14264,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 14812,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 15361,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 15909,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 16458,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 17007,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 17555,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": false,
+          "introPaused": true
+        },
+        {
+          "y": 18104,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": true,
+          "introPaused": true
+        },
+        {
+          "y": 18652,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": true,
+          "introPaused": true
+        },
+        {
+          "y": 19201,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": true,
+          "introPaused": true
+        },
+        {
+          "y": 19750,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": true,
+          "introPaused": true
+        },
+        {
+          "y": 20298,
+          "hero": false,
+          "photoReady": true,
+          "phone": true,
+          "ready": true,
+          "calendar": true,
+          "introPaused": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "badRequests": []
+}

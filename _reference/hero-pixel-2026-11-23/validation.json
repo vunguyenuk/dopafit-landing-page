@@ -1,0 +1,115 @@
+{
+  "report": [
+    {
+      "seq": 0.22,
+      "count": 130,
+      "visible": 1,
+      "cell": "64px 16px, 64px 16px, 100% 100%",
+      "pattern": true,
+      "alpha": "0.92",
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 0.55,
+      "count": 130,
+      "visible": 1,
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 0.22,
+      "count": 130,
+      "visible": 1,
+      "cell": "64px 16px, 64px 16px, 100% 100%",
+      "pattern": true,
+      "alpha": "0.92",
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 2.22,
+      "count": 130,
+      "visible": 1,
+      "cell": "64px 16px, 64px 16px, 100% 100%",
+      "pattern": true,
+      "alpha": "0.917",
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 2.55,
+      "count": 130,
+      "visible": 1,
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 2.22,
+      "count": 130,
+      "visible": 1,
+      "cell": "64px 16px, 64px 16px, 100% 100%",
+      "pattern": true,
+      "alpha": "0.917",
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 0.22,
+      "count": 130,
+      "visible": 1,
+      "cell": "48px 12px, 48px 12px, 100% 100%",
+      "pattern": true,
+      "alpha": "0.919",
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 0.55,
+      "count": 130,
+      "visible": 1,
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 0.22,
+      "count": 130,
+      "visible": 1,
+      "cell": "48px 12px, 48px 12px, 100% 100%",
+      "pattern": true,
+      "alpha": "0.919",
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 2.22,
+      "count": 130,
+      "visible": 1,
+      "cell": "48px 12px, 48px 12px, 100% 100%",
+      "pattern": true,
+      "alpha": "0.92",
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 2.55,
+      "count": 130,
+      "visible": 1,
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    },
+    {
+      "seq": 2.22,
+      "count": 130,
+      "visible": 1,
+      "cell": "48px 12px, 48px 12px, 100% 100%",
+      "pattern": true,
+      "alpha": "0.92",
+      "native": "Không nhớ, không biết mình nên tập nhóm cơ nào.Không nhớ, không biết mình nên tập nhóm cơ nào.",
+      "overflow": false
+    }
+  ],
+  "reduced": "rgb(255, 255, 255)",
+  "errors": [],
+  "badRequests": []
+}

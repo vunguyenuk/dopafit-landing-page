@@ -1,0 +1,33 @@
+{
+  "copy": [
+    {
+      "width": 1440,
+      "height": 900,
+      "heading_opacity_at_075": 0.329995,
+      "heading_rise_remaining_px": 46.083984375
+    },
+    {
+      "width": 1512,
+      "height": 600,
+      "heading_opacity_at_075": 0.329995,
+      "heading_rise_remaining_px": 34.13629150390625
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "heading_opacity_at_075": 0.332771,
+      "heading_rise_remaining_px": 12.447807312011719
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "heading_opacity_at_075": 0.332058,
+      "heading_rise_remaining_px": 10.220596313476562
+    }
+  ],
+  "same_decoded_frames": true,
+  "frame_count": 192,
+  "fps": 24,
+  "duration": 8,
+  "exercise": "Cuốn tạ đơn kiểu búa"
+}

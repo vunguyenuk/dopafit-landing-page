@@ -1,0 +1,517 @@
+{
+  "report": [
+    {
+      "progress": 0,
+      "phase": "scatter",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "true",
+          "scale": 1,
+          "opacity": 1
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        }
+      ],
+      "fan": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ]
+    },
+    {
+      "progress": 0.2,
+      "phase": "reveal",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "true",
+          "scale": 1,
+          "opacity": 1
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        }
+      ],
+      "fan": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ]
+    },
+    {
+      "progress": 0.29,
+      "phase": "reveal",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "true",
+          "scale": 0.9421922251523542,
+          "opacity": 0.8859057075375413
+        },
+        {
+          "active": "false",
+          "scale": 0.6778077748476458,
+          "opacity": 0.3640942924624588
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        }
+      ],
+      "fan": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ]
+    },
+    {
+      "progress": 0.38,
+      "phase": "read",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "true",
+          "scale": 0.9752054001108033,
+          "opacity": 0.9510632896923747
+        },
+        {
+          "active": "false",
+          "scale": 0.6447945998891967,
+          "opacity": 0.29893671030762525
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        }
+      ],
+      "fan": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ]
+    },
+    {
+      "progress": 0.47,
+      "phase": "read",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "true",
+          "scale": 0.9953556813296399,
+          "opacity": 0.9908335815716577
+        },
+        {
+          "active": "false",
+          "scale": 0.6246443186703601,
+          "opacity": 0.25916641842834226
+        }
+      ],
+      "fan": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ]
+    },
+    {
+      "progress": 0.56,
+      "phase": "read",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.6207153249861497,
+          "opacity": 0.25141182563055847
+        },
+        {
+          "active": "true",
+          "scale": 0.9992846750138504,
+          "opacity": 0.9985881743694416
+        }
+      ],
+      "fan": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ]
+    },
+    {
+      "progress": 0.7,
+      "phase": "exit",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "true",
+          "scale": 1,
+          "opacity": 1
+        }
+      ],
+      "fan": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ]
+    },
+    {
+      "progress": 0.86,
+      "phase": "complete",
+      "handoff": 0.8245925925925925,
+      "opacity": "0.825",
+      "lines": [
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "true",
+          "scale": 1,
+          "opacity": 1
+        }
+      ],
+      "fan": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ]
+    },
+    {
+      "progress": 0.93,
+      "phase": "complete",
+      "handoff": 1,
+      "opacity": "1",
+      "lines": [
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "true",
+          "scale": 1,
+          "opacity": 1
+        }
+      ],
+      "fan": [
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ]
+    },
+    {
+      "progress": 1,
+      "phase": "complete",
+      "handoff": 1,
+      "opacity": "1",
+      "lines": [
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "true",
+          "scale": 1,
+          "opacity": 1
+        }
+      ],
+      "fan": [
+        "running",
+        "running",
+        "running",
+        "running",
+        "running",
+        "running"
+      ]
+    },
+    {
+      "progress": 0.47,
+      "phase": "read",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "true",
+          "scale": 0.9953556813296399,
+          "opacity": 0.9908335815716577
+        },
+        {
+          "active": "false",
+          "scale": 0.6246443186703601,
+          "opacity": 0.25916641842834226
+        }
+      ],
+      "fan": [
+        "running",
+        "running",
+        "running",
+        "running",
+        "running",
+        "running"
+      ]
+    },
+    {
+      "progress": 0.29,
+      "phase": "reveal",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "true",
+          "scale": 0.9421922251523542,
+          "opacity": 0.8859057075375413
+        },
+        {
+          "active": "false",
+          "scale": 0.6778077748476458,
+          "opacity": 0.3640942924624588
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        }
+      ],
+      "fan": [
+        "running",
+        "running",
+        "running",
+        "running",
+        "running",
+        "running"
+      ]
+    },
+    {
+      "progress": 0,
+      "phase": "scatter",
+      "handoff": 0,
+      "opacity": "0",
+      "lines": [
+        {
+          "active": "true",
+          "scale": 1,
+          "opacity": 1
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        },
+        {
+          "active": "false",
+          "scale": 0.62,
+          "opacity": 0.25
+        }
+      ],
+      "fan": [
+        "running",
+        "running",
+        "running",
+        "running",
+        "running",
+        "running"
+      ]
+    }
+  ],
+  "fan": {
+    "states": [
+      "finished",
+      "finished",
+      "finished",
+      "finished",
+      "finished",
+      "finished"
+    ],
+    "videos": [
+      {
+        "ready": 4,
+        "paused": false,
+        "src": "http://127.0.0.1:8097/assets/exercises/fan/1.mp4"
+      },
+      {
+        "ready": 4,
+        "paused": false,
+        "src": "http://127.0.0.1:8097/assets/exercises/fan/2.mp4"
+      },
+      {
+        "ready": 4,
+        "paused": false,
+        "src": "http://127.0.0.1:8097/assets/exercises/fan/3.mp4"
+      },
+      {
+        "ready": 4,
+        "paused": false,
+        "src": "http://127.0.0.1:8097/assets/exercises/fan/4.mp4"
+      },
+      {
+        "ready": 4,
+        "paused": false,
+        "src": "http://127.0.0.1:8097/assets/exercises/fan/5.mp4"
+      },
+      {
+        "ready": 4,
+        "paused": false,
+        "src": "http://127.0.0.1:8097/assets/exercises/fan/6.mp4"
+      }
+    ],
+    "main": "1"
+  },
+  "errors": [],
+  "badRequests": []
+}

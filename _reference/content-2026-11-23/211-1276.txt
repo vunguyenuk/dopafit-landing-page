@@ -1,0 +1,979 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/b22ff6de-a8a3-4bad-a855-773c213ba44d";
+const imgInstagramImage6 = `${assetPathPrefix}/160f5.png`;
+const imgInstagramImage5 = `${assetPathPrefix}/ed51a.png`;
+const imgInstagramImage4 = `${assetPathPrefix}/4dc17.png`;
+const imgInstagramImage3 = `${assetPathPrefix}/d22ed.png`;
+const imgInstagramImage2 = `${assetPathPrefix}/f37bc.png`;
+const imgInstagramImage1 = `${assetPathPrefix}/f7715.png`;
+const imgBodyIdle8565114297Webp = `${assetPathPrefix}/69e40.png`;
+const imgBodyActiveBfcea0D1D0Webp1 = `${assetPathPrefix}/78567.png`;
+const imgShadow = `${assetPathPrefix}/3dfb2.png`;
+const imgMain = `${assetPathPrefix}/1ab90.png`;
+const imgIPhone15ProRightLabel = `${assetPathPrefix}/0c1d8.png`;
+const img01BuoiTap1 = `${assetPathPrefix}/97b29.png`;
+const imgBackgroundShadow = `${assetPathPrefix}/d2ca3.png`;
+const imgBackgroundShadow1 = `${assetPathPrefix}/400b3.png`;
+const imgBackgroundShadow2 = `${assetPathPrefix}/bce40.png`;
+const imgBackgroundShadow3 = `${assetPathPrefix}/e03d1.png`;
+const imgBackgroundShadow4 = `${assetPathPrefix}/ae24c.png`;
+const imgBackgroundShadow5 = `${assetPathPrefix}/f8ac7.png`;
+const imgBackgroundShadow6 = `${assetPathPrefix}/cb17f.png`;
+const imgBackgroundShadow7 = `${assetPathPrefix}/3dcdc.png`;
+const imgBackgroundShadow8 = `${assetPathPrefix}/293ce.png`;
+const imgBackgroundShadow9 = `${assetPathPrefix}/88e0c.png`;
+const imgBackgroundShadow10 = `${assetPathPrefix}/483e7.png`;
+const imgBackgroundShadow11 = `${assetPathPrefix}/09d15.png`;
+const imgBackgroundShadow12 = `${assetPathPrefix}/fc0d7.png`;
+const imgBackgroundShadow13 = `${assetPathPrefix}/a63df.png`;
+const img0Cf6F6E30D0B41378B03664312C0B25E2 = `${assetPathPrefix}/d939f.png`;
+const imgBackground = `${assetPathPrefix}/b069f.png`;
+const imgRowPoster93205A615AJpg = `${assetPathPrefix}/e6b60.png`;
+const imgBackground1 = `${assetPathPrefix}/cc57f.png`;
+const img26GhiSet1 = `${assetPathPrefix}/371b7.png`;
+const imgScreenshot20261116At23703Pm1 = `${assetPathPrefix}/ade23.png`;
+const img18MucTieu2 = `${assetPathPrefix}/acd11.png`;
+const imgImage184 = `${assetPathPrefix}/8f583.png`;
+const imgImage185 = `${assetPathPrefix}/f9d4d.png`;
+const imgImage186 = `${assetPathPrefix}/0fdab.png`;
+const imgImage187 = `${assetPathPrefix}/0ddab.png`;
+const imgRectangle1 = `${assetPathPrefix}/b3c7a.png`;
+const imgImage189 = `${assetPathPrefix}/10d26.png`;
+const imgImage190 = `${assetPathPrefix}/3b004.png`;
+const imgImage192 = `${assetPathPrefix}/d752d.png`;
+const imgImage191 = `${assetPathPrefix}/cbd4b.png`;
+const imgBodyActiveBfcea0D1D0Webp = `${assetPathPrefix}/8d0df.svg`;
+const imgUixSolidWorkoutHistory = `${assetPathPrefix}/c1528.svg`;
+const imgVector = `${assetPathPrefix}/337d9.svg`;
+const imgVector1 = `${assetPathPrefix}/9b5b1.svg`;
+const imgVector2 = `${assetPathPrefix}/2ae08.svg`;
+const imgGradient = `${assetPathPrefix}/cda3a.svg`;
+const imgGroup = `${assetPathPrefix}/04020.svg`;
+const imgVector3 = `${assetPathPrefix}/26d75.svg`;
+const imgVector4 = `${assetPathPrefix}/d3495.svg`;
+const imgVector5 = `${assetPathPrefix}/0fa5a.svg`;
+const imgVector6 = `${assetPathPrefix}/ea64e.svg`;
+const imgVector7 = `${assetPathPrefix}/cb1e6.svg`;
+const imgVector8 = `${assetPathPrefix}/83b39.svg`;
+const imgVector9 = `${assetPathPrefix}/55116.svg`;
+const imgVector10 = `${assetPathPrefix}/30814.svg`;
+const imgVector11 = `${assetPathPrefix}/991c3.svg`;
+const imgVector12 = `${assetPathPrefix}/194f1.svg`;
+const imgFrame1618873457 = `${assetPathPrefix}/716ca.svg`;
+const imgGriddyIconsMuscleFlexFilled = `${assetPathPrefix}/09341.svg`;
+const imgUixSolidWorkoutHistory1 = `${assetPathPrefix}/57379.svg`;
+const imgUixSolidFlameStreak = `${assetPathPrefix}/57700.svg`;
+const imgVector13 = `${assetPathPrefix}/2eac9.svg`;
+const imgVector14 = `${assetPathPrefix}/9f331.svg`;
+const imgFrame = `${assetPathPrefix}/7994e.svg`;
+const imgFrame1 = `${assetPathPrefix}/73bdf.svg`;
+const imgFrame2 = `${assetPathPrefix}/da433.svg`;
+const imgFrame3 = `${assetPathPrefix}/12b41.svg`;
+const imgVector15 = `${assetPathPrefix}/3c17c.svg`;
+const imgGroup1 = `${assetPathPrefix}/0012f.svg`;
+const imgGradient1 = `${assetPathPrefix}/37d6d.svg`;
+const imgVector16 = `${assetPathPrefix}/ce45c.svg`;
+const imgRectangle = `${assetPathPrefix}/d4d84.svg`;
+const imgFrame4 = `${assetPathPrefix}/055db.svg`;
+const imgFrame5 = `${assetPathPrefix}/0689e.svg`;
+const imgFrame6 = `${assetPathPrefix}/cb1cc.svg`;
+const imgFrame7 = `${assetPathPrefix}/c026c.svg`;
+const imgFrame8 = `${assetPathPrefix}/fada2.svg`;
+const imgFrame9 = `${assetPathPrefix}/af741.svg`;
+const imgFrame10 = `${assetPathPrefix}/4928f.svg`;
+const imgFrame11 = `${assetPathPrefix}/a20b6.svg`;
+const imgGroup2 = `${assetPathPrefix}/1a0e7.svg`;
+const imgGroup3 = `${assetPathPrefix}/fa722.svg`;
+
+export default function LandingPage() {
+  return (
+    <div className="bg-black relative size-full" data-node-id="211:1276" data-name="Landing page">
+      <div className="-translate-x-1/2 absolute h-[1423px] left-1/2 overflow-clip top-[2601px] w-[1920px]" data-node-id="211:1277" data-name="Container → Content">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[244px] left-1/2 overflow-clip top-[calc(50%-589.5px)] w-[1920px]" data-node-id="211:1278" data-name="Headline">
+          <div className="-translate-y-1/2 absolute h-[112px] left-0 right-0 top-[calc(50%-6px)]" data-node-id="211:1279" data-name="Heading → Title → Heading 2">
+            <div className="-translate-x-1/2 absolute blur-[0px] h-[56px] left-[calc(50%-78.76px)] top-0 w-[158.47px]" data-node-id="211:1280" data-name="Blur" />
+            <div className="-translate-x-1/2 absolute blur-[0px] h-[56px] left-[calc(50%+128.2px)] top-0 w-[59.58px]" data-node-id="211:1281" data-name="Blur" />
+            <p className="-translate-x-1/2 [word-break:break-word] absolute bottom-[20.54%] font-['SF_Pro:Medium'] font-[510] leading-[normal] left-1/2 text-[61.7px] text-center text-white top-[-52.68%] w-[908px]" data-node-id="211:1282" style={{ fontVariationSettings: '"wdth" 100' }}>
+              500+ bài tập cho mọi mục tiêu và nhóm cơ trong một ứng dụng
+            </p>
+          </div>
+          <div className="-translate-x-1/2 absolute bg-[#b8f24a] h-[40px] left-[calc(50%+0.24px)] rounded-[999px] top-[197px] w-[124.48px]" data-node-id="211:1283" data-name="Link">
+            <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[999px] shadow-[0px_10px_30px_-12px_rgba(184,242,74,0.6)]" data-node-id="211:1284" data-name="Link:shadow" />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[15px] justify-center leading-[0] left-[calc(50%-44.24px)] not-italic text-[#0b1203] text-[15px] top-1/2 w-[88.817px]" data-node-id="211:1285">
+              <p className="leading-[15px]">Get the app</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute h-[1379px] left-0 overflow-clip right-0 top-[calc(50%+238px)]" data-node-id="211:1286" data-name="Desktop">
+          <div className="-translate-x-1/2 absolute flex h-[3258.632px] items-center justify-center left-[calc(50%+465.47px)] top-[-588px] w-[3240.789px]" data-node-id="211:1287">
+            <div className="flex-none rotate-[45.55deg]">
+              <div className="h-[1646px] relative w-[2950px]" data-name="Image Rotate Wrapper → Image Wrapper 2">
+                <div className="absolute h-[496px] left-[1304.01px] rounded-[8px] top-0 w-[342.001px]" data-node-id="211:1288" data-name="instagram image 6">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
+                    <img alt="" className="absolute h-full left-[-2.63%] max-w-none top-0 w-[105.26%]" src={imgInstagramImage6} />
+                  </div>
+                </div>
+                <div className="absolute flex h-[577.408px] items-center justify-center left-[854.75px] top-[18.97px] w-[478.533px]" data-node-id="211:1289">
+                  <div className="-rotate-18 flex-none">
+                    <div className="h-[496px] relative rounded-[8px] w-[341.999px]" data-name="instagram image 5">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
+                        <img alt="" className="absolute h-full left-[-38.09%] max-w-none top-0 w-[176.17%]" src={imgInstagramImage5} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[603.107px] items-center justify-center left-[470.86px] top-[179.84px] w-[568.817px]" data-node-id="211:1290">
+                  <div className="-rotate-36 flex-none">
+                    <div className="h-[497px] relative rounded-[8px] w-[342.005px]" data-name="instagram image 4">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
+                        <img alt="" className="absolute h-[103.93%] left-0 max-w-none top-[-1.97%] w-full" src={imgInstagramImage4} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[568.812px] items-center justify-center left-[179.87px] top-[466.84px] w-[603.103px]" data-node-id="211:1291">
+                  <div className="-rotate-54 flex-none">
+                    <div className="h-[497px] relative rounded-[8px] w-[341.999px]" data-name="instagram image 3">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
+                        <img alt="" className="absolute h-[142.43%] left-0 max-w-none top-[-21.21%] w-full" src={imgInstagramImage3} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[478.841px] items-center justify-center left-[22.96px] top-[854.73px] w-[578.358px]" data-node-id="211:1292">
+                  <div className="-rotate-72 flex-none">
+                    <div className="h-[497px] relative rounded-[8px] w-[341.998px]" data-name="instagram image 2">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
+                        <img alt="" className="absolute h-[190%] left-0 max-w-none top-[-45%] w-full" src={imgInstagramImage2} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[341.994px] items-center justify-center left-0 top-[1304px] w-[496px]" data-node-id="211:1293">
+                  <div className="-rotate-90 flex-none">
+                    <div className="h-[496px] relative rounded-[8px] w-[341.994px]" data-name="instagram image 1">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
+                        <img alt="" className="absolute h-[118.78%] left-0 max-w-none top-[-9.39%] w-full" src={imgInstagramImage1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute aspect-[1920/244] bg-gradient-to-b bottom-[433px] from-[rgba(0,0,0,0)] left-[-972px] overflow-clip right-[-972px] to-black" data-node-id="211:1294" data-name="Bottom Linear Gradient">
+            <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[24px] left-[calc(50%+0.5px)] text-[16px] text-center text-white top-[169px] w-[359px]" data-node-id="211:1295" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Hôm nay tập gì, động tác làm thế nào, bài này vào nhóm cơ nào? Dopafit giúp bạn làm rõ từng phần, với lịch tập, video hướng dẫn và hình minh họa nhóm cơ ngay trong mỗi bài.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute drop-shadow-[0px_30px_60px_rgba(0,0,0,0.8)] inset-[54.49%_36.92%_40.9%_37.81%]" data-node-id="211:1296" data-name="Shadow">
+        <div className="absolute h-[689.47px] left-0 top-0 w-[485.17px]" data-node-id="211:1297" data-name="body-idle.8565114297.webp">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgBodyIdle8565114297Webp} />
+          </div>
+        </div>
+        <div className="absolute h-[689.47px] left-0 top-0 w-[485.17px]" data-node-id="211:1298" data-name="Img:mask-group">
+          <div className="absolute h-[689.47px] left-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[485.17px_689.47px] top-0 w-[485.17px]" data-node-id="211:1300" style={{ maskImage: `url("${imgBodyActiveBfcea0D1D0Webp}")` }} data-name="body-active.bfcea0d1d0.webp">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgBodyActiveBfcea0D1D0Webp1} />
+            </div>
+            <div className="absolute left-0 size-[24px] top-[119px]" data-node-id="211:1301" data-name="uix-solid:workout-history">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUixSolidWorkoutHistory} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[1494.62px] left-[calc(50%+0.5px)] overflow-clip rounded-[35px] top-[3667px] w-[605px]" data-node-id="211:1303" data-name="iPhone 15 Pro Right">
+        <div className="absolute h-[1494.62px] left-0 opacity-70 top-0 w-[605px]" data-node-id="211:1304" data-name="shadow">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgShadow} />
+        </div>
+        <div className="absolute h-[1494.62px] left-0 top-0 w-[605px]" data-node-id="211:1305" data-name="main">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMain} />
+        </div>
+        <div className="absolute h-[1442.805px] left-[64.22px] top-[22.62px] w-[522.533px]" data-node-id="211:1306" data-name="iPhone 15 Pro Right label">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgIPhone15ProRightLabel} />
+        </div>
+      </div>
+      <div className="absolute contents inset-[39.31%_46.15%_56.96%_15.16%]" data-node-id="211:1307" data-name="div">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Bold'] font-bold inset-[39.41%_61.51%_60.33%_15.16%] leading-[normal] text-[#e6e6e6] text-[32px] whitespace-nowrap" data-node-id="211:1308" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Biết bạn đã tập gì vào ngày nào
+        </p>
+        <div className="absolute contents inset-[42.7%_46.15%_56.96%_15.16%]" data-node-id="211:1309" data-name="aside">
+          <div className="absolute contents inset-[42.7%_46.15%_57.3%_15.16%]" data-node-id="211:1310" data-name="div">
+            <div className="absolute inset-[42.7%_46.15%_57.3%_15.16%]" data-node-id="211:1311" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[42.78%_58.28%_56.96%_15.16%] leading-[normal] not-italic text-[#e6e6e6] text-[32px]" data-node-id="211:1312">
+            Thấy tiến bộ theo từng buổi tập
+          </p>
+        </div>
+        <div className="absolute contents inset-[41.28%_47.45%_58.12%_15.16%]" data-node-id="211:1313" data-name="aside">
+          <div className="absolute contents inset-[41.28%_59.09%_58.72%_15.16%]" data-node-id="211:1314" data-name="div">
+            <div className="absolute inset-[41.28%_59.09%_58.72%_15.16%]" data-node-id="211:1315" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[41.36%_47.45%_58.12%_15.16%] leading-[normal] not-italic text-[#e6e6e6] text-[32px]" data-node-id="211:1316">
+            Hướng dẫn chi tiết động tác chuẩn cho đa dạng nhóm cơ, dụng cụ tập
+          </p>
+        </div>
+        <div className="absolute contents inset-[39.31%_46.17%_60.68%_15.16%]" data-node-id="211:1317" data-name="div">
+          <div className="absolute inset-[39.31%_46.17%_60.68%_15.16%]" data-node-id="211:1318" data-name="Vector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[40.46%_50.99%_59.28%_15.16%] leading-[normal] not-italic text-[#e6e6e6] text-[32px] whitespace-nowrap" data-node-id="211:1319">{`Bài tập thay đổi theo nhóm cơ đã phục hồi `}</p>
+      </div>
+      <div className="absolute h-[1376.781px] left-[1101px] top-[5625px] w-[648px]" data-node-id="211:1320" data-name="01-buoi-tap 1">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img01BuoiTap1} />
+      </div>
+      <div className="-translate-x-1/2 absolute h-[1204px] left-[calc(50%+0.5px)] top-[1209px] w-[1804.441px]" data-node-id="211:1321" data-name="Frame">
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[161.214px] left-[124.3px] rounded-[18.154px] top-[191.11px] w-[133.797px]" data-node-id="211:1322" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[18.154px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[18.154px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[18.154px]">
+              <img alt="" className="absolute h-[100.03%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[158.095px] left-[1.56px] rounded-[16.594px] top-[1.56px] w-[130.678px]" data-node-id="211:1323" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[168.357px] left-[1365.42px] opacity-95 rounded-[16.563px] top-[175.14px] w-[139.723px]" data-node-id="211:1324" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16.563px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[16.563px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[16.563px]">
+              <img alt="" className="absolute h-[100.03%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow1} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[165.238px] left-[1.56px] rounded-[15.003px] top-[1.56px] w-[136.604px]" data-node-id="211:1325" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[112.696px] left-[1091.85px] opacity-80 rounded-[11.978px] top-[247.97px] w-[93.528px]" data-node-id="211:1326" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[11.978px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[11.978px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[11.978px]">
+              <img alt="" className="absolute h-[100.03%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow2} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[109.577px] left-[1.56px] rounded-[10.418px] top-[1.56px] w-[90.409px]" data-node-id="211:1327" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[93.918px] left-[578.22px] opacity-80 rounded-[10.574px] top-[262.93px] w-[77.948px]" data-node-id="211:1328" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[10.574px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[10.574px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[10.574px]">
+              <img alt="" className="absolute h-[100.03%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow3} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[90.799px] left-[1.56px] rounded-[9.014px] top-[1.56px] w-[74.829px]" data-node-id="211:1329" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[67.608px] left-[847.6px] opacity-40 rounded-[7.58px] top-[326.37px] w-[56.114px]" data-node-id="211:1330" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[7.58px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[7.58px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[7.58px]">
+              <img alt="" className="absolute h-[100.04%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow4} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[64.489px] left-[1.56px] rounded-[6.02px] top-[1.56px] w-[52.995px]" data-node-id="211:1331" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[165.659px] left-[1555.13px] rounded-[16.563px] top-[447.71px] w-[137.493px]" data-node-id="211:1332" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16.563px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[16.563px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[16.563px]">
+              <img alt="" className="absolute h-[100.03%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow5} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[162.54px] left-[1.56px] rounded-[15.003px] top-[1.56px] w-[134.374px]" data-node-id="211:1333" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[129.867px] left-[223.3px] opacity-80 rounded-[14.629px] top-[530.88px] w-[107.799px]" data-node-id="211:1334" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[14.629px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[14.629px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[14.629px]">
+              <img alt="" className="absolute h-[100.05%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow6} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[126.748px] left-[1.56px] rounded-[13.069px] top-[1.56px] w-[104.679px]" data-node-id="211:1335" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[104.82px] left-[396.38px] opacity-80 rounded-[11.806px] top-[780.15px] w-[87.009px]" data-node-id="211:1336" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[11.806px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[11.806px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[11.806px]">
+              <img alt="" className="absolute h-[100.05%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow7} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[101.701px] left-[1.56px] rounded-[10.246px] top-[1.56px] w-[83.89px]" data-node-id="211:1337" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[107.736px] left-[1205.64px] opacity-80 rounded-[11.978px] top-[752.97px] w-[89.411px]" data-node-id="211:1338" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[11.978px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[11.978px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[11.978px]">
+              <img alt="" className="absolute h-[100.03%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow8} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[104.617px] left-[1.56px] rounded-[10.418px] top-[1.56px] w-[86.292px]" data-node-id="211:1339" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[67.296px] left-[764.73px] opacity-40 rounded-[7.58px] top-[814.48px] w-[55.849px]" data-node-id="211:1340" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[7.58px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[7.58px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[7.58px]">
+              <img alt="" className="absolute h-[100.02%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow9} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[64.177px] left-[1.56px] rounded-[6.02px] top-[1.56px] w-[52.73px]" data-node-id="211:1341" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[149.829px] left-[1395.02px] opacity-95 rounded-[16.563px] top-[811.48px] w-[124.346px]" data-node-id="211:1342" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16.563px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[16.563px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[16.563px]">
+              <img alt="" className="absolute h-[100.03%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow10} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[146.71px] left-[1.56px] rounded-[15.003px] top-[1.56px] w-[121.227px]" data-node-id="211:1343" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[93.871px] left-[974.82px] opacity-60 rounded-[10.574px] top-[864.9px] w-[77.917px]" data-node-id="211:1344" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[10.574px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[10.574px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[10.574px]">
+              <img alt="" className="absolute h-[100.04%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow11} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[90.752px] left-[1.56px] rounded-[9.014px] top-[1.56px] w-[74.798px]" data-node-id="211:1345" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[101.732px] left-[611.48px] opacity-60 rounded-[11.463px] top-[914.53px] w-[84.436px]" data-node-id="211:1346" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[11.463px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[11.463px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[11.463px]">
+              <img alt="" className="absolute h-[100.04%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow12} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[98.613px] left-[1.56px] rounded-[9.903px] top-[1.56px] w-[81.317px]" data-node-id="211:1347" data-name="Border" />
+        </div>
+        <div className="absolute drop-shadow-[0px_1.56px_1.56px_rgba(38,37,35,0.08),0px_9.358px_14.036px_rgba(38,37,35,0.07)] h-[147.1px] left-[94.64px] rounded-[16.563px] top-[975.65px] w-[122.084px]" data-node-id="211:1348" data-name="Background+Shadow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16.563px]">
+            <div className="absolute bg-[#202020] inset-0 rounded-[16.563px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[16.563px]">
+              <img alt="" className="absolute h-[100.03%] left-0 max-w-none top-0 w-full" src={imgBackgroundShadow13} />
+            </div>
+          </div>
+          <div className="absolute border-[1.56px] border-[rgba(38,37,35,0.05)] border-solid h-[143.981px] left-[1.56px] rounded-[15.003px] top-[1.56px] w-[118.965px]" data-node-id="211:1349" data-name="Border" />
+        </div>
+      </div>
+      <div className="absolute bg-white border border-black border-solid h-[555px] left-[641px] overflow-clip top-[774px] w-[637px]" data-node-id="212:1684">
+        <div className="absolute h-[1353px] left-[-1px] top-[-1px] w-[637px]" data-node-id="211:1350" data-name="01-buoi-tap 2">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img01BuoiTap1} />
+        </div>
+      </div>
+      <div className="absolute h-[439px] left-[368px] right-[312px] top-[13752px]" data-node-id="211:1351" data-name="Section">
+        <div className="absolute border-[rgba(228,238,210,0.09)] border-solid border-t h-[73px] left-[529.03px] right-0 top-0" data-node-id="211:1352" data-name="Details">
+          <div className="absolute h-[72px] left-0 right-0 top-0" data-node-id="211:1353" data-name="Slot → Summary">
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[23px] justify-center leading-[0] left-[4px] not-italic text-[#eff1ea] text-[18px] top-[calc(50%-0.1px)] w-[304.198px]" data-node-id="211:1354">
+              <p className="leading-[25.2px]">{`I'm new to training. Can I keep up?`}</p>
+            </div>
+            <div className="-translate-y-1/2 absolute bg-[#eff1ea] left-[678.97px] rounded-[14px] size-[28px] top-1/2" data-node-id="211:1355" data-name="Background" />
+          </div>
+        </div>
+        <div className="absolute border-[rgba(228,238,210,0.09)] border-solid border-t h-[73px] left-[529.03px] right-0 top-[73px]" data-node-id="211:1356" data-name="Details">
+          <div className="absolute h-[72px] left-0 right-0 top-0" data-node-id="211:1357" data-name="Slot → Summary">
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[23px] justify-center leading-[0] left-[4px] not-italic text-[#eff1ea] text-[18px] top-[calc(50%-0.1px)] w-[241.107px]" data-node-id="211:1358">
+              <p className="leading-[25.2px]">Can I use it without a gym?</p>
+            </div>
+            <div className="-translate-y-1/2 absolute bg-[#eff1ea] left-[678.97px] rounded-[14px] size-[28px] top-1/2" data-node-id="211:1359" data-name="Background" />
+          </div>
+        </div>
+        <div className="absolute border-[rgba(228,238,210,0.09)] border-solid border-t h-[73px] left-[529.03px] right-0 top-[146px]" data-node-id="211:1360" data-name="Details">
+          <div className="absolute h-[72px] left-0 right-0 top-0" data-node-id="211:1361" data-name="Slot → Summary">
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[23px] justify-center leading-[0] left-[4px] not-italic text-[#eff1ea] text-[18px] top-[calc(50%-0.1px)] w-[302.178px]" data-node-id="211:1362">
+              <p className="leading-[25.2px]">Where is my training data stored?</p>
+            </div>
+            <div className="-translate-y-1/2 absolute bg-[#eff1ea] left-[678.97px] rounded-[14px] size-[28px] top-1/2" data-node-id="211:1363" data-name="Background" />
+          </div>
+        </div>
+        <div className="absolute border-[rgba(228,238,210,0.09)] border-solid border-t h-[73px] left-[529.03px] right-0 top-[219px]" data-node-id="211:1364" data-name="Details">
+          <div className="absolute h-[72px] left-0 right-0 top-0" data-node-id="211:1365" data-name="Slot → Summary">
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[23px] justify-center leading-[0] left-[4px] not-italic text-[#eff1ea] text-[18px] top-[calc(50%-0.1px)] w-[343.284px]" data-node-id="211:1366">
+              <p className="leading-[25.2px]">Does Dopafit work with Apple Health?</p>
+            </div>
+            <div className="-translate-y-1/2 absolute bg-[#eff1ea] left-[678.97px] rounded-[14px] size-[28px] top-1/2" data-node-id="211:1367" data-name="Background" />
+          </div>
+        </div>
+        <div className="absolute border-[rgba(228,238,210,0.09)] border-solid border-t h-[73px] left-[529.03px] right-0 top-[292px]" data-node-id="211:1368" data-name="Details">
+          <div className="absolute h-[72px] left-0 right-0 top-0" data-node-id="211:1369" data-name="Slot → Summary">
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[23px] justify-center leading-[0] left-[4px] not-italic text-[#eff1ea] text-[18px] top-[calc(50%-0.1px)] w-[256.87px]" data-node-id="211:1370">
+              <p className="leading-[25.2px]">Does Dopafit cost anything?</p>
+            </div>
+            <div className="-translate-y-1/2 absolute bg-[#eff1ea] left-[678.97px] rounded-[14px] size-[28px] top-1/2" data-node-id="211:1371" data-name="Background" />
+          </div>
+        </div>
+        <div className="absolute border-[rgba(228,238,210,0.09)] border-b border-solid border-t h-[74px] left-[529.03px] right-0 top-[365px]" data-node-id="211:1372" data-name="Details">
+          <div className="absolute h-[72px] left-0 right-0 top-0" data-node-id="211:1373" data-name="Slot → Summary">
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[23px] justify-center leading-[0] left-[4px] not-italic text-[#eff1ea] text-[18px] top-[calc(50%-0.1px)] w-[201.026px]" data-node-id="211:1374">
+              <p className="leading-[25.2px]">Is Dopafit on Android?</p>
+            </div>
+            <div className="-translate-y-1/2 absolute bg-[#eff1ea] left-[678.97px] rounded-[14px] size-[28px] top-1/2" data-node-id="211:1375" data-name="Background" />
+          </div>
+        </div>
+        <div className="absolute h-[439px] inset-[0_782.97px_0_0] pointer-events-none" data-node-id="211:1376">
+          <div className="h-[242px] pointer-events-auto sticky top-0" data-name="Container">
+            <div className="absolute bg-[#b8f24a] h-[2px] left-0 right-[439.03px] rounded-[2px] top-[5px]" data-node-id="211:1377" data-name="Horizontal Divider" />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['IBM_Plex_Mono:Medium'] h-[12px] justify-center leading-[0] left-[28px] not-italic right-[401.29px] text-[#a4a998] text-[12px] top-[6px] tracking-[1.92px] uppercase" data-node-id="211:1378">
+              <p className="leading-[12px]">FAQ</p>
+            </div>
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['IBM_Plex_Sans_Condensed:Bold'] h-[162.81px] justify-center leading-[0] left-0 not-italic right-[47.54px] text-[#eff1ea] text-[70.4px] top-[99.4px] tracking-[-1.056px]" data-node-id="211:1379">
+              <p className="leading-[71.81px] mb-0">Questions you</p>
+              <p className="leading-[71.81px]">might have.</p>
+            </div>
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:Regular'] h-[49.19px] justify-center leading-[0] left-0 not-italic right-[4.17px] text-[#a4a998] text-[17px] top-[214.21px]" data-node-id="211:1380">
+              <p className="mb-0">
+                <span className="leading-[27.2px]">{`Can't find your answer? Visit the `}</span>
+                <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-[#b8f24a] decoration-[1px] decoration-solid leading-[27.2px] text-[#eff1ea] underline">support page</span>
+                <span className="leading-[27.2px]">{` or email`}</span>
+              </p>
+              <p className="leading-[27.2px]">support@dopafit.app.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute content-stretch flex items-center justify-between left-1/2 top-[66px] w-[940px]" data-node-id="211:1381">
+        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[26px] items-center leading-[0] relative shrink-0 text-[14px] text-white" data-node-id="211:1382">
+          <div className="flex flex-col h-[18px] justify-center relative shrink-0 w-[60.776px]" data-node-id="211:1383" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[22.4px]">Features</p>
+          </div>
+          <div className="flex flex-col h-[18px] justify-center relative shrink-0 w-[90.039px]" data-node-id="211:1384" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[22.4px]">Apple Health</p>
+          </div>
+          <div className="flex flex-col h-[18px] justify-center relative shrink-0 w-[29.596px]" data-node-id="211:1385" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[22.4px]">FAQ</p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-center justify-center relative shrink-0" data-node-id="211:1386" data-name="Link - Dopafit">
+          <div className="h-[14px] relative shrink-0 w-[22.03px]" data-node-id="211:1387" data-name="Mask Group">
+            <div className="absolute inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[100%_100%]" data-node-id="211:1394" style={{ backgroundImage: "linear-gradient(93.3637274473915deg, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.95) 49%, rgba(255, 255, 255, 0.95) 51%, rgba(255, 255, 255, 0) 62%)", maskImage: `url("${imgGradient}")` }} data-name="Gradient" />
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['SF_Pro:Bold'] font-bold justify-center leading-[0] relative shrink-0 text-[20px] text-white tracking-[3.2px] whitespace-nowrap" data-node-id="211:1395" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[20px]">OPAFIT</p>
+          </div>
+          <div className="absolute h-[13.999px] left-0 overflow-clip top-[3px] w-[22.03px]" data-node-id="211:1396" data-name="SVG">
+            <div className="absolute inset-[0.03%_0] overflow-clip" data-node-id="211:1397" data-name="dopa-mark">
+              <div className="absolute inset-[0.13%_0.09%_0.03%_3.65%]" data-node-id="211:1398" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex items-center justify-end relative shrink-0 w-[201px]" data-node-id="211:1402">
+          <div className="bg-[#b8f24a] h-[40px] relative rounded-[999px] shrink-0 w-[124.48px]" data-node-id="211:1403" data-name="Link">
+            <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[999px] shadow-[0px_10px_30px_-12px_rgba(184,242,74,0.6)]" data-node-id="211:1404" data-name="Link:shadow" />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[15px] justify-center leading-[0] left-[calc(50%-44.24px)] not-italic text-[#0b1203] text-[15px] top-1/2 w-[88.817px]" data-node-id="211:1405">
+              <p className="leading-[15px]">Get the app</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[0] left-[calc(50%+15.5px)] text-[0px] text-center text-white top-[1677px] w-[985px] whitespace-pre-wrap" data-node-id="211:1406" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="font-['SF_Pro:Bold'] font-bold leading-[46px] mb-0 text-[40px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Đến phòng tập rồi, vẫn chưa biết bắt đầu từ đâu?
+        </p>
+        <p className="leading-[46px] mb-0 text-[36px]">​</p>
+        <p className="leading-[46px] mb-0 text-[24px] text-[rgba(255,255,255,0.4)]">Tự hỏi hôm nay nên tập bài gì.</p>
+        <p className="leading-[46px] mb-0 text-[24px] text-[rgba(255,255,255,0.4)]">Không nhớ, không biết mình nên tập nhóm cơ nào.</p>
+        <p className="leading-[46px] text-[24px] text-[rgba(255,255,255,0.4)]">Lo tập sai động tác, sợ bị chấn thương.</p>
+      </div>
+      <p className="[word-break:break-word] absolute bottom-[62.46%] font-['SF_Pro:Bold'] font-bold leading-[normal] left-[calc(50%-677px)] text-[84.994px] text-white top-[36.19%] w-[883px]" data-node-id="211:1407" style={{ fontVariationSettings: '"wdth" 100' }}>
+        Lộ trình tập luyện dành riêng cho bạn
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute bottom-[97.16%] font-['SF_Pro:Bold'] font-bold leading-[normal] left-[calc(50%+21px)] text-[84.994px] text-center text-white top-[1.49%] w-[750px]" data-node-id="211:1408" style={{ fontVariationSettings: '"wdth" 100' }}>
+        Mở Dopafit là biết hôm nay tập gì
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute bottom-[48.57%] font-['SF_Pro:Bold'] font-bold leading-[normal] left-[calc(50%+0.5px)] text-[84.994px] text-center text-white top-[50.08%] w-[883px]" data-node-id="211:1409" style={{ fontVariationSettings: '"wdth" 100' }}>
+        Theo dõi chuyên sâu, bức phá từng buổi tập
+      </p>
+      <div className="-translate-x-1/2 [word-break:break-word] absolute bottom-[35.88%] font-['SF_Pro:Bold'] font-bold leading-[0] left-[calc(50%+0.5px)] text-[84.994px] text-center text-white top-[62.77%] w-[883px] whitespace-pre-wrap" data-node-id="211:1410" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[normal] mb-0">{`Sẵn sàng tập `}</p>
+        <p className="leading-[normal]">mọi lúc mọi nơi</p>
+      </div>
+      <p className="[word-break:break-word] absolute bottom-[11.15%] font-['SF_Pro:Bold'] font-bold leading-[normal] left-1/2 text-[84.994px] text-white top-[87.5%] w-[799px]" data-node-id="211:1411" style={{ fontVariationSettings: '"wdth" 100' }}>
+        Bắt đầu tập luyện với Dopafit hôm nay
+      </p>
+      <div className="absolute inset-[40.38%_46.15%_59.61%_15.16%]" data-node-id="211:1412" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+      </div>
+      <div className="absolute contents inset-[55.06%_36.04%_41.47%_36.98%]" data-node-id="211:1413">
+        <div className="absolute inset-[55.06%_49.53%_41.47%_36.98%]" data-node-id="211:1414" data-name="Vector">
+          <div className="absolute inset-[-0.26%_-0.52%]">
+            <img alt="" className="block max-w-none size-full" src={imgVector3} />
+          </div>
+        </div>
+        <div className="absolute inset-[55.06%_36.04%_41.47%_50.47%]" data-node-id="211:1415" data-name="Vector">
+          <div className="absolute inset-[-0.26%_-0.52%]">
+            <img alt="" className="block max-w-none size-full" src={imgVector4} />
+          </div>
+        </div>
+        <div className="absolute inset-[58.44%_45.81%_41.5%_53.74%]" data-node-id="211:1416" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector5} />
+        </div>
+        <div className="absolute inset-[57.99%_39.77%_41.95%_59.79%]" data-node-id="211:1417" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector6} />
+        </div>
+        <div className="absolute inset-[57.21%_36.27%_42.73%_63.28%]" data-node-id="211:1418" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector7} />
+        </div>
+        <div className="absolute inset-[56.32%_36.27%_43.63%_63.28%]" data-node-id="211:1419" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector7} />
+        </div>
+        <div className="absolute inset-[55.54%_39.77%_44.4%_59.79%]" data-node-id="211:1420" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector8} />
+        </div>
+        <div className="absolute inset-[55.09%_45.81%_44.85%_53.74%]" data-node-id="211:1421" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector9} />
+        </div>
+        <div className="absolute inset-[58.44%_52.8%_41.5%_46.76%]" data-node-id="211:1422" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector5} />
+        </div>
+        <div className="absolute inset-[57.99%_58.85%_41.95%_40.71%]" data-node-id="211:1423" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector10} />
+        </div>
+        <div className="absolute inset-[57.21%_62.34%_42.73%_37.22%]" data-node-id="211:1424" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector11} />
+        </div>
+        <div className="absolute inset-[56.32%_62.34%_43.63%_37.22%]" data-node-id="211:1425" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector11} />
+        </div>
+        <div className="absolute inset-[55.54%_58.85%_44.4%_40.71%]" data-node-id="211:1426" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector12} />
+        </div>
+        <div className="absolute inset-[55.09%_52.8%_44.85%_46.76%]" data-node-id="211:1427" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector9} />
+        </div>
+      </div>
+      <div className="absolute bg-[#85fa00] content-stretch flex flex-col items-center justify-center left-[1190px] overflow-clip p-[23.273px] rounded-[1454.546px] size-[68.364px] top-[8392px]" data-node-id="211:1428" data-name="at-icons:video-camera">
+        <div className="relative shrink-0 size-[40px]" data-node-id="211:1429">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame1618873457} />
+        </div>
+      </div>
+      <div className="absolute h-[688px] left-[17px] top-[14259px] w-[1903px]" data-node-id="211:1431" data-name="0CF6F6E3-0D0B-4137-8B03-664312C0B25E 2">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[491.45%] left-0 max-w-none top-[-32.86%] w-full" src={img0Cf6F6E30D0B41378B03664312C0B25E2} />
+        </div>
+      </div>
+      <div className="absolute bg-[#85fa00] content-stretch flex flex-col items-center justify-center left-[1065px] overflow-clip p-[23.273px] rounded-[1454.546px] size-[68.364px] top-[8226px]" data-node-id="211:1432" data-name="at-icons:video-camera">
+        <div className="relative shrink-0 size-[40px]" data-node-id="211:1433" data-name="griddy-icons:muscle-flex-filled">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGriddyIconsMuscleFlexFilled} />
+        </div>
+      </div>
+      <div className="absolute bg-[#85fa00] content-stretch flex flex-col items-center justify-center left-[748px] overflow-clip p-[23.273px] rounded-[1454.546px] size-[68.364px] top-[8272px]" data-node-id="211:1435" data-name="at-icons:video-camera">
+        <div className="relative shrink-0 size-[40px]" data-node-id="211:1436" data-name="uix-solid:workout-history">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUixSolidWorkoutHistory1} />
+        </div>
+      </div>
+      <div className="absolute bg-[#85fa00] content-stretch flex flex-col items-center justify-center left-[676px] overflow-clip p-[23.273px] rounded-[1454.546px] size-[68.364px] top-[8489px]" data-node-id="211:1438" data-name="at-icons:video-camera">
+        <div className="relative shrink-0 size-[40px]" data-node-id="211:1439" data-name="uix-solid:flame-streak">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUixSolidFlameStreak} />
+        </div>
+      </div>
+      <div className="absolute h-[156px] left-[1315px] overflow-clip right-[295px] rounded-tl-[51.15px] rounded-tr-[51.15px] top-[8216px]" data-node-id="211:1441" style={{ backgroundImage: "linear-gradient(172.38608711732624deg, rgb(52, 56, 47) 0%, rgb(12, 13, 10) 32%, rgb(23, 25, 20) 70%, rgb(58, 62, 52) 100%)" }} data-name="Background">
+        <div className="absolute bottom-[-517.77px] left-0 pointer-events-none rounded-[51.15px] shadow-[0px_0px_0px_1px_rgba(0,0,0,0.9),0px_50px_90px_-30px_rgba(0,0,0,0.9),0px_30px_120px_-40px_rgba(184,242,74,0.22)] top-0 w-[310px]" data-node-id="211:1442" data-name="Overlay+Shadow">
+          <div aria-hidden className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[51.15px]" />
+          <div className="absolute inset-0 rounded-[inherit] shadow-[inset_0px_0px_0px_1px_rgba(255,255,255,0.1)]" />
+        </div>
+        <div className="absolute bg-black inset-[9.3px_9.29px_-508.47px_9.3px] overflow-clip rounded-[42.78px]" data-node-id="211:1443" data-name="Background">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-full left-[-1.72%] max-w-none top-0 w-[103.44%]" src={imgBackground} />
+          </div>
+          <div className="absolute border border-[#b8f24a] border-solid h-[40.86px] left-[84.14px] rounded-[16px] top-[96.44px] w-[85.94px]" data-node-id="211:1445" data-name="Border">
+            <div className="absolute bg-[rgba(255,255,255,0)] h-[40.86px] left-[-1px] rounded-[16px] shadow-[0px_0px_0px_999px_rgba(0,0,0,0.42),0px_0px_24px_0px_rgba(184,242,74,0.35)] top-[-1px] w-[85.94px]" data-node-id="211:1446" data-name="Overlay+Shadow" />
+          </div>
+          <div className="absolute bg-black h-[27.27px] left-[34.5%] right-[34.5%] rounded-[999px] top-[11.15px]" data-node-id="211:1447" data-name="Background" />
+          <div className="absolute inset-[-30%]" data-node-id="211:1448" style={{ backgroundImage: "linear-gradient(114.99999844191532deg, rgba(255, 255, 255, 0) 42%, rgba(255, 255, 255, 0.11) 50%, rgba(255, 255, 255, 0) 58%)" }} data-name="Gradient" />
+        </div>
+      </div>
+      <div className="absolute backdrop-blur-[26.504px] bg-[rgba(18,21,15,0.66)] border-[1.657px] border-[rgba(228,238,210,0.17)] border-solid h-[296px] left-[1408.94px] right-[96.94px] rounded-[33.13px] top-[8381px]" data-node-id="211:1449" data-name="Figure">
+        <div className="absolute bg-[rgba(255,255,255,0)] bottom-[calc(0%-1.66px)] right-[-1.66px] rounded-[33.13px] shadow-[0px_0px_0px_2.485px_#b8f24a,0px_49.695px_115.955px_-39.756px_rgba(184,242,74,0.35)] top-[calc(0%-1.66px)] w-[414.125px]" data-node-id="211:1450" data-name="Figure:shadow" />
+        <div className="absolute aspect-[232/130.5] left-[13.25px] right-[13.25px] rounded-[21.535px] top-[13.25px]" data-node-id="211:1451" data-name="row-poster.93205a615a.jpg">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[21.535px]">
+            <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRowPoster93205A615AJpg} />
+          </div>
+        </div>
+        <div className="[word-break:break-word] absolute h-[50.01px] leading-[0] left-[13.25px] not-italic right-[13.25px] text-[19.878px] top-[229.43px]" data-node-id="211:1452" data-name="Figcaption">
+          <div className="absolute bottom-[6.94px] flex flex-col font-['Be_Vietnam_Pro:SemiBold'] justify-center left-[9.94px] text-[#eff1ea] top-[18.22px] w-[118.854px]" data-node-id="211:1453">
+            <p className="leading-[31.805px]">Video guide</p>
+          </div>
+          <div className="absolute bottom-[6.94px] flex flex-col font-['Be_Vietnam_Pro:Regular'] justify-center left-[174.26px] text-[#a4a998] top-[18.22px] w-[200.747px]" data-node-id="211:1454">
+            <p className="leading-[31.805px]">Loops automatically</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[1327px] top-[7839.03px]" data-node-id="211:1455">
+        <div className="absolute h-[668.942px] left-[1350.84px] overflow-clip top-[7839.03px] w-[410.638px]" data-node-id="211:1456">
+          <div className="absolute aspect-[310/673.77001953125] left-0 right-0 rounded-[67.755px] top-0" data-node-id="211:1457" style={{ backgroundImage: "linear-gradient(150.0000009387569deg, rgb(52, 56, 47) 0%, rgb(12, 13, 10) 32%, rgb(23, 25, 20) 70%, rgb(58, 62, 52) 100%)" }} data-name="Background">
+            <div className="absolute bottom-0 left-0 pointer-events-none rounded-[67.755px] shadow-[0px_0px_0px_1.325px_rgba(0,0,0,0.9),0px_66.232px_119.217px_-39.739px_rgba(0,0,0,0.9),0px_39.739px_158.957px_-52.986px_rgba(184,242,74,0.22)] top-0 w-[410.638px]" data-node-id="211:1458" data-name="Overlay+Shadow">
+              <div aria-hidden className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[67.755px]" />
+              <div className="absolute inset-0 rounded-[inherit] shadow-[inset_0px_0px_0px_1.325px_rgba(255,255,255,0.1)]" />
+            </div>
+            <div className="absolute bg-black inset-[12.31px_12.32px_12.33px_12.3px] overflow-clip rounded-[56.668px]" data-node-id="211:1459" data-name="Background">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-full left-[-1.72%] max-w-none top-0 w-[103.44%]" src={imgBackground1} />
+              </div>
+              <div className="absolute border-[#b8f24a] border-[1.325px] border-solid h-[429.037px] left-[6.17px] rounded-[21.194px] top-[228.26px] w-[373.667px]" data-node-id="211:1461" data-name="Border">
+                <div className="absolute bg-[rgba(255,255,255,0)] h-[429.037px] left-[-1.32px] rounded-[21.194px] shadow-[0px_0px_0px_1323.313px_rgba(0,0,0,0.42),0px_0px_31.791px_0px_rgba(184,242,74,0.35)] top-[-1.32px] w-[373.667px]" data-node-id="211:1462" data-name="Overlay+Shadow" />
+              </div>
+              <div className="absolute bg-black h-[36.123px] left-[34.5%] right-[34.5%] rounded-[1323.313px] top-[14.78px]" data-node-id="211:1463" data-name="Background" />
+              <div className="absolute inset-[-30%]" data-node-id="211:1464" style={{ backgroundImage: "linear-gradient(114.99999738540726deg, rgba(255, 255, 255, 0) 42%, rgba(255, 255, 255, 0.11) 50%, rgba(255, 255, 255, 0) 58%)" }} data-name="Gradient" />
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-0 left-[1327px] top-[8308.61px] w-[456.338px]" data-node-id="211:1465">
+          <div className="absolute inset-[-0.66px_0]">
+            <img alt="" className="block max-w-none size-full" src={imgVector13} />
+          </div>
+        </div>
+        <div className="absolute h-[227.838px] left-[1327px] top-[8080.11px] w-[457px]" data-node-id="211:1466">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector14} />
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[0] left-[calc(50%+33px)] text-[0px] text-white top-[8093px] w-[334px] whitespace-pre-wrap" data-node-id="211:1467" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[24px] mb-0 text-[32px]">Theo dõi mức độ phục hồi của từng nhóm cơ</p>
+        <p className="leading-[24px] mb-0 text-[16px]">​</p>
+        <p className="leading-[24px] text-[16px]">Bản đồ nhóm cơ cho bạn biết những nhóm cơ sẵn sàng tập luyện và nhóm cơ nào cần thêm thời gian phục hồi.</p>
+      </div>
+      <div className="[word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[0] left-[calc(50%-319px)] text-[0px] text-white top-[8110px] w-[343px] whitespace-pre-wrap" data-node-id="211:1468" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[24px] mb-0 text-[32px]">Ghi lại set, rep và mức tạ dễ dàng</p>
+        <p className="leading-[24px] mb-0 text-[16px]">​</p>
+        <p className="leading-[24px] text-[16px]">Với dữ liệu buổi tập trước điền sẵn, kèm đồng hồ đếm ngược tự động nhắc bạn vào set tiếp theo.</p>
+      </div>
+      <div className="[word-break:break-word] absolute font-['Be_Vietnam_Pro:Medium'] leading-[0] left-[calc(50%-371px)] not-italic text-[0px] text-white top-[8602px] w-[188px] whitespace-pre-wrap" data-node-id="211:1469">
+        <p className="leading-[22.74px] mb-0 text-[24px]">Thấy tiến bộ qua từng buổi tập</p>
+        <p className="leading-[22.74px] mb-0 text-[15.7px]">​</p>
+        <p className="leading-[22.74px] mb-0 text-[15.7px]">​</p>
+        <p className="leading-[22.74px] text-[15.7px]">Với các bài đo sức mạnh theo từng nhóm cơ và theo dõi mức tạ theo thời gian.</p>
+      </div>
+      <div className="[word-break:break-word] absolute font-['SF_Pro:Bold'] font-bold leading-[0] left-[calc(50%+459px)] text-[0px] text-white top-[8715px] w-[389px] whitespace-pre-wrap" data-node-id="211:1470" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[24px] mb-0 text-[32px]">500+ video hướng dẫn</p>
+        <p className="leading-[24px] mb-0 text-[24px]">​</p>
+        <p className="font-['SF_Pro:Regular'] font-normal leading-[24px] text-[16px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Giúp bạn tập đúng động tác, tối ưu cơ bắp và bảo vệ khớp tối đa
+        </p>
+      </div>
+      <div className="absolute h-[361px] left-[251px] top-[7845px] w-[355px]" data-node-id="211:1471" data-name="26-ghi-set 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[209.35%] left-0 max-w-none top-[-109.35%] w-full" src={img26GhiSet1} />
+        </div>
+      </div>
+      <div className="absolute h-[314px] left-[52px] top-[8183px] w-[527px]" data-node-id="211:1472" data-name="Screenshot 2026-11-16 at 2.37.03 PM 1">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgScreenshot20261116At23703Pm1} />
+      </div>
+      <div className="absolute h-[539.358px] left-[155px] top-[8543px] w-[407px]" data-node-id="211:1473" />
+      <div className="absolute h-[570px] left-[112px] top-[9279px] w-[407px]" data-node-id="211:1474" data-name="18-muc-tieu 2">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[151.71%] left-0 max-w-none top-[-30.94%] w-full" src={img18MucTieu2} />
+        </div>
+      </div>
+      <div className="absolute contents left-[196px] top-[9730px]" data-node-id="211:1475">
+        <div className="absolute h-[690px] left-[196px] rounded-[24px] top-[9730px] w-[478px]" data-node-id="211:1476" style={{ backgroundImage: "linear-gradient(125.99025157704725deg, rgba(255, 255, 255, 0) 42%, rgba(255, 255, 255, 0.11) 50%, rgba(255, 255, 255, 0) 58%)" }} data-name="Gradient" />
+        <div className="absolute h-[690px] left-[741px] rounded-[24px] top-[9730px] w-[478px]" data-node-id="211:1477" style={{ backgroundImage: "linear-gradient(125.99025157704725deg, rgba(255, 255, 255, 0) 42%, rgba(255, 255, 255, 0.11) 50%, rgba(255, 255, 255, 0) 58%)" }} data-name="Gradient" />
+        <div className="absolute h-[690px] left-[1286px] rounded-[24px] top-[9730px] w-[478px]" data-node-id="211:1478" style={{ backgroundImage: "linear-gradient(125.99025157704725deg, rgba(255, 255, 255, 0) 42%, rgba(255, 255, 255, 0.11) 50%, rgba(255, 255, 255, 0) 58%)" }} data-name="Gradient" />
+      </div>
+      <div className="absolute content-stretch flex gap-[76px] items-start justify-center left-[202px] top-[9730px]" data-node-id="211:1479">
+        <div className="border border-[rgba(255,255,255,0.1)] border-solid content-stretch flex flex-col gap-[24px] h-[690.044px] items-start p-[40px] relative rounded-[24px] shrink-0 w-[470px]" data-node-id="211:1480">
+          <div className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[0] min-w-full relative shrink-0 text-[29.133px] text-white w-[min-content]" data-node-id="211:1481" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[normal] mb-0">Gợi ý bài tập mỗi ngày</p>
+            <p className="leading-[normal]">​</p>
+          </div>
+          <div className="h-[405.044px] relative shrink-0 w-[398px]" data-node-id="211:1482" data-name="image 184">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage184} />
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal h-[87px] leading-[normal] min-w-full not-italic relative shrink-0 text-[#8f8f92] text-[24px] w-[min-content]" data-node-id="211:1483">
+            Không biết hôm nay tập gì? Nhận ngay gợi ý phù hợp với mục tiêu, thời gian và thiết bị của bạn.
+          </p>
+        </div>
+        <div className="border border-[rgba(255,255,255,0.1)] border-solid content-stretch flex flex-col items-start p-[40px] relative rounded-[24px] self-stretch shrink-0 w-[470px]" data-node-id="211:1484">
+          <div className="content-stretch flex flex-col gap-[24px] items-start justify-center relative shrink-0 w-full" data-node-id="211:1485">
+            <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[29.133px] text-white w-[229px]" data-node-id="211:1486" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Hướng dẫn chi tiết, dễ theo
+            </p>
+            <div className="content-stretch flex flex-col h-[389px] items-start justify-center relative shrink-0 w-full" data-node-id="211:1487">
+              <div className="aspect-[388/231] relative shrink-0 w-full" data-node-id="211:1488" data-name="image 185">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[130.76%] left-[-5.98%] max-w-none top-[-13.85%] w-[112.37%]" src={imgImage185} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#8f8f92] text-[24px] w-[min-content]" data-node-id="211:1489">
+              Tư thế đúng - Nhịp tập - Lưu ý an toàn
+            </p>
+          </div>
+        </div>
+        <div className="border border-[rgba(255,255,255,0.1)] border-solid content-stretch flex flex-col gap-[24px] items-start p-[40px] relative rounded-[24px] self-stretch shrink-0 w-[470px]" data-node-id="211:1490">
+          <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[29.133px] text-white w-[181px]" data-node-id="211:1491" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Tập đúng nhóm cơ
+          </p>
+          <div className="aspect-[406/388] relative shrink-0 w-full" data-node-id="211:1492" data-name="image 186">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[84.48%] left-0 max-w-none top-0 w-full" src={imgImage186} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#8f8f92] text-[24px] w-[369px]" data-node-id="211:1493">
+            Xem nhóm cơ tác động để tập đúng và hiệu quả hơn.
+          </p>
+        </div>
+      </div>
+      <div className="absolute contents inset-[88.17%_68.69%_9.45%_7.45%]" data-node-id="211:1494">
+        <div className="absolute contents inset-[88.17%_68.69%_9.45%_7.45%]" data-node-id="211:1495">
+          <div className="absolute contents inset-[90.19%_83.7%_9.45%_7.48%]" data-node-id="211:1496" data-name="Clip path group">
+            <div className="absolute contents inset-[90.19%_83.7%_9.45%_7.48%]" data-node-id="211:1499" data-name="Group">
+              <div className="absolute contents inset-[90.19%_83.7%_9.45%_7.48%]" data-node-id="211:1500" data-name="img">
+                <div className="absolute inset-[90.19%_83.7%_9.45%_7.48%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_0.015px] mask-size-[169.306px_53.441px] opacity-34" data-node-id="211:1501" style={{ maskImage: `url("${imgFrame}")` }} data-name="Frame">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame1} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute contents inset-[88.36%_68.69%_9.96%_9.9%]" data-node-id="211:1505" data-name="div">
+            <div className="absolute contents inset-[88.36%_68.69%_9.96%_9.9%]" data-node-id="211:1506" data-name="Clip path group">
+              <div className="absolute contents inset-[88.36%_68.69%_9.96%_9.9%]" data-node-id="211:1509" data-name="Group">
+                <div className="absolute contents inset-[88.36%_68.69%_9.96%_9.9%]" data-node-id="211:1510" data-name="img">
+                  <div className="absolute inset-[88.36%_68.69%_9.96%_9.9%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-0.014px_0px] mask-size-[411.183px_251.757px] opacity-34" data-node-id="211:1511" style={{ maskImage: `url("${imgFrame2}")` }} data-name="Frame">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute contents inset-[88.17%_72.26%_10.44%_7.45%]" data-node-id="211:1543" data-name="div">
+            <div className="absolute inset-[88.17%_72.26%_10.44%_7.45%] opacity-34" data-node-id="211:1544" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector15} />
+            </div>
+            <div className="absolute contents inset-[88.17%_72.26%_10.44%_7.45%]" data-node-id="211:1545" data-name="Clip path group" />
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#b8f24a] h-[40px] left-[calc(50%+62.24px)] rounded-[999px] top-[13338px] w-[124.48px]" data-node-id="211:1548" data-name="Link">
+        <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[999px] shadow-[0px_10px_30px_-12px_rgba(184,242,74,0.6)]" data-node-id="211:1549" data-name="Link:shadow" />
+        <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[15px] justify-center leading-[0] left-[calc(50%-44.24px)] not-italic text-[#0b1203] text-[15px] top-1/2 w-[88.817px]" data-node-id="211:1550">
+          <p className="leading-[15px]">Get the app</p>
+        </div>
+        <div className="absolute h-[538px] left-[-789px] top-[-346px] w-[807px]" data-node-id="211:1551" data-name="image 187">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage187} />
+        </div>
+      </div>
+      <div className="absolute h-[330.8px] left-[378px] right-[302px] top-[14428px]" data-node-id="211:1552" data-name="Footer">
+        <div className="absolute border-[rgba(228,238,210,0.09)] border-solid border-t h-[158px] left-0 right-0 top-[64px]" data-node-id="211:1553" data-name="HorizontalBorder">
+          <div className="absolute h-[20px] left-0 right-[876px] top-[40px]" data-node-id="211:1554" data-name="Link - Dopafit">
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['IBM_Plex_Sans_Condensed:Bold'] h-[27px] justify-center leading-[0] left-[26.03px] not-italic text-[#e8e6e1] text-[20px] top-[9.5px] tracking-[3.2px] w-[84.24px]" data-node-id="211:1555">
+              <p>
+                <span className="leading-[20px]">OPA</span>
+                <span className="leading-[20px] text-[#7fa8b8]">FIT</span>
+              </p>
+            </div>
+            <div className="absolute h-[13.999px] left-0 overflow-clip top-[3px] w-[22.03px]" data-node-id="211:1556" data-name="SVG">
+              <div className="absolute inset-[0.03%_0] overflow-clip" data-node-id="211:1557" data-name="dopa-mark">
+                <div className="absolute inset-[0.13%_0.09%_0.03%_3.65%]" data-node-id="211:1558" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[14px] left-0 top-[3px] w-[22.03px]" data-node-id="211:1562" data-name="Mask Group">
+              <div className="absolute inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[100%_100%]" data-node-id="211:1569" style={{ backgroundImage: "linear-gradient(93.3637274473915deg, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.95) 49%, rgba(255, 255, 255, 0.95) 51%, rgba(255, 255, 255, 0) 62%)", maskImage: `url("${imgGradient1}")` }} data-name="Gradient" />
+            </div>
+          </div>
+          <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:Regular'] h-[40.39px] justify-center leading-[0] left-0 not-italic right-[953.82px] text-[#7d8273] text-[14px] top-[96.19px]" data-node-id="211:1570">
+            <p className="leading-[22.4px] mb-0">An AI gym coach: a plan built for you, a</p>
+            <p className="leading-[22.4px]">video for every exercise, every set logged.</p>
+          </div>
+          <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['IBM_Plex_Mono:Medium'] h-[14px] justify-center leading-[0] left-[396px] not-italic right-[785.09px] text-[#7d8273] text-[11px] top-[45px] tracking-[1.76px] uppercase" data-node-id="211:1571">
+            <p className="leading-[11px]">Product</p>
+          </div>
+          <div className="[word-break:break-word] absolute font-['Be_Vietnam_Pro:Regular'] h-[92px] leading-[0] left-[396px] not-italic right-[584px] text-[#a4a998] text-[15px] top-[65px]" data-node-id="211:1572" data-name="List">
+            <div className="-translate-y-1/2 absolute flex flex-col h-[19px] justify-center left-0 right-[195.82px] top-[11.5px]" data-node-id="211:1573">
+              <p className="leading-[24px]">Features</p>
+            </div>
+            <div className="-translate-y-1/2 absolute flex flex-col h-[19px] justify-center left-0 right-[164.62px] top-[45.5px]" data-node-id="211:1574">
+              <p className="leading-[24px]">Apple Health</p>
+            </div>
+            <div className="-translate-y-1/2 absolute flex flex-col h-[19px] justify-center left-0 right-[228.53px] top-[79.5px]" data-node-id="211:1575">
+              <p className="leading-[24px]">FAQ</p>
+            </div>
+          </div>
+          <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['IBM_Plex_Mono:Medium'] h-[14px] justify-center leading-[0] left-[688px] not-italic right-[493.09px] text-[#7d8273] text-[11px] top-[45px] tracking-[1.76px] uppercase" data-node-id="211:1576">
+            <p className="leading-[11px]">Support</p>
+          </div>
+          <div className="[word-break:break-word] absolute font-['Be_Vietnam_Pro:Regular'] h-[58px] leading-[0] left-[688px] not-italic right-[292px] text-[#a4a998] text-[15px] top-[65px]" data-node-id="211:1577" data-name="List">
+            <div className="-translate-y-1/2 absolute flex flex-col h-[19px] justify-center left-0 right-[175.53px] top-[11.5px]" data-node-id="211:1578">
+              <p className="leading-[24px]">Help center</p>
+            </div>
+            <div className="-translate-y-1/2 absolute flex flex-col h-[19px] justify-center left-0 right-[98.74px] top-[45.5px]" data-node-id="211:1579">
+              <p className="leading-[24px]">support@dopafit.app</p>
+            </div>
+          </div>
+          <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['IBM_Plex_Mono:Medium'] h-[14px] justify-center leading-[0] left-[980px] not-italic right-[217.86px] text-[#7d8273] text-[11px] top-[45px] tracking-[1.76px] uppercase" data-node-id="211:1580">
+            <p className="leading-[11px]">Legal</p>
+          </div>
+          <div className="[word-break:break-word] absolute font-['Be_Vietnam_Pro:Regular'] h-[58px] leading-[0] left-[980px] not-italic right-0 text-[#a4a998] text-[15px] top-[65px]" data-node-id="211:1581" data-name="List">
+            <div className="-translate-y-1/2 absolute flex flex-col h-[19px] justify-center left-0 right-[137.83px] top-[11.5px]" data-node-id="211:1582">
+              <p className="leading-[24px]">Terms of Service</p>
+            </div>
+            <div className="-translate-y-1/2 absolute flex flex-col h-[19px] justify-center left-0 right-[156.66px] top-[45.5px]" data-node-id="211:1583">
+              <p className="leading-[24px]">Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:Regular'] h-[20.8px] justify-center leading-[0] left-0 not-italic right-[1104.47px] text-[#7d8273] text-[13px] top-[280.4px]" data-node-id="211:1584">
+          <p className="leading-[20.8px]">© 2026 Compilet Inc.</p>
+        </div>
+        <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:Regular'] h-[16px] justify-center leading-[0] left-[980.83px] not-italic right-[-0.3px] text-[#7d8273] text-[13px] top-[280px]" data-node-id="211:1585">
+          <p className="leading-[20.8px]">Apple Health is a trademark of Apple Inc.</p>
+        </div>
+      </div>
+      <div className="absolute contents inset-[79.97%_12.5%_14.12%_12.5%]" data-node-id="211:1586" data-name="div">
+        <div className="absolute contents inset-[79.97%_12.5%_14.12%_12.5%]" data-node-id="211:1587" data-name="div.framer-v-1kx03b8">
+          <div className="absolute inset-[79.97%_12.5%_14.13%_12.5%]" data-node-id="211:1588" data-name="Vector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector16} />
+          </div>
+          <div className="absolute contents inset-[80.63%_32.84%_14.12%_32.89%]" data-node-id="211:1589" data-name="div">
+            <div className="absolute contents inset-[81.23%_32.84%_14.12%_32.89%]" data-node-id="211:1590" data-name="div">
+              <div className="absolute contents inset-[82.57%_32.84%_14.12%_32.89%]" data-node-id="211:1591" data-name="div">
+                <div className="absolute contents inset-[82.57%_32.84%_14.12%_32.89%]" data-node-id="211:1592" data-name="Clip path group">
+                  <div className="absolute contents inset-[82.57%_32.84%_14.12%_32.89%]" data-node-id="211:1595" data-name="Group">
+                    <div className="absolute contents inset-[82.57%_32.84%_14.12%_32.89%]" data-node-id="211:1596" data-name="Clip path group">
+                      <div className="absolute contents inset-[82.57%_32.84%_14.12%_32.89%]" data-node-id="211:1599" data-name="img">
+                        <div className="absolute inset-[82.57%_32.84%_14.12%_32.89%] mask-position-[0px_0px,_0px_0px] mask-size-[658px_495px,_658px_495px]" data-node-id="211:1600" style={{ maskImage: `url("${imgRectangle}"), url("${imgRectangle}")` }} data-name="Rectangle">
+                          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                            <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle1} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[81.23%_49.98%_18.18%_49.97%]" data-node-id="211:1601" data-name="div">
+                <div className="absolute contents inset-[81.23%_49.98%_18.18%_49.97%]" data-node-id="211:1602" data-name="Clip path group">
+                  <div className="absolute contents inset-[81.23%_49.98%_18.18%_49.97%]" data-node-id="211:1605" data-name="Group">
+                    <div className="absolute contents inset-[81.23%_49.98%_18.18%_49.97%]" data-node-id="211:1606" data-name="img">
+                      <div className="absolute inset-[81.23%_49.98%_18.18%_49.97%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[1px_88px]" data-node-id="211:1607" style={{ maskImage: `url("${imgFrame4}")` }} data-name="Frame">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame5} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[81.98%_46.17%_17.86%_46.17%]" data-node-id="211:1609" data-name="div">
+                <div className="absolute contents inset-[81.98%_46.17%_17.86%_46.17%]" data-node-id="211:1610" data-name="Clip path group">
+                  <div className="absolute contents inset-[81.98%_46.17%_17.86%_46.17%]" data-node-id="211:1613" data-name="Group">
+                    <div className="absolute contents inset-[81.98%_46.17%_17.86%_46.17%]" data-node-id="211:1614" data-name="img">
+                      <div className="absolute inset-[81.98%_46.17%_17.86%_46.17%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[147px_24px]" data-node-id="211:1615" style={{ maskImage: `url("${imgFrame6}")` }} data-name="Frame">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame7} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[82.3%_49.98%_17.11%_49.97%]" data-node-id="211:1618" data-name="div">
+                <div className="absolute contents inset-[82.3%_49.98%_17.11%_49.97%]" data-node-id="211:1619" data-name="Clip path group">
+                  <div className="absolute contents inset-[82.3%_49.98%_17.11%_49.97%]" data-node-id="211:1622" data-name="Group">
+                    <div className="absolute contents inset-[82.3%_49.98%_17.11%_49.97%]" data-node-id="211:1623" data-name="img">
+                      <div className="absolute inset-[82.3%_49.98%_17.11%_49.97%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[1px_88px]" data-node-id="211:1624" style={{ maskImage: `url("${imgFrame8}")` }} data-name="Frame">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame5} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[82.94%_46.23%_16.79%_46.17%]" data-node-id="211:1626" data-name="div">
+                <div className="absolute contents inset-[82.94%_46.23%_16.79%_46.17%]" data-node-id="211:1627" data-name="Clip path group">
+                  <div className="absolute contents inset-[82.94%_46.23%_16.79%_46.17%]" data-node-id="211:1630" data-name="Group">
+                    <div className="absolute contents inset-[82.94%_46.23%_16.79%_46.17%]" data-node-id="211:1631" data-name="Clip path group">
+                      <div className="absolute contents inset-[82.94%_46.2%_16.79%_46.14%]" data-node-id="211:1634" data-name="img">
+                        <div className="absolute inset-[82.94%_46.2%_16.79%_46.14%] mask-position-[0.5px_0px,_0.5px_0px] mask-size-[146px_40px,_146px_40px]" data-node-id="211:1635" style={{ maskImage: `url("${imgFrame9}"), url("${imgFrame9}")` }} data-name="Frame">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame10} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[83.37%_49.98%_16.04%_49.97%]" data-node-id="211:1638" data-name="div">
+                <div className="absolute contents inset-[83.37%_49.98%_16.04%_49.97%]" data-node-id="211:1639" data-name="Clip path group">
+                  <div className="absolute contents inset-[83.37%_49.98%_16.04%_49.97%]" data-node-id="211:1642" data-name="Group">
+                    <div className="absolute contents inset-[83.37%_49.98%_16.04%_49.97%]" data-node-id="211:1643" data-name="img">
+                      <div className="absolute inset-[83.37%_49.98%_16.04%_49.97%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[1px_88px]" data-node-id="211:1644" style={{ maskImage: `url("${imgFrame4}")` }} data-name="Frame">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame5} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents inset-[84.12%_46.33%_15.62%_46.33%]" data-node-id="211:1646" data-name="div">
+                <div className="absolute contents inset-[84.12%_46.33%_15.62%_46.33%]" data-node-id="211:1647" data-name="Clip path group">
+                  <div className="absolute contents inset-[84.12%_46.33%_15.62%_46.33%]" data-node-id="211:1650" data-name="Group">
+                    <div className="absolute contents inset-[84.12%_46.33%_15.62%_46.33%]" data-node-id="211:1651" data-name="img">
+                      <div className="absolute inset-[84.12%_46.33%_15.62%_46.33%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[141px_40px] overflow-clip" data-node-id="211:1652" style={{ maskImage: `url("${imgFrame11}")` }} data-name="Frame">
+                        <div className="absolute contents inset-0" data-node-id="211:1653" data-name="Clip path group">
+                          <div className="absolute inset-[1.43%_0.4%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-0.57px_-0.571px] mask-size-[141px_40px]" data-node-id="211:1656" style={{ maskImage: `url("${imgGroup2}")` }} data-name="Group">
+                            <div className="absolute inset-[-0.67%_-0.18%]">
+                              <img alt="" className="block max-w-none size-full" src={imgGroup3} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="[word-break:break-word] absolute contents font-['Inter:Regular'] font-normal inset-[80.63%_38.8%_19.05%_39.65%] leading-[normal] not-italic text-[40px] whitespace-nowrap" data-node-id="211:1660" data-name="h2.framer-text">
+              <p className="absolute inset-[80.63%_53.47%_19.05%_39.65%] text-[#8f8f92]" data-node-id="211:1661">
+                Deeply
+              </p>
+              <p className="absolute inset-[80.63%_43.52%_19.05%_46.53%] text-white" data-node-id="211:1662">
+                integrates
+              </p>
+              <p className="absolute inset-[80.63%_38.8%_19.05%_56.98%] text-[#8f8f92]" data-node-id="211:1663">
+                with
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[normal] left-[calc(50%+0.5px)] text-[24px] text-center text-white top-[468px] w-[835px]" data-node-id="211:1664" style={{ fontVariationSettings: '"wdth" 100' }}>
+        Lịch tập thiết kế riêng dựa trên mục tiêu, quỹ thời gian và dụng cụ sẵn có của bạn. Dễ dàng tập chuẩn kỹ thuật với video hướng dẫn trực quan, hình minh họa nhóm cơ tác động và tính năng ghi chép số hiệp, mức tạ cùng tiến độ phục hồi.
+      </p>
+      <div className="absolute h-[73.621px] left-[844px] top-[621px] w-[118.908px]" data-node-id="211:1665" data-name="image 189">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage189} />
+      </div>
+      <div className="absolute h-[67.724px] left-[970.07px] top-[626.9px] w-[178.935px]" data-node-id="211:1666" data-name="image 190">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage190} />
+      </div>
+      <div className="-translate-y-1/2 absolute h-[112px] left-[43px] right-[-43px] top-[calc(50%+3304.5px)]" data-node-id="211:1667" data-name="Heading → Title → Heading 2">
+        <div className="-translate-x-1/2 absolute blur-[0px] h-[56px] left-[calc(50%-78.76px)] top-0 w-[158.47px]" data-node-id="211:1668" data-name="Blur" />
+        <div className="-translate-x-1/2 absolute blur-[0px] h-[56px] left-[calc(50%+128.2px)] top-0 w-[59.58px]" data-node-id="211:1669" data-name="Blur" />
+        <div className="-translate-x-1/2 [word-break:break-word] absolute bottom-[20.54%] font-['SF_Pro:Medium'] font-[510] leading-[0] left-1/2 text-[61.7px] text-center text-white top-[-52.68%] w-[908px] whitespace-pre-wrap" data-node-id="211:1670" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <p className="leading-[normal] mb-0">{`Bạn không cô đơn `}</p>
+          <p className="leading-[normal]">trên hành trình này</p>
+        </div>
+      </div>
+      <div className="absolute h-[682px] left-[123px] top-[10877px] w-[1674px]" data-node-id="211:1671" data-name="image 192">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage192} />
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#b8f24a] h-[69px] left-[calc(50%-561.5px)] rounded-[999px] top-[6530px] w-[215px]" data-node-id="211:1672" data-name="Link">
+        <div className="absolute bg-[rgba(255,255,255,0)] inset-[0_-0.48px_0_0] rounded-[999px] shadow-[0px_10px_30px_-12px_rgba(184,242,74,0.6)]" data-node-id="211:1673" data-name="Link:shadow" />
+        <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Be_Vietnam_Pro:SemiBold'] h-[15px] justify-center leading-[0] left-[calc(50%-43.5px)] not-italic text-[#0b1203] text-[15px] top-[calc(50%+0.5px)] w-[88.817px]" data-node-id="211:1674">
+          <p className="leading-[15px]">Get the app</p>
+        </div>
+      </div>
+      <div className="absolute h-[448px] left-[34px] top-[8557px] w-[535px]" data-node-id="211:1679" data-name="image 191">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage191} />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

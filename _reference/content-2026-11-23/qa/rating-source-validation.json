@@ -1,0 +1,11 @@
+{
+  "rows": 91,
+  "visible_quotes_unchanged_from_pre_rating_validation": 89,
+  "rating_basis": "estimated_from_review_text",
+  "counts": {
+    "5": 41,
+    "3": 24,
+    "2": 10,
+    "4": 16
+  }
+}

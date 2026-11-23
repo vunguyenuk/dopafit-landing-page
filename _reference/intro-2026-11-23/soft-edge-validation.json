@@ -1,0 +1,1800 @@
+{
+  "reports": [
+    {
+      "w": 1440,
+      "h": 900,
+      "states": [
+        {
+          "phoneBounds": {
+            "top": 149.99981870932672,
+            "bottom": 1306.0775244737495,
+            "visibleFraction": 0.6487454758023877,
+            "width": 462.1876955341528
+          },
+          "clock": 0,
+          "angle": -0.000002858459210208629,
+          "top": 79.99990331164092,
+          "width": 246.5001042848815,
+          "center": 315.9999973163317,
+          "pose": {
+            "position": [
+              0.0320407971739769,
+              -1.1216706037521362,
+              0
+            ],
+            "quaternion": [
+              -1.020421880326694e-8,
+              0.972369909286499,
+              -0.23344537615776062,
+              4.2503629060774983e-8
+            ],
+            "scale": 2.0351641178131104
+          },
+          "reflection": 0.01875,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 160.93889471301782,
+            "bottom": 1418.2180827139973,
+            "visibleFraction": 0.5878257688032344,
+            "width": 497.59804998498447
+          },
+          "clock": 0.25,
+          "angle": -0.0000025737542403013593,
+          "top": 78.01514814381784,
+          "width": 265.3856266586584,
+          "center": 317.00845932834545,
+          "pose": {
+            "position": [
+              0.039463422840339574,
+              -1.2823134005663204,
+              0
+            ],
+            "quaternion": [
+              -8.71625543799114e-9,
+              0.9799172224497871,
+              -0.19940469925502838,
+              4.2833532737433436e-8
+            ],
+            "scale": 2.1552950097626518
+          },
+          "reflection": 0.105041,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 293.6726380163951,
+            "bottom": 1704.1236211741198,
+            "visibleFraction": 0.42988190956211475,
+            "width": 549.1876691365402
+          },
+          "clock": 0.5,
+          "angle": -0.000002329539405611836,
+          "top": 79.99988610874405,
+          "width": 292.90009020615474,
+          "center": 319.9999969184141,
+          "pose": {
+            "position": [
+              0.062425922602415085,
+              -1.532004952430725,
+              0
+            ],
+            "quaternion": [
+              -7.590400308288281e-9,
+              0.9848077297210693,
+              -0.1736481785774231,
+              4.3047297282328145e-8
+            ],
+            "scale": 2.3557729721069336
+          },
+          "reflection": 0.175207,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 479.8205203497226,
+            "bottom": 2018.9569310146132,
+            "visibleFraction": 0.2729969070569673,
+            "width": 598.1552301671242
+          },
+          "clock": 0.75,
+          "angle": -0.0000020461438292721435,
+          "top": 87.01539405631038,
+          "width": 319.01612275579953,
+          "center": 322.9933233163593,
+          "pose": {
+            "position": [
+              0.08453214168548584,
+              -1.7954975366592407,
+              0
+            ],
+            "quaternion": [
+              -6.4620515377200564e-9,
+              0.9890121207173408,
+              -0.14783451484240362,
+              4.3231091889185844e-8
+            ],
+            "scale": 2.5283910036087036
+          },
+          "reflection": 0.230915,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 609.3132525200119,
+            "bottom": 2281.4501114079485,
+            "visibleFraction": 0.17384148069872152,
+            "width": 647.0625532631763
+          },
+          "clock": 1,
+          "angle": -0.0000018045989610062782,
+          "top": 98.99999444296469,
+          "width": 345.10002840702737,
+          "center": 323.9999978149941,
+          "pose": {
+            "position": [
+              0.091373510658741,
+              -2.0885133743286133,
+              0
+            ],
+            "quaternion": [
+              -5.705478756112825e-9,
+              0.9914448857307434,
+              -0.13052617013454437,
+              4.333743319762107e-8
+            ],
+            "scale": 2.708462715148926
+          },
+          "reflection": 0.273834,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 631.8337489896401,
+            "bottom": 2367.1278874407485,
+            "visibleFraction": 0.15453648178038576,
+            "width": 671.4732906399674
+          },
+          "clock": 1.25,
+          "angle": -0.0000016564093136622586,
+          "top": 108.97799946114141,
+          "width": 358.119088341316,
+          "center": 323.9999964182657,
+          "pose": {
+            "position": [
+              0.09083638340234756,
+              -2.260314702987671,
+              0
+            ],
+            "quaternion": [
+              -5.328443839211183e-9,
+              0.9925423135762259,
+              -0.12190059786871804,
+              4.338539604589605e-8
+            ],
+            "scale": 2.794119358062744
+          },
+          "reflection": 0.305631,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 637.5000932160658,
+            "bottom": 2393.360626171281,
+            "visibleFraction": 0.14949929214601776,
+            "width": 676.9686612031277
+          },
+          "clock": 1.5,
+          "angle": -0.0000016360757775273293,
+          "top": 112.0000497152351,
+          "width": 361.0499526416681,
+          "center": 323.9999970203503,
+          "pose": {
+            "position": [
+              0.090898796916008,
+              -2.3074541091918945,
+              0
+            ],
+            "quaternion": [
+              -5.327080110362203e-9,
+              0.9925461411476135,
+              -0.12186938524246216,
+              4.338557602068249e-8
+            ],
+            "scale": 2.8189220428466797
+          },
+          "reflection": 0.327974,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 635.6249969255009,
+            "bottom": 2385.4192863676253,
+            "visibleFraction": 0.1510891906949748,
+            "width": 679.6874817858591
+          },
+          "clock": 2,
+          "angle": -0.000001601168364306857,
+          "top": 110.99999836026714,
+          "width": 362.4999902857915,
+          "center": 323.99999616936304,
+          "pose": {
+            "position": [
+              0.09049666672945023,
+              -2.3047149181365967,
+              0
+            ],
+            "quaternion": [
+              -5.137725356263445e-9,
+              0.9930684566497803,
+              -0.1175374686717987,
+              4.340839865335511e-8
+            ],
+            "scale": 2.8177225589752197
+          },
+          "reflection": 0.350971,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 652.4614061361489,
+            "bottom": 2428.851518611018,
+            "visibleFraction": 0.13934922972464647,
+            "width": 690.5323339173736
+          },
+          "clock": 2.1667,
+          "angle": -0.000001499839602044828,
+          "top": 119.97941660594608,
+          "width": 368.2839114225993,
+          "center": 323.9999960628424,
+          "pose": {
+            "position": [
+              0.09018029291879533,
+              -2.4122461604028373,
+              0
+            ],
+            "quaternion": [
+              -4.948774840048307e-9,
+              0.9935705062686233,
+              -0.11321480839219485,
+              4.343034019968724e-8
+            ],
+            "scale": 2.852673745519133
+          },
+          "reflection": 0.354022,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 675.0690814072193,
+            "bottom": 2507.0805675554375,
+            "visibleFraction": 0.12277811590892108,
+            "width": 715.0939282751262
+          },
+          "clock": 2.3333,
+          "angle": -0.0000013352408827399203,
+          "top": 132.0368434171836,
+          "width": 381.3834284134007,
+          "center": 323.99999612551017,
+          "pose": {
+            "position": [
+              0.08953452869252146,
+              -2.59189763192219,
+              0
+            ],
+            "quaternion": [
+              -4.5690837779945295e-9,
+              0.9945218563081613,
+              -0.10452847182754631,
+              4.34719353847714e-8
+            ],
+            "scale": 2.9329868036690603
+          },
+          "reflection": 0.355589,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 748.1249275069139,
+            "bottom": 2748.5244629627437,
+            "visibleFraction": 0.07592236940730865,
+            "width": 758.5311811561642
+          },
+          "clock": 2.5,
+          "angle": -0.0000010748375487136794,
+          "top": 170.99996133702072,
+          "width": 404.5499632832876,
+          "center": 323.9999964659946,
+          "pose": {
+            "position": [
+              0.08993058651685715,
+              -3.0735113620758057,
+              0
+            ],
+            "quaternion": [
+              -4.569084222083575e-9,
+              0.9945218563079834,
+              -0.10452847182750702,
+              4.347192827935942e-8
+            ],
+            "scale": 3.124908685684204
+          },
+          "reflection": 0.356167,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 1086.9897537836637,
+            "bottom": 4107.1246814636925,
+            "visibleFraction": 0,
+            "width": 897.1865039026937
+          },
+          "clock": 2.6667,
+          "angle": -2.2647850469632673e-7,
+          "top": 351.7278686846206,
+          "width": 478.4994687481033,
+          "center": 323.999996571081,
+          "pose": {
+            "position": [
+              0.09610291396574601,
+              -5.295220469935064,
+              0
+            ],
+            "quaternion": [
+              -6.0834280475245244e-9,
+              0.9902681720556509,
+              -0.1391726496274275,
+              4.328598285155981e-8
+            ],
+            "scale": 3.949805058220625
+          },
+          "reflection": 0.35625,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 1290.126522131222,
+            "bottom": 4430.025366281907,
+            "visibleFraction": 0,
+            "width": 897.1876341529775
+          },
+          "clock": 2.8333,
+          "angle": 4.850853175257185e-7,
+          "top": 460.067478469985,
+          "width": 478.50007154825465,
+          "center": 323.9999976832075,
+          "pose": {
+            "position": [
+              0.0961030125617981,
+              -6.162876727894061,
+              0
+            ],
+            "quaternion": [
+              -6.083450188043571e-9,
+              0.9902681112289429,
+              -0.13917313516139984,
+              4.3285979245411e-8
+            ],
+            "scale": 3.9498136043548584
+          },
+          "reflection": 0.35625,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 1327.5000600576927,
+            "bottom": 4489.431140529199,
+            "visibleFraction": 0,
+            "width": 897.1876341529775
+          },
+          "clock": 3,
+          "angle": 6.160013049762863e-7,
+          "top": 480.0000320307695,
+          "width": 478.50007154825465,
+          "center": 323.9999976832075,
+          "pose": {
+            "position": [
+              0.0961030125617981,
+              -6.322508335113525,
+              0
+            ],
+            "quaternion": [
+              -6.083450188043571e-9,
+              0.9902681112289429,
+              -0.13917313516139984,
+              4.3285979245411e-8
+            ],
+            "scale": 3.9498136043548584
+          },
+          "reflection": 0.35625,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 479.8205203497226,
+            "bottom": 2018.9569310146132,
+            "visibleFraction": 0.2729969070569673,
+            "width": 598.1552301671242
+          },
+          "clock": 0.75,
+          "angle": -0.0000020461438292721435,
+          "top": 87.01539405631038,
+          "width": 319.01612275579953,
+          "center": 322.9933233163593,
+          "pose": {
+            "position": [
+              0.08453214168548584,
+              -1.7954975366592407,
+              0
+            ],
+            "quaternion": [
+              -6.4620515377200564e-9,
+              0.9890121207173408,
+              -0.14783451484240362,
+              4.3231091889185844e-8
+            ],
+            "scale": 2.5283910036087036
+          },
+          "reflection": 0.230915,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 149.99981870932672,
+            "bottom": 1306.0775244737495,
+            "visibleFraction": 0.6487454758023877,
+            "width": 462.1876955341528
+          },
+          "clock": 0,
+          "angle": -0.000002858459210208629,
+          "top": 79.99990331164092,
+          "width": 246.5001042848815,
+          "center": 315.9999973163317,
+          "pose": {
+            "position": [
+              0.0320407971739769,
+              -1.1216706037521362,
+              0
+            ],
+            "quaternion": [
+              -1.020421880326694e-8,
+              0.972369909286499,
+              -0.23344537615776062,
+              4.2503629060774983e-8
+            ],
+            "scale": 2.0351641178131104
+          },
+          "reflection": 0.01875,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 63,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        }
+      ]
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "states": [
+        {
+          "phoneBounds": {
+            "top": 188.44236622858102,
+            "bottom": 860.3304249125491,
+            "visibleFraction": 0.9756947236946946,
+            "width": 268.621908515576
+          },
+          "clock": 0,
+          "angle": -0.000002858459210208629,
+          "top": 79.99990331164092,
+          "width": 246.5001042848815,
+          "center": 315.9999973163317,
+          "pose": {
+            "position": [
+              0.0320407971739769,
+              -1.1216706037521362,
+              0
+            ],
+            "quaternion": [
+              -1.020421880326694e-8,
+              0.972369909286499,
+              -0.23344537615776062,
+              4.2503629060774983e-8
+            ],
+            "scale": 2.0351641178131104
+          },
+          "reflection": 0.01875,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 196.46814946090524,
+            "bottom": 927.5323238970676,
+            "visibleFraction": 0.8857387260680741,
+            "width": 289.32683570292505
+          },
+          "clock": 0.2513,
+          "angle": -0.00000257243069987776,
+          "top": 78.01497397267804,
+          "width": 265.49991982150766,
+          "center": 317.01640119665,
+          "pose": {
+            "position": [
+              0.039523405474835606,
+              -1.2833185205632336,
+              0
+            ],
+            "quaternion": [
+              -8.709732735327854e-9,
+              0.9799475776869404,
+              -0.19925547009102948,
+              4.283486004494874e-8
+            ],
+            "scale": 2.1560817090772506
+          },
+          "reflection": 0.105437,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 285.9046277558397,
+            "bottom": 1105.6290876407588,
+            "visibleFraction": 0.6808328890448275,
+            "width": 319.18599573747633
+          },
+          "clock": 0.5,
+          "angle": -0.000002329539405611836,
+          "top": 79.99988610874405,
+          "width": 292.90009020615474,
+          "center": 319.9999969184141,
+          "pose": {
+            "position": [
+              0.062425922602415085,
+              -1.532004952430725,
+              0
+            ],
+            "quaternion": [
+              -7.590400308288281e-9,
+              0.9848077297210693,
+              -0.1736481785774231,
+              4.3047297282328145e-8
+            ],
+            "scale": 2.3557729721069336
+          },
+          "reflection": 0.175207,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 411.49689430383364,
+            "bottom": 1306.398095354397,
+            "visibleFraction": 0.4832970446217216,
+            "width": 347.7915479320831
+          },
+          "clock": 0.7513,
+          "angle": -0.000002044848111542161,
+          "top": 87.06149577892235,
+          "width": 319.1498910435586,
+          "center": 323.00142359447204,
+          "pose": {
+            "position": [
+              0.08458929128608593,
+              -1.7968984952480724,
+              0
+            ],
+            "quaternion": [
+              -6.457390992438657e-9,
+              0.9890280517227104,
+              -0.1477278932097312,
+              4.323178861329956e-8
+            ],
+            "scale": 2.5292976092740425
+          },
+          "reflection": 0.231164,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 496.56125130680505,
+            "bottom": 1468.3721181328526,
+            "visibleFraction": 0.35751683846460414,
+            "width": 376.07054377688877
+          },
+          "clock": 1,
+          "angle": -0.0000018045989610062782,
+          "top": 98.99999444296469,
+          "width": 345.10002840702737,
+          "center": 323.9999978149941,
+          "pose": {
+            "position": [
+              0.091373510658741,
+              -2.0885133743286133,
+              0
+            ],
+            "quaternion": [
+              -5.705478756112825e-9,
+              0.9914448857307434,
+              -0.13052617013454437,
+              4.333743319762107e-8
+            ],
+            "scale": 2.708462715148926
+          },
+          "reflection": 0.273834,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 510.0473442430526,
+            "bottom": 1518.6640393189762,
+            "visibleFraction": 0.3310996708534644,
+            "width": 390.28607723876416
+          },
+          "clock": 1.2513,
+          "angle": -0.00000165622086659268,
+          "top": 109.00299690852941,
+          "width": 358.14487087792475,
+          "center": 323.9999964025217,
+          "pose": {
+            "position": [
+              0.09083672321722323,
+              -2.2607137942852513,
+              0
+            ],
+            "quaternion": [
+              -5.328340004970755e-9,
+              0.9925426055895571,
+              -0.12189822020641249,
+              4.338540950413478e-8
+            ],
+            "scale": 2.7943309759328265
+          },
+          "reflection": 0.305767,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 513.3132644024905,
+            "bottom": 1533.7824931789485,
+            "visibleFraction": 0.32405360815632106,
+            "width": 393.45187146848446
+          },
+          "clock": 1.5,
+          "angle": -0.0000016360757775273293,
+          "top": 112.0000497152351,
+          "width": 361.0499526416681,
+          "center": 323.9999970203503,
+          "pose": {
+            "position": [
+              0.090898796916008,
+              -2.3074541091918945,
+              0
+            ],
+            "quaternion": [
+              -5.327080110362203e-9,
+              0.9925461411476135,
+              -0.12186938524246216,
+              4.338557602068249e-8
+            ],
+            "scale": 2.8189220428466797
+          },
+          "reflection": 0.327974,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 512.2234978580522,
+            "bottom": 1529.1671534336845,
+            "visibleFraction": 0.32624865726129987,
+            "width": 395.0320406960549
+          },
+          "clock": 2,
+          "angle": -0.000001601168364306857,
+          "top": 110.99999836026714,
+          "width": 362.4999902857915,
+          "center": 323.99999616936304,
+          "pose": {
+            "position": [
+              0.09049666672945023,
+              -2.3047149181365967,
+              0
+            ],
+            "quaternion": [
+              -5.137725356263445e-9,
+              0.9930684566497803,
+              -0.1175374686717987,
+              4.340839865335511e-8
+            ],
+            "scale": 2.8177225589752197
+          },
+          "reflection": 0.350971,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 522.0631933262239,
+            "bottom": 1554.5649933298942,
+            "visibleFraction": 0.31180265901001986,
+            "width": 401.3860928149374
+          },
+          "clock": 2.1675,
+          "angle": -0.0000014991040418934687,
+          "top": 120.02963946609526,
+          "width": 368.3307675242955,
+          "center": 323.9999941832589,
+          "pose": {
+            "position": [
+              0.0901770066443353,
+              -2.4129307214443716,
+              0
+            ],
+            "quaternion": [
+              -4.946957734200108e-9,
+              0.9935752437363468,
+              -0.11317323715486644,
+              4.3430547641506303e-8
+            ],
+            "scale": 2.8529331491319687
+          },
+          "reflection": 0.354033,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 535.0566977334491,
+            "bottom": 1599.5020535738922,
+            "visibleFraction": 0.29023876197254084,
+            "width": 415.52019749086907
+          },
+          "clock": 2.3325,
+          "angle": -0.0000013359734914360954,
+          "top": 131.95345173078914,
+          "width": 381.3008871092681,
+          "center": 323.9999942255711,
+          "pose": {
+            "position": [
+              0.08953496703799978,
+              -2.590643153432118,
+              0
+            ],
+            "quaternion": [
+              -4.569871523817993e-9,
+              0.9945199638071327,
+              -0.10454649434054844,
+              4.3471851948161146e-8
+            ],
+            "scale": 2.932366826972511
+          },
+          "reflection": 0.355584,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 577.6060924566106,
+            "bottom": 1740.1962486096684,
+            "visibleFraction": 0.22913827898291447,
+            "width": 440.8557292189672
+          },
+          "clock": 2.5,
+          "angle": -0.0000010748375487136794,
+          "top": 170.99996133702072,
+          "width": 404.5499632832876,
+          "center": 323.9999964659946,
+          "pose": {
+            "position": [
+              0.08993058651685715,
+              -3.0735113620758057,
+              0
+            ],
+            "quaternion": [
+              -4.569084222083575e-9,
+              0.9945218563079834,
+              -0.10452847182750702,
+              4.347192827935942e-8
+            ],
+            "scale": 3.124908685684204
+          },
+          "reflection": 0.356167,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 775.3089401285896,
+            "bottom": 2530.997174126701,
+            "visibleFraction": 0.03912486200068953,
+            "width": 521.4416823821665
+          },
+          "clock": 2.6675,
+          "angle": -2.2188758007148383e-7,
+          "top": 352.4268932835091,
+          "width": 478.49942618598806,
+          "center": 323.99999666795304,
+          "pose": {
+            "position": [
+              0.09610291816233515,
+              -5.300819094269734,
+              0
+            ],
+            "quaternion": [
+              -6.0834287385132364e-9,
+              0.990268130025301,
+              -0.1391726649029608,
+              4.328598099029715e-8
+            ],
+            "scale": 3.949805471478051
+          },
+          "reflection": 0.35625,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 892.2966545600354,
+            "bottom": 2716.957475293092,
+            "visibleFraction": 0,
+            "width": 521.4423856615596
+          },
+          "clock": 2.8325,
+          "angle": 4.832206626457901e-7,
+          "top": 459.7835770878031,
+          "width": 478.50007154825465,
+          "center": 323.9999976832075,
+          "pose": {
+            "position": [
+              0.0961030125617981,
+              -6.160603078720546,
+              0
+            ],
+            "quaternion": [
+              -6.083450188043571e-9,
+              0.9902681112289429,
+              -0.13917313516139984,
+              4.3285979245411e-8
+            ],
+            "scale": 3.9498136043548584
+          },
+          "reflection": 0.35625,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 913.920489449723,
+            "bottom": 2751.5683610050028,
+            "visibleFraction": 0,
+            "width": 521.4423856615596
+          },
+          "clock": 3,
+          "angle": 6.160013049762863e-7,
+          "top": 480.0000320307695,
+          "width": 478.50007154825465,
+          "center": 323.9999976832075,
+          "pose": {
+            "position": [
+              0.0961030125617981,
+              -6.322508335113525,
+              0
+            ],
+            "quaternion": [
+              -6.083450188043571e-9,
+              0.9902681112289429,
+              -0.13917313516139984,
+              4.3285979245411e-8
+            ],
+            "scale": 3.9498136043548584
+          },
+          "reflection": 0.35625,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 411.49689430383364,
+            "bottom": 1306.398095354397,
+            "visibleFraction": 0.4832970446217216,
+            "width": 347.7915479320831
+          },
+          "clock": 0.7513,
+          "angle": -0.000002044848111542161,
+          "top": 87.06149577892235,
+          "width": 319.1498910435586,
+          "center": 323.00142359447204,
+          "pose": {
+            "position": [
+              0.08458929128608593,
+              -1.7968984952480724,
+              0
+            ],
+            "quaternion": [
+              -6.457390992438657e-9,
+              0.9890280517227104,
+              -0.1477278932097312,
+              4.323178861329956e-8
+            ],
+            "scale": 2.5292976092740425
+          },
+          "reflection": 0.231164,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 188.44236622858102,
+            "bottom": 860.3304249125491,
+            "visibleFraction": 0.9756947236946946,
+            "width": 268.621908515576
+          },
+          "clock": 0,
+          "angle": -0.000002858459210208629,
+          "top": 79.99990331164092,
+          "width": 246.5001042848815,
+          "center": 315.9999973163317,
+          "pose": {
+            "position": [
+              0.0320407971739769,
+              -1.1216706037521362,
+              0
+            ],
+            "quaternion": [
+              -1.020421880326694e-8,
+              0.972369909286499,
+              -0.23344537615776062,
+              4.2503629060774983e-8
+            ],
+            "scale": 2.0351641178131104
+          },
+          "reflection": 0.01875,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 59.0781,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        }
+      ]
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "states": [
+        {
+          "phoneBounds": {
+            "top": 139.6904569827052,
+            "bottom": 690.9895390663407,
+            "visibleFraction": 0.7769095885276979,
+            "width": 220.4032883564841
+          },
+          "clock": 0,
+          "angle": -0.000002858459210208629,
+          "top": 79.99990331164092,
+          "width": 246.5001042848815,
+          "center": 315.9999973163317,
+          "pose": {
+            "position": [
+              0.0320407971739769,
+              -1.1216706037521362,
+              0
+            ],
+            "quaternion": [
+              -1.020421880326694e-8,
+              0.972369909286499,
+              -0.23344537615776062,
+              4.2503629060774983e-8
+            ],
+            "scale": 2.0351641178131104
+          },
+          "reflection": 0.01875,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 146.80073412791302,
+            "bottom": 746.1401838917758,
+            "visibleFraction": 0.7027724706558823,
+            "width": 237.21346458164834
+          },
+          "clock": 0.2491,
+          "angle": -0.000002574738016122873,
+          "top": 78.01527520397283,
+          "width": 265.3006867237792,
+          "center": 317.00255634047517,
+          "pose": {
+            "position": [
+              0.039418831976204785,
+              -1.281566198153521,
+              0
+            ],
+            "quaternion": [
+              -8.721104259457098e-9,
+              0.9798946417435059,
+              -0.19951563265365613,
+              4.283254537783755e-8
+            ],
+            "scale": 2.1547101804608557
+          },
+          "reflection": 0.104747,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 229.17655414734182,
+            "bottom": 902.2767964712281,
+            "visibleFraction": 0.5033773939567551,
+            "width": 262.0698840751453
+          },
+          "clock": 0.5019,
+          "angle": -0.000002327539397638505,
+          "top": 80.02910002637722,
+          "width": 293.1002265717767,
+          "center": 320.02389288210856,
+          "pose": {
+            "position": [
+              0.0626062636849868,
+              -1.5338923488018108,
+              0
+            ],
+            "quaternion": [
+              -7.581698465138363e-9,
+              0.9848428145599852,
+              -0.17344909899842278,
+              4.304883213065366e-8
+            ],
+            "scale": 2.35715202450386
+          },
+          "reflection": 0.17568,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 341.79934664904624,
+            "bottom": 1076.0040223519159,
+            "visibleFraction": 0.30808936640781687,
+            "width": 285.3309916310381
+          },
+          "clock": 0.7509,
+          "angle": -0.0000020451806144394226,
+          "top": 87.04966558251459,
+          "width": 319.1155618286417,
+          "center": 322.99934486271394,
+          "pose": {
+            "position": [
+              0.08457462648291308,
+              -1.796539003987542,
+              0
+            ],
+            "quaternion": [
+              -6.458586913038157e-9,
+              0.9890239648527097,
+              -0.14775525288529723,
+              4.323160987873752e-8
+            ],
+            "scale": 2.5290649708391633
+          },
+          "reflection": 0.2311,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 418.1665599726846,
+            "bottom": 1215.5589072401963,
+            "visibleFraction": 0.1879042864416265,
+            "width": 308.56449855664397
+          },
+          "clock": 1,
+          "angle": -0.0000018045989610062782,
+          "top": 98.99999444296469,
+          "width": 345.10002840702737,
+          "center": 323.9999978149941,
+          "pose": {
+            "position": [
+              0.091373510658741,
+              -2.0885133743286133,
+              0
+            ],
+            "quaternion": [
+              -5.705478756112825e-9,
+              0.9914448857307434,
+              -0.13052617013454437,
+              4.333743319762107e-8
+            ],
+            "scale": 2.708462715148926
+          },
+          "reflection": 0.273834,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 429.42407325999676,
+            "bottom": 1256.8731179642903,
+            "visibleFraction": 0.16747366816953216,
+            "width": 320.1881010277661
+          },
+          "clock": 1.2491,
+          "angle": -0.0000016565494064017808,
+          "top": 108.95941629356139,
+          "width": 358.0999216602685,
+          "center": 323.99999643279887,
+          "pose": {
+            "position": [
+              0.09083613078525132,
+              -2.2600180200230544,
+              0
+            ],
+            "quaternion": [
+              -5.328521029173664e-9,
+              0.9925420964909272,
+              -0.12190236541344555,
+              4.338538604093086e-8
+            ],
+            "scale": 2.7939620421366826
+          },
+          "reflection": 0.30553,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 432.1421470155042,
+            "bottom": 1269.481771739836,
+            "visibleFraction": 0.162249401524767,
+            "width": 322.8330150257098
+          },
+          "clock": 1.5019,
+          "angle": -0.0000016360652557841481,
+          "top": 111.99931926551551,
+          "width": 361.0580062749733,
+          "center": 323.9999969891513,
+          "pose": {
+            "position": [
+              0.09089881631565146,
+              -2.307512814199904,
+              0
+            ],
+            "quaternion": [
+              -5.327010060291134e-9,
+              0.9925463381657673,
+              -0.12186778493575594,
+              4.338558372072149e-8
+            ],
+            "scale": 2.8189855252277547
+          },
+          "reflection": 0.328111,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 431.2486224685219,
+            "bottom": 1265.6734892353948,
+            "visibleFraction": 0.16388698728663922,
+            "width": 324.122337067434
+          },
+          "clock": 2,
+          "angle": -0.000001601168364306857,
+          "top": 110.99999836026714,
+          "width": 362.4999902857915,
+          "center": 323.99999616936304,
+          "pose": {
+            "position": [
+              0.09049666672945023,
+              -2.3047149181365967,
+              0
+            ],
+            "quaternion": [
+              -5.137725356263445e-9,
+              0.9930684566497803,
+              -0.1175374686717987,
+              4.340839865335511e-8
+            ],
+            "scale": 2.8177225589752197
+          },
+          "reflection": 0.350971,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 439.2393308229251,
+            "bottom": 1286.2807664207726,
+            "visibleFraction": 0.15201224375309896,
+            "width": 329.26686313163015
+          },
+          "clock": 2.166,
+          "angle": -0.000001500326994716864,
+          "top": 119.93683387672425,
+          "width": 368.2536531316451,
+          "center": 323.9999951413557,
+          "pose": {
+            "position": [
+              0.09018182211677696,
+              -2.4117170325973114,
+              0
+            ],
+            "quaternion": [
+              -4.949698398159311e-9,
+              0.9935680994529098,
+              -0.11323593783036208,
+              4.343023455519921e-8
+            ],
+            "scale": 2.8524879452933996
+          },
+          "reflection": 0.354013,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 449.94747475867473,
+            "bottom": 1323.2362254705429,
+            "visibleFraction": 0.1351815480791363,
+            "width": 340.896869234085
+          },
+          "clock": 2.3321,
+          "angle": -0.0000013363301403323326,
+          "top": 131.91285862897408,
+          "width": 381.2607082371575,
+          "center": 323.9999933365328,
+          "pose": {
+            "position": [
+              0.08953518050900464,
+              -2.5900324956428973,
+              0
+            ],
+            "quaternion": [
+              -4.570255027923197e-9,
+              0.99451904232579,
+              -0.10455526837340369,
+              4.347181132192089e-8
+            ],
+            "scale": 2.9320650314418724
+          },
+          "reflection": 0.355582,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 486.04808298786514,
+            "bottom": 1442.9778183131737,
+            "visibleFraction": 0.0856404749344269,
+            "width": 362.34382906251955
+          },
+          "clock": 2.5019,
+          "angle": -0.0000010682337319500083,
+          "top": 172.28790217696599,
+          "width": 405.24709189651566,
+          "center": 324.00009287335956,
+          "pose": {
+            "position": [
+              0.08996579349587044,
+              -3.0895467227337345,
+              0
+            ],
+            "quaternion": [
+              -4.577984214253468e-9,
+              0.9945004393732649,
+              -0.10473208067395247,
+              4.347099229151115e-8
+            ],
+            "scale": 3.1314938626022055
+          },
+          "reflection": 0.35617,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 647.4203220502429,
+            "bottom": 2088.180956708571,
+            "visibleFraction": 0,
+            "width": 427.840989666681
+          },
+          "clock": 2.6679,
+          "angle": -2.1965275681282293e-7,
+          "top": 352.7671655238977,
+          "width": 478.4994332734562,
+          "center": 323.9999966818927,
+          "pose": {
+            "position": [
+              0.09610291935902471,
+              -5.303544300282047,
+              0
+            ],
+            "quaternion": [
+              -6.083429006814335e-9,
+              0.9902681291990953,
+              -0.13917267078173737,
+              4.328598094247837e-8
+            ],
+            "scale": 3.949805574577458
+          },
+          "reflection": 0.35625,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 743.4686484556032,
+            "bottom": 2240.8565394744287,
+            "visibleFraction": 0,
+            "width": 427.84156036771526
+          },
+          "clock": 2.834,
+          "angle": 4.858765199801727e-7,
+          "top": 460.1879418362621,
+          "width": 478.50007154825465,
+          "center": 323.9999976832075,
+          "pose": {
+            "position": [
+              0.0961030125617981,
+              -6.163841469351358,
+              0
+            ],
+            "quaternion": [
+              -6.083450188043571e-9,
+              0.9902681112289429,
+              -0.13917313516139984,
+              4.3285979245411e-8
+            ],
+            "scale": 3.9498136043548584
+          },
+          "reflection": 0.35625,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 761.1832672760916,
+            "bottom": 2269.014180011356,
+            "visibleFraction": 0,
+            "width": 427.84156036771526
+          },
+          "clock": 3,
+          "angle": 6.160013049762863e-7,
+          "top": 480.0000320307695,
+          "width": 478.50007154825465,
+          "center": 323.9999976832075,
+          "pose": {
+            "position": [
+              0.0961030125617981,
+              -6.322508335113525,
+              0
+            ],
+            "quaternion": [
+              -6.083450188043571e-9,
+              0.9902681112289429,
+              -0.13917313516139984,
+              4.3285979245411e-8
+            ],
+            "scale": 3.9498136043548584
+          },
+          "reflection": 0.35625,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 341.79934664904624,
+            "bottom": 1076.0040223519159,
+            "visibleFraction": 0.30808936640781687,
+            "width": 285.3309916310381
+          },
+          "clock": 0.7509,
+          "angle": -0.0000020451806144394226,
+          "top": 87.04966558251459,
+          "width": 319.1155618286417,
+          "center": 322.99934486271394,
+          "pose": {
+            "position": [
+              0.08457462648291308,
+              -1.796539003987542,
+              0
+            ],
+            "quaternion": [
+              -6.458586913038157e-9,
+              0.9890239648527097,
+              -0.14775525288529723,
+              4.323160987873752e-8
+            ],
+            "scale": 2.5290649708391633
+          },
+          "reflection": 0.2311,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        },
+        {
+          "phoneBounds": {
+            "top": 139.6904569827052,
+            "bottom": 690.9895390663407,
+            "visibleFraction": 0.7769095885276979,
+            "width": 220.4032883564841
+          },
+          "clock": 0,
+          "angle": -0.000002858459210208629,
+          "top": 79.99990331164092,
+          "width": 246.5001042848815,
+          "center": 315.9999973163317,
+          "pose": {
+            "position": [
+              0.0320407971739769,
+              -1.1216706037521362,
+              0
+            ],
+            "quaternion": [
+              -1.020421880326694e-8,
+              0.972369909286499,
+              -0.23344537615776062,
+              4.2503629060774983e-8
+            ],
+            "scale": 2.0351641178131104
+          },
+          "reflection": 0.01875,
+          "ready": "true",
+          "overflow": false,
+          "fade": {
+            "height": 39.75,
+            "pointerEvents": "none",
+            "filter": "none",
+            "background": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0))",
+            "phoneFilter": "none"
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "badRequests": []
+}

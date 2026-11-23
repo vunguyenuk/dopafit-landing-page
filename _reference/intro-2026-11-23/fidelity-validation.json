@@ -1,0 +1,90 @@
+{
+  "geometry": {
+    ".intro-title": {
+      "x": 606,
+      "y": 221.9375,
+      "w": 750,
+      "h": 198.875,
+      "font": 84.994
+    },
+    ".intro-description": {
+      "x": 543,
+      "y": 468,
+      "w": 835,
+      "h": 86.390625,
+      "font": 24
+    },
+    ".intro-rating": {
+      "x": 844,
+      "y": 621,
+      "w": 118.953125,
+      "h": 73.640625,
+      "font": 16
+    },
+    ".intro-download": {
+      "x": 970.109375,
+      "y": 626.890625,
+      "w": 179.015625,
+      "h": 67.75,
+      "font": 16
+    }
+  },
+  "projected": [
+    {
+      "t": 0,
+      "top": 80.00001235120169,
+      "width": 170.00000706527663,
+      "center": 315.99999656683
+    },
+    {
+      "t": 0.75,
+      "top": 87.01554895349089,
+      "width": 220.0119843117431,
+      "center": 322.9929858788544
+    },
+    {
+      "t": 1.5,
+      "top": 111.9999932369996,
+      "width": 249.00000825114745,
+      "center": 323.99999724637775
+    },
+    {
+      "t": 2.333,
+      "top": 132.03686201641378,
+      "width": 263.02310265232745,
+      "center": 323.9999996291643
+    }
+  ],
+  "stoppedRenders": {
+    "before": "52",
+    "after": "52"
+  },
+  "native": [
+    {
+      "active": 0,
+      "phase": "hold",
+      "ready": true,
+      "rule": "Ngày và buổi tập đã lưu"
+    },
+    {
+      "active": 2,
+      "phase": "hold",
+      "ready": true,
+      "rule": "Thể trạng và mức tập đã điều chỉnh"
+    },
+    {
+      "active": 4,
+      "phase": "hold",
+      "ready": true,
+      "rule": "Lộ trình Ngực và danh sách bài"
+    },
+    {
+      "active": 0,
+      "phase": "hold",
+      "ready": true,
+      "rule": "Ngày và buổi tập đã lưu"
+    }
+  ],
+  "errors": [],
+  "badRequests": []
+}

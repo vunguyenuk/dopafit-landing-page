@@ -1,0 +1,5436 @@
+[
+  {
+    "ms": 0.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 31.59999990463257,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 62.09999990463257,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 93.69999980926514,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 125.89999985694885,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 157.39999985694885,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 189.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 221.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 253,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 284.69999980926514,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 315.69999980926514,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 346.39999985694885,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 378.59999990463257,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 410.09999990463257,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 442,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 473.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 504.69999980926514,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 535.8999998569489,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 567.1999998092651,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 597.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 628.2999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 661.2999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 694.3999998569489,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 725,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 756.6999998092651,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 787.7999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 818.7999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 849.2999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 879.8999998569489,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 913.2999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 944.8999998569489,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 976,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1008,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1039.5999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1070.6999998092651,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1101.6999998092651,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1132.2999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1194.8999998569489,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1226.3999998569489,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1258.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1290.1999998092651,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1321.5999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1352.5999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1384,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1414.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1444.7999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1479.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1513.0999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1544.0999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1575.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1607.6999998092651,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1639,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1670.2999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1701.8999998569489,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1733.0999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1764.5999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1795.5,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1827.0999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1859.2999999523163,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1890.0999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1922.1999998092651,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1953.5999999046326,
+    "stage": "mark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 1984,
+    "stage": "wordmark",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 311.505,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 0
+      },
+      {
+        "letter": "O",
+        "alpha": 0
+      },
+      {
+        "letter": "P",
+        "alpha": 0
+      },
+      {
+        "letter": "A",
+        "alpha": 0
+      },
+      {
+        "letter": "F",
+        "alpha": 0
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2015.5,
+    "stage": "wordmark",
+    "markCentre": 63.02203369140625,
+    "centre": 71.25,
+    "x": 265.944,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 0.188573
+      },
+      {
+        "letter": "O",
+        "alpha": 0.257121
+      },
+      {
+        "letter": "P",
+        "alpha": 0
+      },
+      {
+        "letter": "A",
+        "alpha": 0
+      },
+      {
+        "letter": "F",
+        "alpha": 0
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2046.7999999523163,
+    "stage": "wordmark",
+    "markCentre": 55.47210693359375,
+    "centre": 71.25,
+    "x": 224.148,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 0.518959
+      },
+      {
+        "letter": "O",
+        "alpha": 0.469919
+      },
+      {
+        "letter": "P",
+        "alpha": 0
+      },
+      {
+        "letter": "A",
+        "alpha": 0
+      },
+      {
+        "letter": "F",
+        "alpha": 0
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2078.199999809265,
+    "stage": "wordmark",
+    "markCentre": 48.67437744140625,
+    "centre": 71.25,
+    "x": 186.526,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 0.753408
+      },
+      {
+        "letter": "O",
+        "alpha": 0.634118
+      },
+      {
+        "letter": "P",
+        "alpha": 0.0813952
+      },
+      {
+        "letter": "A",
+        "alpha": 0
+      },
+      {
+        "letter": "F",
+        "alpha": 0
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2112.2999999523163,
+    "stage": "wordmark",
+    "markCentre": 42.72698974609375,
+    "centre": 71.25,
+    "x": 153.634,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 0.889291
+      },
+      {
+        "letter": "O",
+        "alpha": 0.752749
+      },
+      {
+        "letter": "P",
+        "alpha": 0.326058
+      },
+      {
+        "letter": "A",
+        "alpha": 0
+      },
+      {
+        "letter": "F",
+        "alpha": 0
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2144,
+    "stage": "wordmark",
+    "markCentre": 37.633544921875,
+    "centre": 71.25,
+    "x": 125.398,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 0.962983
+      },
+      {
+        "letter": "O",
+        "alpha": 0.835571
+      },
+      {
+        "letter": "P",
+        "alpha": 0.524226
+      },
+      {
+        "letter": "A",
+        "alpha": 0
+      },
+      {
+        "letter": "F",
+        "alpha": 0
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2175.399999856949,
+    "stage": "wordmark",
+    "markCentre": 35.39007568359375,
+    "centre": 71.25,
+    "x": 112.931,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 0.983474
+      },
+      {
+        "letter": "O",
+        "alpha": 0.866718
+      },
+      {
+        "letter": "P",
+        "alpha": 0.60505
+      },
+      {
+        "letter": "A",
+        "alpha": 0.0273821
+      },
+      {
+        "letter": "F",
+        "alpha": 0
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2206.899999856949,
+    "stage": "wordmark",
+    "markCentre": 31.454345703125,
+    "centre": 71.25,
+    "x": 91.1549,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 0.999881
+      },
+      {
+        "letter": "O",
+        "alpha": 0.913484
+      },
+      {
+        "letter": "P",
+        "alpha": 0.732404
+      },
+      {
+        "letter": "A",
+        "alpha": 0.281024
+      },
+      {
+        "letter": "F",
+        "alpha": 0
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2238.0999999046326,
+    "stage": "wordmark",
+    "markCentre": 28.22137451171875,
+    "centre": 71.25,
+    "x": 73.2784,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 0.944812
+      },
+      {
+        "letter": "P",
+        "alpha": 0.821299
+      },
+      {
+        "letter": "A",
+        "alpha": 0.488336
+      },
+      {
+        "letter": "F",
+        "alpha": 0
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2269.399999856949,
+    "stage": "wordmark",
+    "markCentre": 25.57086181640625,
+    "centre": 71.25,
+    "x": 58.5579,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 0.965847
+      },
+      {
+        "letter": "P",
+        "alpha": 0.882683
+      },
+      {
+        "letter": "A",
+        "alpha": 0.647755
+      },
+      {
+        "letter": "F",
+        "alpha": 0.107466
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2300.5,
+    "stage": "wordmark",
+    "markCentre": 23.41119384765625,
+    "centre": 71.25,
+    "x": 46.6228,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 0.979629
+      },
+      {
+        "letter": "P",
+        "alpha": 0.924159
+      },
+      {
+        "letter": "A",
+        "alpha": 0.762389
+      },
+      {
+        "letter": "F",
+        "alpha": 0.347883
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2332,
+    "stage": "wordmark",
+    "markCentre": 21.65924072265625,
+    "centre": 71.25,
+    "x": 36.9286,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 0.988506
+      },
+      {
+        "letter": "P",
+        "alpha": 0.952107
+      },
+      {
+        "letter": "A",
+        "alpha": 0.842406
+      },
+      {
+        "letter": "F",
+        "alpha": 0.541673
+      },
+      {
+        "letter": "I",
+        "alpha": 0
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2362.5999999046326,
+    "stage": "wordmark",
+    "markCentre": 20.25372314453125,
+    "centre": 71.25,
+    "x": 29.1257,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 0.993987
+      },
+      {
+        "letter": "P",
+        "alpha": 0.970621
+      },
+      {
+        "letter": "A",
+        "alpha": 0.896889
+      },
+      {
+        "letter": "F",
+        "alpha": 0.686439
+      },
+      {
+        "letter": "I",
+        "alpha": 0.184159
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2398.899999856949,
+    "stage": "wordmark",
+    "markCentre": 19.118896484375,
+    "centre": 71.25,
+    "x": 22.8405,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 0.997198
+      },
+      {
+        "letter": "P",
+        "alpha": 0.982724
+      },
+      {
+        "letter": "A",
+        "alpha": 0.933736
+      },
+      {
+        "letter": "F",
+        "alpha": 0.789556
+      },
+      {
+        "letter": "I",
+        "alpha": 0.411123
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2430.7999999523163,
+    "stage": "wordmark",
+    "markCentre": 18.205810546875,
+    "centre": 71.25,
+    "x": 17.7909,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 0.998918
+      },
+      {
+        "letter": "P",
+        "alpha": 0.99043
+      },
+      {
+        "letter": "A",
+        "alpha": 0.958432
+      },
+      {
+        "letter": "F",
+        "alpha": 0.860854
+      },
+      {
+        "letter": "I",
+        "alpha": 0.589576
+      },
+      {
+        "letter": "T",
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "ms": 2462.5,
+    "stage": "wordmark",
+    "markCentre": 17.479217529296875,
+    "centre": 71.25,
+    "x": 13.7355,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 0.999706
+      },
+      {
+        "letter": "P",
+        "alpha": 0.995149
+      },
+      {
+        "letter": "A",
+        "alpha": 0.974822
+      },
+      {
+        "letter": "F",
+        "alpha": 0.909519
+      },
+      {
+        "letter": "I",
+        "alpha": 0.721348
+      },
+      {
+        "letter": "T",
+        "alpha": 0.257121
+      }
+    ]
+  },
+  {
+    "ms": 2496.199999809265,
+    "stage": "wordmark",
+    "markCentre": 16.884521484375,
+    "centre": 71.25,
+    "x": 10.5106,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 0.999966
+      },
+      {
+        "letter": "P",
+        "alpha": 0.997842
+      },
+      {
+        "letter": "A",
+        "alpha": 0.985426
+      },
+      {
+        "letter": "F",
+        "alpha": 0.942227
+      },
+      {
+        "letter": "I",
+        "alpha": 0.813861
+      },
+      {
+        "letter": "T",
+        "alpha": 0.469919
+      }
+    ]
+  },
+  {
+    "ms": 2527.5,
+    "stage": "wordmark",
+    "markCentre": 16.4296875,
+    "centre": 71.25,
+    "x": 7.95019,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 0.999231
+      },
+      {
+        "letter": "A",
+        "alpha": 0.992107
+      },
+      {
+        "letter": "F",
+        "alpha": 0.964081
+      },
+      {
+        "letter": "I",
+        "alpha": 0.877462
+      },
+      {
+        "letter": "T",
+        "alpha": 0.633698
+      }
+    ]
+  },
+  {
+    "ms": 2564.5,
+    "stage": "wordmark",
+    "markCentre": 16.0584716796875,
+    "centre": 71.25,
+    "x": 5.92498,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 0.999824
+      },
+      {
+        "letter": "A",
+        "alpha": 0.996132
+      },
+      {
+        "letter": "F",
+        "alpha": 0.978513
+      },
+      {
+        "letter": "I",
+        "alpha": 0.92074
+      },
+      {
+        "letter": "T",
+        "alpha": 0.752749
+      }
+    ]
+  },
+  {
+    "ms": 2597.399999856949,
+    "stage": "wordmark",
+    "markCentre": 15.775146484375,
+    "centre": 71.25,
+    "x": 4.34567,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 0.999989
+      },
+      {
+        "letter": "A",
+        "alpha": 0.99837
+      },
+      {
+        "letter": "F",
+        "alpha": 0.987779
+      },
+      {
+        "letter": "I",
+        "alpha": 0.949751
+      },
+      {
+        "letter": "T",
+        "alpha": 0.835571
+      }
+    ]
+  },
+  {
+    "ms": 2627.899999856949,
+    "stage": "wordmark",
+    "markCentre": 15.552734375,
+    "centre": 71.25,
+    "x": 3.12272,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 0.999473
+      },
+      {
+        "letter": "F",
+        "alpha": 0.993547
+      },
+      {
+        "letter": "I",
+        "alpha": 0.969065
+      },
+      {
+        "letter": "T",
+        "alpha": 0.892245
+      }
+    ]
+  },
+  {
+    "ms": 2661.199999809265,
+    "stage": "wordmark",
+    "markCentre": 15.3946533203125,
+    "centre": 71.25,
+    "x": 2.18815,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 0.999903
+      },
+      {
+        "letter": "F",
+        "alpha": 0.99695
+      },
+      {
+        "letter": "I",
+        "alpha": 0.981718
+      },
+      {
+        "letter": "T",
+        "alpha": 0.930607
+      }
+    ]
+  },
+  {
+    "ms": 2692.5999999046326,
+    "stage": "wordmark",
+    "markCentre": 15.319091796875,
+    "centre": 71.25,
+    "x": 1.81005,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 0.999975
+      },
+      {
+        "letter": "F",
+        "alpha": 0.998029
+      },
+      {
+        "letter": "I",
+        "alpha": 0.986239
+      },
+      {
+        "letter": "T",
+        "alpha": 0.944812
+      }
+    ]
+  },
+  {
+    "ms": 2724.899999856949,
+    "stage": "wordmark",
+    "markCentre": 15.20758056640625,
+    "centre": 71.25,
+    "x": 1.20481,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 0.999321
+      },
+      {
+        "letter": "I",
+        "alpha": 0.992622
+      },
+      {
+        "letter": "T",
+        "alpha": 0.965847
+      }
+    ]
+  },
+  {
+    "ms": 2757.199999809265,
+    "stage": "wordmark",
+    "markCentre": 15.13494873046875,
+    "centre": 71.25,
+    "x": 0.767272,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 0.999854
+      },
+      {
+        "letter": "I",
+        "alpha": 0.996421
+      },
+      {
+        "letter": "T",
+        "alpha": 0.979629
+      }
+    ]
+  },
+  {
+    "ms": 2788.5999999046326,
+    "stage": "wordmark",
+    "markCentre": 15.07159423828125,
+    "centre": 71.25,
+    "x": 0.460156,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 0.999993
+      },
+      {
+        "letter": "I",
+        "alpha": 0.998521
+      },
+      {
+        "letter": "T",
+        "alpha": 0.988485
+      }
+    ]
+  },
+  {
+    "ms": 2820,
+    "stage": "wordmark",
+    "markCentre": 15.03466796875,
+    "centre": 71.25,
+    "x": 0.254063,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 0.99954
+      },
+      {
+        "letter": "T",
+        "alpha": 0.993974
+      }
+    ]
+  },
+  {
+    "ms": 2851.2999999523163,
+    "stage": "wordmark",
+    "markCentre": 15.0096435546875,
+    "centre": 71.25,
+    "x": 0.124043,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 0.999923
+      },
+      {
+        "letter": "T",
+        "alpha": 0.997198
+      }
+    ]
+  },
+  {
+    "ms": 2882.399999856949,
+    "stage": "wordmark",
+    "markCentre": 14.99761962890625,
+    "centre": 71.25,
+    "x": 0.0499368,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 0.999999
+      },
+      {
+        "letter": "T",
+        "alpha": 0.998921
+      }
+    ]
+  },
+  {
+    "ms": 2912.7999999523163,
+    "stage": "wordmark",
+    "markCentre": 14.99932861328125,
+    "centre": 71.25,
+    "x": 0.0142445,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 0.999705
+      }
+    ]
+  },
+  {
+    "ms": 2943.399999856949,
+    "stage": "wordmark",
+    "markCentre": 14.99993896484375,
+    "centre": 71.25,
+    "x": 0.00170391,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 0.999966
+      }
+    ]
+  },
+  {
+    "ms": 2975.2999999523163,
+    "stage": "wordmark",
+    "markCentre": 15,
+    "centre": 71.25,
+    "x": 0.000207984,
+    "official": 0,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 0.999996
+      }
+    ]
+  },
+  {
+    "ms": 3007.199999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3039.199999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3071.0999999046326,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3103,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3134.7999999523163,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3165.7999999523163,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3197.199999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3229,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3262.399999856949,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3293.2999999523163,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3325.2999999523163,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3356.699999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3388.2999999523163,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3419.5999999046326,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3451.899999856949,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3482.5,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3513.199999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3544.5,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3576.699999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3608.5999999046326,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3640.0999999046326,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3672.399999856949,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3704.5999999046326,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3736.0999999046326,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3766.399999856949,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3797.199999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3828.5,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3859.5,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3891.0999999046326,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3922.699999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3954.5999999046326,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 3985.7999999523163,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4016.899999856949,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4047.699999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4078.5,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4110.099999904633,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4141.899999856949,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4173.699999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4205.5,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4236.899999856949,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4267.799999952316,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4298.799999952316,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4330.099999904633,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4360.5,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4392,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4424.299999952316,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4456.5,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "ms": 4488.199999809265,
+    "stage": "complete",
+    "markCentre": 71.25,
+    "centre": 71.25,
+    "x": 0,
+    "official": 1,
+    "letters": [
+      {
+        "letter": "D",
+        "alpha": 1
+      },
+      {
+        "letter": "O",
+        "alpha": 1
+      },
+      {
+        "letter": "P",
+        "alpha": 1
+      },
+      {
+        "letter": "A",
+        "alpha": 1
+      },
+      {
+        "letter": "F",
+        "alpha": 1
+      },
+      {
+        "letter": "I",
+        "alpha": 1
+      },
+      {
+        "letter": "T",
+        "alpha": 1
+      }
+    ]
+  }
+]

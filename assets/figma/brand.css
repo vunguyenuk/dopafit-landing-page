@@ -49,13 +49,13 @@
   background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.07) 44%,rgba(255,255,255,.16) 50%,rgba(255,255,255,.07) 56%,transparent 70%) no-repeat;
   background-size:260% 100%;background-position:var(--dp-sheen,50%) 0;mix-blend-mode:screen}
 .dp-bar.dp-stuck::after{opacity:1}
-[data-node-id="147:2825"].dp-bar{padding:14px 22px;margin:-14px 0 0 0}
+[data-node-id="147:2825"].dp-bar{box-sizing:border-box;height:auto!important;padding:calc(12px / var(--design-scale,1));margin:-14px 0 0 0}
 [data-node-id="147:2825"].dp-bar.dp-stuck{top:38px}
 /* Logo exactly in the middle: the two sides get equal columns (user request 2026-11-18). */
 /* Desktop canvas only (the mobile page hides this nav). The bar grows to fit when the menu text is relatively large
    (tablet widths), so the logo never touches the menu. */
-html:not(.is-mobile) [data-node-id="147:2825"]{display:grid!important;grid-template-columns:1fr auto 1fr;justify-content:stretch;
-  column-gap:48px;width:max-content!important;min-width:940px}
+html:not(.is-mobile) [data-node-id="147:2825"]{display:grid!important;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;justify-content:stretch;
+  column-gap:48px;width:max-content!important;min-width:984px}
 html:not(.is-mobile) [data-node-id="147:2825"]>:first-child{justify-self:start}
 html:not(.is-mobile) [data-node-id="147:2825"]>:last-child{justify-self:end}
 .is-mobile .dp-bar::before{inset:8px 10px;border-radius:22px}
@@ -64,3 +64,10 @@ html:not(.is-mobile) [data-node-id="147:2825"]>:last-child{justify-self:end}
 /* Slides away while a section heading is under the bar (brand.js). */
 .skydive-header-canvas.dp-header-fixed{transition:translate .45s cubic-bezier(.22,1,.36,1)}
 .skydive-header-canvas.dp-header-fixed.dp-header-away{translate:0 -140%}
+
+/* Nav copy, logo and CTA share the row centre; all three CTA edge insets are 12 physical px. */
+html:not(.is-mobile) [data-node-id="147:2826"] p{line-height:1.3}
+html:not(.is-mobile) .skydive-header-canvas.dp-header-fixed{height:calc(66px + 64px / var(--design-scale,1))}
+
+/* User: inset the text group slightly without moving the centred logo/CTA. */
+html:not(.is-mobile) [data-node-id="147:2826"]{translate:calc(12px / var(--design-scale,1)) 0}

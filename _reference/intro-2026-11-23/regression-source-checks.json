@@ -1,0 +1,35 @@
+[
+  {
+    "file": "assets/vendor/skydive-hero-source.js",
+    "unchanged": true,
+    "sha256": "b0241610d3d29cba1d3cc8627774648b3294c6ae73a299bae9d6882451dc7505"
+  },
+  {
+    "file": "assets/figma/landing.js",
+    "unchanged": true,
+    "sha256": "f7366958a956a585fac7c57b0258b6aaa8878128dbd0402654dcc4f191b2cf9c"
+  },
+  {
+    "file": "assets/figma/phone.js",
+    "unchanged": true,
+    "sha256": "2f1b00dc16d0a19eda15667f424821317ffce94b97b6f5cfae1469bd08362876"
+  },
+  {
+    "file": "assets/mobile/phone3d-mobile.js",
+    "unchanged": true,
+    "sha256": "1e37f766a25d9696a21a640f6271063a0c16a6da30469bc849ecb22230fd0f47"
+  },
+  {
+    "file": "assets/figma/tracking.js",
+    "unchanged": true,
+    "sha256": "57cc54a5700b11b7c565196324ee2e30cbd38103f75ad4ebfa66ec693af2b028"
+  },
+  {
+    "file": "assets/figma/orbit-scene.js",
+    "unchanged": true,
+    "sha256": "4995dd1174a9cbe52141d370842d6432d3ef701b0dbed058f67331d9bd682bf6"
+  },
+  {
+    "existing_main_markup_unchanged": true
+  }
+]

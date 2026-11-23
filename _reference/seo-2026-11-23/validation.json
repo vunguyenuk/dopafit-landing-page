@@ -1,0 +1,182 @@
+{
+  "report": [
+    {
+      "width": 1440,
+      "title": "App tập gym Dopafit – Lịch tập & video hướng dẫn chi tiết",
+      "titleCount": 1,
+      "description": "Dopafit - Ứng dụng tập luyện cá nhân hóa tại nhà lẫn phòng gym, giúp bạn lên lịch tập theo mục tiêu, hướng dẫn chi tiết từng tư thế qua video và theo dõi số hiệp cùng mức tạ mỗi ngày.",
+      "descriptionCount": 1,
+      "og": "App tập gym Dopafit – Lịch tập & video hướng dẫn chi tiết",
+      "twitter": "App tập gym Dopafit – Lịch tập & video hướng dẫn chi tiết",
+      "lang": "vi",
+      "types": [
+        "Organization",
+        "MobileApplication",
+        "FAQPage"
+      ],
+      "rows": [
+        {
+          "q": "Mới bắt đầu tập, tôi có theo kịp không?",
+          "a": "Dopafit giúp bạn biết hôm nay tập gì, xem video hướng dẫn và nhận biết nhóm cơ của từng bài. Bạn có thể chọn thời gian, dụng cụ và thể trạng cho buổi tập."
+        },
+        {
+          "q": "Không đến phòng gym thì có dùng được không?",
+          "a": "Bạn có thể chọn dụng cụ và thời gian phù hợp với nơi tập của mình, kể cả khi tập tại nhà."
+        },
+        {
+          "q": "Dữ liệu tập luyện của tôi được lưu ở đâu?",
+          "a": "Vui lòng liên hệ support@dopafit.app để biết thông tin lưu trữ và quản lý dữ liệu của phiên bản bạn đang dùng."
+        },
+        {
+          "q": "Dopafit có kết nối với Apple Health không?",
+          "a": "Xem mục Apple Health trong ứng dụng để kiểm tra các tuỳ chọn kết nối hiện có."
+        },
+        {
+          "q": "Dopafit có mất phí không?",
+          "a": "Bạn có thể xem các gói và mức giá hiện có ngay trong ứng dụng."
+        },
+        {
+          "q": "Dopafit có trên Android không?",
+          "a": "Vui lòng liên hệ support@dopafit.app để biết phiên bản Android hiện có."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mới bắt đầu tập, tôi có theo kịp không?",
+          "a": "Dopafit giúp bạn biết hôm nay tập gì, xem video hướng dẫn và nhận biết nhóm cơ của từng bài. Bạn có thể chọn thời gian, dụng cụ và thể trạng cho buổi tập."
+        },
+        {
+          "q": "Không đến phòng gym thì có dùng được không?",
+          "a": "Bạn có thể chọn dụng cụ và thời gian phù hợp với nơi tập của mình, kể cả khi tập tại nhà."
+        },
+        {
+          "q": "Dữ liệu tập luyện của tôi được lưu ở đâu?",
+          "a": "Vui lòng liên hệ support@dopafit.app để biết thông tin lưu trữ và quản lý dữ liệu của phiên bản bạn đang dùng."
+        },
+        {
+          "q": "Dopafit có kết nối với Apple Health không?",
+          "a": "Xem mục Apple Health trong ứng dụng để kiểm tra các tuỳ chọn kết nối hiện có."
+        },
+        {
+          "q": "Dopafit có mất phí không?",
+          "a": "Bạn có thể xem các gói và mức giá hiện có ngay trong ứng dụng."
+        },
+        {
+          "q": "Dopafit có trên Android không?",
+          "a": "Vui lòng liên hệ support@dopafit.app để biết phiên bản Android hiện có."
+        }
+      ],
+      "icons": [
+        {
+          "href": "http://127.0.0.1:8097/favicon.ico",
+          "type": "",
+          "sizes": "16x16 32x32 48x48"
+        },
+        {
+          "href": "http://127.0.0.1:8097/assets/brand/favicon.svg",
+          "type": "image/svg+xml",
+          "sizes": "any"
+        },
+        {
+          "href": "http://127.0.0.1:8097/assets/brand/apple-touch-icon.png",
+          "type": "",
+          "sizes": "180x180"
+        }
+      ],
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "title": "App tập gym Dopafit – Lịch tập & video hướng dẫn chi tiết",
+      "titleCount": 1,
+      "description": "Dopafit - Ứng dụng tập luyện cá nhân hóa tại nhà lẫn phòng gym, giúp bạn lên lịch tập theo mục tiêu, hướng dẫn chi tiết từng tư thế qua video và theo dõi số hiệp cùng mức tạ mỗi ngày.",
+      "descriptionCount": 1,
+      "og": "App tập gym Dopafit – Lịch tập & video hướng dẫn chi tiết",
+      "twitter": "App tập gym Dopafit – Lịch tập & video hướng dẫn chi tiết",
+      "lang": "vi",
+      "types": [
+        "Organization",
+        "MobileApplication",
+        "FAQPage"
+      ],
+      "rows": [
+        {
+          "q": "Mới bắt đầu tập, tôi có theo kịp không?",
+          "a": "Dopafit giúp bạn biết hôm nay tập gì, xem video hướng dẫn và nhận biết nhóm cơ của từng bài. Bạn có thể chọn thời gian, dụng cụ và thể trạng cho buổi tập."
+        },
+        {
+          "q": "Không đến phòng gym thì có dùng được không?",
+          "a": "Bạn có thể chọn dụng cụ và thời gian phù hợp với nơi tập của mình, kể cả khi tập tại nhà."
+        },
+        {
+          "q": "Dữ liệu tập luyện của tôi được lưu ở đâu?",
+          "a": "Vui lòng liên hệ support@dopafit.app để biết thông tin lưu trữ và quản lý dữ liệu của phiên bản bạn đang dùng."
+        },
+        {
+          "q": "Dopafit có kết nối với Apple Health không?",
+          "a": "Xem mục Apple Health trong ứng dụng để kiểm tra các tuỳ chọn kết nối hiện có."
+        },
+        {
+          "q": "Dopafit có mất phí không?",
+          "a": "Bạn có thể xem các gói và mức giá hiện có ngay trong ứng dụng."
+        },
+        {
+          "q": "Dopafit có trên Android không?",
+          "a": "Vui lòng liên hệ support@dopafit.app để biết phiên bản Android hiện có."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mới bắt đầu tập, tôi có theo kịp không?",
+          "a": "Dopafit giúp bạn biết hôm nay tập gì, xem video hướng dẫn và nhận biết nhóm cơ của từng bài. Bạn có thể chọn thời gian, dụng cụ và thể trạng cho buổi tập."
+        },
+        {
+          "q": "Không đến phòng gym thì có dùng được không?",
+          "a": "Bạn có thể chọn dụng cụ và thời gian phù hợp với nơi tập của mình, kể cả khi tập tại nhà."
+        },
+        {
+          "q": "Dữ liệu tập luyện của tôi được lưu ở đâu?",
+          "a": "Vui lòng liên hệ support@dopafit.app để biết thông tin lưu trữ và quản lý dữ liệu của phiên bản bạn đang dùng."
+        },
+        {
+          "q": "Dopafit có kết nối với Apple Health không?",
+          "a": "Xem mục Apple Health trong ứng dụng để kiểm tra các tuỳ chọn kết nối hiện có."
+        },
+        {
+          "q": "Dopafit có mất phí không?",
+          "a": "Bạn có thể xem các gói và mức giá hiện có ngay trong ứng dụng."
+        },
+        {
+          "q": "Dopafit có trên Android không?",
+          "a": "Vui lòng liên hệ support@dopafit.app để biết phiên bản Android hiện có."
+        }
+      ],
+      "icons": [
+        {
+          "href": "http://127.0.0.1:8097/favicon.ico",
+          "type": "",
+          "sizes": "16x16 32x32 48x48"
+        },
+        {
+          "href": "http://127.0.0.1:8097/assets/brand/favicon.svg",
+          "type": "image/svg+xml",
+          "sizes": "any"
+        },
+        {
+          "href": "http://127.0.0.1:8097/assets/brand/apple-touch-icon.png",
+          "type": "",
+          "sizes": "180x180"
+        }
+      ],
+      "horizontalOverflow": false
+    }
+  ],
+  "staticMetadata": true,
+  "icoSizes": [
+    16,
+    32,
+    48
+  ],
+  "errors": [],
+  "badRequests": []
+}

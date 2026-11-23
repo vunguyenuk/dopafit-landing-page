@@ -13,7 +13,7 @@ import * as THREE from '../vendor/three.module.js';
 import { GLTFLoader } from '../vendor/GLTFLoader.js';
 import { createPhoneScreen } from '../phone/screen-ui.js';
 
-const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches||new URLSearchParams(location.search).get('motion')==='off';
 if(window.DopafitMobile&&window.DopafitPhoneMotion&&!reduced){
   const motion=window.DopafitPhoneMotion;
   const clamp=v=>Math.max(0,Math.min(1,v)),smooth=t=>t*t*(3-2*t),range=(v,a,b)=>clamp((v-a)/(b-a)),lerp=(a,b,t)=>a+(b-a)*t;
@@ -21,6 +21,7 @@ if(window.DopafitMobile&&window.DopafitPhoneMotion&&!reduced){
   waitFor('.m-track .m-phone',()=>{
     const peek=document.querySelector('.m-phone-peek'),track=document.querySelector('.m-track-scroll'),slot=document.querySelector('.m-track .m-phone');
     if(!peek||!track||!slot)return;
+    const start=()=>{
     let renderer;
     try{renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:false,powerPreference:'low-power'});}catch(e){return;}
     renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.setClearColor(0x000000,0);
@@ -115,5 +116,11 @@ if(window.DopafitMobile&&window.DopafitPhoneMotion&&!reduced){
       island.position.set(.002,.908,-.088);model.add(island);
       size();
     }).catch(()=>{renderer.dispose();host.remove();});
+    };
+    const near=new IntersectionObserver(entries=>{
+      if(!entries.some(entry=>entry.isIntersecting))return;
+      near.disconnect();start();
+    },{rootMargin:'1200px'});
+    near.observe(peek);
   });
 }

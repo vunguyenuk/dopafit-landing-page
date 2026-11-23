@@ -1,0 +1,14 @@
+{
+  "physical": {
+    "physical": true,
+    "roughness": 0.045,
+    "ior": 1.5,
+    "transmission": 0,
+    "specularBlend": true,
+    "windowStrength": 0,
+    "environment": true,
+    "runtime": "physical"
+  },
+  "errors": [],
+  "badRequests": []
+}

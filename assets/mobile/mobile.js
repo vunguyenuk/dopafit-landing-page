@@ -87,11 +87,8 @@
 
     /* ---------- Section 2: Đa dạng bài tập ---------- */
     const s2=h('section','m-sec m-s2');
-    s2.append(reveal(twoLines(text(2750),t=>{const i=t.indexOf('chỉ ');return i<0?-1:i+3;})),reveal(cta(),1));
-    const photos=[ // same photographs and order as landing.js (alternating women/men, Pliability capture)
-      ['rowing','Nữ vận động viên tập máy chèo','50% 38%'],['male-seated-fold','Nam vận động viên giãn cơ đùi sau','50% 50%'],
-      ['barbell-squat','Nữ vận động viên tập squat với thanh tạ','50% 36%'],['male-runner','Nam vận động viên chạy trên đường tập cạnh cây xanh','50% 48%'],
-      ['stability-ball','Nữ vận động viên tập kiểm soát cơ thể với bóng','50% 42%'],['male-tennis','Nam vận động viên tập tennis ngoài trời','50% 40%']];
+    s2.append(reveal(twoLines(text(2750),t=>t.indexOf('và nhóm cơ'))),reveal(cta(),1));
+    const photos=window.DopafitContent.fan.map((alt,i)=>[i+1,alt,'50% 50%']);
     const angles=[-47.5,-28.5,-9.5,9.5,28.5,47.5];
     const fan=h('div','m-fan');
     photos.forEach(([file,alt,pos],i)=>{
@@ -99,7 +96,7 @@
       // Desktop geometry (centre 960/1550, radius 1260, cards 320×480) in % of a 1920×1000 frame.
       slot.style.left=`${(960+Math.sin(a)*1260)/1920*100}%`;slot.style.top=`${(1550-Math.cos(a)*1260)/1000*100}%`;
       const card=h('div','fan-card play');card.style.setProperty('--i',i);card.style.setProperty('--r',angles[i]+'deg');
-      const img=h('img');img.src=`assets/photography/${file}.jpg`;img.alt=alt;img.style.objectPosition=pos;img.loading='lazy';
+      const img=window.DopafitFanVideo.create(file-1);img.style.objectPosition=pos;
       card.append(img);slot.append(card);fan.append(slot);
     });
     s2.append(fan,reveal(h('p','m-copy m-center',text(2763))));
@@ -121,23 +118,23 @@
     const phoneBox=(h('div','m-phone-peek','<div class="m-phone m-phone-s2"><div class="m-screen"><img class="is-on" src="assets/phone/workout-screen.webp" alt="Màn hình buổi tập Dopafit" loading="lazy"></div></div>'));s2.append(phoneBox);
     page.append(s2);
 
-    /* ---------- Section 3: Theo dõi nghiêm túc (5 features, pinned phone) ---------- */
-    const featureIDs=[2776,2790,2786,2782,2778];
-    const screens=['21-lich-thang','01-buoi-tap','04-the-trang','03-dung-cu','10-loc-nguc'];
+    /* ---------- Section 3: Theo dõi nghiêm túc (4 Figma features, pinned phone) ---------- */
+    const featureIDs=[2776,2790,2786,2782];
+    const screens=window.DopafitContent.screens;
     const s3=h('section','m-sec m-track');
     s3.append(reveal(h('h2','m-h2',text(2851))));
     const trackScroll=h('div','m-track-scroll');trackScroll.style.setProperty('--n',featureIDs.length);
     const sticky=h('div','m-track-sticky');
     const phone=h('div','m-phone'),screen=h('div','m-screen');
-    screens.forEach((s,i)=>{const img=h('img');img.src=`assets/app-captures-2026-11-16/${s}.webp`;img.alt=clean(q(featureIDs[i]).textContent);img.loading='lazy';if(!i)img.classList.add('is-on');screen.append(img);});
+    screens.forEach((s,i)=>{const img=h('img');img.src=s;img.alt=clean(q(featureIDs[i]).textContent);img.loading='lazy';if(!i)img.classList.add('is-on');screen.append(img);});
     phone.append(screen);
-    // Easier to follow on a phone (user 2026-11-18): a row of 5 progress bars on top (all steps visible at once),
+    // Easier to follow on a phone (user 2026-11-18): a row of 4 progress bars on top (all steps visible at once),
     // the current step's text under it, then the phone showing that step.
     const bars=h('div','m-step-bars');featureIDs.forEach(()=>bars.append(h('span','m-bar','<i></i>')));
     const steps=h('ol','m-steps');
     featureIDs.forEach((id,i)=>{const li=h('li','',`<span class="m-step-n">${i+1}/${featureIDs.length}</span><span>${clean(q(id).textContent)}</span>`);if(!i)li.classList.add('is-on');steps.append(li);});
     sticky.append(bars,steps,phone);trackScroll.append(sticky);s3.append(trackScroll);
-    page.append(s3);
+    s3.append(cta());page.append(s3);
 
     /* ---------- Section 4: Làm thế nào để tập nghiêm túc? (Skydive tools orbit, mobile) ---------- */
     const UI=window.DopafitOrbitUI;
@@ -157,7 +154,8 @@
     // stage. Each panel starts with a chip carrying the same icon as the lit dot on the ring, so the eye links the
     // icon up top with the app UI below (user: no progress bars).
     const orbitHead=h('div','m-orbit-head');
-    orbitHead.append(h('h2','m-h2 m-orbit-title','<span>Làm thế nào để </span><span>tập nghiêm túc?</span>'));
+    orbitHead.append(h('h2','m-h2 m-orbit-title',text(2852)));
+    window.DopafitOrbitVariant?.mount(orbitHead);
     orbitSticky.append(orbitHead,orbitFig);
     const FIG_AR=or.w/or.h;
     const cq=id=>orbitClone.querySelector(`[data-node-id="147:${id}"]`);
@@ -165,9 +163,19 @@
     const cBody=cq(2764),cActive=cq(2768);cActive?.classList.add('orbit-body-active');
     if(cBody){const scan=h('span','ui-body-scan');scan.setAttribute('aria-hidden','true');cBody.append(scan);}
     const dots=[2871,2875,2878,2881].map(cq);dots.forEach(d=>d?.classList.add('orbit-dot'));
+    // Mobile keeps the accepted single-panel flow; mirror only the icon positions
+    // on its compact figure so the same reveal order travels clockwise.
+    const originalDots=dots.map(n=>({n,left:parseFloat(n.style.left),width:parseFloat(n.style.width)}));
+    const lh=cq(2857),rh=cq(2858),edge=n=>[parseFloat(n.style.left),parseFloat(n.style.width)],a=edge(lh),b=edge(rh),axis=(Math.min(a[0],b[0])+Math.max(a[0]+a[1],b[0]+b[1]))/2;
+    const setOrbitVariant=enabled=>{
+      s4.dataset.variant=enabled?'team':'original';
+      originalDots.forEach(({n,left,width})=>n.style.setProperty('left',`${enabled?2*axis-left-width:left}px`,'important'));
+    };
+    if(window.DopafitOrbitVariant){setOrbitVariant(window.DopafitOrbitVariant.enabled);addEventListener('dopafit:orbit-variant',e=>setOrbitVariant(e.detail.enabled));}
+
     const panels=h('div','m-orbit-panels');
     function uiBox(kind,{cropTop,cropHeight,width,focus}={}){
-      const [w,ht]=kind==='set'||kind==='goal'?[738,1568]:kind==='rest'?[550,328]:[640,1391];
+      const [w,ht]=kind==='set'?[738,1568]:kind==='goal'?[390,844]:kind==='rest'?[550,328]:[640,1391];
       const top=cropTop||0,hh=cropHeight||ht-top;
       const box=h('div',`m-ui m-ui-${kind}`);box.style.aspectRatio=`${w} / ${hh}`;if(width)box.style.width=width;
       const a=UI.art(kind,{focus});box.append(a);
@@ -176,15 +184,15 @@
       return {box,art:a};
     }
     const tools=[];
-    const CHIPS={2913:[2871,'Video hướng dẫn'],2910:[2875,'Bản đồ phục hồi'],2911:[2878,'Ghi hiệp & giờ nghỉ'],2912:[2881,'Mục tiêu tuần']};
+    const CHIPS={2913:[2871,'Video hướng dẫn'],2910:[2875,'Bản đồ phục hồi'],2911:[2878,'Ghi hiệp & giờ nghỉ'],2912:[2881,'Sức mạnh tổng']};
     function panel(captionID,build,motions){
       const p=h('article','m-tool');
       const [dotID,label]=CHIPS[captionID]||[];const icon=dotID&&q(dotID)?.querySelector('img')?.getAttribute('src');
       if(label)p.append(h('span','m-tool-chip',`${icon?`<i><img src="${icon}" alt=""></i>`:''}<b>${label}</b>`));
-      p.append(h('p','m-copy',text(captionID)));
+      const [title,body]=window.DopafitContent.orbit[captionID];p.append(h('h3','m-tool-heading',title),h('p','m-copy',body));
       const stage=h('div','m-tool-ui');build(stage);p.append(stage);panels.append(p);tools.push({el:p,motions});
     }
-    // Same order as desktop: video → body map → set log + rest → weekly goal.
+    // Same order as desktop: video → body map → set log + rest → total strength.
     panel(2913,stage=>{
       const fig=h('figure','m-clip');const v=h('video');v.src='assets/landing/row.9c406ddc16.mp4';v.poster='assets/landing/row-poster.93205a615a.jpg';
       v.muted=true;v.loop=true;v.playsInline=true;v.preload='none';v.setAttribute('aria-label','Video hướng dẫn bài tập');
@@ -195,7 +203,7 @@
     tools[1].motions.push(UI.motion.recovery(rec.art));
     panel(2911,stage=>{setU=uiBox('set',{cropTop:741,cropHeight:827});restU=uiBox('rest');stage.append(setU.box,restU.box);},[]);
     tools[2].motions.push(UI.motion.set(setU.art),UI.motion.rest(restU.art));
-    panel(2912,stage=>{goalU=uiBox('goal',{cropTop:345,cropHeight:1008});stage.append(goalU.box);},[]);
+    panel(2912,stage=>{goalU=uiBox('goal',{cropHeight:844});stage.append(goalU.box);},[]);
     const goalPlay=UI.motion.goal(goalU.art);goalPlay(false);tools[3].motions.push(goalPlay);
     orbitSticky.append(panels);orbitWrap.append(orbitSticky);s4.append(orbitWrap);
     // Scroll budget: a short lead-in, one slot per tool, then the "together" state (estimates, in viewport heights).
@@ -206,13 +214,16 @@
       const vh=orbitSticky.clientHeight||innerHeight,vw=innerWidth;
       // In the "together" state no panel shows, so the figure grows into the free room.
       const together=orbitSticky.classList.contains('is-together');
-      const figW=together?Math.min(vw*.86,380,vh*.6*FIG_AR):Math.min(vw*.5,230,vh*(vh<720?.22:.28)*FIG_AR);orbitFig.style.width=`${figW}px`;
+      const figW=together?Math.min(vw*.86,380,vh*.6*FIG_AR):Math.min(vw*.5,230,vh*(vh<720?(window.DopafitOrbitVariant ? .16 : .22):.28)*FIG_AR);orbitFig.style.width=`${figW}px`;
       if(together)return;
       const room=panels.clientHeight;
       // The caption keeps its reading size; only the app UI under it is scaled to the room that is left.
-      tools.forEach(x=>{const ui=x.el.querySelector('.m-tool-ui'),copy=x.el.querySelector('.m-copy');if(!ui)return;
-        ui.style.scale='';const nat=ui.offsetHeight,left=room-(copy?copy.offsetHeight:0)-22;
-        ui.style.scale=String(nat>left&&left>0?Math.max(.4,left/nat):1);});
+      tools.forEach(x=>{const ui=x.el.querySelector('.m-tool-ui');if(!ui)return;
+        ui.style.scale='';const nat=ui.offsetHeight;
+        // Reserve the actual chip + heading + copy, including the toggle above
+        // the figure, before fitting each native app UI into the sticky viewport.
+        const left=room-ui.offsetTop-8;
+        ui.style.scale=String(nat>left&&left>0?Math.max(.1,left/nat):1);});
     }
     new ResizeObserver(fitOrbit).observe(orbitSticky);tools.forEach(x=>new ResizeObserver(fitOrbit).observe(x.el));
     page.append(s4);
@@ -220,7 +231,7 @@
     /* ---------- Section 5: Tập ở đâu, làm gì cũng được ---------- */
     const s5=h('section','m-sec m-places');
     // Two lines (user 2026-11-18): split after the comma before "miễn", each line kept whole.
-    s5.append(reveal(twoLines(text(2853),t=>t.lastIndexOf(',')+1)));
+    s5.append(reveal(twoLines(text(2853),t=>t.indexOf('mọi lúc'))));
     const rail=h('div','m-rail');
     [[2919,2923],[2920,2927],[2921,2933]].forEach(([bg,card],i)=>{
       const item=reveal(h('div','m-rail-item'),i);item.append(compose([q(bg),q(card)],visual(q(bg),canvas)));rail.append(item);window.DopafitCardReflection?.mount(item,i-1)?.(1);
@@ -297,6 +308,7 @@
       const orr=orbitWrap.getBoundingClientRect(),ospan=orr.height-vh,op=ospan>0?Math.max(0,-orr.top)/vh:0;
       const tPos=(op-ORBIT_LEAD)/ORBIT_SLOT;
       const multi=ospan>0&&tPos>=tools.length;
+      UI.setStrengthProgress((tPos-3-.15)/.70);
       const scan=reduced?1:Math.min(1,Math.max(0,(op-ORBIT_LEAD-ORBIT_SLOT*tools.length)/(ORBIT_MULTI*.90)));
       cBody?.style.setProperty('--body-scan-inset',`${(1-scan)*100}%`);
       cBody?.style.setProperty('--body-scan-opacity',String(Math.min(Math.min(1,scan/.06),Math.min(1,(1-scan)/.10))));

@@ -5,7 +5,7 @@
     const views=window.DopafitJourney.focusViews;
     const videos=views.map(view=>{
       const video=document.createElement('video');
-      video.src=view.src;video.muted=true;video.playsInline=true;video.preload='metadata';
+      video.src=view.src;video.muted=true;video.playsInline=true;video.preload='none';
       video.setAttribute('aria-hidden','true');video.disablePictureInPicture=true;
       return video;
     });
@@ -57,10 +57,10 @@
       },{once:true});
     }
     function update(feature){
-      if(feature!==requested){choose(feature);return;}
+      if(feature!==requested){requested=feature;if(near)choose(feature);return;}
       if(near&&!current)choose(feature);
     }
-    function select(feature){choose(feature);}
+    function select(feature){requested=feature;if(near)choose(feature);}
     function setVisible(value){
       if(value&&!near){near=true;choose(requested);return;}
       near=value;

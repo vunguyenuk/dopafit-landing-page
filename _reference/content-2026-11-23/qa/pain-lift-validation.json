@@ -1,0 +1,1076 @@
+{
+  "reports": [
+    {
+      "w": 1440,
+      "h": 900,
+      "samples": [
+        {
+          "p": 0,
+          "transform": "matrix(1, 0, 0, 1, -620, -148.375)",
+          "opacity": 0,
+          "lines": [
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.29,
+          "transform": "matrix(1, 0, 0, 1, -620, -181.674)",
+          "opacity": 0.960256,
+          "lines": [
+            {
+              "lift": -2.7382630190990107,
+              "scale": 0.9421922251523542,
+              "opacity": 0.8859057075375413,
+              "transform": "matrix(0.942192, 0, 0, 0.942192, 0, -2.73826)"
+            },
+            {
+              "lift": 15.26173698090099,
+              "scale": 0.6778077748476458,
+              "opacity": 0.3640942924624588,
+              "transform": "matrix(0.677808, 0, 0, 0.677808, 0, 15.2617)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.38,
+          "transform": "matrix(1, 0, 0, 1, -620, -193.626)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -1.174481047383006,
+              "scale": 0.9752054001108033,
+              "opacity": 0.9510632896923747,
+              "transform": "matrix(0.975205, 0, 0, 0.975205, 0, -1.17448)"
+            },
+            {
+              "lift": 16.825518952616992,
+              "scale": 0.6447945998891967,
+              "opacity": 0.29893671030762525,
+              "transform": "matrix(0.644795, 0, 0, 0.644795, 0, 16.8255)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.47,
+          "transform": "matrix(1, 0, 0, 1, -620, -208.53)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -0.2199940422802148,
+              "scale": 0.9953556813296399,
+              "opacity": 0.9908335815716577,
+              "transform": "matrix(0.995356, 0, 0, 0.995356, 0, -0.219994)"
+            },
+            {
+              "lift": 17.780005957719784,
+              "scale": 0.6246443186703601,
+              "opacity": 0.25916641842834226,
+              "transform": "matrix(0.624644, 0, 0, 0.624644, 0, 17.78)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.56,
+          "transform": "matrix(1, 0, 0, 1, -620, -216.368)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -17.966116184866596,
+              "scale": 0.6207153249861497,
+              "opacity": 0.25141182563055847,
+              "transform": "matrix(0.620715, 0, 0, 0.620715, 0, -17.9661)"
+            },
+            {
+              "lift": 0.03388381513340323,
+              "scale": 0.9992846750138504,
+              "opacity": 0.9985881743694416,
+              "transform": "matrix(0.999285, 0, 0, 0.999285, 0, 0.0338838)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.6,
+          "transform": "matrix(1, 0, 0, 1, -620, -216.581)",
+          "opacity": 0.995328,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.7,
+          "transform": "matrix(1, 0, 0, 1, -620, -249.742)",
+          "opacity": 0.241664,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.86,
+          "transform": "matrix(1, 0, 0, 1, -620, -260.375)",
+          "opacity": 0,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.93,
+          "transform": "matrix(1, 0, 0, 1, -620, -260.375)",
+          "opacity": 0,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 1,
+          "transform": "matrix(1, 0, 0, 1, -620, -260.375)",
+          "opacity": 0,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.47,
+          "transform": "matrix(1, 0, 0, 1, -620, -208.53)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -0.2199940422802148,
+              "scale": 0.9953556813296399,
+              "opacity": 0.9908335815716577,
+              "transform": "matrix(0.995356, 0, 0, 0.995356, 0, -0.219994)"
+            },
+            {
+              "lift": 17.780005957719784,
+              "scale": 0.6246443186703601,
+              "opacity": 0.25916641842834226,
+              "transform": "matrix(0.624644, 0, 0, 0.624644, 0, 17.78)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "p": 0.29,
+          "transform": "matrix(1, 0, 0, 1, -620, -181.674)",
+          "opacity": 0.960256,
+          "lines": [
+            {
+              "lift": -2.7382630190990107,
+              "scale": 0.9421922251523542,
+              "opacity": 0.8859057075375413,
+              "transform": "matrix(0.942192, 0, 0, 0.942192, 0, -2.73826)"
+            },
+            {
+              "lift": 15.26173698090099,
+              "scale": 0.6778077748476458,
+              "opacity": 0.3640942924624588,
+              "transform": "matrix(0.677808, 0, 0, 0.677808, 0, 15.2617)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": [
+            "400",
+            "400",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        }
+      ]
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "samples": [
+        {
+          "p": 0,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -127.188)",
+          "opacity": 0,
+          "lines": [
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.29,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -164.714)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -11.642361343285916,
+              "scale": 0.7542168160861862,
+              "opacity": 0.5149016106964202,
+              "transform": "matrix(0.754217, 0, 0, 0.754217, 0, -11.6424)"
+            },
+            {
+              "lift": 6.357638656714083,
+              "scale": 0.8657831839138138,
+              "opacity": 0.7350983893035798,
+              "transform": "matrix(0.865783, 0, 0, 0.865783, 0, 6.35764)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.38,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -175.577)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -4.971527725160386,
+              "scale": 0.8950455258021697,
+              "opacity": 0.7928530114516505,
+              "transform": "matrix(0.895046, 0, 0, 0.895046, 0, -4.97153)"
+            },
+            {
+              "lift": 13.028472274839613,
+              "scale": 0.7249544741978303,
+              "opacity": 0.4571469885483494,
+              "transform": "matrix(0.724954, 0, 0, 0.724954, 0, 13.0285)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.47,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -187.809)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -0.48111186185995297,
+              "scale": 0.9898431940274011,
+              "opacity": 0.979953672422502,
+              "transform": "matrix(0.989843, 0, 0, 0.989843, 0, -0.481112)"
+            },
+            {
+              "lift": 17.51888813814005,
+              "scale": 0.630156805972599,
+              "opacity": 0.270046327577498,
+              "transform": "matrix(0.630157, 0, 0, 0.630157, 0, 17.5189)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.56,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -194.939)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -16.89711904651967,
+              "scale": 0.6432830423512514,
+              "opacity": 0.2959533730616804,
+              "transform": "matrix(0.643283, 0, 0, 0.643283, 0, -16.8971)"
+            },
+            {
+              "lift": 1.10288095348033,
+              "scale": 0.9767169576487487,
+              "opacity": 0.9540466269383197,
+              "transform": "matrix(0.976717, 0, 0, 0.976717, 0, 1.10288)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.6,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -195.188)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.7,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -226.661)",
+          "opacity": 0.284701,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.86,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -239.188)",
+          "opacity": 0,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.93,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -239.188)",
+          "opacity": 0,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 1,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -239.188)",
+          "opacity": 0,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": 0,
+              "scale": 1,
+              "opacity": 1,
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.47,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -187.809)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, -18)"
+            },
+            {
+              "lift": -0.48111186185995297,
+              "scale": 0.9898431940274011,
+              "opacity": 0.979953672422502,
+              "transform": "matrix(0.989843, 0, 0, 0.989843, 0, -0.481112)"
+            },
+            {
+              "lift": 17.51888813814005,
+              "scale": 0.630156805972599,
+              "opacity": 0.270046327577498,
+              "transform": "matrix(0.630157, 0, 0, 0.630157, 0, 17.5189)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        },
+        {
+          "p": 0.29,
+          "transform": "matrix(1, 0, 0, 1, -175.5, -164.714)",
+          "opacity": 1,
+          "lines": [
+            {
+              "lift": -11.642361343285916,
+              "scale": 0.7542168160861862,
+              "opacity": 0.5149016106964202,
+              "transform": "matrix(0.754217, 0, 0, 0.754217, 0, -11.6424)"
+            },
+            {
+              "lift": 6.357638656714083,
+              "scale": 0.8657831839138138,
+              "opacity": 0.7350983893035798,
+              "transform": "matrix(0.865783, 0, 0, 0.865783, 0, 6.35764)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            },
+            {
+              "lift": 18,
+              "scale": 0.62,
+              "opacity": 0.25,
+              "transform": "matrix(0.62, 0, 0, 0.62, 0, 18)"
+            }
+          ],
+          "overflow": false,
+          "feature": [
+            "400",
+            "400",
+            "400",
+            "400"
+          ],
+          "faq": []
+        }
+      ]
+    }
+  ],
+  "reduced": {
+    "transform": "matrix(1, 0, 0, 1, -175.5, -161.188)",
+    "opacity": 1,
+    "lines": [
+      {
+        "lift": 0,
+        "scale": 1,
+        "opacity": 1,
+        "transform": "none"
+      },
+      {
+        "lift": 0,
+        "scale": 1,
+        "opacity": 1,
+        "transform": "none"
+      },
+      {
+        "lift": 0,
+        "scale": 1,
+        "opacity": 1,
+        "transform": "none"
+      },
+      {
+        "lift": 0,
+        "scale": 1,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ],
+    "overflow": false,
+    "feature": [
+      "400",
+      "400",
+      "400",
+      "400"
+    ],
+    "faq": []
+  },
+  "errors": [],
+  "badRequests": []
+}

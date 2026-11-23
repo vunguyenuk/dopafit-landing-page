@@ -4,6 +4,9 @@ import { createPhoneScreen } from '../phone/screen-ui.js';
 const host=document.getElementById('phone-webgl');
 // The mobile page (≤600px) shows a static phone; skip the 6 MB model and WebGL there.
 if(host&&!window.DopafitMobile){
+  let latestScroll;
+  window.addEventListener('dopafit:scroll',event=>{latestScroll=event.detail;});
+  const start=()=>{
   let renderer;
   try{
     renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:false,powerPreference:'low-power'});
@@ -18,7 +21,7 @@ if(host&&!window.DopafitMobile){
     let screenMesh;
     const raycaster=new THREE.Raycaster();
     const pointer=new THREE.Vector2();
-    let model,screen,visible=false,pinned=false,progress=1,dock=0,turn=0,width=0,height=0,lastDraw;
+    let model,screen,visible=false,pinned=false,progress=latestScroll?.phoneProgress??1,dock=latestScroll?.phoneDock??0,turn=latestScroll?.phoneTurn??0,width=0,height=0,lastDraw;
     let ready=false,contextLost=false;
     function setReady(ready){
       if(ready===host.parentElement.classList.contains('phone-ready'))return;
@@ -158,4 +161,10 @@ if(host&&!window.DopafitMobile){
       pinned=!!host.closest('.tracking-fixed-viewport');size();
     }).catch(err=>{console.warn('Phone model unavailable; showing supplied Figma mockup.',err);setReady(false);renderer.dispose();host.remove();});
   }catch(error){console.warn('WebGL unavailable; showing supplied Figma mockup.',error);renderer?.dispose();host.remove();}
+  };
+  const near=new IntersectionObserver(entries=>{
+    if(!entries.some(entry=>entry.isIntersecting))return;
+    near.disconnect();start();
+  },{rootMargin:'1200px'});
+  near.observe(host);
 }

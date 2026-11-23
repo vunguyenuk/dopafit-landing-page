@@ -142,3 +142,25 @@
 .is-scanning .ui-scan i{animation:ui-recovery-scan 2.6s cubic-bezier(.45,0,.25,1) infinite}
 @keyframes ui-recovery-scan{0%{transform:translateY(0)}85%,100%{transform:translateY(350%)}}
 @media(prefers-reduced-motion:reduce){.is-scanning .ui-scan i{animation:none;transform:translateY(200%)}}
+
+/* Requested layout comparison switch; the existing scene owns position/scroll. */
+.orbit-layout-toggle{display:inline-flex;align-items:center;justify-content:space-between;gap:14px;min-height:40px;padding:9px 14px;border:1px solid #ffffff35;border-radius:999px;background:#161616;color:#fff;font:400 14px/1.3 -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;white-space:nowrap;cursor:pointer}
+.orbit-toggle-anchor{position:absolute;width:0;height:0;z-index:20;transform-origin:0 0}
+.orbit-toggle-anchor .orbit-layout-toggle{transform:translateX(-50%)}
+.orbit-layout-toggle:focus-visible{outline:2px solid #b8f24a;outline-offset:4px}
+.orbit-toggle-track{width:34px;height:20px;flex:none;border-radius:999px;background:#555;position:relative;transition:background .2s}
+.orbit-toggle-track i{position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:50%;background:#fff;transition:translate .2s}
+.orbit-layout-toggle[aria-checked=true] .orbit-toggle-track{background:#b8f24a}
+.orbit-layout-toggle[aria-checked=true] .orbit-toggle-track i{translate:14px 0;background:#101010}
+.m-orbit-head .orbit-layout-toggle{margin:10px auto 0;pointer-events:auto}
+@media(prefers-reduced-motion:reduce){.orbit-toggle-track,.orbit-toggle-track i{transition:none}}
+
+/* Preserve reading room after adding the switch to short mobile viewports. */
+@media(max-width:600px) and (max-height:700px){
+  .m-orbit-head{padding-top:0}
+  .m-orbit-head .m-orbit-title{font-size:22px;line-height:26px}
+  .m-orbit-sticky{gap:8px!important;padding-top:8px;padding-bottom:8px}
+  .m-orbit .m-tool{gap:10px}
+  .m-orbit .m-tool-heading{font-size:18px;line-height:22px}
+  .m-orbit .m-tool .m-copy{font-size:14px;line-height:20px}
+}

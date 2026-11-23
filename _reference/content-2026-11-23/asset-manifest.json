@@ -1,0 +1,54 @@
+[
+  {
+    "path": "assets/brand/dopafit-wordmark.svg",
+    "sha256": "47ecc29918917bf9f12344af0134a7e123754a0893550440a17a8d53eeece26e",
+    "bytes": 6159
+  },
+  {
+    "path": "assets/orbit-ui/strength-reference.png",
+    "sha256": "1e45f8cd92ffc988355ff354ca2dc9e4f390c34df553357fcb1a2df9a91ec49c",
+    "bytes": 642436
+  },
+  {
+    "path": "assets/content-2026-11-23/reviews.json",
+    "sha256": "e32e01c6255f4d526af5574b5860f12f3f5a71cde56df9c5f17a1f83a0bf1f5b",
+    "bytes": 28747
+  },
+  {
+    "path": "assets/exercises/fan/1.mp4",
+    "sha256": "d5b69c531f30c706e13213123d56ac689a6187193ca0fde27b9369aac78e8e8a",
+    "bytes": 111353
+  },
+  {
+    "path": "assets/exercises/fan/2.mp4",
+    "sha256": "63b26ec0015ddd9006c99093c47b94a4c9ecbbaedae8da772f790735a9e39e04",
+    "bytes": 101001
+  },
+  {
+    "path": "assets/exercises/fan/3.mp4",
+    "sha256": "15e99e49ddf1bee69cbef325112b8745c3ac30f0bafe34e5b8704a13ba0aad6c",
+    "bytes": 84812
+  },
+  {
+    "path": "assets/exercises/fan/4.mp4",
+    "sha256": "9c25f69836ae358a7f94ba0bf993cb7bf7065ac565d663d592ff1fe5cdc6fc1b",
+    "bytes": 226858
+  },
+  {
+    "path": "assets/exercises/fan/5.mp4",
+    "sha256": "c03294ed87183f43a14a0401637edea17722f07535974c9f86e18cdf69e75ab6",
+    "bytes": 133557
+  },
+  {
+    "path": "assets/exercises/fan/6.mp4",
+    "sha256": "a7e5336d676bcd7f8a53c29e4ada82ddd038aa9f0b6100c406e6e5b9a40031d5",
+    "bytes": 314198
+  },
+  {
+    "path": "assets/content-2026-11-23/review-stars.svg",
+    "sha256": "90b4bbf96d58c423ca5509739cd33e2442c3cd76d17afc4d0a0cb9d5bb54b87f",
+    "bytes": 1374,
+    "source": "Figma 93:3221 (93:3218), 01546.svg",
+    "status": "Exact Figma asset above review titles; clipped filled layer with visible estimated-rating label"
+  }
+]

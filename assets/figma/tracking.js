@@ -2,7 +2,7 @@
    Live screen playback uses the actual Device Hub videos in device-hub-recordings.json. */
 (() => {
   // One highlight per feature; user-requested shorter scroll presentation.
-  const featureStepCounts=[1,1,1,1,1];
+  const featureStepCounts=[1,1,1,1];
   function sourceValue(id,type,position){
     const groups=window.DopafitDropsetActions[id].continuousParameterGroups[0].continuousActionGroups;
     const keys=groups.flatMap(group=>group.actionItems
@@ -264,9 +264,11 @@
       const weights=featureStepCounts.map((_,i)=>i===active?1:0);
       headingLift=Math.max(0,Math.min(y,sceneStart)+h*.06-heading.offsetTop);
       heading.style.translate=`0 ${headingLift}px`;
-      // Source Dropset pointer rows are 78px apart (309/387/465/543/621).
+      // Source Dropset pointer rows keep fixed slots. The new Figma 32px text
+      // reserves 110px per slot so its two-line feature label never overlaps.
       // UI frames never change caption positions. Keep the source order and spacing.
       labelTop=heading.offsetTop+headingLift+heading.offsetHeight+128;
+      const download=copy.querySelector(".tracking-download");if(download)download.style.top=`${labelTop+labels.length*110+22}px`;
       const entry=100*Math.max(0,Math.min(1,(y+h-screen.offsetTop)/h));
       entryLift=sourceValue('a-55','TRANSFORM_MOVE',entry);
       const entryOpacity=sourceValue('a-55','STYLE_OPACITY',entry);
@@ -282,7 +284,7 @@
         if(top&&bottom){
           const firstRuleY=fixedFrame.getBoundingClientRect().top+(labelTop+entryLift-18+.5)*scale;
           const match=featureStepCounts.findIndex((_,rank)=>{
-            const y=firstRuleY+rank*78*scale;
+            const y=firstRuleY+rank*110*scale;
             return y>=Math.min(top.y,bottom.y)&&y<=Math.max(top.y,bottom.y);
           });
           matchedSlot=match===-1?(Math.min(top.y,bottom.y)<firstRuleY?0:featureStepCounts.length-1):match;
@@ -300,7 +302,7 @@
       if(pinned)displayOrder=order;
       labels.forEach((label,i)=>{
         const rank=displayOrder.indexOf(i);
-        label.style.translate=`0 ${labelTop+rank*78-rowTops[i]+entryLift}px`;
+        label.style.translate=`0 ${labelTop+rank*110-rowTops[i]+entryLift}px`;
         label.dataset.slot=String(rank);
         // Emphasize as soon as the matching native view starts appearing. Only
         // the connector waits for the .6s slot/focus geometry to settle.

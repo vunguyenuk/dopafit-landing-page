@@ -1,0 +1,1842 @@
+{
+  "report": [
+    {
+      "width": 1440,
+      "variant": true,
+      "settled": {
+        "direction": "clockwise",
+        "live": "true",
+        "progress": 0.0777818,
+        "target": 0.0777778,
+        "duration": "0.45s",
+        "dots": [
+          {
+            "id": 2871,
+            "contact": 0.0587049751938275,
+            "reached": true,
+            "opacity": 1,
+            "active": true,
+            "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2875,
+            "contact": 0.2541610243963037,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2878,
+            "contact": 0.4626784553630573,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2881,
+            "contact": 0.6066765825518624,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          }
+        ]
+      },
+      "frames": [
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.0777778,
+          "target": 0.609406,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05879463871445903,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.25374206258104015,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.46225943295598554,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.606168523149417,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.163764,
+          "target": 0.609406,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05914298486274746,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.39) 0px 8.3341px 20.0018px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.252113843264877,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4606312439364853,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.604194274627635,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.418987,
+          "target": 0.609406,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.06030649750114002,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.08) 0px 1.6641px 3.99384px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.24666680715459585,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.52048) drop-shadow(rgba(0, 0, 0, 0.31) 0px 6.66px 15.984px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4551842078262041,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5975876449091078,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.567701,
+          "target": 0.609406,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.061334538862216674,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.24184099931754796,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4503583999891563,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.87976) drop-shadow(rgba(0, 0, 0, 0.08) 0px 1.67px 4.008px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5917298924607626,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.60754,
+          "target": 0.609406,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.06170958027871055,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.24007645700952052,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4485938881431609,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5895863337033656,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.609402,
+          "target": 0.609406,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.061652676746880464,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.2403443771329239,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.44886180826114175,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5899118910221983,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        }
+      ],
+      "reverse": [
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.609406,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.06156328317741175,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0) 0px 0px 0px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.24076507735848646,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.44928247803009475,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5904228933123002,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.376599,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.06058704289812601,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.23) 0px 4.9987px 11.9969px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.2453514393611483,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.45386887040417634,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.87976) drop-shadow(rgba(0, 0, 0, 0.08) 0px 1.67px 4.008px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.595991562444447,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.10944,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05892767371083503,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.2531204699714164,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.461637900942326,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.6054148848374554,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.0777818,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.0587049751938275,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.2541608123302839,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4626782130018922,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.6066763098982101,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "variant": false,
+      "settled": {
+        "direction": "counterclockwise",
+        "live": "true",
+        "progress": 0.0777818,
+        "target": 0.0777778,
+        "duration": "0.45s",
+        "dots": [
+          {
+            "id": 2871,
+            "contact": 0.058705005703033414,
+            "reached": true,
+            "opacity": 1,
+            "active": true,
+            "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2875,
+            "contact": 0.2540270826407581,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2878,
+            "contact": 0.4625678400601275,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2881,
+            "contact": 0.6066848754151125,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          }
+        ]
+      },
+      "frames": [
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.0777778,
+          "target": 0.609415,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05879466922160023,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.2536083328899975,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.46214906001422085,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.6061772098475348,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.0777778,
+          "target": 0.609415,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05879466922160023,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.2536083328899975,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.46214906001422085,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.6061772098475348,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.41874,
+          "target": 0.609415,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.060305187126081364,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.08) 0px 1.6735px 4.0164px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.24653951246598235,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.51976) drop-shadow(rgba(0, 0, 0, 0.31) 0px 6.67px 16.008px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4550802699442217,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.597604107439931,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.567713,
+          "target": 0.609415,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.06133466067333018,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.24170711735552242,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4502478749076881,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.87976) drop-shadow(rgba(0, 0, 0, 0.08) 0px 1.67px 4.008px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5917382136022649,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.607543,
+          "target": 0.609415,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.06170958027871055,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.23994278807717292,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.44848354566342774,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5895949595780272,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.609411,
+          "target": 0.609415,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.06165276808646818,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.24021037317241511,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.44875110029663845,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5899200896379411,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        }
+      ],
+      "reverse": [
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.609415,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.06156331362568507,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0) 0px 0px 0px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.2406313475158334,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4491720746400567,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5904315802208963,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.376443,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.06058640307098094,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.235) 0px 5.0029px 12.007px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.24522120230588704,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4537619294301104,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.87976) drop-shadow(rgba(0, 0, 0, 0.08) 0px 1.67px 4.008px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5960044138075601,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.109418,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.058927368669835736,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.2529878310524998,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.46152852787742654,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.6054248138354914,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.0777818,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.058705005703033414,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.25402735529706927,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4625680824212926,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.6066852086584674,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "variant": true,
+      "settled": {
+        "direction": "clockwise",
+        "live": "true",
+        "progress": 0.0777729,
+        "target": 0.0777778,
+        "duration": "0.45s",
+        "dots": [
+          {
+            "id": 2871,
+            "contact": 0.05272843492295709,
+            "reached": true,
+            "opacity": 1,
+            "active": true,
+            "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2875,
+            "contact": 0.20285487571922015,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2878,
+            "contact": 0.4117029112972491,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2881,
+            "contact": 0.5557380688768805,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          }
+        ]
+      },
+      "frames": [
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.0777778,
+          "target": 0.559925,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05318806459928906,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.20285487571922015,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4117029112972491,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5557380688768805,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.0777778,
+          "target": 0.559925,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05318806459928906,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.20285487571922015,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4117029112972491,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5557380688768805,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.342474,
+          "target": 0.559925,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05482105329673172,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.157) 0px 3.3326px 7.99824px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.1952459601136534,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.51976) drop-shadow(rgba(0, 0, 0, 0.31) 0px 6.67px 16.008px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4040939639775967,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5465093334962188,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.510455,
+          "target": 0.559925,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05633669861430743,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.18814916998294484,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.39699717384688815,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.75952) drop-shadow(rgba(0, 0, 0, 0.157) 0px 3.34px 8.016px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5378907727739913,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.557245,
+          "target": 0.559925,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05697024657567056,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.185169279344693,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.3940173152135122,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5342664965017403,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.559922,
+          "target": 0.559925,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05689960154750828,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.18550187420607991,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.39434987807002325,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5346713131933445,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        }
+      ],
+      "reverse": [
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.559925,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.056783612250589005,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0) 0px 0px 0px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.18604786633273415,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.3948958701966775,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5353355041628958,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.411129,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05590905787585618,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.157) 0px 3.3336px 8.00064px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.1901550961390412,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.3990030840617799,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5403283748891885,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.115615,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05348609375557504,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.201468635210051,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.51976) drop-shadow(rgba(0, 0, 0, 0.31) 0px 6.67px 16.008px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4103166390739943,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5540571477944065,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "clockwise",
+          "live": "true",
+          "progress": 0.0777814,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05307174875532686,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.20339632297075302,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4122443268346963,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5563945166855506,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "variant": false,
+      "settled": {
+        "direction": "counterclockwise",
+        "live": "true",
+        "progress": 0.0777778,
+        "target": 0.0777778,
+        "duration": "0.45s",
+        "dots": [
+          {
+            "id": 2871,
+            "contact": 0.053153941312336125,
+            "reached": true,
+            "opacity": 1,
+            "active": true,
+            "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2875,
+            "contact": 0.20301967043169863,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2878,
+            "contact": 0.4118660763656206,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          },
+          {
+            "id": 2881,
+            "contact": 0.5559282817865686,
+            "reached": false,
+            "opacity": 0,
+            "active": false,
+            "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+          }
+        ]
+      },
+      "frames": [
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.0777778,
+          "target": 0.559923,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05318808064193914,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.202860832492961,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.41170723842647444,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5557357089483661,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.0780407,
+          "target": 0.559923,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05318955656466848,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 9.9946px 23.987px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.20285379196184142,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.41170021375239774,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5557271937103533,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.342414,
+          "target": 0.559923,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.054820620813413844,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.157) 0px 3.3346px 8.00304px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.19525382434798805,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.51976) drop-shadow(rgba(0, 0, 0, 0.31) 0px 6.67px 16.008px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.40410026203372423,
+              "reached": false,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5465093437876553,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.510437,
+          "target": 0.559923,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05633649065983612,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.18815603680556164,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.3970024426322282,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "brightness(0.76024) drop-shadow(rgba(0, 0, 0, 0.157) 0px 3.33px 7.992px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.537889500942754,
+              "reached": false,
+              "opacity": 1,
+              "active": true,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.557241,
+          "target": 0.559923,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05697019861167893,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.185175220261391,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.39402164205194734,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5342641924784137,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.559919,
+          "target": 0.559923,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05689972146448969,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2875,
+              "contact": 0.18550717520862525,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.39435361299703964,
+              "reached": true,
+              "opacity": 0.35,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.534668118202565,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        }
+      ],
+      "reverse": [
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.559923,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.056783604255352255,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0) 0px 0px 0px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.18605380724943216,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.39490022903998845,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5353331439559703,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.411208,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05590968996977118,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.157) 0px 3.3316px 7.99584px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.19015874152052992,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2878,
+              "contact": 0.39900516331108626,
+              "reached": true,
+              "opacity": 0,
+              "active": false,
+              "filter": "none"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5403232595312061,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.115627,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05348607771757391,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.20147378306268388,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.52048) drop-shadow(rgba(0, 0, 0, 0.31) 0px 6.66px 15.984px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.41032022071452284,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5540538837047065,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        },
+        {
+          "direction": "counterclockwise",
+          "live": "true",
+          "progress": 0.0777814,
+          "target": 0.0777778,
+          "duration": "0.45s",
+          "dots": [
+            {
+              "id": 2871,
+              "contact": 0.05307154017705634,
+              "reached": true,
+              "opacity": 1,
+              "active": true,
+              "filter": "drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2875,
+              "contact": 0.20340234316602646,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2878,
+              "contact": 0.4122487649565828,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            },
+            {
+              "id": 2881,
+              "contact": 0.5563923073862534,
+              "reached": false,
+              "opacity": 0,
+              "active": false,
+              "filter": "brightness(0.28) drop-shadow(rgba(0, 0, 0, 0.467) 0px 10px 24px)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "badRequests": []
+}

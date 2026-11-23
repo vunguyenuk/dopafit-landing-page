@@ -1,0 +1,52 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/e7feeba6-cc76-4869-8839-4566397f9437";
+const imgVector = `${assetPathPrefix}/337d9.svg`;
+const imgVector1 = `${assetPathPrefix}/9b5b1.svg`;
+const imgVector2 = `${assetPathPrefix}/2ae08.svg`;
+
+export default function Div() {
+  return (
+    <div className="contents relative size-full" data-node-id="211:1307" data-name="div">
+      <p className="[word-break:break-word] absolute font-['SF_Pro:Bold'] font-bold inset-[39.41%_61.51%_60.33%_15.16%] leading-[normal] text-[#e6e6e6] text-[32px] whitespace-nowrap" data-node-id="211:1308" style={{ fontVariationSettings: '"wdth" 100' }}>
+        Biết bạn đã tập gì vào ngày nào
+      </p>
+      <div className="absolute contents inset-[42.7%_46.15%_56.96%_15.16%]" data-node-id="211:1309" data-name="aside">
+        <div className="absolute contents inset-[42.7%_46.15%_57.3%_15.16%]" data-node-id="211:1310" data-name="div">
+          <div className="absolute inset-[42.7%_46.15%_57.3%_15.16%]" data-node-id="211:1311" data-name="Vector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[42.78%_58.28%_56.96%_15.16%] leading-[normal] not-italic text-[#e6e6e6] text-[32px]" data-node-id="211:1312">
+          Thấy tiến bộ theo từng buổi tập
+        </p>
+      </div>
+      <div className="absolute contents inset-[41.28%_47.45%_58.12%_15.16%]" data-node-id="211:1313" data-name="aside">
+        <div className="absolute contents inset-[41.28%_59.09%_58.72%_15.16%]" data-node-id="211:1314" data-name="div">
+          <div className="absolute inset-[41.28%_59.09%_58.72%_15.16%]" data-node-id="211:1315" data-name="Vector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[41.36%_47.45%_58.12%_15.16%] leading-[normal] not-italic text-[#e6e6e6] text-[32px]" data-node-id="211:1316">
+          Hướng dẫn chi tiết động tác chuẩn cho đa dạng nhóm cơ, dụng cụ tập
+        </p>
+      </div>
+      <div className="absolute contents inset-[39.31%_46.17%_60.68%_15.16%]" data-node-id="211:1317" data-name="div">
+        <div className="absolute inset-[39.31%_46.17%_60.68%_15.16%]" data-node-id="211:1318" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[40.46%_50.99%_59.28%_15.16%] leading-[normal] not-italic text-[#e6e6e6] text-[32px] whitespace-nowrap" data-node-id="211:1319">{`Bài tập thay đổi theo nhóm cơ đã phục hồi `}</p>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
