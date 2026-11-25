@@ -1,0 +1,9 @@
+{
+  "source": "assets/calendar/dopafit-calendar.glb",
+  "output": "assets/en/dopafit-calendar.glb",
+  "unchangedNonImageBuffers": 28,
+  "allBufferHashesMatch": true,
+  "nodeTransformsUnchanged": true,
+  "meshesAndShapeKeysUnchanged": true,
+  "animationsUnchanged": true
+}

@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "assets/content-2026-11-23/content.css"
+        ],
+        "createdAt": "2026-11-25T04:37:27.050Z",
+        "reason": "User confirmed the Chande pixel text scroll effect in this conversation; this layered gradient clips the supplied pixel ramp to glyphs. Preserve the accepted source effect during responsive fixes."
+      }
+    ]
+  }
+}

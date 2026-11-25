@@ -8,8 +8,8 @@
   function mountCalendar(host){
     if(!host||host.dataset.calendarMounted)return;
     host.dataset.calendarMounted='true';host.classList.add('calendar-art');
-    host.setAttribute('role','img');host.setAttribute('aria-label','Lịch tập luyện 3D năm 2025, lật trang theo cuộn');
-    const poster=host.querySelector('img');if(poster){poster.src='assets/calendar/blender-preview.webp';poster.alt='Lịch tập Tháng 1 năm 2025';}
+    host.setAttribute('role','img');host.setAttribute('aria-label','3D workout calendar for 2025 with scroll-driven page turns');
+    const poster=host.querySelector('img');if(poster){poster.src='assets/figma/0ddab.webp';poster.alt='Workout calendar for January 2025';}
     let renderModel,last=-1;
     function update(){
       const box=host.getBoundingClientRect(),vh=innerHeight;

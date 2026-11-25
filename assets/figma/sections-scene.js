@@ -1,5 +1,5 @@
 /* Lower sections, user requests 2026-11-18.
-   1) "Tập ở đâu, làm gì cũng được, miễn là có tập" — three feature cards (147:2919–2921 backgrounds + 147:2923/2927/2933):
+   1) "Train anywhere. Just keep moving." — three feature cards (147:2919–2921 backgrounds + 147:2923/2927/2933):
      - preserve the Figma row's1568px span and enlarge its cards to leave24 screen px gaps,
      - restore centre-out scroll spread, with opaque faces and delayed side copy to avoid heading overlap,
      - the Figma glass gradient reflects light across the card face, without a duplicate below,
@@ -29,8 +29,8 @@
   }
   // Localize the original vector progress caption without altering its values.
   const calendarCount=q(2944);
-  if(calendarCount){calendarCount.classList.add('calendar-count');calendarCount.style.maskImage='none';calendarCount.replaceChildren();calendarCount.innerHTML='<span>18</span><small>trên</small><span>31</span>';}
-  const muscle=q(2935);if(muscle){const label=document.createElement('span');label.className='places-muscle-label';label.textContent='Nhóm cơ';muscle.append(label);}
+  if(calendarCount){calendarCount.classList.add('calendar-count');calendarCount.style.maskImage='none';calendarCount.replaceChildren();calendarCount.innerHTML='<span>18</span><small>out of</small><span>31</span>';}
+  const muscle=q(2935);if(muscle){const label=document.createElement('span');label.className='places-muscle-label';label.textContent='(Chest)';muscle.append(label);}
   if(window.DopafitMobile)return;
 
   const offsetTo=n=>{let x=0,y=0,e=n;while(e&&e!==canvas){x+=e.offsetLeft;y+=e.offsetTop;e=e.offsetParent;}return {x,y};};
@@ -148,7 +148,7 @@
     const items=qIDs.map(id=>{const row=q(id);return {q:row?.querySelector('p')?.textContent.replace(/\s+/g,' ').trim()||'',a:row?.querySelector('.faq-answer')?.textContent||''};});
     const head=[...q(2823).querySelectorAll('p')].map(p=>p.textContent.trim()).join(' ');
     const wrap=document.createElement('div');wrap.className='faq-pl';
-    wrap.innerHTML=`<div class="faq-pl-left"><h2>${head}</h2><p>Bạn chưa tìm thấy câu trả lời? Xem <a href="mailto:support@dopafit.app">trang hỗ trợ</a> hoặc gửi email đến support@dopafit.app.</p></div>
+    wrap.innerHTML=`<div class="faq-pl-left"><h2>${head}</h2><p>Can’t find your answer? Visit the <a href="mailto:support@dopafit.app">help center</a> or email support@dopafit.app.</p></div>
       <div class="faq-pl-list">${items.map((it,i)=>`<div class="faq-pl-item"><button type="button" class="faq-pl-q" aria-expanded="false" aria-controls="faq-pl-a${i}"><span>${it.q}</span><i aria-hidden="true"></i></button><div class="faq-pl-a" id="faq-pl-a${i}" role="region"><p>${it.a}</p></div></div>`).join('')}</div>`;
     [...sec.children].forEach(c=>c.classList.add('faq-figma-hidden'));
     sec.classList.add('faq-pl-host');sec.append(wrap);

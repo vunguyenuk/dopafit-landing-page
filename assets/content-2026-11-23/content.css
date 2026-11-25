@@ -1,11 +1,11 @@
 /* Requested Figma copy, source styles and the new two-column review section. */
-[data-node-id="147:2750"]{white-space:normal!important;width:1240px!important;max-width:90vw!important}
+[data-node-id="147:2750"]{white-space:normal!important;width:1240px!important;max-width:calc(90vw / var(--design-scale,1))!important}
 [data-node-id="147:2852"]{width:1200px!important}
 [data-node-id="147:2852"]>span{white-space:normal!important}
 [data-node-id="147:2853"]{width:1050px!important}
 [data-node-id="147:2853"]>span{display:block}
 .feature-tab{font-size:32px!important;line-height:1.25!important;font-weight:400!important;white-space:normal!important;width:748px!important;max-width:748px!important;letter-spacing:-.02em!important}
-.faq-pl-q{font-size:32px!important;font-weight:400!important;line-height:1.35!important}
+.faq-pl-q{font-size:28px!important;font-weight:400!important;line-height:1.35!important}
 .faq-pl-left h2{font-size:70px;line-height:1.12}
 .content-download{display:inline-flex;align-items:center;justify-content:center;background:#b8f24a;color:#0b1203;font:600 20px/1.3 -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;padding:20px 30px;min-height:64px;border-radius:999px;white-space:nowrap;cursor:pointer;pointer-events:auto}
 .faq-pl-left>.content-download{margin-top:36px}
@@ -13,15 +13,15 @@
 [data-node-id="147:2910"] strong.orbit-feature-title,[data-node-id="147:2911"] strong.orbit-feature-title,[data-node-id="147:2912"] strong.orbit-feature-title,[data-node-id="147:2913"] strong.orbit-feature-title{display:block;font-size:32px!important;font-weight:700;line-height:1.2!important;margin-bottom:16px}
 .orbit-feature-body{display:block}
 /* One native app viewport, not the Figma comparison board. */
-[data-node-id="147:2916"]{height:735.795px!important;overflow:hidden!important;width:340px!important;border-radius:42px;box-shadow:none}
-[data-node-id="147:2917"]{top:0!important;width:340px!important;height:735.795px!important;overflow:hidden}
-[data-node-id="147:2917"] .ui-screen{inset:0!important;top:0!important;width:340px!important;height:735.795px!important;opacity:1!important}
-.ui-strength-phone{left:0;top:0;width:390px;height:844px;overflow:hidden;border-radius:54px;background:#000 url('../orbit-ui/strength-reference.webp') -68px -36px/1070px 896px no-repeat}
+[data-node-id="147:2916"]{height:844px!important;overflow:hidden!important;width:390px!important;border-radius:42px;box-shadow:none}
+[data-node-id="147:2917"]{top:0!important;width:390px!important;height:844px!important;overflow:hidden}
+[data-node-id="147:2917"] .ui-screen{inset:0!important;top:0!important;width:390px!important;height:844px!important;opacity:1!important}
+.ui-strength-phone{left:0;top:0;width:390px;height:844px;overflow:hidden;border-radius:54px;background:#000 url('../orbit-ui/strength-reference.png') -68px -36px/1070px 896px no-repeat}
 .ui-strength-viewport{position:absolute;left:14px;top:52px;width:358px;height:710px;overflow:hidden;background:#000;outline-offset:-3px}
-.ui-strength-scroll{position:absolute;left:0;top:0;width:358px;height:1384px;transform:translate3d(0,var(--strength-scroll,0px),0)}
-.ui-strength-source{position:absolute;left:0;width:358px;background-image:url('../orbit-ui/strength-reference.webp');background-size:1070px 896px;background-repeat:no-repeat}
-.ui-strength-source-top{top:0;height:674px;background-position:-82px -88px}
-.ui-strength-source-bottom{top:674px;height:710px;background-position:-688px -88px}
+.ui-strength-scroll{position:absolute;left:0;top:0;width:358px;height:1344px;transform:translate3d(0,var(--strength-scroll,0px),0)}
+.ui-strength-source{position:absolute;left:0;width:358px;background-image:url('../en/strength-reference.webp?v=20261125-strength-6');background-size:1070px 896px;background-repeat:no-repeat}
+.ui-strength-source-top{top:0;height:660px;background-position:-82px -88px}
+.ui-strength-source-bottom{top:660px;height:532px;background-position:-688px -88px}
 .m-ui-goal{box-shadow:none!important;border-radius:26px!important}
 @media(prefers-reduced-motion:reduce){.ui-strength-viewport{overflow-y:auto}.ui-strength-scroll{transform:none;position:relative}}
 .motion-off .ui-strength-viewport{overflow-y:auto}.motion-off .ui-strength-scroll{transform:none;position:relative}
@@ -64,11 +64,11 @@
 .pain-copy.pain-static{display:block}
 .pain-static .pain-line{visibility:visible;min-height:1.9em}
 .fan-card>video{width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit}
-@media(max-width:600px){
+@media(max-width:1100px){
  .content-download{font-size:16px;min-height:48px;padding:14px 24px}
  .m-track>.content-download,.m-faq>.content-download{margin-top:32px}
  .is-mobile .m-steps li{font-size:18px;font-weight:400;line-height:1.3}
- .is-mobile .m-faq-item summary{font-size:20px;font-weight:400;line-height:1.4}
+ .is-mobile .m-faq-item summary{font-size:18px;font-weight:400;line-height:1.4}
  .community-reviews{padding:72px 20px;max-width:100%;overflow:hidden}
  .community-reviews>h2{font-size:32px;margin-bottom:36px}
  .review-columns{height:680px;gap:14px}
@@ -104,7 +104,7 @@
 .review-stars-art,.review-stars-fill{position:absolute;inset:0}
 .review-stars img{position:absolute;left:0;top:0;max-width:none}
 .review-stars-base{opacity:.18}
-@media(max-width:600px){
+@media(max-width:1100px){
  .review-rating{gap:5px 8px;margin-bottom:10px}
  .review-stars{width:111.1435px;height:25.2005px}
  .review-stars-art{width:170.99px;height:38.77px;transform:scale(.65);transform-origin:top left}
@@ -130,3 +130,47 @@
    Header retains the centred D -> expanding wordmark sequence. */
 :is([data-node-id="147:2997"].dp-brand,.m-footer-logo .dp-brand)>.dp-mark{left:0;transform:translateY(-50%)}
 :is([data-node-id="147:2997"].dp-brand,.m-footer-logo .dp-brand)[data-brand-stage="wordmark"] .dp-wordmark-track{animation:none;transform:none}
+
+/* Fixed native navigation: original icon pixels, English labels, no cropped text. */
+.ui-strength-nav{position:absolute;z-index:2;left:20px;right:20px;bottom:18px;height:60px;border:1px solid #333;border-radius:32px;background:#1e1e1e;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;text-align:center}
+.ui-strength-nav>span{position:relative;display:flex;align-items:center;flex-direction:column;gap:2px;color:#aaa;font-size:13px;line-height:16px}
+.ui-strength-nav>span:nth-child(2){color:#b8f24a}
+.ui-strength-nav>span:nth-child(2)::after{content:"";position:absolute;bottom:-4px;width:14px;height:2px;background:#b8f24a;border-radius:2px}
+.ui-strength-nav i{display:block;width:28px;height:24px;background-image:url('../orbit-ui/strength-reference.png');background-size:1070px 896px;background-position:var(--icon-x) -805px;background-repeat:no-repeat}
+
+/* More readable laptop captions keep their inner edge beside the same icon. */
+@media(min-width:1101px) and (max-width:1919px){
+ [data-node-id="147:2910"],[data-node-id="147:2911"]{width:520px!important}
+ [data-node-id="147:2912"]{width:500px!important}
+ [data-node-id="147:2913"]{width:600px!important}
+}
+
+/* Finish the two source metric cards below the crop, above the fixed tab bar. */
+.ui-strength-metrics{position:absolute;left:0;top:1208px;width:358px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;background:#000}
+.ui-strength-metrics>div{height:116px;padding:12px;background:#1e1e1e;border-radius:20px}
+.ui-strength-metrics header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.ui-strength-metrics small{font-size:13px;color:#aaa;line-height:22px}
+.ui-strength-metrics span{display:block;font-size:18px;line-height:22px;font-weight:400}
+.ui-strength-metrics i{display:block;width:26px;height:24px;background-image:url('../orbit-ui/strength-reference.png');background-size:1070px 896px;background-repeat:no-repeat}
+.strength-shirt{background-position:-703px -733px}.strength-ruler{background-position:-879px -733px}
+
+/* 25/11 requested phone repair: CSS bezel, live SF copy and vector symbols.
+   Figma211:1679 values/chart retained; no new metrics or chart samples. */
+.ui-strength-live{border:2px solid #353535;background:#000;box-shadow:inset 0 0 0 4px #111,0 0 0 1px #090909;border-radius:48px}
+.ui-strength-live .ui-strength-viewport{left:13px;top:56px;width:360px;height:690px;border-radius:2px}
+.ui-strength-live .ui-strength-scroll{width:360px;height:auto;display:flex;flex-direction:column;gap:14px;padding:0 0 20px;background:#000}
+.strength-status{position:absolute;left:32px;right:28px;top:21px;display:flex;align-items:center;justify-content:space-between;font-size:16px;line-height:20px}
+.strength-status>span{display:flex;align-items:center;gap:7px}.strength-status svg{width:20px;height:18px}.strength-status svg:last-child{width:27px}
+.strength-tabs{display:grid;grid-template-columns:1fr 1fr;background:#1e1e1e;border-radius:24px;padding:3px;color:#aaa;font-size:15px;line-height:32px;text-align:center}
+.strength-tabs span:first-child{background:#3a3a3a;color:#b8f24a;border-radius:24px}
+.strength-section{display:flex;align-items:center;justify-content:space-between;font-size:21px;line-height:27px;font-weight:600;padding:5px 3px 0}.strength-section>span{font-size:18px;color:#888}
+.strength-score{display:flex;align-items:center;gap:18px;height:48px;padding:0 3px}.strength-score>b{font-size:42px;line-height:1}.strength-score>span{display:flex;gap:6px;flex:1}.strength-score i{display:block;background:#47baf0;width:15px;height:30px;transform:skew(-18deg)}
+.strength-group{position:relative;background:#1e1e1e;border-radius:21px;padding:14px 16px}.strength-group>span{font-size:16px;line-height:21px}.strength-group>div{display:flex;align-items:baseline;gap:6px;margin-top:3px}.strength-group b{font-size:32px;line-height:38px}.strength-group small{color:#aaa;font-size:11px}.strength-group>i{position:absolute;right:16px;top:35px;color:#888}.strength-group>i svg{width:18px;height:18px}
+.strength-test{background:#1e1e1e;border-radius:22px;overflow:hidden;padding-top:15px}.strength-test>small,.strength-test>span,.strength-test>b{display:block;margin-inline:16px}.strength-test>small{font-size:11px;color:#aaa;line-height:16px}.strength-test>span{font-size:16px;line-height:23px}.strength-test>b{font-size:32px;line-height:42px;margin-top:14px}.strength-test>b small{font-size:16px;font-weight:400;color:#aaa}
+.strength-chart{height:166px;background:url('../en/strength-reference.webp?v=20261125-strength-6') -688px -151px/1070px 896px no-repeat}
+.strength-pages{display:flex;justify-content:center;gap:7px;padding:0 0 5px}.strength-pages i{width:6px;height:6px;border-radius:50%;background:#444}.strength-pages i:first-child{background:#fff}
+.strength-health{border-radius:23px;background:#1e1e1e;padding:15px 13px}.strength-health header{display:flex;align-items:center;gap:8px;font-size:16px;line-height:24px}.strength-health header svg{width:18px;height:18px;flex:none;color:#aaa}.strength-health header svg:last-child{margin-left:auto;width:16px;height:16px}.strength-health p{font-size:13px;line-height:19px;color:#aaa;margin:9px 0 15px 26px}.strength-sync{display:flex;align-items:center;justify-content:center;gap:5px;background:#b8f24a;color:#000;min-height:44px;border-radius:24px;font-size:16px;font-weight:600}.strength-sync svg{width:16px;height:16px;fill:currentColor}.strength-learn{text-align:center;color:#b8f24a;font-size:14px;line-height:21px;margin-top:15px}
+.strength-metrics-live{display:grid;grid-template-columns:1fr 1fr;gap:12px}.strength-metrics-live>div{padding:13px;border-radius:21px;background:#1e1e1e}.strength-metrics-live header{display:flex;align-items:center;justify-content:space-between;margin-bottom:11px}.strength-metrics-live header svg{width:23px;height:23px;color:#aaa}.strength-metrics-live small{font-size:12px;color:#aaa}.strength-metrics-live span{font-size:16px;line-height:21px}
+.ui-strength-live .ui-strength-nav{left:15px;right:15px;bottom:19px;height:61px;background:#1e1e1e;border:1px solid #333;box-shadow:0 -8px 0 4px #000}
+.ui-strength-live .ui-strength-nav>span{font-size:10px;line-height:14px;gap:3px}.ui-strength-live .ui-strength-nav svg{width:23px;height:23px}.ui-strength-live .ui-strength-nav>span:nth-child(2)::after{bottom:-5px}
+.strength-home-indicator{position:absolute;left:139px;bottom:8px;width:110px;height:4px;border-radius:4px;background:#fff}

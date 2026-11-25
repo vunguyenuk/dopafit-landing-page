@@ -5,16 +5,16 @@
 (() => {
   function build(){
     const section=document.createElement('section');section.className='community-reviews';section.dataset.sourceNode='93:3218';section.setAttribute('aria-labelledby','community-title');
-    const h=document.createElement('h2');h.id='community-title';h.dataset.sourceNode='211:1670';h.innerHTML='Bạn không cô đơn<br>trên hành trình này';section.append(h);
+    const h=document.createElement('h2');h.id='community-title';h.dataset.sourceNode='211:1670';h.innerHTML='You are not alone<br>on this journey';section.append(h);
     const columns=document.createElement('div');columns.className='review-columns';
     [0,1].forEach(lane=>{
-      const col=document.createElement('div');col.className='review-lane';col.tabIndex=0;col.setAttribute('aria-label',`Chia sẻ từ người tập — cột ${lane+1}`);
+      const col=document.createElement('div');col.className='review-lane';col.tabIndex=0;col.setAttribute('aria-label',`Stories from people who train — column ${lane+1}`);
       const track=document.createElement('div');track.className='review-track';
       const group=document.createElement('div');group.className='review-group';
-      window.DopafitReviews.filter(r=>/[À-ỹ]/.test(r.text)&&r.estimatedRating>=4).filter((_,i)=>i%2===lane).forEach(r=>{
+      window.DopafitReviews.filter(r=>r.estimatedRating>=4).filter((_,i)=>i%2===lane).forEach(r=>{
         const card=document.createElement('blockquote');card.className='review-card';card.dataset.sourceRow=r.sourceRow;
         if(Number.isInteger(r.estimatedRating)&&r.estimatedRating>=1&&r.estimatedRating<=5){
-          const rating=document.createElement('div');rating.className='review-rating';rating.setAttribute('aria-label',`Ước tính ${r.estimatedRating} trên 5 sao từ nội dung nhận xét`);
+          const rating=document.createElement('div');rating.className='review-rating';rating.setAttribute('aria-label',`${r.estimatedRating} out of 5 stars, estimated from the review text`);
           const stars=document.createElement('span');stars.className='review-stars';stars.setAttribute('aria-hidden','true');
           const art=document.createElement('span');art.className='review-stars-art';
           const base=document.createElement('img');base.src='assets/content-2026-11-23/review-stars.svg';base.alt='';base.className='review-stars-base';
@@ -33,9 +33,9 @@
     const type=()=>{
       if(window.DopafitMobile)return;
       const scale=innerWidth/1920;
-      section.style.setProperty('--review-body',`${Math.max(20,16/scale)}px`);
-      section.style.setProperty('--review-title',`${Math.max(24,20/scale)}px`);
-      section.style.setProperty('--review-heading',`${Math.max(61.7,32/scale)}px`);
+      section.style.setProperty('--review-body',`${Math.min(24,Math.max(16,20*scale))/scale}px`);
+      section.style.setProperty('--review-title',`${Math.min(28,Math.max(20,24*scale))/scale}px`);
+      section.style.setProperty('--review-heading',`${Math.min(64,Math.max(32,61.7*scale))/scale}px`);
     };type();addEventListener('resize',type,{passive:true});
     new IntersectionObserver(([e])=>section.classList.toggle('is-visible',e.isIntersecting)).observe(section);
     document.addEventListener('visibilitychange',()=>section.classList.toggle('is-background',document.hidden));

@@ -1,5 +1,5 @@
-/* Dopafit mobile layout (≤600px). The desktop page is a 1920px Figma canvas scaled to the viewport,
-   which leaves 3–7px text on a phone. Below 600px this file builds a one-column page instead:
+/* Dopafit mobile layout (≤1100px). The desktop page is a 1920px Figma canvas scaled to the viewport,
+   which leaves 3–7px text on a phone. Below 1100px this file builds a one-column page instead:
      - headings and copy are real text read from the Figma nodes (so copy stays in sync),
      - visual blocks are clones of the Figma nodes, scaled to the column width,
      - the app UI is the live HTML from assets/figma/orbit-ui.js.
@@ -10,10 +10,10 @@
    landing.js calls DopafitMobileLanding.mount() right after the hero and skips the desktop scenes. */
 (() => {
   'use strict';
-  const mq=matchMedia('(max-width: 600px)');
+  const mq=matchMedia('(max-width: 1100px)');
   window.DopafitMobile=mq.matches;
-  // Crossing the breakpoint (rotation, window resize) swaps to the other page.
-  mq.addEventListener('change',()=>location.reload());
+  // responsive-guard.js owns the one breakpoint change and semantic state restoration.
+  window.DopafitCompactQuery=mq;
   if(!window.DopafitMobile)return;
   document.documentElement.classList.add('is-mobile');
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches||new URLSearchParams(location.search).get('motion')==='off';
@@ -59,7 +59,7 @@
       const x=Math.min(...rs.map(r=>r.x)),y=Math.min(...rs.map(r=>r.y));
       return {x,y,w:Math.max(...rs.map(r=>r.x+r.w))-x,h:Math.max(...rs.map(r=>r.y+r.h))-y};
     }
-    const cta=label=>{const b=h('button','m-cta',label||'Tải ứng dụng');b.type='button';b.addEventListener('click',openDownload);return b;};
+    const cta=label=>{const b=h('button','m-cta',label||'Get the app');b.type='button';b.addEventListener('click',openDownload);return b;};
     const reveal=(el,d=0)=>{el.classList.add('m-reveal');el.style.setProperty('--d',d);return el;};
 
     const page=h('div','m-page');page.id='m-landing';
@@ -68,7 +68,7 @@
     const headerHost=document.querySelector('.skydive-header-canvas');
     if(headerHost){
       const bar=h('div','m-header');
-      const logo=h('a','m-logo');logo.href='#';logo.setAttribute('aria-label','Dopafit — trang đầu');logo.append(cloneBox(q(2830)));
+      const logo=h('a','m-logo');logo.href='#';logo.setAttribute('aria-label','Dopafit — home');logo.append(cloneBox(q(2830)));
       logo.addEventListener('click',e=>{e.preventDefault();scrollTo({top:0,behavior:reduced?'auto':'smooth'});});
       bar.append(logo,cta());headerHost.append(bar);
     }
@@ -87,7 +87,7 @@
 
     /* ---------- Section 2: Đa dạng bài tập ---------- */
     const s2=h('section','m-sec m-s2');
-    s2.append(reveal(twoLines(text(2750),t=>t.indexOf('và nhóm cơ'))),reveal(cta(),1));
+    s2.append(reveal(twoLines(text(2750),t=>t.indexOf('and muscle'))),reveal(cta(),1));
     const photos=window.DopafitContent.fan.map((alt,i)=>[i+1,alt,'50% 50%']);
     const angles=[-47.5,-28.5,-9.5,9.5,28.5,47.5];
     const fan=h('div','m-fan');
@@ -115,7 +115,7 @@
       new IntersectionObserver(([e])=>{inView=e.isIntersecting;go();}).observe(fan);
     }
     // Desktop renders the 3D phone with this workout screen; mobile shows it in the dev-dopafit-app phone frame.
-    const phoneBox=(h('div','m-phone-peek','<div class="m-phone m-phone-s2"><div class="m-screen"><img class="is-on" src="assets/phone/workout-screen.webp" alt="Màn hình buổi tập Dopafit" loading="lazy"></div></div>'));s2.append(phoneBox);
+    const phoneBox=(h('div','m-phone-peek','<div class="m-phone m-phone-s2"><div class="m-screen"><img class="is-on" src="assets/en/workout.webp?v=20261125-ui-2" alt="Dopafit workout screen" loading="lazy"></div></div>'));s2.append(phoneBox);
     page.append(s2);
 
     /* ---------- Section 3: Theo dõi nghiêm túc (4 Figma features, pinned phone) ---------- */
@@ -136,7 +136,7 @@
     sticky.append(bars,steps,phone);trackScroll.append(sticky);s3.append(trackScroll);
     s3.append(cta());page.append(s3);
 
-    /* ---------- Section 4: Làm thế nào để tập nghiêm túc? (Skydive tools orbit, mobile) ---------- */
+    /* ---------- Section 4: How do you train seriously? (Skydive tools orbit, mobile) ---------- */
     const UI=window.DopafitOrbitUI;
     const s4=h('section','m-sec m-orbit');
     const orbitWrap=h('div','m-orbit-wrap');
@@ -184,7 +184,8 @@
       return {box,art:a};
     }
     const tools=[];
-    const CHIPS={2913:[2871,'Video hướng dẫn'],2910:[2875,'Bản đồ phục hồi'],2911:[2878,'Ghi hiệp & giờ nghỉ'],2912:[2881,'Sức mạnh tổng']};
+    const clamp=x=>Math.max(0,Math.min(1,x)),smooth=x=>{x=clamp(x);return x*x*(3-2*x);};
+    const CHIPS={2913:[2871,'Exercise video'],2910:[2875,'Recovery map'],2911:[2878,'Set log & rest timer'],2912:[2881,'Total strength']};
     function panel(captionID,build,motions){
       const p=h('article','m-tool');
       const [dotID,label]=CHIPS[captionID]||[];const icon=dotID&&q(dotID)?.querySelector('img')?.getAttribute('src');
@@ -195,8 +196,8 @@
     // Same order as desktop: video → body map → set log + rest → total strength.
     panel(2913,stage=>{
       const fig=h('figure','m-clip');const v=h('video');v.src='assets/landing/row.9c406ddc16.mp4';v.poster='assets/landing/row-poster.93205a615a.jpg';
-      v.muted=true;v.loop=true;v.playsInline=true;v.preload='none';v.setAttribute('aria-label','Video hướng dẫn bài tập');
-      fig.append(v,h('figcaption','','<b>Video hướng dẫn</b><span>Tự động phát lại</span>'));stage.append(fig);
+      v.muted=true;v.loop=true;v.playsInline=true;v.preload='none';v.setAttribute('aria-label','Exercise demonstration video');
+      fig.append(v,h('figcaption','','<b>Exercise video</b><span>Auto replay</span>'));stage.append(fig);
     },[on=>{const v=panels.querySelector('.m-clip video');if(on&&!reduced)v.play().catch(()=>{});else v.pause();}]);
     let rec,setU,restU,goalU;
     panel(2910,stage=>{rec=uiBox('recovery',{cropHeight:1240,focus:true});rec.box.classList.add('m-ui-phone');stage.append(rec.box);},[]);
@@ -214,7 +215,7 @@
       const vh=orbitSticky.clientHeight||innerHeight,vw=innerWidth;
       // In the "together" state no panel shows, so the figure grows into the free room.
       const together=orbitSticky.classList.contains('is-together');
-      const figW=together?Math.min(vw*.86,380,vh*.6*FIG_AR):Math.min(vw*.5,230,vh*(vh<720?(window.DopafitOrbitVariant ? .16 : .22):.28)*FIG_AR);orbitFig.style.width=`${figW}px`;
+      const figW=together?Math.min(vw*.86,380,vh*.6*FIG_AR):Math.min(100,vw*.24,vh*.13*FIG_AR);orbitFig.style.width=`${figW}px`;
       if(together)return;
       const room=panels.clientHeight;
       // The caption keeps its reading size; only the app UI under it is scaled to the room that is left.
@@ -222,16 +223,23 @@
         ui.style.scale='';const nat=ui.offsetHeight;
         // Reserve the actual chip + heading + copy, including the toggle above
         // the figure, before fitting each native app UI into the sticky viewport.
-        const left=room-ui.offsetTop-8;
-        ui.style.scale=String(nat>left&&left>0?Math.max(.1,left/nat):1);});
+        const left=Math.max(0,room-ui.offsetTop-8);
+        // Preserve readable native UI pixels. Overflow travels through the same
+        // source tool slot, using the scene's existing smoothstep pan below.
+        const nativeWidth=ui.firstElementChild?.offsetWidth||ui.offsetWidth;
+        const minWidth=Math.min(vw-40,vw>600?300:240);
+        const scale=Math.min(1,Math.max(minWidth/nativeWidth,left/nat));
+        ui.style.scale=String(scale);
+        x.overflow=Math.max(0,ui.offsetTop+nat*scale-room+8);});
+      req();
     }
-    new ResizeObserver(fitOrbit).observe(orbitSticky);tools.forEach(x=>new ResizeObserver(fitOrbit).observe(x.el));
+    new ResizeObserver(fitOrbit).observe(orbitSticky);new ResizeObserver(fitOrbit).observe(panels);tools.forEach(x=>new ResizeObserver(fitOrbit).observe(x.el));
     page.append(s4);
 
     /* ---------- Section 5: Tập ở đâu, làm gì cũng được ---------- */
     const s5=h('section','m-sec m-places');
     // Two lines (user 2026-11-18): split after the comma before "miễn", each line kept whole.
-    s5.append(reveal(twoLines(text(2853),t=>t.indexOf('mọi lúc'))));
+    s5.append(reveal(twoLines(text(2853),t=>t.indexOf('anytime'))));
     const rail=h('div','m-rail');
     [[2919,2923],[2920,2927],[2921,2933]].forEach(([bg,card],i)=>{
       const item=reveal(h('div','m-rail-item'),i);item.append(compose([q(bg),q(card)],visual(q(bg),canvas)));rail.append(item);window.DopafitCardReflection?.mount(item,i-1)?.(1);
@@ -262,16 +270,16 @@
       const item=h('details','m-faq-item');item.append(h('summary','',`<span>${text(id)}</span><i aria-hidden="true"></i>`),h('p','m-copy',answers[i]||''));
       list.append(reveal(item,i));
     });
-    s8.append(list,reveal(h('p','m-copy m-muted',`Bạn chưa tìm thấy câu trả lời? Gửi email đến <a href="mailto:support@dopafit.app">support@dopafit.app</a>.`)));
+    s8.append(list,reveal(h('p','m-copy m-muted',`Can’t find your answer? Email <a href="mailto:support@dopafit.app">support@dopafit.app</a>.`)));
     page.append(s8);
 
     /* ---------- Footer ---------- */
     const foot=h('footer','m-footer');
-    const flogo=h('a','m-footer-logo');flogo.href='#';flogo.setAttribute('aria-label','Dopafit — trang đầu');flogo.append(cloneBox(q(2830)));
+    const flogo=h('a','m-footer-logo');flogo.href='#';flogo.setAttribute('aria-label','Dopafit — home');flogo.append(cloneBox(q(2830)));
     flogo.addEventListener('click',e=>{e.preventDefault();scrollTo({top:0,behavior:reduced?'auto':'smooth'});}); // exact same mark/action as the header
     foot.append(flogo,h('p','m-copy m-muted',text(3013)));
     const cols=h('div','m-footer-cols');
-    [['Sản phẩm',[3016,3017,3018]],['Hỗ trợ',[3021,3022]],['Pháp lý',[3025,3026]]].forEach(([title,ids])=>{
+    [['Product',[3016,3017,3018]],['Support',[3021,3022]],['Legal',[3025,3026]]].forEach(([title,ids])=>{
       const c=h('div','',`<p class="m-eyebrow">${title}</p>`);ids.forEach(id=>c.append(h('p','m-link',text(id))));cols.append(c);
     });
     foot.append(cols,h('p','m-fine',`${text(3027)} · ${text(3028)}`));
@@ -298,6 +306,7 @@
       const vh=innerHeight;
       // Section 3: progress through the pinned block picks the feature (dev .stage-steps bars fill per step).
       const tr=trackScroll.getBoundingClientRect(),span=tr.height-vh,p=span>0?Math.min(1,Math.max(0,-tr.top/span)):0;
+      trackScroll.dataset.progress=String(p);
       const pos=p*featureIDs.length,idx=Math.min(featureIDs.length-1,Math.floor(pos));
       barEls.forEach((b,i)=>b.style.setProperty('--fill',String(Math.min(1,Math.max(0,pos-i)))));
       if(idx!==active){active=idx;imgs.forEach((im,i)=>im.classList.toggle('is-on',i===idx));stepEls.forEach((li,i)=>li.classList.toggle('is-on',i===idx));}
@@ -307,8 +316,15 @@
       // Section 4: progress through the pinned stage picks the tool; after the last one, the together state.
       const orr=orbitWrap.getBoundingClientRect(),ospan=orr.height-vh,op=ospan>0?Math.max(0,-orr.top)/vh:0;
       const tPos=(op-ORBIT_LEAD)/ORBIT_SLOT;
+      orbitWrap.dataset.toolPosition=String(tPos);
       const multi=ospan>0&&tPos>=tools.length;
       UI.setStrengthProgress((tPos-3-.15)/.70);
+      tools.forEach((x,i)=>{
+        // Same smoothstep as orbit-ui.js setStrengthProgress(). Hold
+        // the caption first, then expose the lower UI; reverse on upward scroll.
+        const pan=smooth((tPos-i-.18)/.66);
+        x.el.style.setProperty('--tool-scroll',`${-(x.overflow||0)*pan}px`);
+      });
       const scan=reduced?1:Math.min(1,Math.max(0,(op-ORBIT_LEAD-ORBIT_SLOT*tools.length)/(ORBIT_MULTI*.90)));
       cBody?.style.setProperty('--body-scan-inset',`${(1-scan)*100}%`);
       cBody?.style.setProperty('--body-scan-opacity',String(Math.min(Math.min(1,scan/.06),Math.min(1,(1-scan)/.10))));

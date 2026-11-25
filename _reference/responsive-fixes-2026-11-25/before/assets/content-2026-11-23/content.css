@@ -1,0 +1,155 @@
+/* Requested Figma copy, source styles and the new two-column review section. */
+[data-node-id="147:2750"]{white-space:normal!important;width:1240px!important;max-width:90vw!important}
+[data-node-id="147:2852"]{width:1200px!important}
+[data-node-id="147:2852"]>span{white-space:normal!important}
+[data-node-id="147:2853"]{width:1050px!important}
+[data-node-id="147:2853"]>span{display:block}
+.feature-tab{font-size:32px!important;line-height:1.25!important;font-weight:400!important;white-space:normal!important;width:748px!important;max-width:748px!important;letter-spacing:-.02em!important}
+.faq-pl-q{font-size:32px!important;font-weight:400!important;line-height:1.35!important}
+.faq-pl-left h2{font-size:70px;line-height:1.12}
+.content-download{display:inline-flex;align-items:center;justify-content:center;background:#b8f24a;color:#0b1203;font:600 20px/1.3 -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;padding:20px 30px;min-height:64px;border-radius:999px;white-space:nowrap;cursor:pointer;pointer-events:auto}
+.faq-pl-left>.content-download{margin-top:36px}
+.tracking-download{position:absolute;left:291px;top:5200px}
+[data-node-id="147:2910"] strong.orbit-feature-title,[data-node-id="147:2911"] strong.orbit-feature-title,[data-node-id="147:2912"] strong.orbit-feature-title,[data-node-id="147:2913"] strong.orbit-feature-title{display:block;font-size:32px!important;font-weight:700;line-height:1.2!important;margin-bottom:16px}
+.orbit-feature-body{display:block}
+/* One native app viewport, not the Figma comparison board. */
+[data-node-id="147:2916"]{height:844px!important;overflow:hidden!important;width:390px!important;border-radius:42px;box-shadow:none}
+[data-node-id="147:2917"]{top:0!important;width:390px!important;height:844px!important;overflow:hidden}
+[data-node-id="147:2917"] .ui-screen{inset:0!important;top:0!important;width:390px!important;height:844px!important;opacity:1!important}
+.ui-strength-phone{left:0;top:0;width:390px;height:844px;overflow:hidden;border-radius:54px;background:#000 url('../orbit-ui/strength-reference.png') -68px -36px/1070px 896px no-repeat}
+.ui-strength-viewport{position:absolute;left:14px;top:52px;width:358px;height:710px;overflow:hidden;background:#000;outline-offset:-3px}
+.ui-strength-scroll{position:absolute;left:0;top:0;width:358px;height:1430px;transform:translate3d(0,var(--strength-scroll,0px),0)}
+.ui-strength-source{position:absolute;left:0;width:358px;background-image:url('../en/strength-reference.webp?v=20261125-strength-6');background-size:1070px 896px;background-repeat:no-repeat}
+.ui-strength-source-top{top:0;height:660px;background-position:-82px -88px}
+.ui-strength-source-bottom{top:660px;height:710px;background-position:-688px -88px}
+.m-ui-goal{box-shadow:none!important;border-radius:26px!important}
+@media(prefers-reduced-motion:reduce){.ui-strength-viewport{overflow-y:auto}.ui-strength-scroll{transform:none;position:relative}}
+.motion-off .ui-strength-viewport{overflow-y:auto}.motion-off .ui-strength-scroll{transform:none;position:relative}
+.community-reviews{color:#e6e6e6;max-width:1240px;margin:0 auto;padding:80px 0 100px;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif}
+.community-desktop{position:absolute;left:340px;top:9300px;width:1240px;height:1350px}
+.community-reviews>h2{font-size:var(--review-heading,61.7px);line-height:1.15;text-align:center;font-weight:500;letter-spacing:-.025em;margin:0 0 64px}
+.review-columns{display:grid;grid-template-columns:1fr 1fr;gap:40px;height:920px;overflow:hidden;mask-image:linear-gradient(transparent,#000 2%,#000 98%,transparent)}
+.review-lane{overflow:hidden;outline-offset:-3px}
+.review-track{animation:reviews-up var(--review-duration,600s) linear infinite;animation-play-state:paused;will-change:transform}
+.review-lane:nth-child(2) .review-track{animation-name:reviews-down}
+.community-reviews.is-visible:not(.is-background) .review-track{animation-play-state:running}
+.review-lane:hover .review-track,.review-lane:focus .review-track,.review-lane:focus-within .review-track{animation-play-state:paused!important}
+.review-group{display:flex;flex-direction:column;gap:32px;padding-bottom:32px}
+.review-card{margin:0;padding:36px;background:#202020;border-radius:24px;break-inside:avoid}
+.review-card h3{font-size:var(--review-title,24px);line-height:1.3;font-weight:700;margin:0 0 18px}
+.review-card p{font-size:var(--review-body,20px);line-height:1.5;color:#a8a9b2;white-space:pre-line}
+@keyframes reviews-up{from{transform:translateY(0)}to{transform:translateY(-50%)}}
+@keyframes reviews-down{from{transform:translateY(-50%)}to{transform:translateY(0)}}
+.dp-brand{position:relative;gap:0!important;min-width:190px;min-height:32px}
+.dp-brand .dp-word{display:none!important}
+.dp-brand>.dp-mark{position:absolute!important;left:50%;top:50%;transform:translate(-50%,-50%);transition:opacity .22s ease}
+.dp-brand>.dp-official{display:block;width:190px;height:auto;opacity:1}
+.dp-wordmark-letters{position:absolute;left:0;top:50%;width:190px;aspect-ratio:760/86.6537;transform:translateY(-50%);opacity:0;pointer-events:none}
+.dp-letters-svg{display:block;width:100%;height:100%;overflow:visible}
+.dp-brand[data-brand-stage="armed"]>.dp-official,.dp-brand[data-brand-stage="mark"]>.dp-official,.dp-brand[data-brand-stage="wordmark"]>.dp-official{opacity:0}
+.dp-brand>.dp-mark{opacity:0}
+.dp-brand[data-brand-stage="armed"]>.dp-mark,.dp-brand[data-brand-stage="mark"]>.dp-mark{opacity:1}
+.dp-brand[data-brand-stage="wordmark"]>.dp-wordmark-letters{opacity:1}
+.dp-brand[data-brand-stage="wordmark"]>.dp-mark{left:0;transform:translateY(-50%);transition:opacity .22s ease,left 1s cubic-bezier(.22,1,.36,1),transform 1s cubic-bezier(.22,1,.36,1)}
+.dp-brand[data-brand-stage="wordmark"] .dp-wordmark-track{animation:dp-wordmark-expand 1s cubic-bezier(.22,1,.36,1) both}
+@keyframes dp-wordmark-expand{from{transform:translateX(311.5046px)}to{transform:translateX(0)}}
+.dp-brand[data-brand-stage="wordmark"] .dp-logo-letter{animation:dp-letter-reveal .55s cubic-bezier(.22,1,.36,1) calc(var(--letter-index)*.09s) both}
+.dp-brand[data-brand-stage="wordmark"] .dp-logo-letter[data-letter="D"]{animation:dp-letter-handoff .22s ease both}
+@keyframes dp-letter-reveal{from{opacity:0;transform:translateX(-42px)}to{opacity:1;transform:translateX(0)}}
+@keyframes dp-letter-handoff{from{opacity:0}to{opacity:1}}
+.skydive-source-copy.pain-copy{display:grid;width:min(1240px,88vw)!important;max-width:1240px;line-height:1.2!important;font-size:48px!important}
+.pain-line{grid-area:1/1;display:flex;align-items:center;justify-content:center;min-height:1.2em;position:relative;visibility:hidden}
+.pain-line[data-visible="true"]{visibility:visible}
+.pain-line>span{display:block;transform:none;opacity:1}
+.pain-copy.pain-static{display:block}
+.pain-static .pain-line{visibility:visible;min-height:1.9em}
+.fan-card>video{width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit}
+@media(max-width:600px){
+ .content-download{font-size:16px;min-height:48px;padding:14px 24px}
+ .m-track>.content-download,.m-faq>.content-download{margin-top:32px}
+ .is-mobile .m-steps li{font-size:18px;font-weight:400;line-height:1.3}
+ .is-mobile .m-faq-item summary{font-size:20px;font-weight:400;line-height:1.4}
+ .community-reviews{padding:72px 20px;max-width:100%;overflow:hidden}
+ .community-reviews>h2{font-size:32px;margin-bottom:36px}
+ .review-columns{height:680px;gap:14px}
+ .review-card{padding:18px 14px}
+ .review-card h3{font-size:17px;margin-bottom:12px}
+ .review-card p{font-size:15px;line-height:1.5}
+ .review-group{gap:14px;padding-bottom:14px}
+ .dp-brand{min-width:150px;min-height:24px}.dp-brand>.dp-official,.dp-wordmark-letters{width:150px}
+ .skydive-source-copy.pain-copy{font-size:26px!important;width:90vw!important}
+ .pain-static .pain-line{min-height:3.1em}
+ .m-h2>span{white-space:normal}
+ .m-ui-goal{max-width:100%!important}
+}
+@media(prefers-reduced-motion:reduce){
+ .review-track{animation:none!important;will-change:auto}
+ .review-lane{overflow:auto}.review-group[aria-hidden]{display:none}
+ .dp-brand>.dp-mark,.dp-wordmark-letters{opacity:0!important}.dp-brand>.dp-official{opacity:1!important}
+ .pain-line>span{transform:none;opacity:1}
+}
+.motion-off .review-lane{overflow:auto}.motion-off .review-group[aria-hidden]{display:none}
+.m-tool-heading{font-size:20px;line-height:1.25;text-align:center;max-width:36ch}
+/* Explicit source headings wrap naturally; no obsolete manual line break. */
+.m-h2>span{white-space:normal}
+
+/* Translate the source badge label as live text; preserve Figma's laurels/stars/mark. */
+.intro-rating-localized{position:relative;container-type:inline-size;display:block}
+.intro-rating-localized>img{width:100%;height:auto}
+.intro-rating-localized>span{position:absolute;left:22%;top:51%;width:59%;height:15%;display:flex;align-items:center;justify-content:center;background:#000;color:#aaa;font-size:7.4cqw;line-height:1;font-weight:400;white-space:nowrap}
+
+/* Exact Figma93:3221 asset; clip its lit layer to the estimated whole-star count. */
+.review-rating{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin-bottom:12px}
+.review-stars{display:block;position:relative;width:170.99px;height:38.77px;flex:none}
+.review-stars-art,.review-stars-fill{position:absolute;inset:0}
+.review-stars img{position:absolute;left:0;top:0;max-width:none}
+.review-stars-base{opacity:.18}
+@media(max-width:600px){
+ .review-rating{gap:5px 8px;margin-bottom:10px}
+ .review-stars{width:111.1435px;height:25.2005px}
+ .review-stars-art{width:170.99px;height:38.77px;transform:scale(.65);transform-origin:top left}
+}
+
+/* Character sweep follows the supplied motion clip; word wrappers keep native wrapping. */
+.pain-readable{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.pain-word{display:inline-block;white-space:nowrap}
+.pain-glyph{display:inline-block;transform-origin:50% 65%}
+@media(prefers-reduced-motion:reduce){.pain-glyph{transform:none!important;opacity:1!important;color:#fff!important;text-shadow:none!important}}
+
+/* Pause source mark and letter animations as a unit while offscreen/tab-hidden. */
+.dp-brand.is-loop-paused .dp-mark::after,.dp-brand.is-loop-paused .dp-mark path,.dp-brand.is-loop-paused .burst,.dp-brand.is-loop-paused .dp-wordmark-track,.dp-brand.is-loop-paused .dp-logo-letter{animation-play-state:paused!important}
+
+/* Captured Chande build/paint: two moving Bayer ramps, white→lime→base.
+   Native glyph clipping keeps the Vietnamese text sharp without a second copy. */
+.pain-glyph{--pixel-band:64px;--pixel-height:16px;color:transparent!important;-webkit-text-fill-color:transparent;background-image:var(--pain-final-ramp),var(--pain-pixel-ramp),linear-gradient(90deg,#fff var(--pixel-x,-128px),#b8f24a var(--pixel-x,-128px),#b8f24a calc(var(--pixel-x,-128px) + var(--pixel-band)),#161616 calc(var(--pixel-x,-128px) + var(--pixel-band)));background-size:var(--pixel-band) var(--pixel-height),var(--pixel-band) var(--pixel-height),100% 100%;background-position:var(--pixel-x,-128px) 0,calc(var(--pixel-x,-128px) + var(--pixel-band)) 0,0 0;background-repeat:repeat-y,repeat-y,no-repeat;-webkit-background-clip:text;background-clip:text;image-rendering:pixelated}
+@media(max-width:600px){.pain-glyph{--pixel-band:48px;--pixel-height:12px}}
+@media(prefers-reduced-motion:reduce){.pain-glyph{background:none!important;-webkit-text-fill-color:#fff}}
+.motion-off .pain-glyph{background:none!important;-webkit-text-fill-color:#fff}
+
+/* Footer keeps the existing D anchored at the left throughout its loop.
+   Header retains the centred D -> expanding wordmark sequence. */
+:is([data-node-id="147:2997"].dp-brand,.m-footer-logo .dp-brand)>.dp-mark{left:0;transform:translateY(-50%)}
+:is([data-node-id="147:2997"].dp-brand,.m-footer-logo .dp-brand)[data-brand-stage="wordmark"] .dp-wordmark-track{animation:none;transform:none}
+
+/* Fixed native navigation: original icon pixels, English labels, no cropped text. */
+.ui-strength-nav{position:absolute;z-index:2;left:20px;right:20px;bottom:18px;height:60px;border:1px solid #333;border-radius:32px;background:#1e1e1e;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;text-align:center}
+.ui-strength-nav>span{position:relative;display:flex;align-items:center;flex-direction:column;gap:2px;color:#aaa;font-size:13px;line-height:16px}
+.ui-strength-nav>span:nth-child(2){color:#b8f24a}
+.ui-strength-nav>span:nth-child(2)::after{content:"";position:absolute;bottom:-4px;width:14px;height:2px;background:#b8f24a;border-radius:2px}
+.ui-strength-nav i{display:block;width:28px;height:24px;background-image:url('../orbit-ui/strength-reference.png');background-size:1070px 896px;background-position:var(--icon-x) -805px;background-repeat:no-repeat}
+
+/* More readable laptop captions keep their inner edge beside the same icon. */
+@media(min-width:601px) and (max-width:1919px){
+ [data-node-id="147:2910"],[data-node-id="147:2911"]{width:520px!important}
+ [data-node-id="147:2912"]{width:500px!important}
+ [data-node-id="147:2913"]{width:600px!important}
+}
+
+/* Finish the two source metric cards below the crop, above the fixed tab bar. */
+.ui-strength-metrics{position:absolute;left:0;top:1290px;width:358px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;background:#000}
+.ui-strength-metrics>div{height:116px;padding:12px;background:#1e1e1e;border-radius:20px}
+.ui-strength-metrics header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.ui-strength-metrics small{font-size:13px;color:#aaa;line-height:22px}
+.ui-strength-metrics span{display:block;font-size:18px;line-height:22px;font-weight:400}
+.ui-strength-metrics i{display:block;width:26px;height:24px;background-image:url('../orbit-ui/strength-reference.png');background-size:1070px 896px;background-repeat:no-repeat}
+.strength-shirt{background-position:-703px -733px}.strength-ruler{background-position:-879px -733px}

@@ -1,0 +1,230 @@
+{
+  "report": [
+    {
+      "w": 1440,
+      "p": 0.49003343621399187,
+      "scroll": "0.05535",
+      "body": 17.999974604003906,
+      "caption": {
+        "x": 251.59359741210938,
+        "y": 486.4052734375,
+        "width": 286.3275451660156,
+        "height": 63.9462890625,
+        "top": 486.4052734375,
+        "right": 537.921142578125,
+        "bottom": 550.3515625,
+        "left": 251.59359741210938
+      },
+      "video": {
+        "x": 293.58831787109375,
+        "y": 561.953125,
+        "width": 248.1505126953125,
+        "height": 167.025390625,
+        "top": 561.953125,
+        "right": 541.7388305664062,
+        "bottom": 728.978515625,
+        "left": 293.58831787109375
+      },
+      "styleVideo": "top: 7234px; bottom: auto; height: 350px; z-index: 2; width: 520px; left: 42px !important; right: auto; --orbit-offset: 24.453333333333333px; --ox: 0px; transform-origin: 520px 0px; --oy: 0px; transition-delay: 0ms; --panel-scale: 1;",
+      "actualVideoGap": 11.6015625
+    },
+    {
+      "w": 1440,
+      "p": 0.5350437242798353,
+      "scroll": "0.51147",
+      "body": 17.999974604003906,
+      "caption": {
+        "x": 251.59359741210938,
+        "y": 486.4052734375,
+        "width": 286.3275451660156,
+        "height": 63.9462890625,
+        "top": 486.4052734375,
+        "right": 537.921142578125,
+        "bottom": 550.3515625,
+        "left": 251.59359741210938
+      },
+      "video": {
+        "x": 293.58831787109375,
+        "y": 561.953125,
+        "width": 248.1505126953125,
+        "height": 167.025390625,
+        "top": 561.953125,
+        "right": 541.7388305664062,
+        "bottom": 728.978515625,
+        "left": 293.58831787109375
+      },
+      "styleVideo": "top: 7234px; bottom: auto; height: 350px; z-index: 2; width: 520px; left: 42px !important; right: auto; --orbit-offset: 24.453333333333333px; --ox: 0px; transform-origin: 520px 0px; --oy: 0px; transition-delay: 0ms; --panel-scale: 1;",
+      "actualVideoGap": 11.6015625
+    },
+    {
+      "w": 1440,
+      "p": 0.5851980452674896,
+      "scroll": "1.00000",
+      "body": 17.999974604003906,
+      "caption": {
+        "x": 251.59359741210938,
+        "y": 486.4052734375,
+        "width": 286.3275451660156,
+        "height": 63.9462890625,
+        "top": 486.4052734375,
+        "right": 537.921142578125,
+        "bottom": 550.3515625,
+        "left": 251.59359741210938
+      },
+      "video": {
+        "x": 293.58831787109375,
+        "y": 561.953125,
+        "width": 248.1505126953125,
+        "height": 167.025390625,
+        "top": 561.953125,
+        "right": 541.7388305664062,
+        "bottom": 728.978515625,
+        "left": 293.58831787109375
+      },
+      "styleVideo": "top: 7234px; bottom: auto; height: 350px; z-index: 2; width: 520px; left: 42px !important; right: auto; --orbit-offset: 24.453333333333333px; --ox: 0px; transform-origin: 520px 0px; --oy: 0px; transition-delay: 0ms; --panel-scale: 1;",
+      "actualVideoGap": 11.6015625
+    },
+    {
+      "w": 1440,
+      "p": 0.9496527777777778,
+      "scroll": "1.00000",
+      "body": 17.999974604003906,
+      "caption": {
+        "x": 239.92416381835938,
+        "y": 427.9833984375,
+        "width": 286.3275451660156,
+        "height": 63.9462890625,
+        "top": 427.9833984375,
+        "right": 526.251708984375,
+        "bottom": 491.9296875,
+        "left": 239.92416381835938
+      },
+      "video": {
+        "x": 236.87001037597656,
+        "y": 503.5322265625,
+        "width": 277.9285888671875,
+        "height": 187.0673828125,
+        "top": 503.5322265625,
+        "right": 514.7985992431641,
+        "bottom": 690.599609375,
+        "left": 236.87001037597656
+      },
+      "styleVideo": "top: 7234px; bottom: auto; height: 350px; z-index: 2; width: 520px; left: 42px !important; right: auto; --orbit-offset: 24.453333333333333px; --ox: -32px; transform-origin: 520px 0px; --oy: 0px; transition-delay: 0ms; --panel-scale: 1.12;",
+      "actualVideoGap": 11.6025390625
+    },
+    {
+      "w": 2560,
+      "p": 0.4900548749172794,
+      "scroll": "0.05556",
+      "body": 20.000018950935132,
+      "caption": {
+        "x": 652.7162475585938,
+        "y": 762.982421875,
+        "width": 335.95159912109375,
+        "height": 132.85546875,
+        "top": 762.982421875,
+        "right": 988.6678466796875,
+        "bottom": 895.837890625,
+        "left": 652.7162475585938
+      },
+      "video": {
+        "x": 597.7413330078125,
+        "y": 914.396484375,
+        "width": 397.037841796875,
+        "height": 267.232421875,
+        "top": 914.396484375,
+        "right": 994.7791748046875,
+        "bottom": 1181.62890625,
+        "left": 597.7413330078125
+      },
+      "styleVideo": "top: 7254px; bottom: auto; height: 350px; z-index: 2; width: 520px; left: 42px !important; right: auto; --orbit-offset: 24.453333333333333px; --ox: 0px; transform-origin: 520px 0px; --oy: 0px; transition-delay: 0ms; --panel-scale: 1;",
+      "actualVideoGap": 18.55859375
+    },
+    {
+      "w": 2560,
+      "p": 0.5350650844914098,
+      "scroll": "0.51168",
+      "body": 20.000018950935132,
+      "caption": {
+        "x": 652.7162475585938,
+        "y": 762.982421875,
+        "width": 335.95159912109375,
+        "height": 132.85546875,
+        "top": 762.982421875,
+        "right": 988.6678466796875,
+        "bottom": 895.837890625,
+        "left": 652.7162475585938
+      },
+      "video": {
+        "x": 597.7413330078125,
+        "y": 914.396484375,
+        "width": 397.037841796875,
+        "height": 267.232421875,
+        "top": 914.396484375,
+        "right": 994.7791748046875,
+        "bottom": 1181.62890625,
+        "left": 597.7413330078125
+      },
+      "styleVideo": "top: 7254px; bottom: auto; height: 350px; z-index: 2; width: 520px; left: 42px !important; right: auto; --orbit-offset: 24.453333333333333px; --ox: 0px; transform-origin: 520px 0px; --oy: 0px; transition-delay: 0ms; --panel-scale: 1;",
+      "actualVideoGap": 18.55859375
+    },
+    {
+      "w": 2560,
+      "p": 0.5850587905025606,
+      "scroll": "1.00000",
+      "body": 20.000018950935132,
+      "caption": {
+        "x": 652.7162475585938,
+        "y": 762.9833984375,
+        "width": 335.95159912109375,
+        "height": 132.85546875,
+        "top": 762.9833984375,
+        "right": 988.6678466796875,
+        "bottom": 895.8388671875,
+        "left": 652.7162475585938
+      },
+      "video": {
+        "x": 597.7413330078125,
+        "y": 914.3974609375,
+        "width": 397.037841796875,
+        "height": 267.232421875,
+        "top": 914.3974609375,
+        "right": 994.7791748046875,
+        "bottom": 1181.6298828125,
+        "left": 597.7413330078125
+      },
+      "styleVideo": "top: 7254px; bottom: auto; height: 350px; z-index: 2; width: 520px; left: 42px !important; right: auto; --orbit-offset: 24.453333333333333px; --ox: 0px; transform-origin: 520px 0px; --oy: 0px; transition-delay: 0ms; --panel-scale: 1;",
+      "actualVideoGap": 18.55859375
+    },
+    {
+      "w": 2560,
+      "p": 0.949642081973647,
+      "scroll": "1.00000",
+      "body": 20.000018950935132,
+      "caption": {
+        "x": 634.045166015625,
+        "y": 669.548828125,
+        "width": 335.95166015625,
+        "height": 132.85546875,
+        "top": 669.548828125,
+        "right": 969.996826171875,
+        "bottom": 802.404296875,
+        "left": 634.045166015625
+      },
+      "video": {
+        "x": 506.9920654296875,
+        "y": 820.9609375,
+        "width": 444.682373046875,
+        "height": 299.30078125,
+        "top": 820.9609375,
+        "right": 951.6744384765625,
+        "bottom": 1120.26171875,
+        "left": 506.9920654296875
+      },
+      "styleVideo": "top: 7254px; bottom: auto; height: 350px; z-index: 2; width: 520px; left: 42px !important; right: auto; --orbit-offset: 24.453333333333333px; --ox: -32px; transform-origin: 520px 0px; --oy: 0px; transition-delay: 0ms; --panel-scale: 1.12;",
+      "actualVideoGap": 18.556640625
+    }
+  ],
+  "errors": [],
+  "badRequests": []
+}

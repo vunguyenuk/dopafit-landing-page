@@ -1,4 +1,4 @@
-/* Dopafit mobile layout (≤600px), built by assets/mobile/mobile.js. Desktop rules are untouched:
+/* Dopafit mobile layout (≤1100px), built by assets/mobile/mobile.js. Desktop rules are untouched:
    everything here is scoped to html.is-mobile. Colours/type follow the desktop page and dev-dopafit-app tokens. */
 .is-mobile{--m-pad:20px;--m-lime:#b8f24a;--m-mute:#a4a998;--m-line:rgba(228,238,210,.12);--m-ease:cubic-bezier(.16,.84,.24,1)}
 .is-mobile.m-ready #design-canvas,.is-mobile .tracking-fixed-viewport,.is-mobile .orbit-scroll-spacer{display:none!important}
@@ -148,3 +148,27 @@
 /* Two-line heading ("Tập ở đâu, làm gì cũng được, / miễn là có tập"): each half on one line, size follows the width */
 .m-sec .m-h2.m-h2-2l{max-width:none}
 .m-h2-2l>span{display:block;white-space:nowrap}
+
+/* Reuse the single-column build on tablets rather than zooming a dense desktop canvas. */
+.m-sec:not(.m-places)>:is(.m-h2,.m-copy,.m-faq-list){max-width:min(100%,640px)}
+.m-header{max-width:760px;margin-inline:auto}
+.m-s2 .m-fan{max-width:1100px}
+.m-footer{--m-pad:max(20px,calc((100vw - 800px)/2))}
+.m-cta{min-height:44px}
+/* Source orbit panels still reveal one at a time; only their readable overflow
+   pans through the existing scroll slot. The heading/figure stay pinned. */
+.m-orbit-head .m-orbit-title{font-size:24px;line-height:1.18;max-width:28ch}
+.m-orbit-head .orbit-layout-toggle{margin-top:8px}
+.m-orbit-panels{overflow:clip;width:min(100%,720px)}
+.m-tool{gap:14px;transform:translate3d(0,var(--tool-scroll,0px),0)}
+.m-tool.is-active{will-change:transform}
+.m-tool .m-copy{max-width:42ch}
+@media(min-width:601px) and (max-width:1100px){
+ .m-h2{font-size:40px!important;line-height:1.15;max-width:22ch}
+ .m-orbit-head .m-orbit-title{font-size:32px!important}
+ .m-sec{padding-top:88px}
+ .m-tool .m-copy{font-size:16px;line-height:24px}
+ .m-rail-item{max-width:480px}
+ .m-footer .footer-motto{flex-wrap:nowrap;justify-content:space-between;font-size:clamp(42px,6vw,64px)}
+ .m-footer .footer-photo img{height:320px}
+}

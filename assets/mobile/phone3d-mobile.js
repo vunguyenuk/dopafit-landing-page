@@ -95,7 +95,7 @@ if(window.DopafitMobile&&window.DopafitPhoneMotion&&!reduced){
     syncFeature();
     new MutationObserver(syncFeature).observe(slot,{subtree:true,attributes:true,attributeFilter:['class']});
 
-    const workout=new Image();workout.src='assets/phone/recordings/journey.webp';
+    const workout=new Image();workout.src='assets/en/workout.webp?v=20261125-ui-2';
     Promise.all([new GLTFLoader().loadAsync('assets/phone/dopafit-phone.glb'),workout.decode()]).then(([g])=>{
       model=g.scene;scene.add(model);const box=new THREE.Box3().setFromObject(model);model.position.sub(box.getCenter(new THREE.Vector3()));
       screen=createPhoneScreen(workout,feature,req);

@@ -15,7 +15,9 @@
 .places-row:not(.is-open) .places-check{opacity:0;scale:.5}
 .places-check{transition:opacity .3s ease calc(var(--i)*.1s),scale .4s ease calc(var(--i)*.1s)}
 .is-mobile .places-check{opacity:1;scale:1}
-.integrations-glow{will-change:translate}
+/* The supplied glow PNG has a near-black rectangular backing. Screen blending
+   removes that backing; a soft edge mask keeps the original central light. */
+.integrations-glow{will-change:translate;mix-blend-mode:screen;mask-image:radial-gradient(ellipse at 50% 50%,#000 28%,#000c 52%,transparent 74%)!important;mask-size:100% 100%!important;mask-position:center!important;mask-repeat:no-repeat!important}
 @media(prefers-reduced-motion:reduce){.places-card{will-change:auto}.places-check{transition:none}}
 
 /* FAQ — pliability style (sections-scene.js). Design px on the 1920 canvas. */

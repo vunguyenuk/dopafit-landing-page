@@ -147,7 +147,7 @@
     canvas.after(spacer);
 
     // Stage bounds from the Figma geometry (heading top → lowest card).
-    const top=heading.offsetTop,bottom=Math.max(...nodes.map(n=>n.offsetTop+n.offsetHeight));
+    const top=heading.offsetTop,bottom=Math.max(...nodes.map(n=>n.offsetTop+(n===q(2916)?735.795:n.offsetHeight)));
     const center=(top+bottom)/2,height=bottom-top;
     stage.style.transformOrigin=`960px ${center}px`;
     // Keep the original bounds for fit: spacing must not shrink the composition.
@@ -162,7 +162,13 @@
     if(variant)stage.append(toggleAnchor);
     const toggle=variant?.mount(toggleAnchor);
     let toggleKey='';
-    addEventListener('dopafit:typography',()=>{toggleKey='';});
+    addEventListener('dopafit:typography',()=>{
+      toggleKey='';
+      // The larger, readable caption must finish before the guide card starts.
+      videoCard.style.top=`${q(2913).offsetTop+Math.max(q(2913).offsetHeight,q(2913).scrollHeight)+24}px`;
+      tools.forEach(t=>{const z=t.zoomed;t.box.top=Math.min(...z.map(p=>p.offsetTop));t.box.bottom=Math.max(...z.map(p=>p.offsetTop+p.offsetHeight));});
+      lastFit=-1;
+    });
     document.fonts.ready.then(()=>{toggleKey='';});
     function placeToggle(fit,scale){
       const key=`${fit}:${scale}`;
@@ -216,7 +222,7 @@
     function map(y,h,scale){
       const fit=Math.min(1,h*.94/height);
       placeToggle(fit,scale);
-      if(fit!==lastFit||h!==lastH){lastFit=fit;lastH=h;stage.style.scale=String(fit);placeZoom(fit,h);
+      if(fit!==lastFit||h!==lastH){lastFit=fit;lastH=h;stage.style.scale=String(fit);placeZoom(fit,h);window.dispatchEvent(new Event('dopafit:orbit-fit'));
         const headingTop=center-(center-top)*fit;lift=Math.max(0,headingTop-prevBottom-HEADING_GAP);}
       const k=innerWidth<=600?MOBILE:1,toolLen=h*k*(LEAD_VH+SLOT_VH*mKe),multiLen=h*k*MULTI_VH;
       length=toolLen+multiLen;

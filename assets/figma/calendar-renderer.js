@@ -28,7 +28,7 @@ export async function mountCalendar3D(host){
   texture.mapping=THREE.EquirectangularReflectionMapping;
   const pmrem=new THREE.PMREMGenerator(renderer),environment=pmrem.fromEquirectangular(texture);
   scene.environment=environment.texture;texture.dispose();pmrem.dispose();
-  const gltf=await new GLTFLoader().loadAsync(new URL('../calendar/dopafit-calendar.glb?v=20261118-peel-1',import.meta.url).href);
+  const gltf=await new GLTFLoader().loadAsync(new URL('../en/dopafit-calendar.glb?v=20261125-en',import.meta.url).href);
   const root=gltf.scene;scene.add(root);
   const fading=[];
   root.traverse(mesh=>{
@@ -36,7 +36,7 @@ export async function mountCalendar3D(host){
     mesh.frustumCulled=false;mesh.castShadow=true;mesh.receiveShadow=true;
     if(mesh.name.startsWith('Page_')){
       mesh.material=mesh.material.clone();mesh.material.metalness=0;mesh.material.roughness=.72;
-      // Keep the exact dark Vietnamese source texture legible under studio light.
+      // Keep the translated source texture legible under studio light.
       if(mesh.material.map){mesh.material.emissive.set(0xffffff);mesh.material.emissiveMap=mesh.material.map;mesh.material.emissiveIntensity=.12;}
       else{mesh.material.emissive.set(0x30343c);mesh.material.emissiveIntensity=.5;}
       const month=Number(mesh.name.split('_')[1]);

@@ -95,7 +95,7 @@ if(host&&!window.DopafitMobile){
       host.parentElement.classList.toggle('phone-interactive',detail.waiting);
       host.tabIndex=detail.waiting?0:-1;
       host.setAttribute('role',detail.waiting?'button':'img');
-      host.setAttribute('aria-label',detail.waiting?detail.label:'Màn hình Dopafit quay từ Device Hub');
+      host.setAttribute('aria-label',detail.waiting?detail.label:'Dopafit screen captured from Device Hub');
     });
     // The host lives inside the CSS-zoomed 1920px canvas: clientWidth is in design px.
     // Render at the on-screen size (design scale x DPR), not the unzoomed size, so a
@@ -131,7 +131,7 @@ if(host&&!window.DopafitMobile){
     renderer.domElement.addEventListener('webglcontextlost',event=>{event.preventDefault();contextLost=true;ready=false;setReady(false);});
     renderer.domElement.addEventListener('webglcontextrestored',()=>{contextLost=false;lastDraw=undefined;size();});
     const workoutImage=new Image();
-    workoutImage.src='assets/phone/recordings/journey.webp';
+    workoutImage.src='assets/en/workout.webp?v=20261125-ui-2';
     Promise.all([new GLTFLoader().loadAsync('assets/phone/dopafit-phone.glb'),workoutImage.decode()]).then(([g])=>{
       model=g.scene;scene.add(model);const box=new THREE.Box3().setFromObject(model);const center=box.getCenter(new THREE.Vector3());model.position.sub(center);
       screen=createPhoneScreen(workoutImage,featureImage,draw);

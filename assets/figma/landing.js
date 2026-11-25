@@ -12,21 +12,21 @@
   function resize(){stableHeight();scale=document.documentElement.clientWidth/1920;document.documentElement.style.setProperty('--design-scale',scale);requestRender();}
   function link(el,action,label){if(!el)return;el.tabIndex=0;el.setAttribute('role','button');if(label)el.setAttribute('aria-label',label);el.addEventListener('click',action);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();action();}});}
   const download=document.getElementById('download-dialog');
-  [2751,2847,2991].forEach(id=>{const el=q(id);el.classList.add('download-link');link(el,()=>download.showModal(),'Tải ứng dụng');});
+  [2751,2847,2991].forEach(id=>{const el=q(id);el.classList.add('download-link');link(el,()=>download.showModal(),'Get the app');});
   download.querySelector('button').addEventListener('click',()=>download.close());
   download.addEventListener('click',e=>{if(e.target===download){const r=download.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)download.close();}});
   const scrollToNode=id=>{const el=q(id);if(el)window.DopafitScroll.scrollTo(el.getBoundingClientRect().top+scrollY-60);};
   [[2827,2851],[2828,3126],[2829,2795],[3016,2851],[3017,3126],[3018,2795]].forEach(([a,b])=>{q(a).classList.add('nav-link');link(q(a),()=>scrollToNode(b));});
-  [2830,2997].forEach(id=>link(q(id),()=>window.DopafitScroll.scrollTo(0),'Dopafit — trang đầu'));
+  [2830,2997].forEach(id=>link(q(id),()=>window.DopafitScroll.scrollTo(0),'Dopafit — home'));
   [3021,3022].forEach(id=>link(q(id),()=>{location.href='mailto:support@dopafit.app';}));
   // FAQ retains the closed rows supplied in the Figma frame; answers open on demand.
   const answers=[
-    'Dopafit giúp bạn biết hôm nay tập gì, xem video hướng dẫn và nhận biết nhóm cơ của từng bài. Bạn có thể chọn thời gian, dụng cụ và thể trạng cho buổi tập.',
-    'Bạn có thể chọn dụng cụ và thời gian phù hợp với nơi tập của mình, kể cả khi tập tại nhà.',
-    'Vui lòng liên hệ support@dopafit.app để biết thông tin lưu trữ và quản lý dữ liệu của phiên bản bạn đang dùng.',
-    'Xem mục Apple Health trong ứng dụng để kiểm tra các tuỳ chọn kết nối hiện có.',
-    'Bạn có thể xem các gói và mức giá hiện có ngay trong ứng dụng.',
-    'Vui lòng liên hệ support@dopafit.app để biết phiên bản Android hiện có.'
+    'Dopafit helps you choose what to train, follow exercise videos and understand the muscles each exercise works. You can adapt each workout to your time, equipment and readiness.',
+    'Yes. Choose the equipment and time that suit your training space, including workouts at home.',
+    'Contact support@dopafit.app for details about data storage and management in your version of the app.',
+    'Open the Apple Health section in the app to see the available connection options.',
+    'You can find the available plans and current prices in the app.',
+    'Contact support@dopafit.app to check the availability of the Android version.'
   ];
   [2796,2800,2804,2808,2812,2816].forEach((id,i)=>{
     const el=q(id);el.classList.add('faq-item');el.setAttribute('aria-expanded','false');q(id+3).classList.add('faq-plus');
@@ -42,10 +42,10 @@
   featureRows.forEach((id,i)=>{const el=q(id).querySelector('p');el.classList.add('feature-tab');el.setAttribute('aria-selected',String(i===0));link(el,()=>{if(tracking.jump(i))return;featureRows.forEach(x=>q(x).querySelector('p').setAttribute('aria-selected',String(x===id)));featureScreenImage.src=window.DopafitContent.screens[i];featureScreenImage.alt=el.textContent.trim();},el.textContent.trim());});
   // The supplied Figma static assets are retained below the live 3D canvas as a graceful fallback.
   const phone=q(2771);const fallback=document.createElement('div');fallback.className='phone-fallback';while(phone.firstChild)fallback.append(phone.firstChild);phone.append(fallback);
-  const live=document.createElement('div');live.className='phone-webgl';live.id='phone-webgl';live.setAttribute('role','img');live.setAttribute('aria-label','Điện thoại 3D từ kiosk hiển thị buổi tập Dopafit');phone.append(live);
+  const live=document.createElement('div');live.className='phone-webgl';live.id='phone-webgl';live.setAttribute('role','img');live.setAttribute('aria-label','3D iPhone showing a Dopafit workout');phone.append(live);
   // Replace the video poster with the matching local exercise video, retaining its exact slot.
   const videoSlot=q(2894);const poster=videoSlot.querySelector('img');
-  const video=document.createElement('video');video.src='assets/landing/row.9c406ddc16.mp4';video.poster=poster.src;video.muted=true;video.loop=true;video.playsInline=true;video.preload='none';video.style.cssText='width:100%;height:100%;object-fit:cover;border-radius:inherit;';video.setAttribute('aria-label','Video hướng dẫn bài tập');poster.replaceWith(video);
+  const video=document.createElement('video');video.src='assets/landing/row.9c406ddc16.mp4';video.poster=poster.src;video.muted=true;video.loop=true;video.playsInline=true;video.preload='none';video.style.cssText='width:100%;height:100%;object-fit:cover;border-radius:inherit;';video.setAttribute('aria-label','Exercise demonstration video');poster.replaceWith(video);
   new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting&&!reduced)video.play().catch(()=>{});else video.pause();}),{rootMargin:'150px'}).observe(video);
   // Alternating women/men, all photographs from the supplied Pliability capture.
   const photos=window.DopafitContent.fan.map((alt,i)=>({file:i+1,alt,position:'50% 50%'}));

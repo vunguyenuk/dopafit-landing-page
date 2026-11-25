@@ -17,8 +17,8 @@
   }
   function mount(parent){
     const button=document.createElement('button');button.type='button';button.className='orbit-layout-toggle';
-    button.setAttribute('role','switch');button.setAttribute('aria-label','Đổi bên nội dung và chạy vòng theo chiều kim đồng hồ');
-    button.innerHTML='<span>Đổi bên nội dung</span><span class="orbit-toggle-track" aria-hidden="true"><i></i></span>';
+    button.setAttribute('role','switch');button.setAttribute('aria-label','Swap content sides and run the ring clockwise');
+    button.innerHTML='<span>Swap content sides</span><span class="orbit-toggle-track" aria-hidden="true"><i></i></span>';
     button.addEventListener('click',()=>set(!enabled));controls.add(button);parent.append(button);sync();return button;
   }
   window.DopafitOrbitVariant={get enabled(){return enabled;},set,mount};sync();

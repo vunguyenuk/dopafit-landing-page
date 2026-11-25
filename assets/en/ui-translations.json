@@ -1,0 +1,2623 @@
+[
+  {
+    "source": "assets/content-2026-11-23/native-recovery.png",
+    "name": "native-recovery",
+    "patches": [
+      {
+        "rect": [
+          240,
+          260,
+          240,
+          70
+        ],
+        "text": "Results",
+        "size": 50,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          830,
+          260,
+          260,
+          70
+        ],
+        "text": "Recovery",
+        "size": 50,
+        "bg": "edge",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          105,
+          605,
+          520,
+          85
+        ],
+        "text": "DAYS SINCE LAST WORKOUT",
+        "size": 37,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          725,
+          605,
+          475,
+          85
+        ],
+        "text": "MUSCLE GROUPS RECOVERED",
+        "size": 35,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          1035,
+          1945,
+          250,
+          65
+        ],
+        "text": "Drag to rotate",
+        "size": 38,
+        "bg": "#111111",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "right"
+      },
+      {
+        "rect": [
+          335,
+          2090,
+          220,
+          70
+        ],
+        "text": "Needs rest",
+        "size": 39,
+        "bg": "#111111",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          590,
+          2090,
+          200,
+          70
+        ],
+        "text": "Recovering",
+        "size": 39,
+        "bg": "#111111",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          805,
+          2090,
+          240,
+          70
+        ],
+        "text": "Recovered",
+        "size": 39,
+        "bg": "#111111",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          40,
+          2200,
+          1240,
+          90
+        ],
+        "text": "Today’s muscles: back, triceps, biceps, shoulders",
+        "size": 37,
+        "bg": "#111111",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          355,
+          2345,
+          660,
+          100
+        ],
+        "text": "› View all muscles",
+        "size": 55,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          112,
+          2660,
+          220,
+          90
+        ],
+        "text": "Workouts",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          400,
+          2660,
+          220,
+          90
+        ],
+        "text": "Body",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          696,
+          2660,
+          220,
+          90
+        ],
+        "text": "Goals",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          995,
+          2660,
+          220,
+          90
+        ],
+        "text": "Journal",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  },
+  {
+    "source": "assets/content-2026-11-23/native-guide.png",
+    "name": "native-guide",
+    "patches": [
+      {
+        "rect": [
+          40,
+          1545,
+          1220,
+          120
+        ],
+        "text": "Dumbbell row",
+        "size": 64,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          115,
+          1735,
+          285,
+          70
+        ],
+        "text": "Instructions",
+        "size": 43,
+        "bg": "edge",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          515,
+          1735,
+          285,
+          70
+        ],
+        "text": "Muscles",
+        "size": 43,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          920,
+          1735,
+          285,
+          70
+        ],
+        "text": "Equipment",
+        "size": 43,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          40,
+          1885,
+          1235,
+          700
+        ],
+        "text": "Place a dumbbell beside a flat bench.\n\nRest your right knee and hand on the bench. Keep your torso parallel to the floor.\n\nHold the dumbbell in your left hand, palm facing inward. Keep your back straight.\n\nPull the weight toward your hip, then lower it with control.",
+        "size": 53,
+        "bg": "#111111",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          112,
+          2660,
+          220,
+          90
+        ],
+        "text": "Workouts",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          400,
+          2660,
+          220,
+          90
+        ],
+        "text": "Body",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          696,
+          2660,
+          220,
+          90
+        ],
+        "text": "Goals",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          995,
+          2660,
+          220,
+          90
+        ],
+        "text": "Journal",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  },
+  {
+    "source": "assets/content-2026-11-23/native-strength.png",
+    "name": "native-strength",
+    "patches": [
+      {
+        "rect": [
+          240,
+          260,
+          240,
+          70
+        ],
+        "text": "Results",
+        "size": 50,
+        "bg": "edge",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          830,
+          260,
+          260,
+          70
+        ],
+        "text": "Recovery",
+        "size": 50,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          40,
+          405,
+          660,
+          110
+        ],
+        "text": "Total strength",
+        "size": 64,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          40,
+          775,
+          1210,
+          80
+        ],
+        "text": "2/3 workouts logged · 1 more to unlock your score",
+        "size": 43,
+        "bg": "edge",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          40,
+          925,
+          900,
+          110
+        ],
+        "text": "Strength tests",
+        "size": 64,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          85,
+          1150,
+          850,
+          90
+        ],
+        "text": "Dumbbell row",
+        "size": 50,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          85,
+          1345,
+          880,
+          145
+        ],
+        "text": "Incline barbell bench press",
+        "size": 50,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          40,
+          1530,
+          1000,
+          135
+        ],
+        "text": "Body composition",
+        "size": 64,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          170,
+          1770,
+          925,
+          100
+        ],
+        "text": "Connect to Apple Health?",
+        "size": 52,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          85,
+          1885,
+          1150,
+          150
+        ],
+        "text": "Save completed workouts to Apple Health,\nalongside your other activity.",
+        "size": 43,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          400,
+          2080,
+          700,
+          110
+        ],
+        "text": "Connect to Apple Health",
+        "size": 50,
+        "bg": "edge",
+        "fill": "#000",
+        "weight": 600,
+        "align": "center"
+      },
+      {
+        "rect": [
+          220,
+          2360,
+          750,
+          110
+        ],
+        "text": "Health profile",
+        "size": 50,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          112,
+          2660,
+          220,
+          90
+        ],
+        "text": "Workouts",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          400,
+          2660,
+          220,
+          90
+        ],
+        "text": "Body",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          696,
+          2660,
+          220,
+          90
+        ],
+        "text": "Goals",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          995,
+          2660,
+          220,
+          90
+        ],
+        "text": "Journal",
+        "size": 42,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  },
+  {
+    "source": "_reference/english-2026-11-25/focus-history.png",
+    "name": "history",
+    "patches": [
+      {
+        "rect": [
+          110,
+          223,
+          180,
+          45
+        ],
+        "text": "WORKOUTS",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          450,
+          223,
+          150,
+          45
+        ],
+        "text": "MILESTONES",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          90,
+          352,
+          210,
+          50
+        ],
+        "text": "WEEKLY GOAL",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          430,
+          352,
+          200,
+          50
+        ],
+        "text": "CURRENT STREAK",
+        "size": 21,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          108,
+          400,
+          180,
+          57
+        ],
+        "text": "0/3 days",
+        "size": 36,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          460,
+          397,
+          150,
+          57
+        ],
+        "text": "0 weeks",
+        "size": 35,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          20,
+          480,
+          420,
+          70
+        ],
+        "text": "Training calendar",
+        "size": 39,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          535,
+          490,
+          152,
+          60
+        ],
+        "text": "November ⌄",
+        "size": 26,
+        "bg": "edge",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "right"
+      },
+      {
+        "rect": [
+          65,
+          588,
+          58,
+          40
+        ],
+        "text": "Mon",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          153,
+          588,
+          58,
+          40
+        ],
+        "text": "Tue",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          241,
+          588,
+          58,
+          40
+        ],
+        "text": "Wed",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          329,
+          588,
+          58,
+          40
+        ],
+        "text": "Thu",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          417,
+          588,
+          58,
+          40
+        ],
+        "text": "Fri",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          505,
+          588,
+          58,
+          40
+        ],
+        "text": "Sat",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          593,
+          588,
+          58,
+          40
+        ],
+        "text": "Sun",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          20,
+          784,
+          490,
+          65
+        ],
+        "text": "Completed workouts",
+        "size": 38,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          114,
+          873,
+          370,
+          55
+        ],
+        "text": "MON, NOVEMBER 9",
+        "size": 25,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          140,
+          945,
+          430,
+          60
+        ],
+        "text": "Upper body",
+        "size": 38,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          140,
+          1074,
+          440,
+          50
+        ],
+        "text": "Dumbbell row",
+        "size": 26,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          114,
+          1170,
+          370,
+          55
+        ],
+        "text": "MON, NOVEMBER 9",
+        "size": 25,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          140,
+          1240,
+          430,
+          65
+        ],
+        "text": "Upper body",
+        "size": 38,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          57,
+          1424,
+          120,
+          42
+        ],
+        "text": "Workouts",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          217,
+          1424,
+          120,
+          42
+        ],
+        "text": "Body",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          371,
+          1424,
+          120,
+          42
+        ],
+        "text": "Goals",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          525,
+          1424,
+          120,
+          42
+        ],
+        "text": "Journal",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  },
+  {
+    "source": "assets/app-captures-2026-11-16/21-lich-thang.webp",
+    "name": "calendar-screen",
+    "patches": [
+      {
+        "rect": [
+          265,
+          137,
+          160,
+          60
+        ],
+        "text": "Journal",
+        "size": 38,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          115,
+          236,
+          190,
+          45
+        ],
+        "text": "WORKOUTS",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          470,
+          236,
+          170,
+          45
+        ],
+        "text": "MILESTONES",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          100,
+          365,
+          220,
+          45
+        ],
+        "text": "WEEKLY GOAL",
+        "size": 23,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          440,
+          365,
+          230,
+          45
+        ],
+        "text": "CURRENT STREAK",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          125,
+          410,
+          170,
+          60
+        ],
+        "text": "0/3 days",
+        "size": 36,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          470,
+          405,
+          165,
+          60
+        ],
+        "text": "0 weeks",
+        "size": 35,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          30,
+          490,
+          440,
+          75
+        ],
+        "text": "Training calendar",
+        "size": 39,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          550,
+          500,
+          150,
+          60
+        ],
+        "text": "November ⌃",
+        "size": 26,
+        "bg": "edge",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "right"
+      },
+      {
+        "rect": [
+          85,
+          596,
+          55,
+          40
+        ],
+        "text": "Mon",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          172,
+          596,
+          55,
+          40
+        ],
+        "text": "Tue",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          259,
+          596,
+          55,
+          40
+        ],
+        "text": "Wed",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          346,
+          596,
+          55,
+          40
+        ],
+        "text": "Thu",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          433,
+          596,
+          55,
+          40
+        ],
+        "text": "Fri",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          520,
+          596,
+          55,
+          40
+        ],
+        "text": "Sat",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          607,
+          596,
+          55,
+          40
+        ],
+        "text": "Sun",
+        "size": 20,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          33,
+          1262,
+          500,
+          65
+        ],
+        "text": "Completed workouts",
+        "size": 38,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          72,
+          1443,
+          125,
+          45
+        ],
+        "text": "Workouts",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          228,
+          1443,
+          125,
+          45
+        ],
+        "text": "Body",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          382,
+          1443,
+          125,
+          45
+        ],
+        "text": "Goals",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          540,
+          1443,
+          125,
+          45
+        ],
+        "text": "Journal",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          84,
+          904,
+          52,
+          28
+        ],
+        "text": "13m",
+        "size": 18,
+        "bg": "#202020",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  },
+  {
+    "source": "assets/phone/recordings/journey.webp",
+    "name": "workout",
+    "patches": [
+      {
+        "rect": [
+          80,
+          113,
+          400,
+          60
+        ],
+        "text": "My plan ›",
+        "size": 36,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          43,
+          225,
+          400,
+          60
+        ],
+        "text": "0/3 training days this week",
+        "size": 27,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 500,
+        "align": "left"
+      },
+      {
+        "rect": [
+          65,
+          285,
+          58,
+          37
+        ],
+        "text": "Mon",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          153,
+          285,
+          58,
+          37
+        ],
+        "text": "Tue",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          241,
+          285,
+          58,
+          37
+        ],
+        "text": "Wed",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          329,
+          285,
+          58,
+          37
+        ],
+        "text": "Thu",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          417,
+          285,
+          58,
+          37
+        ],
+        "text": "Fri",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          505,
+          285,
+          58,
+          37
+        ],
+        "text": "Sat",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          593,
+          285,
+          58,
+          37
+        ],
+        "text": "Sun",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          225,
+          375,
+          90,
+          33
+        ],
+        "text": "Today",
+        "size": 18,
+        "bg": "edge",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          42,
+          451,
+          540,
+          48
+        ],
+        "text": "You missed Monday’s workout",
+        "size": 28,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          42,
+          493,
+          590,
+          72
+        ],
+        "text": "Catch up today so you do not\nmiss a muscle group.",
+        "size": 25,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          48,
+          570,
+          126,
+          63
+        ],
+        "text": "Train now",
+        "size": 22,
+        "bg": "#1e1e1e",
+        "fill": "#000",
+        "weight": 600,
+        "align": "center",
+        "pill": {
+          "fill": "#b8f24a",
+          "radius": 31.5,
+          "stroke": null
+        }
+      },
+      {
+        "rect": [
+          188,
+          570,
+          223,
+          63
+        ],
+        "text": "Shorten to 20 min",
+        "size": 22,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center",
+        "pill": {
+          "fill": "#262626",
+          "radius": 31.5,
+          "stroke": null
+        }
+      },
+      {
+        "rect": [
+          20,
+          675,
+          490,
+          68
+        ],
+        "text": "Upper body",
+        "size": 43,
+        "bg": "#101010",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left",
+        "chevron": true
+      },
+      {
+        "rect": [
+          20,
+          738,
+          410,
+          42
+        ],
+        "text": "5 exercises · 4 muscle groups",
+        "size": 24,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          26,
+          794,
+          145,
+          63
+        ],
+        "text": "45 min",
+        "size": 24,
+        "bg": "#101010",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center",
+        "pill": {
+          "fill": "#1e1e1e",
+          "radius": 31.5,
+          "stroke": null
+        },
+        "chevron": true
+      },
+      {
+        "rect": [
+          184,
+          794,
+          182,
+          63
+        ],
+        "text": "Gym",
+        "size": 24,
+        "bg": "#101010",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center",
+        "pill": {
+          "fill": "#1e1e1e",
+          "radius": 31.5,
+          "stroke": null
+        },
+        "chevron": true
+      },
+      {
+        "rect": [
+          379,
+          794,
+          165,
+          63
+        ],
+        "text": "Readiness",
+        "size": 23,
+        "bg": "#101010",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center",
+        "pill": {
+          "fill": "#1e1e1e",
+          "radius": 31.5,
+          "stroke": null
+        },
+        "chevron": true
+      },
+      {
+        "rect": [
+          50,
+          867,
+          620,
+          44
+        ],
+        "text": "Back and shoulders recovered · maintain weight",
+        "size": 24,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          183,
+          956,
+          420,
+          50
+        ],
+        "text": "Dumbbell row",
+        "size": 31,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 500,
+        "align": "left"
+      },
+      {
+        "rect": [
+          182,
+          1001,
+          410,
+          45
+        ],
+        "text": "3 sets · 12 reps · 30 kg",
+        "size": 26,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          183,
+          1107,
+          420,
+          50
+        ],
+        "text": "Dumbbell reverse fly",
+        "size": 30,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 500,
+        "align": "left"
+      },
+      {
+        "rect": [
+          182,
+          1150,
+          410,
+          45
+        ],
+        "text": "3 sets · 12 reps · 15 kg",
+        "size": 26,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          184,
+          1240,
+          440,
+          40
+        ],
+        "text": "Lying dumbbell triceps extension",
+        "size": 24,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          32,
+          1271,
+          175,
+          84
+        ],
+        "text": "+ Add exercise",
+        "size": 21,
+        "bg": "#101010",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "center",
+        "pill": {
+          "fill": "#1e1e1e",
+          "radius": 42.0,
+          "stroke": "#383838"
+        }
+      },
+      {
+        "rect": [
+          320,
+          1280,
+          260,
+          65
+        ],
+        "text": "Start workout",
+        "size": 31,
+        "bg": "edge",
+        "fill": "#000",
+        "weight": 600,
+        "align": "center"
+      },
+      {
+        "rect": [
+          57,
+          1424,
+          120,
+          42
+        ],
+        "text": "Workouts",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          217,
+          1424,
+          120,
+          42
+        ],
+        "text": "Body",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          371,
+          1424,
+          120,
+          42
+        ],
+        "text": "Goals",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          525,
+          1424,
+          120,
+          42
+        ],
+        "text": "Journal",
+        "size": 22,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  },
+  {
+    "source": "assets/orbit-ui/strength-reference.png",
+    "name": "strength-reference",
+    "patches": [
+      {
+        "rect": [
+          138,
+          140,
+          135,
+          40
+        ],
+        "text": "Results",
+        "size": 21,
+        "bg": "edge",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          350,
+          140,
+          140,
+          40
+        ],
+        "text": "Recovery",
+        "size": 21,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          96,
+          202,
+          340,
+          60
+        ],
+        "text": "Total strength",
+        "size": 29,
+        "bg": "#000",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left",
+        "inset": 6
+      },
+      {
+        "rect": [
+          112,
+          366,
+          320,
+          40
+        ],
+        "text": "Push",
+        "size": 25,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          112,
+          496,
+          320,
+          40
+        ],
+        "text": "Pull",
+        "size": 25,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          112,
+          628,
+          320,
+          40
+        ],
+        "text": "Legs",
+        "size": 25,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          94,
+          760,
+          360,
+          60
+        ],
+        "text": "Strength tests",
+        "size": 32,
+        "bg": "#000",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left",
+        "inset": 8
+      },
+      {
+        "rect": [
+          112,
+          839,
+          330,
+          37
+        ],
+        "text": "CABLE ROW",
+        "size": 21,
+        "bg": "#1e1e1e",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          112,
+          869,
+          330,
+          38
+        ],
+        "text": "Estimated 1RM",
+        "size": 24,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          114,
+          920,
+          300,
+          58
+        ],
+        "text": "47.5 kg per rep",
+        "size": 31,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          846,
+          115,
+          340,
+          80
+        ],
+        "text": "47.5 kg per rep",
+        "size": 33,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          826,
+          422,
+          430,
+          65
+        ],
+        "text": "Body composition",
+        "size": 31,
+        "bg": "#000",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left",
+        "inset": 10
+      },
+      {
+        "rect": [
+          882,
+          492,
+          330,
+          40
+        ],
+        "text": "Connect Apple Health?",
+        "size": 22,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          882,
+          525,
+          330,
+          70
+        ],
+        "text": "Save your completed workouts\nand other activity to Apple Health.",
+        "size": 19,
+        "bg": "#1e1e1e",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          945,
+          611,
+          275,
+          47
+        ],
+        "text": "Sync with Apple Health",
+        "size": 23,
+        "bg": "edge",
+        "fill": "#000",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          984,
+          682,
+          150,
+          35
+        ],
+        "text": "Learn more",
+        "size": 20,
+        "bg": "#1e1e1e",
+        "fill": "#b8f24a",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          842,
+          914,
+          140,
+          70
+        ],
+        "text": "Composition\nmetrics",
+        "size": 23,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          1065,
+          914,
+          150,
+          70
+        ],
+        "text": "Body\nmeasurements",
+        "size": 23,
+        "bg": "#1e1e1e",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          570,
+          462,
+          230,
+          65
+        ],
+        "text": "Scroll down",
+        "size": 31,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          124,
+          1002,
+          100,
+          42
+        ],
+        "text": "Workouts",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          226,
+          1002,
+          100,
+          42
+        ],
+        "text": "Body",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          326,
+          1002,
+          100,
+          42
+        ],
+        "text": "Goals",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          430,
+          1002,
+          100,
+          42
+        ],
+        "text": "Journal",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          854,
+          1002,
+          100,
+          42
+        ],
+        "text": "Workouts",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          956,
+          1002,
+          100,
+          42
+        ],
+        "text": "Body",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          1056,
+          1002,
+          100,
+          42
+        ],
+        "text": "Goals",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          1160,
+          1002,
+          100,
+          42
+        ],
+        "text": "Journal",
+        "size": 19,
+        "bg": "edge",
+        "fill": "#aaa",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  },
+  {
+    "source": "assets/figma/8f583.webp",
+    "name": "daily-workouts",
+    "patches": [
+      {
+        "rect": [
+          125,
+          146,
+          240,
+          74
+        ],
+        "text": "Today",
+        "size": 48,
+        "bg": "#d4fa00",
+        "fill": "#000",
+        "weight": 600,
+        "align": "center"
+      },
+      {
+        "rect": [
+          99,
+          433,
+          400,
+          86
+        ],
+        "text": "Back & arms",
+        "size": 58,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          105,
+          524,
+          270,
+          65
+        ],
+        "text": "45 min",
+        "size": 45,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          742,
+          447,
+          350,
+          78
+        ],
+        "text": "Legs",
+        "size": 58,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          748,
+          523,
+          270,
+          65
+        ],
+        "text": "40 min",
+        "size": 45,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          102,
+          937,
+          380,
+          80
+        ],
+        "text": "Chest",
+        "size": 58,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          104,
+          1013,
+          280,
+          65
+        ],
+        "text": "35 min",
+        "size": 45,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      },
+      {
+        "rect": [
+          713,
+          930,
+          400,
+          80
+        ],
+        "text": "Shoulders",
+        "size": 57,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          714,
+          1013,
+          280,
+          65
+        ],
+        "text": "30 min",
+        "size": 45,
+        "bg": "edge",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      }
+    ]
+  },
+  {
+    "source": "assets/figma/0fdab.webp",
+    "name": "muscle-card",
+    "patches": [
+      {
+        "rect": [
+          1040,
+          187,
+          205,
+          73
+        ],
+        "text": "Chest",
+        "size": 58,
+        "bg": "#070b0a",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      }
+    ]
+  },
+  {
+    "source": "assets/intro/figma-app-store.png",
+    "name": "app-store",
+    "patches": [
+      {
+        "rect": [
+          175,
+          40,
+          250,
+          42
+        ],
+        "text": "Download on the",
+        "size": 29,
+        "bg": "#000",
+        "fill": "#fff",
+        "weight": 400,
+        "align": "left"
+      }
+    ]
+  },
+  {
+    "source": "_reference/english-2026-11-25/cal-0.png",
+    "name": "calendar-month-3",
+    "patches": [
+      {
+        "rect": [
+          105,
+          75,
+          640,
+          110
+        ],
+        "text": "March",
+        "size": 80,
+        "bg": "#000",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          100,
+          250,
+          88,
+          58
+        ],
+        "text": "Sun",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          252,
+          250,
+          88,
+          58
+        ],
+        "text": "Mon",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          404,
+          250,
+          88,
+          58
+        ],
+        "text": "Tue",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          556,
+          250,
+          88,
+          58
+        ],
+        "text": "Wed",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          708,
+          250,
+          88,
+          58
+        ],
+        "text": "Thu",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          860,
+          250,
+          88,
+          58
+        ],
+        "text": "Fri",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          1012,
+          250,
+          88,
+          58
+        ],
+        "text": "Sat",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  },
+  {
+    "source": "_reference/english-2026-11-25/cal-1.png",
+    "name": "calendar-month-2",
+    "patches": [
+      {
+        "rect": [
+          105,
+          75,
+          640,
+          110
+        ],
+        "text": "February",
+        "size": 80,
+        "bg": "#000",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          100,
+          250,
+          88,
+          58
+        ],
+        "text": "Sun",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          252,
+          250,
+          88,
+          58
+        ],
+        "text": "Mon",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          404,
+          250,
+          88,
+          58
+        ],
+        "text": "Tue",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          556,
+          250,
+          88,
+          58
+        ],
+        "text": "Wed",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          708,
+          250,
+          88,
+          58
+        ],
+        "text": "Thu",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          860,
+          250,
+          88,
+          58
+        ],
+        "text": "Fri",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          1012,
+          250,
+          88,
+          58
+        ],
+        "text": "Sat",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  },
+  {
+    "source": "_reference/english-2026-11-25/cal-2.png",
+    "name": "calendar-month-1",
+    "patches": [
+      {
+        "rect": [
+          105,
+          75,
+          640,
+          110
+        ],
+        "text": "January",
+        "size": 80,
+        "bg": "#000",
+        "fill": "#fff",
+        "weight": 600,
+        "align": "left"
+      },
+      {
+        "rect": [
+          100,
+          250,
+          88,
+          58
+        ],
+        "text": "Sun",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          252,
+          250,
+          88,
+          58
+        ],
+        "text": "Mon",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          404,
+          250,
+          88,
+          58
+        ],
+        "text": "Tue",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          556,
+          250,
+          88,
+          58
+        ],
+        "text": "Wed",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          708,
+          250,
+          88,
+          58
+        ],
+        "text": "Thu",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          860,
+          250,
+          88,
+          58
+        ],
+        "text": "Fri",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      },
+      {
+        "rect": [
+          1012,
+          250,
+          88,
+          58
+        ],
+        "text": "Sat",
+        "size": 36,
+        "bg": "#202329",
+        "fill": "#c3c7ce",
+        "weight": 400,
+        "align": "center"
+      }
+    ]
+  }
+]

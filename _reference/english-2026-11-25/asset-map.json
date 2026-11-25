@@ -1,0 +1,21 @@
+{
+  "assets/content-2026-11-23/native-recovery.webp": "assets/en/native-recovery.webp",
+  "assets/content-2026-11-23/native-guide.webp": "assets/en/native-guide.webp",
+  "assets/content-2026-11-23/native-strength.webp": "assets/en/native-strength.webp",
+  "assets/app-captures-2026-11-16/21-lich-thang.webp": "assets/en/calendar-screen.webp",
+  "assets/phone/recordings/journey.webp": "assets/en/workout.webp",
+  "assets/phone/workout-screen.webp": "assets/en/workout.webp",
+  "assets/phone/recordings/focus-history.mp4": "assets/en/focus-history.mp4",
+  "assets/phone/recordings/focus-recovery-20261123.mp4": "assets/en/focus-native-recovery.mp4",
+  "assets/phone/recordings/focus-guide-20261123.mp4": "assets/en/focus-native-guide.mp4",
+  "assets/phone/recordings/focus-strength-20261123.mp4": "assets/en/focus-native-strength.mp4",
+  "assets/orbit-ui/strength-reference.webp": "assets/en/strength-reference.webp",
+  "../orbit-ui/strength-reference.webp": "../en/strength-reference.webp",
+  "assets/figma/8f583.webp": "assets/en/daily-workouts.webp",
+  "assets/figma/0fdab.webp": "assets/en/muscle-card.webp",
+  "assets/intro/figma-app-store.png": "assets/en/app-store.webp",
+  "assets/intro/phone-poster.webp?v=framing-3": "assets/en/phone-poster.webp?v=en-1",
+  "assets/intro/phone-poster-settled.webp?v=framing-3": "assets/en/phone-poster-settled.webp?v=en-1",
+  "assets/calendar/blender-preview.webp": "assets/figma/0ddab.webp",
+  "assets/figma/0c1d8.webp": "assets/en/workout.webp"
+}

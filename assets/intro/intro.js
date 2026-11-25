@@ -19,6 +19,21 @@ if(section){
   };
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches||new URLSearchParams(location.search).get('motion')==='off';
   section.querySelector('.intro-download').addEventListener('click',()=>document.getElementById('download-dialog')?.showModal());
+  // Keep the accepted slots unless real text needs more vertical room. Layout
+  // measurements use offset boxes, so the source reveal translate never feeds
+  // back into the spacing calculation (320px may wrap the title to three lines).
+  function fitCopy(){
+    section.style.removeProperty('--intro-description-top');
+    section.style.removeProperty('--intro-proof-top');
+    const bodyTop=Math.max(description.offsetTop,title.offsetTop+title.offsetHeight+20);
+    section.style.setProperty('--intro-description-top',`${bodyTop}px`);
+    const proofTop=Math.max(proof.offsetTop,bodyTop+description.offsetHeight+24);
+    section.style.setProperty('--intro-proof-top',`${proofTop}px`);
+  }
+  addEventListener('resize',fitCopy,{passive:true});
+  document.fonts.ready.then(fitCopy);
+  new ResizeObserver(fitCopy).observe(title);
+  fitCopy();
   let sample,frame=0,visible=true,progress=0;
   function update(){
     frame=0;
@@ -42,6 +57,6 @@ if(section){
   addEventListener('scroll',request,{passive:true});addEventListener('resize',request,{passive:true});addEventListener('dopafit:scroll',request);
   if(!reduced){
     import('./phone-scene.js?v=20261123-perf').then(m=>m.mountIntroPhone(host)).then(render=>{sample=render;request();}).catch(error=>{host.dataset.fallback=error.message;console.warn('Intro retains the Blender poster:',error);});
-  }else{host.dataset.reduced='true';host.querySelector('img').src='assets/intro/phone-poster-settled.webp?v=framing-3';}
+  }else{host.dataset.reduced='true';host.querySelector('img').src='assets/en/phone-poster-settled.webp?v=en-1';}
   update();
 }

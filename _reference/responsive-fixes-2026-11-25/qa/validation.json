@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "viewportCount": 17,
+  "desktopCTAChecks": 7,
+  "compactOrbitViewports": 6,
+  "heroTransitionViewports": 4,
+  "runtimeExceptions": 0,
+  "httpErrors": 0,
+  "crossBuildRestoration": [
+    "FAQ state and viewport position",
+    "orbit tool and progress"
+  ],
+  "limits": [
+    "Chrome CSS viewport emulation; real devices and Safari not tested",
+    "Crossing 1100px still reloads once to switch existing source builds, then restores reading state"
+  ]
+}

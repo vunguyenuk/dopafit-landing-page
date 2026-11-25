@@ -4,11 +4,11 @@ import {createPhoneScreen} from '../phone/screen-ui.js';
 // Native UI: user's 2026-11-23 10.38.06 screenshot, cropped to its display.
 // Only the exercise title, matching instructions and video/stills are replaced.
 const width=768,height=1664,videoHeight=838;
-export const exerciseTitle='Cuốn tạ đơn kiểu búa';
+export const exerciseTitle='Dumbbell hammer curl';
 const instructions=[
-  'Đứng thẳng, hai chân rộng bằng hông. Giữ một quả tạ đơn ở mỗi tay, lòng bàn tay hướng vào nhau.',
-  'Giữ khuỷu tay sát thân, gập tay để nâng tạ lên gần vai.',
-  'Hạ tạ chậm về vị trí ban đầu. Giữ thân người ổn định trong suốt động tác.'
+  'Stand with your feet hip-width apart. Hold a dumbbell in each hand with your palms facing inward.',
+  'Keep your elbows close to your sides and curl the weights toward your shoulders.',
+  'Lower the weights slowly to the starting position. Keep your body steady throughout the movement.'
 ];
 const loadImage=async src=>{const image=new Image();image.src=src;await image.decode();return image;};
 function cover(ctx,image,x,y,w,h){
@@ -42,6 +42,14 @@ export async function loadExerciseArtwork(){
   ctx.fillStyle='#000';ctx.fillRect(0,videoHeight,width,125);ctx.fillRect(0,1060,width,height-1060);
   ctx.fillStyle='#fff';ctx.font='600 44px "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif';
   ctx.fillText(exerciseTitle,28,910);
+  // English labels in the original native segmented control (same geometry).
+  ctx.fillStyle='#000';ctx.fillRect(0,963,width,100);
+  ctx.fillStyle='#202023';ctx.beginPath();ctx.roundRect(28,974,712,66,33);ctx.fill();
+  ctx.strokeStyle='#454548';ctx.lineWidth=2;ctx.stroke();
+  ctx.fillStyle='#f1f1f4';ctx.beginPath();ctx.roundRect(36,982,230,50,25);ctx.fill();
+  ctx.font='500 24px "SF Pro Display", -apple-system, sans-serif';ctx.textAlign='center';
+  ['Instructions','Muscles','Equipment'].forEach((text,i)=>{ctx.fillStyle=i?'#aaa':'#111';ctx.fillText(text,151+i*237,1015);});
+  ctx.textAlign='left';ctx.fillStyle='#fff';
   ctx.font='400 28px "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif';
   let baseline=1115;
   for(const paragraph of instructions){
@@ -53,6 +61,11 @@ export async function loadExerciseArtwork(){
     ctx.fillText(line,28,baseline);baseline+=69;
   }
   copyControl(38,1524,704,112,56);
+  ctx.font='500 20px "SF Pro Display", -apple-system, sans-serif';ctx.textAlign='center';
+  ['Workouts','Body','Goals','Journal'].forEach((text,i)=>{
+    ctx.fillStyle=i?'#1a1a1a':'#3a3a3a';ctx.fillRect(51+i*172,1588,154,31);
+    ctx.fillStyle=i?'#aaa':'#b8f24a';ctx.fillText(text,128+i*172,1610);
+  });ctx.textAlign='left';
   const poster=document.createElement('canvas');poster.width=width;poster.height=height;
   const pc=poster.getContext('2d');cover(pc,stills[0],0,0,width,videoHeight);pc.drawImage(overlay,0,0);
   return {overlay,poster};

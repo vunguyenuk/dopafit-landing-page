@@ -1,0 +1,32 @@
+[
+  {
+    "width": 1440,
+    "text": "500+ exercises for every goal and muscle group, in one app",
+    "overflow": false,
+    "rect": {
+      "x": 255,
+      "y": 179.75,
+      "width": 930,
+      "height": 143.34375,
+      "top": 179.75,
+      "right": 1185,
+      "bottom": 323.09375,
+      "left": 255
+    }
+  },
+  {
+    "width": 2560,
+    "text": "500+ exercises for every goal and muscle group, in one app",
+    "overflow": false,
+    "rect": {
+      "x": 760,
+      "y": 180.328125,
+      "width": 1040,
+      "height": 143.34375,
+      "top": 180.328125,
+      "right": 1800,
+      "bottom": 323.671875,
+      "left": 760
+    }
+  }
+]

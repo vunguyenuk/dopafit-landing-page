@@ -1,0 +1,34 @@
+{
+  "report": [
+    {
+      "w": 1440,
+      "variant": true,
+      "gap": 11.3740234375,
+      "font": 17.999981126861574,
+      "overflow": false
+    },
+    {
+      "w": 1440,
+      "variant": false,
+      "gap": 11.3740234375,
+      "font": 17.999979208374025,
+      "overflow": false
+    },
+    {
+      "w": 2560,
+      "variant": true,
+      "gap": 54.814453125,
+      "font": 19.999965855601914,
+      "overflow": false
+    },
+    {
+      "w": 2560,
+      "variant": false,
+      "gap": 54.814453125,
+      "font": 19.999965855601914,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "badRequests": []
+}

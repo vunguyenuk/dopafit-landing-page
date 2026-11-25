@@ -1,0 +1,12 @@
+{
+  "before": {
+    "scrollY": 5000,
+    "mode": true,
+    "time": 1795580110700
+  },
+  "after": {
+    "scrollY": 5000,
+    "mode": false,
+    "time": 1795580111760
+  }
+}

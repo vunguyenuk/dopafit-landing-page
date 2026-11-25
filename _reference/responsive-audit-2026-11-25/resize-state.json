@@ -1,0 +1,22 @@
+{
+  "before": {
+    "y": 22164,
+    "open": true,
+    "faq": 79.640625,
+    "time": 1795580170200.6
+  },
+  "after": {
+    "y": 18924,
+    "mobile": false,
+    "faq": 554.55859375,
+    "expanded": [
+      "false",
+      "false",
+      "false",
+      "false",
+      "false",
+      "false"
+    ],
+    "time": 1795580172349.7
+  }
+}

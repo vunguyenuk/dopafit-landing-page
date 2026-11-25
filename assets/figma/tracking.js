@@ -60,7 +60,7 @@
       window.addEventListener('dopafit:recording-control',({detail})=>{
         screen.tabIndex=detail.waiting?0:-1;
         screen.setAttribute('role',detail.waiting?'button':'img');
-        screen.setAttribute('aria-label',detail.label||'Màn hình Dopafit quay từ Device Hub');
+        screen.setAttribute('aria-label',detail.label||'Dopafit screen captured from Device Hub');
       });
     }
     let shift=0,sceneStart=0,stepSpan=1,documentBase=0,scale=1,lastActive=-1,lastFrame=-1;

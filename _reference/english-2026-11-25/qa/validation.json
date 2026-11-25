@@ -1,0 +1,222 @@
+{
+  "report": [
+    {
+      "w": 1440,
+      "base": {
+        "lang": "en",
+        "title": "Dopafit Workout App – Personal Plans & Exercise Videos",
+        "headings": [
+          {
+            "id": 2750,
+            "text": "500+ exercises for every goal and muscle group",
+            "font": 63.999975,
+            "width": 930,
+            "height": 143.34375,
+            "overflow": false
+          },
+          {
+            "id": 2851,
+            "text": "A training plan built for you",
+            "font": 63.999975,
+            "width": 662.25,
+            "height": 143.34375,
+            "overflow": false
+          },
+          {
+            "id": 2852,
+            "text": "Track deeper. Go further.",
+            "font": 64.00015267089843,
+            "width": 572.5887451171875,
+            "height": 143.345703125,
+            "overflow": false
+          },
+          {
+            "id": 2853,
+            "text": "Ready to train, anytime, anywhere",
+            "font": 63.99997499999999,
+            "width": 787.5,
+            "height": 143.34375,
+            "overflow": false
+          },
+          {
+            "id": 2854,
+            "text": "Start training with Dopafit today",
+            "font": 64.00013116105575,
+            "width": 434.36395263671875,
+            "height": 215.021484375,
+            "overflow": false
+          }
+        ],
+        "english": true,
+        "reviewCount": 57,
+        "overflow": false
+      },
+      "remainingVietnamese": []
+    },
+    {
+      "w": 1920,
+      "base": {
+        "lang": "en",
+        "title": "Dopafit Workout App – Personal Plans & Exercise Videos",
+        "headings": [
+          {
+            "id": 2750,
+            "text": "500+ exercises for every goal and muscle group",
+            "font": 64,
+            "width": 1040,
+            "height": 143.34375,
+            "overflow": false
+          },
+          {
+            "id": 2851,
+            "text": "A training plan built for you",
+            "font": 64,
+            "width": 760,
+            "height": 71.671875,
+            "overflow": false
+          },
+          {
+            "id": 2852,
+            "text": "Track deeper. Go further.",
+            "font": 63.99997431513468,
+            "width": 687.1066284179688,
+            "height": 71.671875,
+            "overflow": false
+          },
+          {
+            "id": 2853,
+            "text": "Ready to train, anytime, anywhere",
+            "font": 64,
+            "width": 960,
+            "height": 143.34375,
+            "overflow": false
+          },
+          {
+            "id": 2854,
+            "text": "Start training with Dopafit today",
+            "font": 64.00001432686065,
+            "width": 579.1519775390625,
+            "height": 143.34765625,
+            "overflow": false
+          }
+        ],
+        "english": true,
+        "reviewCount": 57,
+        "overflow": false
+      },
+      "remainingVietnamese": []
+    },
+    {
+      "w": 2560,
+      "base": {
+        "lang": "en",
+        "title": "Dopafit Workout App – Personal Plans & Exercise Videos",
+        "headings": [
+          {
+            "id": 2750,
+            "text": "500+ exercises for every goal and muscle group",
+            "font": 64.00026666666666,
+            "width": 1040,
+            "height": 143.34375,
+            "overflow": false
+          },
+          {
+            "id": 2851,
+            "text": "A training plan built for you",
+            "font": 64.00026666666668,
+            "width": 760,
+            "height": 71.671875,
+            "overflow": false
+          },
+          {
+            "id": 2852,
+            "text": "Track deeper. Go further.",
+            "font": 64.00000680265299,
+            "width": 916.14208984375,
+            "height": 71.671875,
+            "overflow": false
+          },
+          {
+            "id": 2853,
+            "text": "Ready to train, anytime, anywhere",
+            "font": 64,
+            "width": 960,
+            "height": 143.34375,
+            "overflow": false
+          },
+          {
+            "id": 2854,
+            "text": "Start training with Dopafit today",
+            "font": 63.950407634056795,
+            "width": 679.99560546875,
+            "height": 143.34765625,
+            "overflow": false
+          }
+        ],
+        "english": true,
+        "reviewCount": 57,
+        "overflow": false
+      },
+      "remainingVietnamese": []
+    },
+    {
+      "w": 390,
+      "base": {
+        "lang": "en",
+        "title": "Dopafit Workout App – Personal Plans & Exercise Videos",
+        "headings": [
+          {
+            "id": 2750,
+            "text": "500+ exercises for every goal and muscle group",
+            "font": null,
+            "width": 0,
+            "height": 0,
+            "overflow": false
+          },
+          {
+            "id": 2851,
+            "text": "A training plan built for you",
+            "font": null,
+            "width": 0,
+            "height": 0,
+            "overflow": false
+          },
+          {
+            "id": 2852,
+            "text": "Track deeper. Go further.",
+            "font": null,
+            "width": 0,
+            "height": 0,
+            "overflow": false
+          },
+          {
+            "id": 2853,
+            "text": "Ready to train, anytime, anywhere",
+            "font": null,
+            "width": 0,
+            "height": 0,
+            "overflow": false
+          },
+          {
+            "id": 2854,
+            "text": "Start training with Dopafit today",
+            "font": null,
+            "width": 0,
+            "height": 0,
+            "overflow": false
+          }
+        ],
+        "english": true,
+        "reviewCount": 57,
+        "overflow": false
+      },
+      "remainingVietnamese": []
+    }
+  ],
+  "reduced": {
+    "poster": "http://127.0.0.1:8097/assets/en/phone-poster-settled.webp?v=en-1",
+    "body": true
+  },
+  "errors": [],
+  "badRequests": []
+}
